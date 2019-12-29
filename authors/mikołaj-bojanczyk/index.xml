@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mikołaj Bojańczyk | Edon Kelmendi</title>
+    <link>https://edon.github.io/authors/miko%C5%82aj-bojanczyk/</link>
+      <atom:link href="https://edon.github.io/authors/miko%C5%82aj-bojanczyk/index.xml" rel="self" type="application/rss+xml" />
+    <description>Mikołaj Bojańczyk</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://edon.github.io/img/icon-192.png</url>
+      <title>Mikołaj Bojańczyk</title>
+      <link>https://edon.github.io/authors/miko%C5%82aj-bojanczyk/</link>
+    </image>
+    
+    <item>
+      <title>MSO&#43;∇ is undecidable</title>
+      <link>https://edon.github.io/publication/msonabla/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://edon.github.io/publication/msonabla/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Emptiness of Zero Automata Is Decidable</title>
+      <link>https://edon.github.io/publication/nonzeroaut/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>https://edon.github.io/publication/nonzeroaut/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

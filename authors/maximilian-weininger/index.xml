@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Maximilian Weininger | Edon Kelmendi</title>
+    <link>https://edon.github.io/authors/maximilian-weininger/</link>
+      <atom:link href="https://edon.github.io/authors/maximilian-weininger/index.xml" rel="self" type="application/rss+xml" />
+    <description>Maximilian Weininger</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://edon.github.io/img/icon-192.png</url>
+      <title>Maximilian Weininger</title>
+      <link>https://edon.github.io/authors/maximilian-weininger/</link>
+    </image>
+    
+    <item>
+      <title>Value Iteration for Simple Stochastic Games: Stopping Criterion and Learning Algorithm</title>
+      <link>https://edon.github.io/publication/valiter/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://edon.github.io/publication/valiter/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

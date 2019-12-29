@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts | Edon Kelmendi</title>
+    <link>https://edon.github.io/post/</link>
+      <atom:link href="https://edon.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 20 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://edon.github.io/img/icon-192.png</url>
+      <title>Posts</title>
+      <link>https://edon.github.io/post/</link>
+    </image>
+    
+    <item>
+      <title>Test post</title>
+      <link>https://edon.github.io/post/getting-started/</link>
+      <pubDate>Sat, 20 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://edon.github.io/post/getting-started/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Nje&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;$x=y$ sepse
+$$
+\Sigma F(n)
+$$&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

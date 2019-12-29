@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo Gimbert | Edon Kelmendi</title>
+    <link>https://edon.github.io/authors/hugo-gimbert/</link>
+      <atom:link href="https://edon.github.io/authors/hugo-gimbert/index.xml" rel="self" type="application/rss+xml" />
+    <description>Hugo Gimbert</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://edon.github.io/img/icon-192.png</url>
+      <title>Hugo Gimbert</title>
+      <link>https://edon.github.io/authors/hugo-gimbert/</link>
+    </image>
+    
+    <item>
+      <title>Emptiness of Zero Automata Is Decidable</title>
+      <link>https://edon.github.io/publication/nonzeroaut/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>https://edon.github.io/publication/nonzeroaut/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stamina: Stabilisation Monoids in Automata Theory</title>
+      <link>https://edon.github.io/publication/stamina/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>https://edon.github.io/publication/stamina/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deciding Maxmin Reachability in Half-Blind Stochastic Games</title>
+      <link>https://edon.github.io/publication/halfblind/</link>
+      <pubDate>Fri, 01 Jul 2016 00:00:00 +0000</pubDate>
+      <guid>https://edon.github.io/publication/halfblind/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deciding the value 1 problem for probabilistic leaktight automata</title>
+      <link>https://edon.github.io/publication/val1/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://edon.github.io/publication/val1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Two-Player Perfect-Information Shift-Invariant Submixing Stochastic Games are Half-Positional</title>
+      <link>https://edon.github.io/publication/halfpos/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://edon.github.io/publication/halfpos/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
