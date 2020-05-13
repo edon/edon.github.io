@@ -60,7 +60,7 @@ $d_{1},d_2,\ldots$ are the number of $0$s between consecutive $1$s. Since any BÃ
 &lt;hr&gt;
 &lt;h3 id=&#34;almost-periodic-words&#34;&gt;Almost periodic words&lt;/h3&gt;
 &lt;p&gt;We say that a finite word $u$ occurs in an infinite one $\mathbf{w}$, if $\mathbf w_{n}\mathbf w_{n+1}\cdots \mathbf w_{n+k}=u$ for some $n,k$. Informally, an infinite word is almost periodic if the distance between the occurences is bounded.
-&lt;img src=&#34;ap.svg&#34; alt=&#34;aaa&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;ap.png&#34; alt=&#34;aaa&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Definition 2. (almost periodic)&lt;/strong&gt; $\mathbf w \in \Sigma^{\omega}$ is almost periodic if for every $u\in\Sigma^{*}$ there exists a bound $b\in\mathbb{N}$ such that one of the following holds:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;$u$ does not occur in $\mathbf w_{b}\mathbf w_{b+1}\mathbf w_{b+2}\cdots$&lt;/li&gt;
