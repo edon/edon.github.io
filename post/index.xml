@@ -123,7 +123,7 @@ $$
 W(u)=X(u0)\cup X(u1).
 $$&lt;/p&gt;
 &lt;p&gt;The words in $X(u)$ encode the information that is in $u$ by ordering the last two pieces, for example the difference between $X(u00)$ and $X(u01)$ is:
-&lt;img src=&#34;xu.svg&#34; alt=&#34;aaa&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;xu.png&#34; alt=&#34;aaa&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Indeed, we can prove by induction that for $u,u&#39;$, such that $u\ne u&#39;$, $X(u)$ and $X(u&amp;rsquo;)$ are disjoint. Let us gather all the good properties of $W$ defined above.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;$W(u)$ and $W(u&amp;rsquo;)$ are disjoint for $u\ne u&#39;$.&lt;/li&gt;
