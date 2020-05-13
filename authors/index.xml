@@ -5,100 +5,12 @@
     <link>https://edon.github.io/authors/</link>
       <atom:link href="https://edon.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 13 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://edon.github.io/img/icon-192.png</url>
+      <url>https://edon.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Authors</title>
       <link>https://edon.github.io/authors/</link>
     </image>
-    
-    <item>
-      <title></title>
-      <link>https://edon.github.io/authors/admin/</link>
-      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://edon.github.io/authors/admin/</guid>
-      <description>&lt;p&gt; I am a research associate at the &lt;a href=&#34;http://www.cs.ox.ac.uk&#34;&gt;University of Oxford&lt;/a&gt; working under the supervision of &lt;a href=&#34;https://people.mpi-sws.org/~joel/&#34;&gt;Joël Ouaknine&lt;/a&gt;. Before this, I was  working with &lt;a href=&#34;https://www.mimuw.edu.pl/~bojan/&#34;&gt; Mikołaj Bojańczyk&lt;/a&gt; in &lt;a href=&#34;https://www.mimuw.edu.pl&#34;&gt;Warsaw&lt;/a&gt;.
-&lt;/p&gt;
-&lt;p&gt;
-I did my &lt;a href=&#34;https://www.theses.fr/2016BORD0238&#34;&gt;PhD&lt;/a&gt; under the supervision of &lt;a href=&#34;https://www.labri.fr/perso/gimbert/&#34;&gt;Hugo Gimbert&lt;/a&gt; and &lt;a href=&#34;https://www.math.u-bordeaux.fr/~frdufour/&#34;&gt;François Dufour&lt;/a&gt; in &lt;a href=&#34;https://www.labri.fr&#34;&gt;LaBRI, Bordeaux&lt;/a&gt;.
-&lt;/p&gt;
-&lt;p&gt;
-My interests are: &lt;b&gt;games&lt;/b&gt;, &lt;b&gt;automata&lt;/b&gt;, &lt;b&gt;logics in computer science&lt;/b&gt;
-&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Michał Skrzypczak</title>
-      <link>https://edon.github.io/authors/micha%C5%82-skrzypczak/</link>
-      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://edon.github.io/authors/micha%C5%82-skrzypczak/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mikołaj Bojańczyk</title>
-      <link>https://edon.github.io/authors/miko%C5%82aj-bojanczyk/</link>
-      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://edon.github.io/authors/miko%C5%82aj-bojanczyk/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jan Křetínský</title>
-      <link>https://edon.github.io/authors/jan-kretinsky/</link>
-      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>https://edon.github.io/authors/jan-kretinsky/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Julia Krämer</title>
-      <link>https://edon.github.io/authors/julia-kramer/</link>
-      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>https://edon.github.io/authors/julia-kramer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Maximilian Weininger</title>
-      <link>https://edon.github.io/authors/maximilian-weininger/</link>
-      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>https://edon.github.io/authors/maximilian-weininger/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Denis Kuperberg</title>
-      <link>https://edon.github.io/authors/denis-kuperberg/</link>
-      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
-      <guid>https://edon.github.io/authors/denis-kuperberg/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hugo Gimbert</title>
-      <link>https://edon.github.io/authors/hugo-gimbert/</link>
-      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
-      <guid>https://edon.github.io/authors/hugo-gimbert/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Nathanaël Fijalkow</title>
-      <link>https://edon.github.io/authors/nathanael-fijalkow/</link>
-      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
-      <guid>https://edon.github.io/authors/nathanael-fijalkow/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Youssouf Oualhadj</title>
-      <link>https://edon.github.io/authors/youssouf-oualhadj/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://edon.github.io/authors/youssouf-oualhadj/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>
