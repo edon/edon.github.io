@@ -5,9 +5,9 @@
     <link>https://edon.github.io/post/</link>
       <atom:link href="https://edon.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 13 May 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 13 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://edon.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://edon.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>https://edon.github.io/post/</link>
     </image>
@@ -25,12 +25,10 @@ $$
 for some $u,v\in\{0,1\}^{*}$, i.e. it is ultimately periodic.&lt;/p&gt;
 &lt;p&gt;It is natural to ask whether we can add a more complicated set $S\subset \omega$ and have the MSO theory of
 $(\omega,&amp;lt;,S)$ remain decidable. In this extended logic, $S$ is part of the signature, so we are allowed to test $x\in
-S$. In a sense, this problem has been solved. See 
-&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S0890540106001660?via%3Dihub&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this
+S$. In a sense, this problem has been solved. See &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S0890540106001660?via%3Dihub&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this
 paper&lt;/a&gt; by Rabinovich and the references
 therein. There are two characterisations, one by Semenov, and one by Rabinovich.&lt;/p&gt;
-&lt;p&gt;Here I will report on an interesting, and related 
-&lt;a href=&#34;http://www.mathnet.ru/php/archive.phtml?wshow=paper&amp;amp;jrnid=im&amp;amp;paperid=1415&amp;amp;option_lang=eng&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;result by Semenov&lt;/a&gt; that says:&lt;/p&gt;
+&lt;p&gt;Here I will report on an interesting, and related &lt;a href=&#34;http://www.mathnet.ru/php/archive.phtml?wshow=paper&amp;amp;jrnid=im&amp;amp;paperid=1415&amp;amp;option_lang=eng&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;result by Semenov&lt;/a&gt; that says:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Theorem 1. (Semenov 1983)&lt;/strong&gt;  There are two sets $S_1,S_2\subset\omega$ such that the MSO theory of&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;$(\omega,&amp;lt;,S_1)$, and $(\omega,&amp;lt;,S_2)$ is decidable, but&lt;/li&gt;
@@ -55,8 +53,7 @@ A non-trivial example is the set of factorials $\{n!\ :\ n\in\mathbb{N}\}$.&lt;/
 $d_{1},d_2,\ldots$ are the number of $0$s between consecutive $1$s. Since any BÃ¼chi automaton $\mathcal{A}$ has finite memory, it cannot count the number of $0$s precisely. This essentially means that  there exists some $d\in\mathbb{N}$ &amp;mdash; that depends only on the number of states of $\mathcal{A}$ &amp;mdash; such that for any $e_1,e_2&amp;gt;d$, with $e_1\equiv e_2\mod d!$, we can replace a block of $e_1$ many zeros with a block with $e_2$ many zeros without the automaton $\mathcal{A}$ noticing. More precisely, construct the word $\mathbf w&#39;$ from $\mathbf w$ by replacing all ${\color{red}d_i}&amp;gt;d$ with $d\le {\color{green}e_i}\le d!$ such that ${\color{red}d_i}\equiv {\color{green}e_i}\mod d!$. The automaton $\mathcal{A}$ either accepts both $\mathbf w$ and $\mathbf w&#39;$ or rejects both of them. The final observation is that the word $\mathbf w&#39;$ is ultimately periodic whence the decidability easily follows.&lt;/p&gt;
 &lt;hr&gt;
 &lt;/details&gt;
-&lt;p&gt;For the full proof of this and a few other examples consult 
-&lt;a href=&#34;https://www.jstor.org/stable/2269808?seq=1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this paper&lt;/a&gt; by Elgot and Rabin. Alas these positive examples do not seem to be beneficial for proving Theorem 1. For this, the correct notion appears to be that of an &lt;em&gt;almost periodic word&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;For the full proof of this and a few other examples consult &lt;a href=&#34;https://www.jstor.org/stable/2269808?seq=1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this paper&lt;/a&gt; by Elgot and Rabin. Alas these positive examples do not seem to be beneficial for proving Theorem 1. For this, the correct notion appears to be that of an &lt;em&gt;almost periodic word&lt;/em&gt;.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;almost-periodic-words&#34;&gt;Almost periodic words&lt;/h3&gt;
 &lt;p&gt;We say that a finite word $u$ occurs in an infinite one $\mathbf{w}$, if $\mathbf w_{n}\mathbf w_{n+1}\cdots \mathbf w_{n+k}=u$ for some $n,k$. Informally, an infinite word is almost periodic if the distance between the occurences is bounded.
@@ -67,8 +64,7 @@ $d_{1},d_2,\ldots$ are the number of $0$s between consecutive $1$s. Since any BÃ
 &lt;li&gt;$u$ occurs in every subword of $\mathbf w$ of length at least $b$&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;It is effectively almost periodic if there is a procedure computing such $b$.&lt;/p&gt;
-&lt;p&gt;There are many examples of almost periodic words that show up in various fields, such as 
-&lt;a href=&#34;https://en.wikipedia.org/wiki/Thue%e2%80%93Morse_sequence&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Thue-Morse sequence&lt;/a&gt;, the word whose $n$th letter is $\mathrm{sgn}\left(\sin(n)\right)$, etc. The reason why they are interesting relative to Theorem 1, is because their MSO theory is decidable.&lt;/p&gt;
+&lt;p&gt;There are many examples of almost periodic words that show up in various fields, such as &lt;a href=&#34;https://en.wikipedia.org/wiki/Thue%e2%80%93Morse_sequence&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Thue-Morse sequence&lt;/a&gt;, the word whose $n$th letter is $\mathrm{sgn}\left(\sin(n)\right)$, etc. The reason why they are interesting relative to Theorem 1, is because their MSO theory is decidable.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Theorem 2. (Semenov 1983)&lt;/strong&gt; For effectively almost periodic $S$, the theory of $(\omega,&amp;lt;,S)$ is decidable.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;the-construction&#34;&gt;The construction&lt;/h3&gt;
@@ -80,8 +76,7 @@ The objective, for the proof of Theorem 1, now is to build a word $\mathbf w\in\
 &lt;p&gt;If I just write down the construction, it will leave too many questions unanswered, therefore in order to movitave the definition, I will first give a couple of failed attempts of reaching the goal.&lt;/p&gt;
 &lt;h4 id=&#34;attempt-1&#34;&gt;Attempt 1&lt;/h4&gt;
 &lt;p&gt;Let $\mathbf z$ be an infinite word over the binary alphabet, for example the word with the Turing machines from the example above. One brutish way of encoding it is as follows.&lt;/p&gt;
-&lt;p&gt;Partition the set $\mathbb B^{4}$ into $A_{0}, A_{1}$ such that $\pi_{i}(A_0)=\pi_{i}(A_1)$, $i\in\{1,2\}$. One such partition is to see $\mathbb B^{4}$ as the set of permutations of $\mathbb B$, and set $A_{0}$ to be the 
-&lt;a href=&#34;https://en.wikipedia.org/wiki/Parity_of_a_permutation&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;even permutations&lt;/a&gt;, and $A_{1}$ to be the odd ones. Belonging to the set $A_0$ or $A_1$ contains one bit of information, which is lost upon projection. We can certainly encode $\mathbf z$ by picking a word from the set:
+&lt;p&gt;Partition the set $\mathbb B^{4}$ into $A_{0}, A_{1}$ such that $\pi_{i}(A_0)=\pi_{i}(A_1)$, $i\in\{1,2\}$. One such partition is to see $\mathbb B^{4}$ as the set of permutations of $\mathbb B$, and set $A_{0}$ to be the &lt;a href=&#34;https://en.wikipedia.org/wiki/Parity_of_a_permutation&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;even permutations&lt;/a&gt;, and $A_{1}$ to be the odd ones. Belonging to the set $A_0$ or $A_1$ contains one bit of information, which is lost upon projection. We can certainly encode $\mathbf z$ by picking a word from the set:
 $$
 A_{\mathbf z_0}A_{\mathbf z_1}A_{\mathbf z_2}A_{\mathbf z_3}\cdots.
 $$
@@ -105,7 +100,7 @@ $$
 contain the information about machines in the sequence $z_{1},z_{2},\ldots$, and moreover by induction we can prove the following lemma.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Lemma 4.&lt;/strong&gt; For all $u,u&#39;$ of the same length and $i\in\{1,2\}$ we have
 $$
-\pi_i\left(W(u)\right)=\pi_i\left(W(u&amp;rsquo;)\right).
+\pi_i\left(W(u)\right)=\pi_i\left(W(u&#39;)\right).
 $$
 From where it follows that both projections of words in $W$ are almost periodic.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Lemma 5.&lt;/strong&gt; For all $\mathbf w\in W$, $i\in\{1,2\}$, $\pi_{i}(\mathbf w)$ is almost periodic.&lt;/p&gt;
@@ -124,9 +119,9 @@ W(u)=X(u0)\cup X(u1).
 $$&lt;/p&gt;
 &lt;p&gt;The words in $X(u)$ encode the information that is in $u$ by ordering the last two pieces, for example the difference between $X(u00)$ and $X(u01)$ is:
 &lt;img src=&#34;xu.png&#34; alt=&#34;aaa&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Indeed, we can prove by induction that for $u,u&#39;$, such that $u\ne u&#39;$, $X(u)$ and $X(u&amp;rsquo;)$ are disjoint. Let us gather all the good properties of $W$ defined above.&lt;/p&gt;
+&lt;p&gt;Indeed, we can prove by induction that for $u,u&#39;$, such that $u\ne u&#39;$, $X(u)$ and $X(u&#39;)$ are disjoint. Let us gather all the good properties of $W$ defined above.&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;$W(u)$ and $W(u&amp;rsquo;)$ are disjoint for $u\ne u&#39;$.&lt;/li&gt;
+&lt;li&gt;$W(u)$ and $W(u&#39;)$ are disjoint for $u\ne u&#39;$.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p style=&#34;color:gray; padding-left:5em&#34;&gt;This follows from the discussion above, that the same statement is true for $X$, which can be proved by induction on the length of $u,u&#39;$. If $u$ and $u&#39;$ are of different lengths then the statement is clear. &lt;/p&gt;
 &lt;ol start=&#34;2&#34;&gt;
@@ -134,7 +129,7 @@ $$&lt;/p&gt;
 &lt;/ol&gt;
 &lt;p style=&#34;color:gray; padding-left:5em&#34;&gt;$W(ua)$ is the union of $X(ua0)$ and $X(ua1)$, each of which is built by concatenating elements of the sets $X(u0)$ and $X(u1)$. The union of $X(u0)$ and $X(u1)$ is the set $W(u)$.&lt;/p&gt;
 &lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;For $u,u&#39;$ of the same length and $i\in\{1,2\}$, $\pi_{i}\left(W(u)\right)=\pi_{i}\left(W(u&amp;rsquo;)\right)$.&lt;/li&gt;
+&lt;li&gt;For $u,u&#39;$ of the same length and $i\in\{1,2\}$, $\pi_{i}\left(W(u)\right)=\pi_{i}\left(W(u&#39;)\right)$.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p style=&#34;color:gray; padding-left:5em&#34;&gt; The proof is the same as in Attempt 2, by induction on the length of $u,u&#39;$. 
 &lt;p&gt;Let $z_{1}, z_2, z_3$ be the sequence of finite words from Attempt 2, that is words whose length is $|z_{n}|=n$ and such that
@@ -177,7 +172,7 @@ $$&lt;/li&gt;
 &lt;hr&gt;
 &lt;ol&gt;
 &lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;Seen this way $\pi_{i}(\mathbf w)$ is the characteristic word of $S_i$, $i\in\{1,2\}$. &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Seen this way $\pi_{i}(\mathbf w)$ is the characteristic word of $S_i$, $i\in\{1,2\}$.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
