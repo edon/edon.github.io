@@ -11,40 +11,34 @@
     <loc>https://edon.github.io/courses/example/example2/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://edon.github.io/publication_types/3/</loc>
-    <lastmod>2021-09-24T14:27:23+02:00</lastmod>
-  </url><url>
-    <loc>https://edon.github.io/authors/</loc>
-    <lastmod>2021-09-24T14:27:23+02:00</lastmod>
+    <loc>https://edon.github.io/publication_types/1/</loc>
+    <lastmod>2022-01-24T14:27:23+02:00</lastmod>
   </url><url>
     <loc>https://edon.github.io/categories/</loc>
-    <lastmod>2021-09-24T14:27:23+02:00</lastmod>
+    <lastmod>2022-01-24T14:27:23+02:00</lastmod>
   </url><url>
     <loc>https://edon.github.io/publication/density/</loc>
-    <lastmod>2021-09-24T14:27:23+02:00</lastmod>
+    <lastmod>2022-01-24T14:27:23+02:00</lastmod>
   </url><url>
     <loc>https://edon.github.io/</loc>
-    <lastmod>2021-09-24T14:27:23+02:00</lastmod>
-  </url><url>
-    <loc>https://edon.github.io/authors/admin/</loc>
-    <lastmod>2021-09-24T14:27:23+02:00</lastmod>
+    <lastmod>2022-01-24T14:27:23+02:00</lastmod>
   </url><url>
     <loc>https://edon.github.io/categories/linear-recurrence-sequences/</loc>
-    <lastmod>2021-09-24T14:27:23+02:00</lastmod>
+    <lastmod>2022-01-24T14:27:23+02:00</lastmod>
   </url><url>
     <loc>https://edon.github.io/publication_types/</loc>
-    <lastmod>2021-09-24T14:27:23+02:00</lastmod>
+    <lastmod>2022-01-24T14:27:23+02:00</lastmod>
   </url><url>
     <loc>https://edon.github.io/publication/</loc>
-    <lastmod>2021-09-24T14:27:23+02:00</lastmod>
+    <lastmod>2022-01-24T14:27:23+02:00</lastmod>
   </url><url>
-    <loc>https://edon.github.io/publication_types/1/</loc>
+    <loc>https://edon.github.io/authors/and-james-worrell/</loc>
+    <lastmod>2021-01-01T16:56:56+00:00</lastmod>
+  </url><url>
+    <loc>https://edon.github.io/authors/</loc>
     <lastmod>2021-01-01T16:56:56+00:00</lastmod>
   </url><url>
     <loc>https://edon.github.io/publication/lrsalmostperiodic/</loc>
-    <lastmod>2021-01-01T16:56:56+00:00</lastmod>
-  </url><url>
-    <loc>https://edon.github.io/authors/james-worrell/</loc>
     <lastmod>2021-01-01T16:56:56+00:00</lastmod>
   </url><url>
     <loc>https://edon.github.io/authors/joel-ouaknine/</loc>
@@ -53,10 +47,10 @@
     <loc>https://edon.github.io/categories/mso/</loc>
     <lastmod>2021-01-01T16:56:56+00:00</lastmod>
   </url><url>
-    <loc>https://edon.github.io/authors/shaull-almagor/</loc>
+    <loc>https://edon.github.io/authors/toghrul-karimov/</loc>
     <lastmod>2021-01-01T16:56:56+00:00</lastmod>
   </url><url>
-    <loc>https://edon.github.io/authors/toghrul-karimov/</loc>
+    <loc>https://edon.github.io/authors/with-shaull-almagor/</loc>
     <lastmod>2021-01-01T16:56:56+00:00</lastmod>
   </url><url>
     <loc>https://edon.github.io/categories/continuous-dynamical-systems/</loc>
@@ -65,19 +59,22 @@
     <loc>https://edon.github.io/publication/cdsinvariants/</loc>
     <lastmod>2020-06-26T14:27:09+01:00</lastmod>
   </url><url>
+    <loc>https://edon.github.io/authors/and-georg-zetzsche/</loc>
+    <lastmod>2020-06-26T14:18:04+01:00</lastmod>
+  </url><url>
     <loc>https://edon.github.io/publication/nomsoextensions/</loc>
-    <lastmod>2020-06-26T14:18:04+01:00</lastmod>
-  </url><url>
-    <loc>https://edon.github.io/authors/georg-zetzsche/</loc>
-    <lastmod>2020-06-26T14:18:04+01:00</lastmod>
-  </url><url>
-    <loc>https://edon.github.io/authors/miko%C5%82aj-bojanczyk/</loc>
     <lastmod>2020-06-26T14:18:04+01:00</lastmod>
   </url><url>
     <loc>https://edon.github.io/authors/rafa%C5%82-stefanski/</loc>
     <lastmod>2020-06-26T14:18:04+01:00</lastmod>
   </url><url>
+    <loc>https://edon.github.io/authors/with-miko%C5%82aj-bojanczyk/</loc>
+    <lastmod>2020-06-26T14:18:04+01:00</lastmod>
+  </url><url>
     <loc>https://edon.github.io/post/mso-semenov/</loc>
+    <lastmod>2020-05-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://edon.github.io/authors/admin/</loc>
     <lastmod>2020-05-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://edon.github.io/tags/mso-extension/</loc>
@@ -89,22 +86,19 @@
     <loc>https://edon.github.io/tags/</loc>
     <lastmod>2020-05-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://edon.github.io/authors/micha%C5%82-skrzypczak/</loc>
+    <loc>https://edon.github.io/publication/msonabla/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://edon.github.io/publication/msonabla/</loc>
+    <loc>https://edon.github.io/authors/with-miko%C5%82aj-bojanczyk-and-micha%C5%82-skrzypczak/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://edon.github.io/courses/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url><url>
+    <loc>https://edon.github.io/authors/and-maximilian-weininger/</loc>
+    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://edon.github.io/authors/jan-kretinsky/</loc>
-    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://edon.github.io/authors/julia-kramer/</loc>
-    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://edon.github.io/authors/maximilian-weininger/</loc>
     <lastmod>2018-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://edon.github.io/categories/stochastic-games/</loc>
@@ -116,10 +110,13 @@
     <loc>https://edon.github.io/publication/valiter/</loc>
     <lastmod>2018-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://edon.github.io/categories/automata/</loc>
+    <loc>https://edon.github.io/authors/with-julia-kramer/</loc>
+    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://edon.github.io/authors/and-denis-kuperberg/</loc>
     <lastmod>2017-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://edon.github.io/authors/denis-kuperberg/</loc>
+    <loc>https://edon.github.io/categories/automata/</loc>
     <lastmod>2017-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://edon.github.io/publication/nonzeroaut/</loc>
@@ -131,10 +128,13 @@
     <loc>https://edon.github.io/authors/hugo-gimbert/</loc>
     <lastmod>2017-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://edon.github.io/authors/nathanael-fijalkow/</loc>
+    <loc>https://edon.github.io/publication/stamina/</loc>
     <lastmod>2017-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://edon.github.io/publication/stamina/</loc>
+    <loc>https://edon.github.io/authors/with-miko%C5%82aj-bojanczyk-and-hugo-gimbert/</loc>
+    <lastmod>2017-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://edon.github.io/authors/with-nathanael-fijalkow/</loc>
     <lastmod>2017-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://edon.github.io/publication_types/7/</loc>
@@ -146,7 +146,16 @@
     <loc>https://edon.github.io/publication/halfblind/</loc>
     <lastmod>2016-07-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://edon.github.io/authors/with-hugo-gimbert/</loc>
+    <lastmod>2016-07-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://edon.github.io/publication_types/2/</loc>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://edon.github.io/publication_types/3/</loc>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://edon.github.io/authors/and-youssouf-oualhadj/</loc>
     <lastmod>2015-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://edon.github.io/publication/val1/</loc>
@@ -156,9 +165,6 @@
     <lastmod>2015-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://edon.github.io/publication/halfpos/</loc>
-    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://edon.github.io/authors/youssouf-oualhadj/</loc>
     <lastmod>2015-01-01T00:00:00+00:00</lastmod>
   </url>
 </urlset>

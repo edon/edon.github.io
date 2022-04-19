@@ -5,44 +5,12 @@
     <link>https://edon.github.io/authors/admin/</link>
       <atom:link href="https://edon.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     <description>Edon Kelmendi</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 24 Sep 2021 14:27:23 +0200</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 13 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://edon.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Edon Kelmendi</title>
       <link>https://edon.github.io/authors/admin/</link>
     </image>
-    
-    <item>
-      <title>Computing the Density of the Positivity Set for Linear Recurrence Sequences</title>
-      <link>https://edon.github.io/publication/density/</link>
-      <pubDate>Fri, 24 Sep 2021 14:27:23 +0200</pubDate>
-      <guid>https://edon.github.io/publication/density/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Deciding ω-Regular Properties on Linear Recurrence Sequences</title>
-      <link>https://edon.github.io/publication/lrsalmostperiodic/</link>
-      <pubDate>Fri, 01 Jan 2021 16:56:56 +0000</pubDate>
-      <guid>https://edon.github.io/publication/lrsalmostperiodic/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Invariants for Continuous Linear Dynamical Systems</title>
-      <link>https://edon.github.io/publication/cdsinvariants/</link>
-      <pubDate>Fri, 26 Jun 2020 14:27:09 +0100</pubDate>
-      <guid>https://edon.github.io/publication/cdsinvariants/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Extensions of ω-Regular Languages</title>
-      <link>https://edon.github.io/publication/nomsoextensions/</link>
-      <pubDate>Fri, 26 Jun 2020 14:18:04 +0100</pubDate>
-      <guid>https://edon.github.io/publication/nomsoextensions/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Adding Sets to MSO</title>
@@ -209,70 +177,6 @@ $$&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>MSO&#43;∇ is undecidable</title>
-      <link>https://edon.github.io/publication/msonabla/</link>
-      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://edon.github.io/publication/msonabla/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Value Iteration for Simple Stochastic Games: Stopping Criterion and Learning Algorithm</title>
-      <link>https://edon.github.io/publication/valiter/</link>
-      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>https://edon.github.io/publication/valiter/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Emptiness of Zero Automata Is Decidable</title>
-      <link>https://edon.github.io/publication/nonzeroaut/</link>
-      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
-      <guid>https://edon.github.io/publication/nonzeroaut/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Stamina: Stabilisation Monoids in Automata Theory</title>
-      <link>https://edon.github.io/publication/stamina/</link>
-      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
-      <guid>https://edon.github.io/publication/stamina/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Two-Player Stochastic Games with Perfect and Zero Information</title>
-      <link>https://edon.github.io/publication/thesis/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://edon.github.io/publication/thesis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Deciding Maxmin Reachability in Half-Blind Stochastic Games</title>
-      <link>https://edon.github.io/publication/halfblind/</link>
-      <pubDate>Fri, 01 Jul 2016 00:00:00 +0000</pubDate>
-      <guid>https://edon.github.io/publication/halfblind/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Deciding the value 1 problem for probabilistic leaktight automata</title>
-      <link>https://edon.github.io/publication/val1/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://edon.github.io/publication/val1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Two-Player Perfect-Information Shift-Invariant Submixing Stochastic Games are Half-Positional</title>
-      <link>https://edon.github.io/publication/halfpos/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://edon.github.io/publication/halfpos/</guid>
-      <description></description>
     </item>
     
   </channel>
