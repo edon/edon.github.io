@@ -7,7 +7,7 @@
     <description>Edon Kelmendi</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Jan 2022 14:27:23 +0200</lastBuildDate>
     <image>
-      <url>https://edon.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://edon.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Edon Kelmendi</title>
       <link>https://edon.github.io/</link>
     </image>
@@ -124,7 +124,7 @@ A non-trivial example is the set of factorials $\{n!\ :\ n\in\mathbb{N}\}$.&lt;/
 &lt;p&gt;It follows from Büchi&amp;rsquo;s theorem that decidability of the theory of a set $S$ is equivalent to the decidability of the following problem: a non-deterministic Büchi automaton is given as input and we have to decide whether it accepts the characteristic word of $S$.&lt;/p&gt;
 &lt;p&gt;Let $\mathbf w\in\{0,1\}^{\omega}$ be the characteristic word of the set $\{n!\ :\ n\in\mathbb{N}\}$, it looks like this:
 &lt;img src=&#34;zeros.svg&#34; alt=&#34;aaa&#34;&gt;
-$d_{1},d_2,\ldots$ are the number of $0$s between consecutive $1$s. Since any Büchi automaton $\mathcal{A}$ has finite memory, it cannot count the number of $0$s precisely. This essentially means that  there exists some $d\in\mathbb{N}$ &amp;mdash; that depends only on the number of states of $\mathcal{A}$ &amp;mdash; such that for any $e_1,e_2&amp;gt;d$, with $e_1\equiv e_2\mod d!$, we can replace a block of $e_1$ many zeros with a block with $e_2$ many zeros without the automaton $\mathcal{A}$ noticing. More precisely, construct the word $\mathbf w&amp;rsquo;$ from $\mathbf w$ by replacing all ${\color{red}d_i}&amp;gt;d$ with $d\le {\color{green}e_i}\le d!$ such that ${\color{red}d_i}\equiv {\color{green}e_i}\mod d!$. The automaton $\mathcal{A}$ either accepts both $\mathbf w$ and $\mathbf w&amp;rsquo;$ or rejects both of them. The final observation is that the word $\mathbf w&amp;rsquo;$ is ultimately periodic whence the decidability easily follows.&lt;/p&gt;
+$d_{1},d_2,\ldots$ are the number of $0$s between consecutive $1$s. Since any Büchi automaton $\mathcal{A}$ has finite memory, it cannot count the number of $0$s precisely. This essentially means that  there exists some $d\in\mathbb{N}$ &amp;mdash; that depends only on the number of states of $\mathcal{A}$ &amp;mdash; such that for any $e_1,e_2&amp;gt;d$, with $e_1\equiv e_2\mod d!$, we can replace a block of $e_1$ many zeros with a block with $e_2$ many zeros without the automaton $\mathcal{A}$ noticing. More precisely, construct the word $\mathbf w&#39;$ from $\mathbf w$ by replacing all ${\color{red}d_i}&amp;gt;d$ with $d\le {\color{green}e_i}\le d!$ such that ${\color{red}d_i}\equiv {\color{green}e_i}\mod d!$. The automaton $\mathcal{A}$ either accepts both $\mathbf w$ and $\mathbf w&#39;$ or rejects both of them. The final observation is that the word $\mathbf w&#39;$ is ultimately periodic whence the decidability easily follows.&lt;/p&gt;
 &lt;hr&gt;
 &lt;/details&gt;
 &lt;p&gt;For the full proof of this and a few other examples consult &lt;a href=&#34;https://www.jstor.org/stable/2269808?seq=1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this paper&lt;/a&gt; by Elgot and Rabin. Alas these positive examples do not seem to be beneficial for proving Theorem 1. For this, the correct notion appears to be that of an &lt;em&gt;almost periodic word&lt;/em&gt;.&lt;/p&gt;
@@ -160,7 +160,7 @@ The problem is that there are infinite words in the set above, that have a proje
 &lt;p&gt;&lt;strong&gt;Definition 3. (function $c$, complete concatenation)&lt;/strong&gt; Let $X$ be a finite set of finite words. A complete concatenation of $X$ is a word $u$ that is made from concatenating elements of $X$ such that for all $x,y\in X$, $xy$ is a subword of $u$. Define $c$ to be a function that inputs a finite set of finite words and outputs one such complete concatenation, of minimal length.&lt;/p&gt;
 &lt;p&gt;Consider the following definition:
 \begin{align}
-&amp;amp;W(0)=A_{0}\qquad W(1)=A_{1},\\
+&amp;amp;W(0)=A_{0}\qquad W(1)=A_{1},\\&lt;br&gt;
 &amp;amp;\ \ \ \ \ \ W(ua)=c\left(W(u)\right)W(a).
 \end{align}&lt;/p&gt;
 &lt;p&gt;Let $z_1,z_2,\ldots $ be a sequence of finite words with lengths $|z_{n}|=n$, such that
@@ -172,7 +172,7 @@ $$
 W=W(z_{1})W(z_{2})W(z_{3})\cdots,
 $$
 contain the information about machines in the sequence $z_{1},z_{2},\ldots$, and moreover by induction we can prove the following lemma.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Lemma 4.&lt;/strong&gt; For all $u,u&amp;rsquo;$ of the same length and $i\in\{1,2\}$ we have
+&lt;p&gt;&lt;strong&gt;Lemma 4.&lt;/strong&gt; For all $u,u&#39;$ of the same length and $i\in\{1,2\}$ we have
 $$
 \pi_i\left(W(u)\right)=\pi_i\left(W(u&amp;rsquo;)\right).
 $$
@@ -184,7 +184,7 @@ From where it follows that both projections of words in $W$ are almost periodic.
 &lt;h4 id=&#34;attempt-3&#34;&gt;Attempt 3&lt;/h4&gt;
 &lt;p&gt;The trick is as follows. Define an auxiliary set:&lt;/p&gt;
 &lt;p&gt;\begin{align}
-&amp;amp;\qquad\qquad X(0)=A_{0}\qquad X(1)=A_{1}\\
+&amp;amp;\qquad\qquad X(0)=A_{0}\qquad X(1)=A_{1}\\&lt;br&gt;
 &amp;amp;X(uab)=c\left(\ X(u0)\cup X(u1)\ \right)\ X(ua)\ X(ub).
 \end{align}
 and
@@ -193,9 +193,9 @@ W(u)=X(u0)\cup X(u1).
 $$&lt;/p&gt;
 &lt;p&gt;The words in $X(u)$ encode the information that is in $u$ by ordering the last two pieces, for example the difference between $X(u00)$ and $X(u01)$ is:
 &lt;img src=&#34;xu.png&#34; alt=&#34;aaa&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Indeed, we can prove by induction that for $u,u&amp;rsquo;$, such that $u\ne u&amp;rsquo;$, $X(u)$ and $X(u&amp;rsquo;)$ are disjoint. Let us gather all the good properties of $W$ defined above.&lt;/p&gt;
+&lt;p&gt;Indeed, we can prove by induction that for $u,u&#39;$, such that $u\ne u&#39;$, $X(u)$ and $X(u&amp;rsquo;)$ are disjoint. Let us gather all the good properties of $W$ defined above.&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;$W(u)$ and $W(u&amp;rsquo;)$ are disjoint for $u\ne u&amp;rsquo;$.&lt;/li&gt;
+&lt;li&gt;$W(u)$ and $W(u&amp;rsquo;)$ are disjoint for $u\ne u&#39;$.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p style=&#34;color:gray; padding-left:5em&#34;&gt;This follows from the discussion above, that the same statement is true for $X$, which can be proved by induction on the length of $u,u&#39;$. If $u$ and $u&#39;$ are of different lengths then the statement is clear. &lt;/p&gt;
 &lt;ol start=&#34;2&#34;&gt;
@@ -203,7 +203,7 @@ $$&lt;/p&gt;
 &lt;/ol&gt;
 &lt;p style=&#34;color:gray; padding-left:5em&#34;&gt;$W(ua)$ is the union of $X(ua0)$ and $X(ua1)$, each of which is built by concatenating elements of the sets $X(u0)$ and $X(u1)$. The union of $X(u0)$ and $X(u1)$ is the set $W(u)$.&lt;/p&gt;
 &lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;For $u,u&amp;rsquo;$ of the same length and $i\in\{1,2\}$, $\pi_{i}\left(W(u)\right)=\pi_{i}\left(W(u&amp;rsquo;)\right)$.&lt;/li&gt;
+&lt;li&gt;For $u,u&#39;$ of the same length and $i\in\{1,2\}$, $\pi_{i}\left(W(u)\right)=\pi_{i}\left(W(u&amp;rsquo;)\right)$.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p style=&#34;color:gray; padding-left:5em&#34;&gt; The proof is the same as in Attempt 2, by induction on the length of $u,u&#39;$. 
 &lt;p&gt;Let $z_{1}, z_2, z_3$ be the sequence of finite words from Attempt 2, that is words whose length is $|z_{n}|=n$ and such that
@@ -246,7 +246,7 @@ $$&lt;/li&gt;
 &lt;hr&gt;
 &lt;ol&gt;
 &lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;Seen this way $\pi_{i}(\mathbf w)$ is the characteristic word of $S_i$, $i\in\{1,2\}$.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Seen this way $\pi_{i}(\mathbf w)$ is the characteristic word of $S_i$, $i\in\{1,2\}$. &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
