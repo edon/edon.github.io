@@ -5,12 +5,20 @@
     <link>https://edon.github.io/categories/continuous-dynamical-systems/</link>
       <atom:link href="https://edon.github.io/categories/continuous-dynamical-systems/index.xml" rel="self" type="application/rss+xml" />
     <description>Continuous Dynamical Systems</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 26 Jun 2020 14:27:09 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 26 Jun 2020 14:27:09 +0100</lastBuildDate>
     <image>
       <url>https://edon.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Continuous Dynamical Systems</title>
       <link>https://edon.github.io/categories/continuous-dynamical-systems/</link>
     </image>
+    
+    <item>
+      <title>Invariants for Continuous Linear Dynamical Systems</title>
+      <link>https://edon.github.io/content/publication/cdsinvariants/</link>
+      <pubDate>Fri, 26 Jun 2020 14:27:09 +0100</pubDate>
+      <guid>https://edon.github.io/content/publication/cdsinvariants/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Invariants for Continuous Linear Dynamical Systems</title>

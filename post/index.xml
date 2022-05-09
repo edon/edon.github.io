@@ -5,7 +5,7 @@
     <link>https://edon.github.io/post/</link>
       <atom:link href="https://edon.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 13 May 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 13 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://edon.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Posts</title>
@@ -25,10 +25,12 @@ $$
 for some $u,v\in\{0,1\}^{*}$, i.e. it is ultimately periodic.&lt;/p&gt;
 &lt;p&gt;It is natural to ask whether we can add a more complicated set $S\subset \omega$ and have the MSO theory of
 $(\omega,&amp;lt;,S)$ remain decidable. In this extended logic, $S$ is part of the signature, so we are allowed to test $x\in
-S$. In a sense, this problem has been solved. See &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S0890540106001660?via%3Dihub&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this
+S$. In a sense, this problem has been solved. See 
+&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S0890540106001660?via%3Dihub&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this
 paper&lt;/a&gt; by Rabinovich and the references
 therein. There are two characterisations, one by Semenov, and one by Rabinovich.&lt;/p&gt;
-&lt;p&gt;Here I will report on an interesting, and related &lt;a href=&#34;http://www.mathnet.ru/php/archive.phtml?wshow=paper&amp;amp;jrnid=im&amp;amp;paperid=1415&amp;amp;option_lang=eng&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;result by Semenov&lt;/a&gt; that says:&lt;/p&gt;
+&lt;p&gt;Here I will report on an interesting, and related 
+&lt;a href=&#34;http://www.mathnet.ru/php/archive.phtml?wshow=paper&amp;amp;jrnid=im&amp;amp;paperid=1415&amp;amp;option_lang=eng&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;result by Semenov&lt;/a&gt; that says:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Theorem 1. (Semenov 1983)&lt;/strong&gt;  There are two sets $S_1,S_2\subset\omega$ such that the MSO theory of&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;$(\omega,&amp;lt;,S_1)$, and $(\omega,&amp;lt;,S_2)$ is decidable, but&lt;/li&gt;
@@ -53,7 +55,8 @@ A non-trivial example is the set of factorials $\{n!\ :\ n\in\mathbb{N}\}$.&lt;/
 $d_{1},d_2,\ldots$ are the number of $0$s between consecutive $1$s. Since any BÃ¼chi automaton $\mathcal{A}$ has finite memory, it cannot count the number of $0$s precisely. This essentially means that  there exists some $d\in\mathbb{N}$ &amp;mdash; that depends only on the number of states of $\mathcal{A}$ &amp;mdash; such that for any $e_1,e_2&amp;gt;d$, with $e_1\equiv e_2\mod d!$, we can replace a block of $e_1$ many zeros with a block with $e_2$ many zeros without the automaton $\mathcal{A}$ noticing. More precisely, construct the word $\mathbf w&#39;$ from $\mathbf w$ by replacing all ${\color{red}d_i}&amp;gt;d$ with $d\le {\color{green}e_i}\le d!$ such that ${\color{red}d_i}\equiv {\color{green}e_i}\mod d!$. The automaton $\mathcal{A}$ either accepts both $\mathbf w$ and $\mathbf w&#39;$ or rejects both of them. The final observation is that the word $\mathbf w&#39;$ is ultimately periodic whence the decidability easily follows.&lt;/p&gt;
 &lt;hr&gt;
 &lt;/details&gt;
-&lt;p&gt;For the full proof of this and a few other examples consult &lt;a href=&#34;https://www.jstor.org/stable/2269808?seq=1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this paper&lt;/a&gt; by Elgot and Rabin. Alas these positive examples do not seem to be beneficial for proving Theorem 1. For this, the correct notion appears to be that of an &lt;em&gt;almost periodic word&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;For the full proof of this and a few other examples consult 
+&lt;a href=&#34;https://www.jstor.org/stable/2269808?seq=1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this paper&lt;/a&gt; by Elgot and Rabin. Alas these positive examples do not seem to be beneficial for proving Theorem 1. For this, the correct notion appears to be that of an &lt;em&gt;almost periodic word&lt;/em&gt;.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;almost-periodic-words&#34;&gt;Almost periodic words&lt;/h3&gt;
 &lt;p&gt;We say that a finite word $u$ occurs in an infinite one $\mathbf{w}$, if $\mathbf w_{n}\mathbf w_{n+1}\cdots \mathbf w_{n+k}=u$ for some $n,k$. Informally, an infinite word is almost periodic if the distance between the occurences is bounded.
@@ -64,7 +67,8 @@ $d_{1},d_2,\ldots$ are the number of $0$s between consecutive $1$s. Since any BÃ
 &lt;li&gt;$u$ occurs in every subword of $\mathbf w$ of length at least $b$&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;It is effectively almost periodic if there is a procedure computing such $b$.&lt;/p&gt;
-&lt;p&gt;There are many examples of almost periodic words that show up in various fields, such as &lt;a href=&#34;https://en.wikipedia.org/wiki/Thue%e2%80%93Morse_sequence&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Thue-Morse sequence&lt;/a&gt;, the word whose $n$th letter is $\mathrm{sgn}\left(\sin(n)\right)$, etc. The reason why they are interesting relative to Theorem 1, is because their MSO theory is decidable.&lt;/p&gt;
+&lt;p&gt;There are many examples of almost periodic words that show up in various fields, such as 
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Thue%e2%80%93Morse_sequence&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Thue-Morse sequence&lt;/a&gt;, the word whose $n$th letter is $\mathrm{sgn}\left(\sin(n)\right)$, etc. The reason why they are interesting relative to Theorem 1, is because their MSO theory is decidable.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Theorem 2. (Semenov 1983)&lt;/strong&gt; For effectively almost periodic $S$, the theory of $(\omega,&amp;lt;,S)$ is decidable.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;the-construction&#34;&gt;The construction&lt;/h3&gt;
@@ -76,7 +80,8 @@ The objective, for the proof of Theorem 1, now is to build a word $\mathbf w\in\
 &lt;p&gt;If I just write down the construction, it will leave too many questions unanswered, therefore in order to movitave the definition, I will first give a couple of failed attempts of reaching the goal.&lt;/p&gt;
 &lt;h4 id=&#34;attempt-1&#34;&gt;Attempt 1&lt;/h4&gt;
 &lt;p&gt;Let $\mathbf z$ be an infinite word over the binary alphabet, for example the word with the Turing machines from the example above. One brutish way of encoding it is as follows.&lt;/p&gt;
-&lt;p&gt;Partition the set $\mathbb B^{4}$ into $A_{0}, A_{1}$ such that $\pi_{i}(A_0)=\pi_{i}(A_1)$, $i\in\{1,2\}$. One such partition is to see $\mathbb B^{4}$ as the set of permutations of $\mathbb B$, and set $A_{0}$ to be the &lt;a href=&#34;https://en.wikipedia.org/wiki/Parity_of_a_permutation&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;even permutations&lt;/a&gt;, and $A_{1}$ to be the odd ones. Belonging to the set $A_0$ or $A_1$ contains one bit of information, which is lost upon projection. We can certainly encode $\mathbf z$ by picking a word from the set:
+&lt;p&gt;Partition the set $\mathbb B^{4}$ into $A_{0}, A_{1}$ such that $\pi_{i}(A_0)=\pi_{i}(A_1)$, $i\in\{1,2\}$. One such partition is to see $\mathbb B^{4}$ as the set of permutations of $\mathbb B$, and set $A_{0}$ to be the 
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Parity_of_a_permutation&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;even permutations&lt;/a&gt;, and $A_{1}$ to be the odd ones. Belonging to the set $A_0$ or $A_1$ contains one bit of information, which is lost upon projection. We can certainly encode $\mathbf z$ by picking a word from the set:
 $$
 A_{\mathbf z_0}A_{\mathbf z_1}A_{\mathbf z_2}A_{\mathbf z_3}\cdots.
 $$
