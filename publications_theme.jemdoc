@@ -1,0 +1,125 @@
+# jemdoc: menu{MENU}{publications_theme.html}
+= Publications by Theme
+
+== Dynamical Systems
+
+Dynamical systems are a subject classically studied in mathematics. Broadly it is the study of /orbits/ of a given map $f\ :\ X\to X$, 
+\(
+\mathcal O(f,x_0):=\bigg\{\underbrace{f^n(x_0)}_{f\text{ applied $n$ times}}\ :\ n\in\mathbb{N}\bigg\},
+\)
+where $X$ is some space with appropriate properties.
+
+What kind of properties can we decide, and for what kind of dynamical systems? -- Is the basic question. 
+
+=== Piecewise Affine Maps
+~~~
+{}{img_left}{img/pam.svg}{}{250}{150}
+Here $X=[0,1)$ is the half-open unit interval, and $f$ is a piecewise affine map, e.g.
+\(
+	f(x):=\begin{cases}
+                   a_1 x + b_1 & \text{if } 0\le x < c,\\
+		   a_2 x + b_2 & \text{if } c\le x < 1.
+              \end{cases}
+\)
+where $a_i, b_i, c$ are rational constants. It is not known whether there is a procedure to decide reachability for such dynamical systems, even if there are only two pieces as above. With the coauthors below, we made some progress in a restricted version of this problem. 
+~~~
+
+- *Reachability in Injective Piecewise Affine Maps* [https://arxiv.org/abs/2301.09752 (arxiv)]\n
+  Faraz Ghahremani, Edon Kelmendi, Joël Ouaknine\n
+  /Submitted/
+
+
+=== Linear Maps
+~~~
+{}{img_left}{img/lrs.svg}{}{200}{300}
+
+Here $X=\mathbb{R}^n$ and $f$ is a linear map. The basic open question in this area is Skolem's Problem. This is the question whether there is a procedure that inputs a linear map, a point in space and a hyperplane, and decides if the orbit of the map intersects the given hyperplane. Equivalently, given a $k\times k$ matrix $M$ with rational entries is there a procedure to decide the following sentence:
+\(
+\exists n\in\mathbb{N}\qquad \left(M^n\right)_{1,k} = 0. 
+\)
+With the coauthors below we have considered adjacent questions about these dynamical systems. 
+~~~
+
+- *The Power of Positivity*\n
+  Toghrul Karimov, Edon Kelmendi, Joris Nieuwveld, Joël Ouaknine, James Worrell\n
+  /Submitted/
+- *Computing the Density of the Positivity Set for Linear Recurrence Sequences* [https://arxiv.org/abs/2109.14432 (arxiv)] [https://doi.org/10.1145/3531130.3532399 (doi)]\n
+  Edon Kelmendi\n
+  /Proceedings of the 37th Annual ACM\/IEEE Symposium on Logic in Computer Science/ (LICS 2022)\n
+  ({{<font color=red>}} Distinguished paper award. Invited to the LMCS special issue for LICS. {{</font>}})\n
+
+- *What's Decidable About Discrete Linear Dynamical Systems?* [https://arxiv.org/abs/2206.11412 (arxiv)] [https://doi.org/10.1007/978-3-031-22337-2\_2 (doi)]\n
+  Toghrul Karimov, Edon Kelmendi, Joël Ouaknine, James Worrell\n
+  /In Principles of Systems Design. Lecture Notes in Computer Science, vol 13660./\n
+  (Thomas Henzinger Festschrift)
+- *Deciding $\omega$-Regular Properties on Linear Recurrence Sequeneces* [https://arxiv.org/abs/2010.14432 (arxiv)] [https://doi.org/10.1145/3434329 (doi)]\n
+  Shaull Almagor, Toghrul Karimov, Edon Kelmendi, Joël Ouaknine, James Worrell\n
+  /Proceedings of the ACM on Programming Languages, Volume 5, Article No.: 48/ (POPL 2021)
+- *Invariants for Continuous Linear Dynamical Systems* [https://arxiv.org/abs/2004.11661 (arxiv)] [https://doi.org/10.4230/LIPIcs.ICALP.2020.107 (doi)]\n
+  Shaull Almagor, Edon Kelmendi, Joël Ouaknine, James Worrell\n
+  /Proceedings of the 47th International Colloquium on Automata, Languages, and Programming/ (ICALP 2020)
+
+
+== Logics
+
+~~~
+{}{img_left}{img/logic.svg}{}{280}{280}
+
+In Monadic Second Order Logic (MSO) over the full infinite binary tree, one is allowed to quantify over the set of nodes, and also over subsets of nodes, as well as use the ancestor-descendent relation. Rabin's theorem (building on the analogous theorem for MSO on words by Büchi) says that this logic has a decidable theory. These two theorems are a kind of cornerstone of the field, bringing together logics, automata, and games.
+
+With the coauthors below we have studied certain extensions of this logic with a probability quantifier, adding a concept for /almost all/. In this and the successor work we show that one cannot improve much on Rabin's and Büchi's theorem. 
+~~~
+
+- *Extensions of $\omega$-Regular Languages* [https://arxiv.org/abs/2002.09393 (arxiv)] [https://doi.org/10.1145/3373718.3394779 (doi)]\n
+  Mikołaj Bojańczyk, Edon Kelmendi, Rafał Stefański, Georg Zetzsche\n
+  /Proceedings of the 35th Annual ACM\/IEEE Symposium on Logic in Computer Science/ (LICS 2020)
+
+- *MSO+$\nabla$ is undecidable* [https://arxiv.org/abs/1901.06900 (arxiv)] [https://doi.org/10.1109/LICS.2019.8785892 (doi)]\n
+  Mikołaj Bojańczyk, Edon Kelmendi, Michał Skrzypczak\n
+  /Proceedings of the 34th Annual ACM\/IEEE Symposium on Logic in Computer Science/ (LICS 2019)
+
+- *Emptiness of Zero Automata is Decidable* [https://arxiv.org/abs/1702.06858 (arxiv)] [https://doi.org/LIPIcs.ICALP.2017.106 (doi)]\n
+  Mikołaj Bojańczyk, Hugo Gimbert, Edon Kelmendi\n
+  /In Proceedings of the 44th International Colloquium on Automata, Languages, and Programming/ (ICALP 2017)
+
+== Automata and Games
+
+~~~
+{}{img_left}{img/games.svg}{}{200}{200}
+
+Stochastic games are a model for competitive scenarios with uncertainty. They are also an interesting theoretical tool that can be brought to bear on problems in logics and automata.
+
+With the coauthors below we have studied games where the players also have imperfect information (the more realistic scenario). These objects are rather computationally difficult: in order to find the optimal move, you have to calculate the possibilities for the current position. 
+
+~~~
+
+- *Submixing and Shift-Invariant Stochastic Games* [https://arxiv.org/abs/1401.6575 (arxiv)]\n
+  Hugo Gimbert, Edon Kelmendi\n
+  /International Journal of Game Theory/ (IJGT); to appear.
+- *Value Iteration for Simple Stochastic Games: Stopping Criterion and Learning* [10.1016/j.ic.2022.104886 (doi)]\n
+  Julia Eisentraut, Edon Kelmendi, Jan Křetínský, Maximilian Weininger\n
+  /Information and Computation, Volume 285, Part B, 104886/ (Inf. Comput. 285)
+- *Value Iteration for Simple Stochastic Games: Stopping Criterion and Learning Algorithm* [https://arxiv.org/abs/1804.04901 (arxiv)] [https://doi.org/10.1007/978-3-319-96145-3\_36 (doi)]\n
+  Edon Kelmendi, Julia Krämer, Jan Křetínský, Maximilian Weininger\n
+  /In Computer Aided Verification. Lecture Notes in Computer Science, vol 10981/ (CAV 2018)
+- *Stamina: Stabilisation Monoids in Automata Theory* [https://stamina.labri.fr/stamina-paper.pdf (pdf)] [https://github.com/nathanael-fijalkow/stamina/ (github)] [https://doi.org/10.1007/978-3-319-60134-2\_9 (doi)]\n
+  Nathanaël Fijalkow, Hugo Gimbert, Edon Kelmendi, Denis Kuperberg\n
+  /In Implementation and Application of Automata. Lecture Notes in Computer Science, vol 10329/ (CIAA 2017)
+- *Deciding Maxmin Reachability in Half-Blind Stochastic Games* [https://arxiv.org/abs/1605.07753 (arxiv)] [https://doi.org/10.1007/978-3-662-53354-3\_5 (doi)]\n
+  Edon Kelmendi, Hugo Gimbert\n
+  /In Symposium of Algorithmic Game Theory. Lecture Notes in Computer Science, vol 9928/ (SAGT 2016)
+- *Deciding the Value 1 Problem for Probabilistic Leaktight Automata* [https://arxiv.org/abs/1504.04136 (arxiv)] [https://doi.org/10.2168/LMCS-11(2:12)2015 (doi)]\n
+  Nathanaël Fijalkow, Hugo Gimbert, Edon Kelmendi, Youssouf Oualhadj\n
+  /Logical Methods in Computer Science Volume 11, Issue 2/ (LMCS)
+- *Two-Player Stochastic Games with Perfect and Zero Information* [https://theses.hal.science/tel-01426223/document (pdf)]\n
+  Edon Kelmendi\n
+  /PhD thesis. University of Bordeaux/
+
+== Common Threads
+
+There are some underlying threads that tie the seemingly separate themes above. Here are the most obvious ones:
+
+. ({{<font color=grey>}} Games → Logic {{</font>}}) Certain two-player stochastic games were used to prove that the weak fragment of MSO+$\nabla$ is decidable in the [https://doi.org/LIPIcs.ICALP.2017.106 ICALP 2017 paper].
+. ({{<font color=grey>}} Probabilistic Automata ⇆ Dynamical Systems {{</font>}}) A probabilistic automaton with one letter alphabet is just a linear dynamical system. Moreover the converse is also [https://doi.org/10.1016/j.ipl.2014.08.013 true], at least with respect to reachability questions. 
+. ({{<font color=grey>}} Logics ⇆ Dynamical Systems {{</font>}}) In the [https://doi.org/10.1145/3373718.3394779 LICS 2020 paper] we studied the theories of families of extensions of MSO with certain desirable closure properties, while in the [https://doi.org/10.1145/3434329 POPL 2021] paper we looked at theories that one obtains by extending MSO with a single unary predicate which can be constructed from the orbit of the system.
+. ({{<font color=grey>}} Piecewise Affine Maps ⇆ Linear Dynamical Systems {{</font>}}) Both hide important information about diophantine approximations of certain transcendental numbers. 

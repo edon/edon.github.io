@@ -1,0 +1,88 @@
+# jemdoc: menu{MENU}{publications.html}
+= Publications
+
+/Links:/ [https://dblp.org/pid/140/7385.html DBLP], [https://scholar.google.com/citations?user=8sPNZbAAAAAJ&oi=ao Google Scholar], [https://arxiv.org/search/?searchtype=author&query=Kelmendi%2C+E arXiv]
+
+
+== 2023
+
+- *Reachability in Injective Piecewise Affine Maps* [https://arxiv.org/abs/2301.09752 (arxiv)]\n
+  Faraz Ghahremani, Edon Kelmendi, Joël Ouaknine\n
+  /Submitted/
+
+- *The Power of Positivity*\n
+  Toghrul Karimov, Edon Kelmendi, Joris Nieuwveld, Joël Ouaknine, James Worrell\n
+  /Submitted/
+
+- *Submixing and Shift-Invariant Stochastic Games* [https://arxiv.org/abs/1401.6575 (arxiv)]\n
+  Hugo Gimbert, Edon Kelmendi\n
+  /International Journal of Game Theory/ (IJGT); to appear.
+
+== 2022
+
+- *Computing the Density of the Positivity Set for Linear Recurrence Sequences* [https://arxiv.org/abs/2109.14432 (arxiv)] [https://doi.org/10.1145/3531130.3532399 (doi)]\n
+  Edon Kelmendi\n
+  /Proceedings of the 37th Annual ACM\/IEEE Symposium on Logic in Computer Science/ (LICS 2022)\n
+  ({{<font color=red>}} Distinguished paper award. Invited to the LMCS special issue for LICS. {{</font>}})\n
+
+- *What's Decidable About Discrete Linear Dynamical Systems?* [https://arxiv.org/abs/2206.11412 (arxiv)] [https://doi.org/10.1007/978-3-031-22337-2\_2 (doi)]\n
+  Toghrul Karimov, Edon Kelmendi, Joël Ouaknine, James Worrell\n
+  /In Principles of Systems Design. Lecture Notes in Computer Science, vol 13660./\n
+  (Thomas Henzinger Festschrift)
+
+- *Value Iteration for Simple Stochastic Games: Stopping Criterion and Learning* [10.1016/j.ic.2022.104886 (doi)]\n
+  Julia Eisentraut, Edon Kelmendi, Jan Křetínský, Maximilian Weininger\n
+  /Information and Computation, Volume 285, Part B, 104886/ (Inf. Comput. 285)
+
+== 2021
+
+- *Deciding $\omega$-Regular Properties on Linear Recurrence Sequeneces* [https://arxiv.org/abs/2010.14432 (arxiv)] [https://doi.org/10.1145/3434329 (doi)]\n
+  Shaull Almagor, Toghrul Karimov, Edon Kelmendi, Joël Ouaknine, James Worrell\n
+  /Proceedings of the ACM on Programming Languages, Volume 5, Article No.: 48/ (POPL 2021)
+
+== 2020
+
+- *Invariants for Continuous Linear Dynamical Systems* [https://arxiv.org/abs/2004.11661 (arxiv)] [https://doi.org/10.4230/LIPIcs.ICALP.2020.107 (doi)]\n
+  Shaull Almagor, Edon Kelmendi, Joël Ouaknine, James Worrell\n
+  /Proceedings of the 47th International Colloquium on Automata, Languages, and Programming/ (ICALP 2020)
+
+- *Extensions of $\omega$-Regular Languages* [https://arxiv.org/abs/2002.09393 (arxiv)] [https://doi.org/10.1145/3373718.3394779 (doi)]\n
+  Mikołaj Bojańczyk, Edon Kelmendi, Rafał Stefański, Georg Zetzsche\n
+  /Proceedings of the 35th Annual ACM\/IEEE Symposium on Logic in Computer Science/ (LICS 2020)
+
+== 2019
+- *MSO+$\nabla$ is undecidable* [https://arxiv.org/abs/1901.06900 (arxiv)] [https://doi.org/10.1109/LICS.2019.8785892 (doi)]\n
+  Mikołaj Bojańczyk, Edon Kelmendi, Michał Skrzypczak\n
+  /Proceedings of the 34th Annual ACM\/IEEE Symposium on Logic in Computer Science/ (LICS 2019)
+
+== 2018
+- *Value Iteration for Simple Stochastic Games: Stopping Criterion and Learning Algorithm* [https://arxiv.org/abs/1804.04901 (arxiv)] [https://doi.org/10.1007/978-3-319-96145-3\_36 (doi)]\n
+  Edon Kelmendi, Julia Krämer, Jan Křetínský, Maximilian Weininger\n
+  /In Computer Aided Verification. Lecture Notes in Computer Science, vol 10981/ (CAV 2018)
+
+== 2017
+- *Emptiness of Zero Automata is Decidable* [https://arxiv.org/abs/1702.06858 (arxiv)] [https://doi.org/LIPIcs.ICALP.2017.106 (doi)]\n
+  Mikołaj Bojańczyk, Hugo Gimbert, Edon Kelmendi\n
+  /In Proceedings of the 44th International Colloquium on Automata, Languages, and Programming/ (ICALP 2017)
+
+- *Stamina: Stabilisation Monoids in Automata Theory* [https://stamina.labri.fr/stamina-paper.pdf (pdf)] [https://github.com/nathanael-fijalkow/stamina/ (github)] [https://doi.org/10.1007/978-3-319-60134-2\_9 (doi)]\n
+  Nathanaël Fijalkow, Hugo Gimbert, Edon Kelmendi, Denis Kuperberg\n
+  /In Implementation and Application of Automata. Lecture Notes in Computer Science, vol 10329/ (CIAA 2017)
+
+== 2016
+- *Deciding Maxmin Reachability in Half-Blind Stochastic Games* [https://arxiv.org/abs/1605.07753 (arxiv)] [https://doi.org/10.1007/978-3-662-53354-3\_5 (doi)]\n
+  Edon Kelmendi, Hugo Gimbert\n
+  /In Symposium of Algorithmic Game Theory. Lecture Notes in Computer Science, vol 9928/ (SAGT 2016)
+
+== 2015
+- *Deciding the Value 1 Problem for Probabilistic Leaktight Automata* [https://arxiv.org/abs/1504.04136 (arxiv)] [https://doi.org/10.2168/LMCS-11(2:12)2015 (doi)]\n
+  Nathanaël Fijalkow, Hugo Gimbert, Edon Kelmendi, Youssouf Oualhadj\n
+  /Logical Methods in Computer Science Volume 11, Issue 2/ (LMCS)
+
+== Others
+
+=== Theses
+
+- *Two-Player Stochastic Games with Perfect and Zero Information* [https://theses.hal.science/tel-01426223/document (pdf)]\n
+  Edon Kelmendi\n
+  /PhD thesis. University of Bordeaux/

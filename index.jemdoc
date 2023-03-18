@@ -1,0 +1,35 @@
+# jemdoc: menu{MENU}{index.html}
+= Edon Kelmendi
+[e.kelmendi@qmul.ac.uk]
+
+~~~
+{}{img_left}{img/thing.svg}{}{200}{200}
+I am a lecturer in computer science at [http://qmul.ac.uk/ Queen Mary, University of London].
+
+I finished my doctorate at [http://www.labri.fr/ Laboratoire Bordelais de Recherche en Informatique] under the supervision of [https://www.labri.fr/perso/gimbert/ Hugo Gimbert]. Afterwards, I was a postdoc with [https://www.mimuw.edu.pl/~bojan/ Mikołaj Bojańczyk] in [http://www.mimuw.edu.pl/ Warsaw], and later with [https://people.mpi-sws.org/~joel/ Joël Ouaknine] and [https://www.cs.ox.ac.uk/people/james.worrell/home.html James Worrell] at [https://cs.ox.ac.uk/ Oxford] and [http://mpi-sws.org/ MPI].
+
+/Links:/ [https://dblp.org/pid/140/7385.html DBLP], [https://scholar.google.com/citations?user=8sPNZbAAAAAJ&oi=ao Google Scholar], [https://arxiv.org/search/?searchtype=author&query=Kelmendi%2C+E arXiv]
+~~~
+
+== Interests
+I am generally interested in the theory of computation, particularly in algorithmic verification, and:
+
+- Dynamical Systems
+- Logics in CS
+- Game theory
+- Automata
+
+== Contact
+
+Office CS/433\n
+[e.kelmendi@qmul.ac.uk]\n
+Phone: +44 (0) 759 99 09 09 19
+
+=== Address
+
+School of Electronic Engineering and Computer Science\n
+Queen Mary, University of London\n
+Peter Landin Building\n
+10 Godward Square\n
+London E1 4FZ
+
