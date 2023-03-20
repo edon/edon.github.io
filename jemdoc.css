@@ -16,7 +16,8 @@ body {
     margin-right: 5px;
     margin: auto;
     font-family: Georgia;
-    background-color: #fdf6e3;
+    /*    background-color: #fdf6e3; */
+    background-color:    #fcfff0;
     color: #111;
     counter-reset: sidenote-counter;
     max-width: 1500px;
@@ -36,7 +37,8 @@ body {
 /* } */
 
 #layout-menu {
-	background: #fdf6e3;
+    /*	background: #fdf6e3;*/
+        background-color:    #fcfff0;
 	border: 1px solid white;
 	padding-top: 0.5em;
 	padding-left: 8px;
@@ -49,7 +51,8 @@ body {
 }
 
 #layout-menu td {
-	background: #fdf6e3;
+    /*	background: #fdf6e3;*/
+        background-color:    #fcfff0;
 	vertical-align: top;
 }
 
@@ -61,7 +64,8 @@ body {
 	text-align: left;
 	vertical-align: top;
         width: 100%; 
-	background-color: #fdf6e3;
+	/*	background-color: #fdf6e3;*/
+	background-color:    #fffff8;
 	color: #111;
 }
 
