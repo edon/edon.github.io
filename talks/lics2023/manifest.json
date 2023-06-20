@@ -1,0 +1,645 @@
+{
+  "version": 0.915,
+  "presentation": "Slides LICS 2023",
+  "slideDict": {
+    "new_slide": "Title",
+    "SPams": "SPams",
+    "Program": "Program",
+    "Problem": "Problem",
+    "Open_problem": "Open_problem",
+    "STheorem": "STheorem",
+    "WHy_interesting?": "Why1",
+    "WHy_interesting?_2": "Why2",
+    "Injective": "Injective",
+    "SProof": "SProof",
+    "Injective2": "Injective2"
+  },
+  "tree": {
+    "type": "child",
+    "name": "Title",
+    "id": "new_slide",
+    "merged": false,
+    "children": [
+      {
+        "type": "show",
+        "id": "titles",
+        "name": "titles",
+        "merged": false,
+        "keywords": [
+          "PAMsT",
+          "TheoremT",
+          "ProofT",
+          "titles"
+        ],
+        "eventId": "1",
+        "disabled": false
+      },
+      {
+        "type": "child",
+        "name": "SPams",
+        "id": "SPams",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "functions",
+            "name": "functions",
+            "merged": false,
+            "keywords": [
+              "functions'",
+              "functions"
+            ],
+            "eventId": "1",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "definition",
+            "name": "definition",
+            "merged": false,
+            "keywords": [
+              "matrix",
+              "vectors",
+              "definition"
+            ],
+            "eventId": "3",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "figure",
+            "name": "figure",
+            "merged": false,
+            "keywords": [
+              "figure"
+            ],
+            "eventId": "4",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "colors",
+            "name": "colors",
+            "merged": false,
+            "keywords": [
+              "colors"
+            ],
+            "eventId": "5",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "abs",
+            "name": "abs",
+            "merged": false,
+            "keywords": [
+              "abs"
+            ],
+            "eventId": "7",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "x0",
+            "name": "x0",
+            "merged": false,
+            "keywords": [
+              "x0"
+            ],
+            "eventId": "8",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "x1",
+            "name": "x1",
+            "merged": false,
+            "keywords": [
+              "x1"
+            ],
+            "eventId": "9",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "equals",
+            "name": "equals",
+            "merged": false,
+            "keywords": [
+              "equals"
+            ],
+            "eventId": "10",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "x2",
+            "name": "x2",
+            "merged": false,
+            "keywords": [
+              "x2"
+            ],
+            "eventId": "11",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "last_arrow",
+            "name": "last arrow",
+            "merged": false,
+            "keywords": [
+              "last arrow"
+            ],
+            "eventId": "12",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "Problem",
+            "id": "Problem",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "We_want_to_decide_properties_of_PAMs._In_particular_reachability",
+                "name": "We want to decide properties of PAMs. In particular reachability",
+                "merged": false,
+                "keywords": [
+                  "We want to decide properties of PAMs. In particular reachability"
+                ],
+                "eventId": "1",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Given_a_PAM",
+                "name": "Given a PAM",
+                "merged": false,
+                "keywords": [
+                  "Given a PAM f, and decide whether",
+                  "Given a PAM"
+                ],
+                "eventId": "2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Thrm",
+                "name": "Thrm",
+                "merged": false,
+                "keywords": [
+                  "Theorem. Reachability is already undecidable in d=2.",
+                  "Koiran, Cosnard, Garzon 1994",
+                  "Thrm"
+                ],
+                "eventId": "4",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "One_can_easily_simulate_a_machine_with_d_stacks.",
+                "name": "One can easily simulate a machine with d stacks.",
+                "merged": false,
+                "keywords": [
+                  "One can easily simulate a machine with d stacks."
+                ],
+                "eventId": "8",
+                "disabled": false
+              }
+            ],
+            "keywords": [
+              "Encode:",
+              "finite state",
+              "stack",
+              "f multiplies and adds",
+              "Problem"
+            ],
+            "eventId": "14"
+          },
+          {
+            "type": "child",
+            "name": "Open problem",
+            "id": "Open_problem",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "what_about",
+                "name": "what about",
+                "merged": false,
+                "keywords": [
+                  "What about d=1 ?",
+                  "Koiran, Cosnard, Garzon 1994",
+                  "what about"
+                ],
+                "eventId": "1",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Still_open!",
+                "name": "Still open!",
+                "merged": false,
+                "keywords": [
+                  "Still open!"
+                ],
+                "eventId": "2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "we_do_not_know_how_to_decide",
+                "name": "we do not know how to decide",
+                "merged": false,
+                "keywords": [
+                  "We do not know how to decide reachability for:",
+                  "we do not know how to decide"
+                ],
+                "eventId": "3",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "even_open",
+                "name": "even open",
+                "merged": false,
+                "keywords": [
+                  "It is even open for 2-PAM, i.e.",
+                  "even open"
+                ],
+                "eventId": "5",
+                "disabled": false
+              }
+            ],
+            "keywords": [
+              "Open problem"
+            ],
+            "eventId": "15"
+          }
+        ],
+        "keywords": [
+          "SPams"
+        ],
+        "eventId": "5"
+      },
+      {
+        "type": "child",
+        "name": "STheorem",
+        "id": "STheorem",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Reachability_is_decidable_for_injective_2-PAM",
+            "name": "Reachability is decidable for injective 2-PAM",
+            "merged": false,
+            "keywords": [
+              "Reachability is decidable for injective 2-PAM"
+            ],
+            "eventId": "1",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "Why1",
+            "id": "WHy_interesting?",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Why_is_this_model_interesting",
+                "name": "Why is this model interesting",
+                "merged": false,
+                "keywords": [
+                  "Why is this model interesting"
+                ],
+                "eventId": "3",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "I",
+                "name": "I",
+                "merged": false,
+                "keywords": [
+                  "I"
+                ],
+                "eventId": "2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Hybrid_systems_Expansions_of_numbers_in_rational_bases_Target_discounted-sum_problem_Inclusion_in_a_generalised_Cantor_sent_Polygonal_billiards_Biological_models_...",
+                "name": "Hybrid systems Expansions of numbers in rational bases Target discounted-sum problem Inclusion in a generalised Cantor sent Polygonal billiards Biological models ...",
+                "merged": false,
+                "keywords": [
+                  "It is not isolated: Decidability implies solution of:",
+                  "Hybrid systems Expansions of numbers in rational bases Target discounted-sum problem Inclusion in a generalised Cantor sent Polygonal billiards Biological models ...",
+                  "Asarin, Mysore, Pnueli, Schneider",
+                  "Boker, Henzinger, Otop"
+                ],
+                "eventId": "9",
+                "disabled": false
+              }
+            ],
+            "keywords": [
+              "Why1"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "child",
+            "name": "Why2",
+            "id": "WHy_interesting?_2",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "II",
+                "name": "II",
+                "merged": false,
+                "keywords": [
+                  "II"
+                ],
+                "eventId": "1",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Probably_the_simplest_dynamical_system_that_can_have_highly_complex_behaviour",
+                "name": "Probably the simplest dynamical system that can have highly complex behaviour",
+                "merged": false,
+                "keywords": [
+                  "Probably the simplest dynamical system that can have highly complex behaviour"
+                ],
+                "eventId": "2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "E.g.",
+                "name": "E.g.",
+                "merged": false,
+                "keywords": [
+                  "E.g."
+                ],
+                "eventId": "4",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Periodic_(binary_expansion_of_a_rational_number)",
+                "name": "Periodic (binary expansion of a rational number)",
+                "merged": false,
+                "keywords": [
+                  "Periodic (binary expansion of a rational number)"
+                ],
+                "eventId": "5",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Provably_dense_in__5B0,1)",
+                "name": "Provably dense in [0,1)",
+                "merged": false,
+                "keywords": [
+                  "Provably dense in [0,1)"
+                ],
+                "eventId": "6",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Group_1",
+                "name": "Group 1",
+                "merged": false,
+                "keywords": [
+                  "Group 1"
+                ],
+                "eventId": "7",
+                "disabled": false
+              }
+            ],
+            "keywords": [
+              "Why2"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "child",
+            "name": "Injective",
+            "id": "Injective",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_4",
+                "name": "Group 4",
+                "merged": false,
+                "keywords": [
+                  "Group 4"
+                ],
+                "eventId": "1",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "grppp_5",
+                "name": "grppp 5",
+                "merged": false,
+                "keywords": [
+                  "grppp 5"
+                ],
+                "eventId": "4",
+                "disabled": false
+              }
+            ],
+            "keywords": [
+              "Injective"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "child",
+            "name": "Injective2",
+            "id": "Injective2",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "d=1_two_intervals_injective_Is_this_too_restrictive?",
+                "name": "d=1 two intervals injective Is this too restrictive?",
+                "merged": false,
+                "keywords": [
+                  "d=1 two intervals injective Is this too restrictive?"
+                ],
+                "eventId": "1",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Even_in_this_restricted_setting_there_are_difficult_problems",
+                "name": "Even in this restricted setting there are difficult problems",
+                "merged": false,
+                "keywords": [
+                  "Even in this restricted setting there are difficult problems"
+                ],
+                "eventId": "3",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Theorem._A_procedure_for_that_problem_yields_a_procedure_for_calculating_irrationality_measures_of_certain_ratios_of_logs",
+                "name": "Theorem. A procedure for that problem yields a procedure for calculating irrationality measures of certain ratios of logs",
+                "merged": false,
+                "keywords": [
+                  "Theorem. A procedure for that problem yields a procedure for calculating irrationality measures of certain ratios of logs"
+                ],
+                "eventId": "2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Gelfond-Schneider_-_3E_transcendence._Computing_the_irrationality_measures_is_considered_out_of_reach.",
+                "name": "Gelfond-Schneider -> transcendence. Computing the irrationality measures is considered out of reach.",
+                "merged": false,
+                "keywords": [
+                  "Gelfond-Schneider implies transcendence. Computing the irrationality measures is considered out of reach.",
+                  "A similar difficulty is encountered in Linear Recurrence Sequences",
+                  "Gelfond-Schneider -> transcendence. Computing the irrationality measures is considered out of reach."
+                ],
+                "eventId": "4",
+                "disabled": false
+              }
+            ],
+            "keywords": [
+              "Injective2"
+            ],
+            "eventId": "5"
+          }
+        ],
+        "keywords": [
+          "STheorem"
+        ],
+        "eventId": "6"
+      },
+      {
+        "type": "child",
+        "name": "SProof",
+        "id": "SProof",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Main_idea__find_a_topological_conjugate",
+            "name": "Main idea: find a topological conjugate",
+            "merged": false,
+            "keywords": [
+              "Main idea: find a topological conjugate"
+            ],
+            "eventId": "1",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "diag_top",
+            "name": "diag top",
+            "merged": false,
+            "keywords": [
+              "diag top"
+            ],
+            "eventId": "2",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "diag_anash",
+            "name": "diag anash",
+            "merged": false,
+            "keywords": [
+              "diag anash"
+            ],
+            "eventId": "3",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "homeo",
+            "name": "homeo",
+            "merged": false,
+            "keywords": [
+              "homeomorphism i.e. continuous bijection",
+              "homeo"
+            ],
+            "eventId": "4",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "simpler",
+            "name": "simpler",
+            "merged": false,
+            "keywords": [
+              "Simpler dynamical system to analyse",
+              "simpler"
+            ],
+            "eventId": "5",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "rotation",
+            "name": "rotation",
+            "merged": false,
+            "keywords": [
+              "In our case A simple rotation by angle θ",
+              "rotation"
+            ],
+            "eventId": "6",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "to_rotation",
+            "name": "to rotation",
+            "merged": false,
+            "keywords": [
+              "to rotation"
+            ],
+            "eventId": "7",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "homeomorphisms",
+            "name": "homeomorphisms",
+            "merged": false,
+            "keywords": [
+              "[Laurent & Nogueira 2022]",
+              "[Boshernitzan 1993]",
+              "homeomorphisms"
+            ],
+            "eventId": "8",
+            "disabled": false
+          }
+        ],
+        "keywords": [
+          "SProof"
+        ],
+        "eventId": "7"
+      }
+    ],
+    "keywords": [
+      "Reachability in Injective Piecewise Affine Maps",
+      "Faraz Ghahremani",
+      "Edon Kelmendi",
+      "Joël Ouaknine",
+      "Sharif University of Technology Tehran, Iran",
+      "Queen Mary University of London London, UK",
+      "Max Planck Institute for Software Systems Saarbrücken, Germany",
+      "Title"
+    ],
+    "eventId": "root"
+  },
+  "soundDict": {}
+}
