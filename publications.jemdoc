@@ -6,7 +6,7 @@
 
 == 2023
 
-- *Reachability in Injective Piecewise Affine Maps* [https://arxiv.org/abs/2301.09752 (arxiv)]\n
+- *Reachability in Injective Piecewise Affine Maps* [https://arxiv.org/abs/2301.09752 (arxiv)] [https://edon.github.io/talks/lics2023/ (slides)]\n
   Faraz Ghahremani, Edon Kelmendi, Joël Ouaknine\n
   /Proceedings of the 38th Annual ACM\/IEEE Symposium on Logic in Computer Science/ (LICS 2023)
 
@@ -14,13 +14,13 @@
   Toghrul Karimov, Edon Kelmendi, Joris Nieuwveld, Joël Ouaknine, James Worrell\n
   /Proceedings of the 38th Annual ACM\/IEEE Symposium on Logic in Computer Science/ (LICS 2023)
 
-- *Submixing and Shift-Invariant Stochastic Games* [https://arxiv.org/abs/1401.6575 (arxiv)]\n
+- *Submixing and Shift-Invariant Stochastic Games* [https://arxiv.org/abs/1401.6575 (arxiv)] [https://doi.org/10.1007/s00182-023-00860-5 (doi)]\n
   Hugo Gimbert, Edon Kelmendi\n
-  /International Journal of Game Theory/ (IJGT); to appear.
+  /International Journal of Game Theory/ (IJGT) 1432-1270.
 
 == 2022
 
-- *Computing the Density of the Positivity Set for Linear Recurrence Sequences* [https://arxiv.org/abs/2109.14432 (arxiv)] [https://doi.org/10.1145/3531130.3532399 (doi)]\n
+- *Computing the Density of the Positivity Set for Linear Recurrence Sequences* [https://arxiv.org/abs/2109.14432 (arxiv)] [https://doi.org/10.1145/3531130.3532399 (doi)] [https://edon.github.io/talks/irif2022.pdf (slides)]\n
   Edon Kelmendi\n
   /Proceedings of the 37th Annual ACM\/IEEE Symposium on Logic in Computer Science/ (LICS 2022)\n
   ({{<font color=red>}} Distinguished paper award. Invited to the LMCS special issue for LICS. {{</font>}})\n
@@ -36,7 +36,7 @@
 
 == 2021
 
-- *Deciding $\omega$-Regular Properties on Linear Recurrence Sequeneces* [https://arxiv.org/abs/2010.14432 (arxiv)] [https://doi.org/10.1145/3434329 (doi)]\n
+- *Deciding $\omega$-Regular Properties on Linear Recurrence Sequeneces* [https://arxiv.org/abs/2010.14432 (arxiv)] [https://doi.org/10.1145/3434329 (doi)] [https://edon.github.io/talks/irif2021.pdf (slides)]\n
   Shaull Almagor, Toghrul Karimov, Edon Kelmendi, Joël Ouaknine, James Worrell\n
   /Proceedings of the ACM on Programming Languages, Volume 5, Article No.: 48/ (POPL 2021)
 
@@ -46,12 +46,12 @@
   Shaull Almagor, Edon Kelmendi, Joël Ouaknine, James Worrell\n
   /Proceedings of the 47th International Colloquium on Automata, Languages, and Programming/ (ICALP 2020)
 
-- *Extensions of $\omega$-Regular Languages* [https://arxiv.org/abs/2002.09393 (arxiv)] [https://doi.org/10.1145/3373718.3394779 (doi)]\n
+- *Extensions of $\omega$-Regular Languages* [https://arxiv.org/abs/2002.09393 (arxiv)] [https://doi.org/10.1145/3373718.3394779 (doi)] [https://edon.github.io/talks/oxford2020.pdf (slides)]\n
   Mikołaj Bojańczyk, Edon Kelmendi, Rafał Stefański, Georg Zetzsche\n
   /Proceedings of the 35th Annual ACM\/IEEE Symposium on Logic in Computer Science/ (LICS 2020)
 
 == 2019
-- *MSO+$\nabla$ is undecidable* [https://arxiv.org/abs/1901.06900 (arxiv)] [https://doi.org/10.1109/LICS.2019.8785892 (doi)]\n
+- *MSO+$\nabla$ is undecidable* [https://arxiv.org/abs/1901.06900 (arxiv)] [https://doi.org/10.1109/LICS.2019.8785892 (doi)] [https://edon.github.io/lics2019.pdf (slides)]\n
   Mikołaj Bojańczyk, Edon Kelmendi, Michał Skrzypczak\n
   /Proceedings of the 34th Annual ACM\/IEEE Symposium on Logic in Computer Science/ (LICS 2019)
 
