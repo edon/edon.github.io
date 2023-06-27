@@ -12,7 +12,8 @@
     "WHy_interesting?_2": "Why2",
     "Injective": "Injective",
     "SProof": "SProof",
-    "Injective2": "Injective2"
+    "Injective2": "Injective2",
+    "padic": "padic"
   },
   "tree": {
     "type": "child",
@@ -529,6 +530,75 @@
         "id": "SProof",
         "merged": true,
         "children": [
+          {
+            "type": "child",
+            "name": "padic",
+            "id": "padic",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "A_couple_of_techniques_from_literature",
+                "name": "A couple of techniques from literature",
+                "merged": false,
+                "keywords": [
+                  "A couple of techniques from literature"
+                ],
+                "eventId": "1",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "simulate_until_you_pass_the_target",
+                "name": "simulate until you pass the target",
+                "merged": false,
+                "keywords": [
+                  "simulate until you pass the target"
+                ],
+                "eventId": "2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "p-adic_absolute_value",
+                "name": "p-adic absolute value",
+                "merged": false,
+                "keywords": [
+                  "p-adic absolute value",
+                  "for some prime p,"
+                ],
+                "eventId": "3",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "_5BBournez,_Kurganskyy,_Potapov_2018_5D",
+                "name": "[Bournez, Kurganskyy, Potapov 2018]",
+                "merged": false,
+                "keywords": [
+                  "[Bournez, Kurganskyy, Potapov 2018]"
+                ],
+                "eventId": "4",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Embed_PAM_on_a_certain_two-dimensional_manifold_and_apply_theorems_that_classify_dynamical_components",
+                "name": "Embed PAM on a certain two-dimensional manifold and apply theorems that classify dynamical components",
+                "merged": false,
+                "keywords": [
+                  "[Sandler, Tveretina 2019]",
+                  "Embed PAM on a certain two-dimensional manifold and apply theorems that classify dynamical components"
+                ],
+                "eventId": "5",
+                "disabled": false
+              }
+            ],
+            "keywords": [
+              "padic"
+            ],
+            "eventId": "9"
+          },
           {
             "type": "show",
             "id": "Main_idea__find_a_topological_conjugate",
