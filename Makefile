@@ -1,6 +1,6 @@
 
 # The main source file
-JEMDOC = $(wildcard *.jemdoc)
+JEMDOC = $(wildcard *.jemdoc blog/*.jemdoc)
 # The PDF file
 HTML = $(patsubst %.jemdoc,%.html,$(JEMDOC))
 

@@ -1,0 +1,296 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Adding Sets to MSO</title>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CKKQJ7K786"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-CKKQJ7K786');
+</script>
+<!-- MathJax -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async>
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+<!-- End MathJax -->
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Edon Kelmendi</div>
+<div class="menu-item"><a href="../index.html">Home</a></div>
+<div class="menu-item"><a href="../cv.pdf">CV</a></div>
+<div class="menu-item"><a href="../publications.html">Publications</a></div>
+<div class="menu-item"><a href="../publications_theme.html">↪&nbsp;by&nbsp;Theme</a></div>
+<div class="menu-item"><a href="../talks.html">Talks</a></div>
+<div class="menu-item"><a href="../notes.html">Blog&nbsp;&amp;&nbsp;Notes</a></div>
+<div class="menu-item"><a href="../teaching.html">Teaching</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Adding Sets to MSO</h1>
+</div>
+<p>The theory of monadic second order logic of \((\omega,&lt;)\) was proved to be decidable by Julius Büchi in 1962. In this logic we are allowed to quantify over positions (members of \(\omega\)), sets of positions, use the total order \(&lt;\), test for membership \(x\in X\), and use Boolean connectives \(\wedge, \neg\). Its theory is the collection of the true sentences. 
+</p>
+<p>Sets \(X\) that are definable in this logic are simple: if you see such a set \(X\) as an infinite word \(\mathbf{w}\) over the binary alphabet \(\{0,1\}\) (\(\mathbf{w}_{n}=1\) if and only if \(n\in X\)) it has the form 
+</p>
+<p style="text-align:center">
+\[
+uv^{\omega}
+\]
+</p><p>for some \(u,v\in\{0,1\}^{*}\), i.e. it is ultimately periodic. 
+</p>
+<p>It is natural to ask whether we can add a more complicated set \(S\subset \omega\) and have the MSO theory of \((\omega,&lt;,S)\) remain decidable. In this extended logic, \(S\) is part of the signature, so we are allowed to test \(x\in S\). In a sense, this problem has been solved. See <a href="https://www.sciencedirect.com/science/article/pii/S0890540106001660?via%3Dihub" target=&ldquo;blank&rdquo;>this paper</a> by Rabinovich and the references therein. There are two characterisations, one by Semenov, and one by Rabinovich.
+</p>
+<p>Here I will report on an interesting, and related <a href="http://www.mathnet.ru/php/archive.phtml?wshow=paper&amp;jrnid=im&amp;paperid=1415&amp;option_lang=eng" target=&ldquo;blank&rdquo;>result by Semenov</a> that says: 
+</p>
+<p><b>Theorem 1. (Semenov 1983)</b>  There are two sets \(S_1,S_2\subset\omega\) such that the MSO theory of 
+</p>
+<ul>
+<li><p>\((\omega,&lt;,S_1)\), and \((\omega,&lt;,S_2)\) is decidable, but
+</p>
+</li>
+<li><p>that of \((\omega,&lt;,S_1,S_2)\) is undecidable. 
+</p>
+</li>
+</ul>
+<p>So the objective is to find two sets, such that each one alone is simple enough to yield a decidable theory, but together they encode some complicated information giving an undecidable theory. First, let us see some examples. 
+</p>
+<h2>Examples</h2>
+<p><i>What is an example of a simple set \(S\subset \omega\) whose MSO theory is undecidable?</i>
+</p>
+<p>Of course we can choose some \(S\) which is itself undecidable, but this is not useful. Denote by \(p_{n}\) the \(n\)th prime number, and define:
+</p>
+<p style="text-align:center">
+\[
+S=\{p_{n}^{k}\ :\ n\text{th Turing machine halts in fewer than \(k\) steps}\}.
+\]
+</p><p>Clearly \(S\) is decidable, but it yields an undecidable MSO theory, because the sentence &ldquo;the \(n\)th Turing machine halts&rdquo; is equivalent to &ldquo;there are inifnitely many numbers in \(S\) that are divisible by \(p_{n}\)&rdquo; &#8201;&mdash;&#8201; in MSO we can count modulo \(p_{n}\).
+</p>
+<p><i>What about sets that have decidable MSO theories?</i>
+</p>
+<p>Again, we can take ultimately periodic sets, but as discussed before these are all MSO-definable, hence not useful.  A non-trivial example is the set of factorials \(\{n!\ :\ n\in\mathbb{N}\}\).
+</p>
+<p><font color=grey>
+</p>
+<h3><b>Sketch:</b> Why the factorials yield a decidable theory?</h3>
+<p>It follows from Büchi's theorem that decidability of the theory of a set \(S\) is equivalent to the decidability of the following problem: a non-deterministic Büchi automaton is given as input and we have to decide whether it accepts the characteristic word of \(S\). 
+</p>
+<p>Let \(\mathbf w\in\{0,1\}^{\omega}\) be the characteristic word of the set \(\{n!\ :\ n\in\mathbb{N}\}\), it looks like this:
+</p>
+<table class="imgtable"><tr><td>
+<img src="img/zeros.svg" alt="" width="800px" height="150px" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<p>\(d_{1},d_2,\ldots\) are the number of \(0\)s between consecutive \(1\)s. Since any Büchi automaton \(\mathcal{A}\) has finite memory, it cannot count the number of \(0\)s precisely. This essentially means that  there exists some \(d\in\mathbb{N}\) &#8201;&mdash;&#8201; that depends only on the number of states of \(\mathcal{A}\) &#8201;&mdash;&#8201; such that for any \(e_1,e_2&gt;d\), with \(e_1\equiv e_2\mod d!\), we can replace a block of \(e_1\) many zeros with a block with \(e_2\) many zeros without the automaton \(\mathcal{A}\) noticing. More precisely, construct the word \(\mathbf w'\) from \(\mathbf w\) by replacing all \({\color{red}d_i}&gt;d\) with \(d\le {\color{green}e_i}\le d!\) such that \({\color{red}d_i}\equiv {\color{green}e_i}\mod d!\). The automaton \(\mathcal{A}\) either accepts both \(\mathbf w\) and \(\mathbf w'\) or rejects both of them. The final observation is that the word \(\mathbf w'\) is ultimately periodic whence the decidability easily follows.
+</p>
+<p></font>
+</p>
+<p>For the full proof of this and a few other examples consult <a href="https://www.jstor.org/stable/2269808?seq=1" target=&ldquo;blank&rdquo;>this paper</a> by Elgot and Rabin. Alas these positive examples do not seem to be beneficial for proving Theorem 1. For this, the correct notion appears to be that of an <b>almost periodic word</b>. 
+</p>
+<h2>Almost periodic words</h2>
+<p>We say that a finite word \(u\) occurs in an infinite one \(\mathbf{w}\), if \(\mathbf w_{n}\mathbf w_{n+1}\cdots \mathbf w_{n+k}=u\) for some \(n,k\). Informally, an infinite word is almost periodic if the distance between the occurences is bounded.
+</p>
+<table class="imgtable"><tr><td>
+<img src="img/ap.png" alt="" width="700px" height="180px" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<p><b>Definition 2. (almost periodic)</b> \(\mathbf w \in \Sigma^{\omega}\) is almost periodic if for every \(u\in\Sigma^{*}\) there exists a bound \(b\in\mathbb{N}\) such that one of the following holds: 
+</p>
+<ul>
+<li><p>\(u\) does not occur in \(\mathbf w_{b}\mathbf w_{b+1}\mathbf w_{b+2}\cdots\)
+</p>
+</li>
+<li><p>\(u\) occurs in every subword of \(\mathbf w\) of length at least \(b\)
+</p>
+</li>
+</ul>
+<p>It is effectively almost periodic if there is a procedure computing such \(b\).
+</p>
+<p>There are many examples of almost periodic words that show up in various fields, such as <a href="https://en.wikipedia.org/wiki/Thue–Morse_sequence" target=&ldquo;blank&rdquo;>Thue-Morse sequence</a>, the word whose \(n\)th letter is \(\mathrm{sgn}\left(\sin(n)\right)\), etc. The reason why they are interesting relative to Theorem 1, is because their MSO theory is decidable. 
+</p>
+<p><b>Theorem 2. (Semenov 1983)</b> For effectively almost periodic \(S\), the theory of \((\omega,&lt;,S)\) is decidable. 
+</p>
+<h2>The construction</h2>
+<p>Define the binary alphabet 
+</p>
+<p style="text-align:center">
+\[
+\mathbb{B}=\left\{\begin{pmatrix}0\\ 0\end{pmatrix},\begin{pmatrix}0\\ 1\end{pmatrix},\begin{pmatrix}1\\ 0\end{pmatrix}, \begin{pmatrix}1\\ 1\end{pmatrix}\right\}. 
+\]
+</p><p>The objective, for the proof of Theorem 1, now is to build a word \(\mathbf w\in\mathbb B^{\omega}\) that contains some complicated information about Turing machines, similar to the negative example; yet \(\mathbf w\) has to be such that the projections \(\pi_{1}(\mathbf w)\), \(\pi_{2}(\mathbf w)\) are themselves almost periodic. (Seen this way \(\pi_{i}(\mathbf w)\) is the characteristic word of \(S_i\), \(i\in\{1,2\}\). )
+</p>
+<p>If I just write down the construction, it will leave too many questions unanswered, therefore in order to movitave the definition, I will first give a couple of failed attempts of reaching the goal. 
+</p>
+<h3>Attempt 1</h3>
+<p>Let \(\mathbf z\) be an infinite word over the binary alphabet, for example the word with the Turing machines from the example above. One brutish way of encoding it is as follows. 
+</p>
+<p>Partition the set \(\mathbb B^{4}\) into \(A_{0}, A_{1}\) such that \(\pi_{i}(A_0)=\pi_{i}(A_1)\), \(i\in\{1,2\}\). One such partition is to see \(\mathbb B^{4}\) as the set of permutations of \(\mathbb B\), and set \(A_{0}\) to be the <a href="https://en.wikipedia.org/wiki/Parity_of_a_permutation" target=&ldquo;blank&rdquo;>even permutations</a>, and \(A_{1}\) to be the odd ones. Belonging to the set \(A_0\) or \(A_1\) contains one bit of information, which is lost upon projection. We can certainly encode \(\mathbf z\) by picking a word from the set:
+</p>
+<p style="text-align:center">
+\[
+  A_{\mathbf z_0}A_{\mathbf z_1}A_{\mathbf z_2}A_{\mathbf z_3}\cdots.
+\]
+</p><p>The problem is that there are infinite words in the set above, that have a projection that is not almost periodic (we could, for example, always pick a particular word from \(A_0\)). One way of proving Theorem 1 would be to show that not all words in the set above are of that nature. But this is not the way in which we will proceed, because I don't know how. 
+</p>
+<h3>Attempt 2</h3>
+<p>To stop the phenomenon that made it easy to pick words with projections that are not almost periodic, we need to <i>mix</i> the words from the set somehow. 
+</p>
+<p><b>Definition 3. (function \(c\), complete concatenation)</b> Let \(X\) be a finite set of finite words. A complete concatenation of \(X\) is a word \(u\) that is made from concatenating elements of \(X\) such that for all \(x,y\in X\), \(xy\) is a subword of \(u\). Define \(c\) to be a function that inputs a finite set of finite words and outputs one such complete concatenation, of minimal length.
+</p>
+<p>Consider the following definition: 
+</p>
+<p style="text-align:center">
+\[
+\begin{align*}
+&amp; W(0)=A_{0}\qquad W(1)=A_{1},\\
+&amp; W(ua)=c\left(W(u)\right)W(a).
+\end{align*}
+\]
+</p><p>Let \(z_1,z_2,\ldots \) be a sequence of finite words with lengths \(|z_{n}|=n\), such that
+</p>
+<p style="text-align:center">
+\[
+k\text{th letter of }z_{n}\text{ is }1\qquad \Leftrightarrow\qquad k\text{th Turing machine halts in fewer than }n\text{ steps}.
+\]
+</p><p>Words from the set
+</p>
+<p style="text-align:center">
+\[
+W=W(z_{1})W(z_{2})W(z_{3})\cdots,
+\]
+</p><p>contain the information about machines in the sequence \(z_{1},z_{2},\ldots\), and moreover by induction we can prove the following lemma. 
+</p>
+<p><b>Lemma 4.</b> For all \(u,u'\) of the same length and \(i\in\{1,2\}\) we have
+</p>
+<p style="text-align:center">
+\[
+\pi_i\left(W(u)\right)=\pi_i\left(W(u&rsquo;)\right).
+\]
+</p><p>From where it follows that both projections of words in \(W\) are almost periodic. 
+</p>
+<p><b>Lemma 5.</b> For all \(\mathbf w\in W\), \(i\in\{1,2\}\), \(\pi_{i}(\mathbf w)\) is almost periodic.
+</p>
+<p><b>Proof.</b> Use the definition of complete concatenation and the fact that the length of members of \(W(0), W(1)\) is bounded. 
+</p>
+<p>Words from \(W\) have projections with the desirable property, thanks to Lemma 5, and they contain the information for Turing machines; so <i>where is the problem?</i> The problem is that even though words from \(W\) have the information, it cannot be accessed by MSO. In particular, there is no formula that is equivalent to &ldquo;there exists some \(n\), such that the \(k\)th letter of \(z_{n}\) is \(1\)&rdquo;. This is because the length of the elements in \(W(ua)\) is not a very simple (in terms of MSO) function of the length of elements in \(W(u)\). This situation would be remedied if we could somehow construct sets such that \(W(ua)\) is made exclusively from concatenating elements of \(W(u)\). 
+</p>
+<p>This brings us to the third and final attempt. 
+</p>
+<h3>Attempt 3</h3>
+<p>The trick is as follows. Define an auxiliary set: 
+</p>
+<p style="text-align:center">
+\[
+\begin{align*}
+&amp;\qquad\qquad X(0)=A_{0}\qquad X(1)=A_{1}\\
+&amp;X(uab)=c\left(\ X(u0)\cup X(u1)\ \right)\ X(ua)\ X(ub).
+\end{align*}
+\]
+</p><p>and 
+</p>
+<p style="text-align:center">
+\[
+W(u)=X(u0)\cup X(u1). 
+\]
+</p><p>The words in \(X(u)\) encode the information that is in \(u\) by ordering the last two pieces, for example the difference between \(X(u00)\) and \(X(u01)\) is: 
+</p>
+<table class="imgtable"><tr><td>
+<img src="img/xu.png" alt="" width="1000px" height="200px" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<p>Indeed, we can prove by induction that for \(u,u'\), such that \(u\ne u'\), \(X(u)\) and \(X(u&rsquo;)\) are disjoint. Let us gather all the good properties of \(W\) defined above. 
+</p>
+<p>1. \(W(u)\) and \(W(u&rsquo;)\) are disjoint for \(u\ne u'\). 
+</p>
+<p><font color=grey> This follows from the discussion above, that the same statement is true for \(X\), which can be proved by induction on the length of \(u,u'\). If \(u\) and \(u'\) are of different lengths then the statement is clear. </font>
+</p>
+<p>2. \(W(ua)\) is built by concatenating elements of \(W(u)\). 
+</p>
+<p><font color=grey> \(W(ua)\) is the union of \(X(ua0)\) and \(X(ua1)\), each of which is built by concatenating elements of the sets \(X(u0)\) and \(X(u1)\). The union of \(X(u0)\) and \(X(u1)\) is the set \(W(u)\). </font>
+</p>
+<p>3. For \(u,u'\) of the same length and \(i\in\{1,2\}\), \(\pi_{i}\left(W(u)\right)=\pi_{i}\left(W(u&rsquo;)\right)\). 
+</p>
+<p><font color=grey> The proof is the same as in Attempt 2, by induction on the length of \(u,u'\).
+</p>
+<p>Let \(z_1, z_2, z_3\) be the sequence of finite words from Attempt 2, that is words whose length is \(|z_{n}|=n\) and such that 
+</p>
+<p style="text-align:center">
+\[
+k\text{th letter of }z_{n}\text{ is }1\qquad \Leftrightarrow\qquad k\text{th Turing machine halts in fewer than }n\text{ steps}.
+\]
+</p><p>Define the set of infinite words: 
+</p>
+<p style="text-align:center">
+\[
+W=W(z_1)W(z_2)W(z_{3})\cdots .
+\]
+</p><p>Using properties 2 and 3, we can prove that the projections of words in \(W\) are all almost periodic. 
+</p>
+<p></font>
+</p>
+<p><b>Lemma 6.</b> For all \(\mathbf w\in W\), and \(i\in\{1,2\}\), \(\pi_{i}(\mathbf w)\) is almost periodic. 
+</p>
+<p>The information that is held in \(z_1,z_2,\ldots\) is being deleted by projections. But how do we pull it out of elements of \(W\) using MSO? In particular we want a formula that is equivalent to &ldquo;there exists \(n\), the \(j\)th letter of \(z_{n}\) is \(1\)&rdquo;, which in turn is equivalent to &ldquo;\(j\)th Turing machine halts.&rdquo;
+</p>
+<p>Define the following langauge (of finitely many words)
+</p>
+<p style="text-align:center">
+\[
+L = \bigcup_{u\in\{0,1\}^{j-1}} W(u1),
+\]
+</p><p>and let \(b\) be the length of its words. From Property 1, \(L\) is disjoint from \(W(u0)\) for any \(u\) of length \(j-1\). Further, Property 2 implies that for all \(v\), \(|v|&gt;j\), that have a \(1\) in the \(j\)th position, words in \(W(v)\) are made by concatenating elements of \(L\). 
+</p>
+<p>Let \(a\) be the length of words in
+</p>
+<p style="text-align:center">
+\[
+W(z_{1})W(z_{2})\cdots W(z_{j-1}). 
+\]
+</p><p>We can now easily prove the following lemma.
+</p>
+<p><b>Lemma 7.</b> Let \(\mathbf w\in W\). The following statements are equvialent: 
+</p>
+<ul>
+<li><p>There exists some \(n\) such that 
+</p>
+</li>
+</ul>
+<p style="text-align:center">
+\[
+\mathbf w_{a+bn}\mathbf w_{a+bn+1}\cdots \mathbf w_{a+b(n+1)-1}\in L.
+\]
+</p><ul>
+<li><p>There exists some \(n\), such that the \(j\)th letter of \(z_{n}\) is \(1\)
+</p>
+</li>
+<li><p>The \(j\)th Turing machine halts. 
+</p>
+</li>
+</ul>
+<p>Combining Lemma 7, 6 and Theorem 2, concludes the proof of Theorem 1. 
+</p>
+<h2>Open Problems</h2>
+<ul>
+<li><p>Is there a simpler construction? Perhaps along the lines of Attempt 1? 
+</p>
+</li>
+</ul>
+<div id="footer">
+<div id="footer-text">
+Page generated 2023-07-13 19:50:32 BST, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>
