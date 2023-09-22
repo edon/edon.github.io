@@ -1391,7 +1391,19 @@
             "name": "Exercises",
             "id": "Exercises",
             "merged": false,
-            "children": [],
+            "children": [
+              {
+                "type": "show",
+                "id": "Execs_1",
+                "name": "Execs 1",
+                "merged": false,
+                "keywords": [
+                  "Execs 1"
+                ],
+                "eventId": "9",
+                "disabled": false
+              }
+            ],
             "keywords": [
               "Exercises"
             ],
@@ -1432,6 +1444,7 @@
       "Edon Kelmendi",
       "Sorting, Running Time and Complexity",
       "Lecture 2",
+      "slides from Nikos Tzevelekos",
       "Intro"
     ],
     "eventId": "root"
