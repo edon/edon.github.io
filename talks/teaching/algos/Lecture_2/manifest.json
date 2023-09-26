@@ -1408,29 +1408,6 @@
               "Exercises"
             ],
             "eventId": "2"
-          },
-          {
-            "type": "child",
-            "name": "Solutions",
-            "id": "Solutions",
-            "merged": true,
-            "children": [
-              {
-                "type": "show",
-                "id": "Sols_1",
-                "name": "Sols 1",
-                "merged": false,
-                "keywords": [
-                  "Sols 1"
-                ],
-                "eventId": "5",
-                "disabled": false
-              }
-            ],
-            "keywords": [
-              "Solutions"
-            ],
-            "eventId": "3"
           }
         ],
         "keywords": [
