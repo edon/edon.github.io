@@ -1,0 +1,1741 @@
+{
+  "version": 0.915,
+  "presentation": "Lecture 3",
+  "slideDict": {
+    "new_slide": "Title",
+    "other_slide": "other_slide",
+    "Recursion": "Recursion",
+    "Merge": "Merge",
+    "Quick": "Quick",
+    "Summary": "Summary",
+    "Factorial_code": "Factorial_code",
+    "Recursion_Examples": "Recursion_Examples",
+    "Array_Slicing": "Array_Slicing",
+    "Linear_Search": "Linear_Search",
+    "Auxiliary_Function": "Auxiliary_Function",
+    "Sub-Arrays": "Sub-Arrays",
+    "Negative_aspects": "Negative_aspects",
+    "Tail_recursion": "Tail_recursion",
+    "Recursion_gimmick": "Recursion_gimmick",
+    "Intro_sorts": "Intro_sorts",
+    "Merging": "Merging",
+    "Mergesort_Code": "Mergesort_Code",
+    "Tree_Example": "Tree_Example",
+    "Merge_sort_optimal": "Merge_sort_optimal",
+    "Merge_sort_complexity": "Merge_sort_complexity",
+    "Quicksort_example": "Quicksort_example",
+    "Quicksort_implementation": "Quicksort_implementation",
+    "qsort_complexity2": "qsort_complexity2",
+    "qsort_complexity": "qsort_complexity",
+    "space_complxeity": "space_complxeity",
+    "sorting_objects": "sorting_objects"
+  },
+  "tree": {
+    "type": "child",
+    "name": "Title",
+    "id": "new_slide",
+    "merged": false,
+    "children": [
+      {
+        "type": "show",
+        "id": "IV._Summary_&_Exercises",
+        "name": "IV. Summary & Exercises",
+        "merged": false,
+        "keywords": [
+          "I. Recursion",
+          "II. Merge Sort",
+          "III. Quicksort",
+          "IV. Exercises",
+          "IV. Summary & Exercises"
+        ],
+        "eventId": "2",
+        "disabled": false
+      },
+      {
+        "type": "child",
+        "name": "Recursion",
+        "id": "Recursion",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_1",
+            "name": "Group 1",
+            "merged": false,
+            "keywords": [
+              "Group 1"
+            ],
+            "eventId": "2",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Another_way_of_defining_the_factorial_",
+            "name": "Another way of defining the factorial:",
+            "merged": false,
+            "keywords": [
+              "Another way of defining the factorial:"
+            ],
+            "eventId": "3",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "recursion",
+            "name": "recursion",
+            "merged": false,
+            "keywords": [
+              "recursion"
+            ],
+            "eventId": "4",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "Factorial code",
+            "id": "Factorial_code",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Code_snippet",
+                "name": "Code snippet",
+                "merged": false,
+                "keywords": [
+                  "Code snippet"
+                ],
+                "eventId": "1",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Recursion__an_object_defined_in_terms_of_itself",
+                "name": "Recursion: an object defined in terms of itself",
+                "merged": false,
+                "keywords": [
+                  "Recursion: an object defined in terms of itself",
+                  "e.g. A function that calls itself"
+                ],
+                "eventId": "2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Recursive_functions_have_two_parts__the_base_part_which_returns_without_recursion_the_recursive_part_which_is_the_one_that_makes_the_recursive_calls",
+                "name": "Recursive functions have two parts: the base part which returns without recursion the recursive part which is the one that makes the recursive calls",
+                "merged": false,
+                "keywords": [
+                  "Recursive functions have two parts: the base part which returns without recursion the recursive part which is the one that makes the recursive calls",
+                  "recursive part",
+                  "base part"
+                ],
+                "eventId": "5",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "is_needed_for_termination_Recursive_calls_are_made_on__E2_80_9Csmaller_E2_80_9D_parameters._Base_case_is_the_smallest.",
+                "name": "is needed for termination Recursive calls are made on “smaller” parameters. Base case is the smallest.",
+                "merged": false,
+                "keywords": [
+                  "is needed for termination Recursive calls are made on “smaller” parameters. Base case is the smallest."
+                ],
+                "eventId": "6",
+                "disabled": false
+              }
+            ],
+            "keywords": [
+              "Factorial code"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "child",
+            "name": "Recursion Examples",
+            "id": "Recursion_Examples",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "More_Examples",
+                "name": "More Examples",
+                "merged": false,
+                "keywords": [
+                  "More Examples"
+                ],
+                "eventId": "1",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "Array Slicing",
+                "id": "Array_Slicing",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "elements_from_start_through_the_rest_of_the_array",
+                    "name": "elements from start through the rest of the array",
+                    "merged": false,
+                    "keywords": [
+                      "Array Slicing",
+                      "A[start:stop] A[start:] A[:stop] A[:]",
+                      "elements from start through stop-1",
+                      "elements from start through the rest of the array",
+                      "elements from the beginning through stop-1",
+                      "a copy of the whole array"
+                    ],
+                    "eventId": "2",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "For_example_",
+                    "name": "For example:",
+                    "merged": false,
+                    "keywords": [
+                      "For example:",
+                      "Code snippet"
+                    ],
+                    "eventId": "3",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "Note__Each_B_is_a_new_copy_of_the_specified_part_of_A_i.e._it_is_a_new_array._For_example_",
+                    "name": "Note: Each B is a new copy of the specified part of A i.e. it is a new array. For example:",
+                    "merged": false,
+                    "keywords": [
+                      "We will be using this notation freely! (but you can also try to implement them)",
+                      "Note: Each B is a new copy of the specified part of A i.e. it is a new array. For example:",
+                      "Code snippet"
+                    ],
+                    "eventId": "4",
+                    "disabled": false
+                  }
+                ],
+                "keywords": [
+                  "Array Slicing"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Maximal_element_in_a_non-empty_array",
+                "name": "Maximal element in a non-empty array",
+                "merged": false,
+                "keywords": [
+                  "Maximal element in a non-empty array",
+                  "Code snippet",
+                  "Recursive definition:"
+                ],
+                "eventId": "3",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Code_snippet",
+                "name": "Code snippet",
+                "merged": false,
+                "keywords": [
+                  "Code snippet"
+                ],
+                "eventId": "4",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Membership_in_an_array",
+                "name": "Membership in an array",
+                "merged": false,
+                "keywords": [
+                  "Code snippet is In",
+                  "Membership in an array"
+                ],
+                "eventId": "7",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Code_snippet_is_In_rec",
+                "name": "Code snippet is In rec",
+                "merged": false,
+                "keywords": [
+                  "Code snippet is In rec"
+                ],
+                "eventId": "6",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "Linear Search",
+                "id": "Linear_Search",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "To_search_for_an_integer_v_in_an_array_A_of_length_n__check_if_A_5B0_5D_is_equal_to_v_if_they_are_equal,_return_0_if_not,_start_over_again__search_for_v_in_the_rest_of_A,_i.e._in_sub-array__5BA_5B1_5D,_...,_A_5Bn-1_5D_5D_if_A_is_empty,_return_-1",
+                    "name": "To search for an integer v in an array A of length n: check if A[0] is equal to v if they are equal, return 0 if not, start over again: search for v in the rest of A, i.e. in sub-array [A[1], ..., A[n-1]] if A is empty, return -1",
+                    "merged": false,
+                    "keywords": [
+                      "Linear Search",
+                      "To search for an integer v in an array A of length n: check if A[0] is equal to v if they are equal, return 0 if not, start over again: search for v in the rest of A, i.e. in sub-array [A[1], ..., A[n-1]] if A is empty, return -1",
+                      "There are two methods of coding this: use an auxiliary function with an extra argument: start of the array to search use sub-arrays"
+                    ],
+                    "eventId": "3",
+                    "disabled": false
+                  },
+                  {
+                    "type": "child",
+                    "name": "Auxiliary Function",
+                    "id": "Auxiliary_Function",
+                    "merged": false,
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "First_solution__auxiliary_function_with_index",
+                        "name": "First solution: auxiliary function with index",
+                        "merged": false,
+                        "keywords": [
+                          "First solution: auxiliary function with index",
+                          "Code snippet"
+                        ],
+                        "eventId": "1",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "The_auxiliary_function_searchRecAux(A,_v,_lo)_searches_for_v_in_the_part_of_A_starting_from_lo_on._To_search_for_the_whole_of_A,_we_simply_call_the_auxiliary_search_function_with_lo=0.",
+                        "name": "The auxiliary function searchRecAux(A, v, lo) searches for v in the part of A starting from lo on. To search for the whole of A, we simply call the auxiliary search function with lo=0.",
+                        "merged": false,
+                        "keywords": [
+                          "The auxiliary function searchRecAux(A, v, lo) searches for v in the part of A starting from lo on. To search for the whole of A, we simply call the auxiliary search function with lo=0."
+                        ],
+                        "eventId": "2",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "If_you_cannot_immediately_see_how_to_implement_something_recursively_always_think__can_I_do_it_with_an_auxiliary_function?",
+                        "name": "If you cannot immediately see how to implement something recursively always think: can I do it with an auxiliary function?",
+                        "merged": false,
+                        "keywords": [
+                          "If you cannot immediately see how to implement something recursively always think: can I do it with an auxiliary function?"
+                        ],
+                        "eventId": "3",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "Auxiliary_functions_are_standard_in_recursive_algorithms.",
+                        "name": "Auxiliary functions are standard in recursive algorithms.",
+                        "merged": true,
+                        "keywords": [
+                          "Auxiliary functions are standard in recursive algorithms."
+                        ],
+                        "eventId": "4",
+                        "disabled": false
+                      }
+                    ],
+                    "keywords": [
+                      "Auxiliary Function"
+                    ],
+                    "eventId": "1"
+                  },
+                  {
+                    "type": "child",
+                    "name": "Sub-Arrays",
+                    "id": "Sub-Arrays",
+                    "merged": true,
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "Second_solution__Sub-Arrays",
+                        "name": "Second solution: Sub-Arrays",
+                        "merged": false,
+                        "keywords": [
+                          "Second solution: Sub-Arrays"
+                        ],
+                        "eventId": "1",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "Does_this_work?",
+                        "name": "Does this work?",
+                        "merged": false,
+                        "keywords": [
+                          "Code snippet",
+                          "Does this work?"
+                        ],
+                        "eventId": "3",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "There_are_at_least_two_problems_with_this_code__It_is_missing_the_base_case._If_A_does_not_contain_v_it_will_eventually_call_itself_with_A==_5B_5D_and_break_(at_A_5B0_5D==v)_It_only_ever_returns_0._So,_searchRec1(_5B1,2_5D,_2)_will_return_0_instead_of_1.",
+                        "name": "There are at least two problems with this code: It is missing the base case. If A does not contain v it will eventually call itself with A==[] and break (at A[0]==v) It only ever returns 0. So, searchRec1([1,2], 2) will return 0 instead of 1.",
+                        "merged": false,
+                        "keywords": [
+                          "There are at least two problems with this code: It is missing the base case. If A does not contain v it will eventually call itself with A==[] and break (at A[0]==v) It only ever returns 0. So, searchRec1([1,2], 2) will return 0 instead of 1."
+                        ],
+                        "eventId": "4",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "Code_snippet",
+                        "name": "Code snippet",
+                        "merged": false,
+                        "keywords": [
+                          "Code snippet"
+                        ],
+                        "eventId": "5",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "This_is_closer_to_the_informal_description_we_started_from,_and_does_not_need_an_auxiliary_function._But_we_need_to_do_some_plumbing_so_that_we_return_the_correct_value__if_a_value_is_in_position_i_of_A_5B1__5D_then_it_is_in_position_i+1_of_A._Hence,_if_searchRec(A_5B1__5D,_v)_returns_i,_we_return_i+1_Extra_care_is_needed_when_searchRec(A_5B1__5D,_v)_returns_-1",
+                        "name": "This is closer to the informal description we started from, and does not need an auxiliary function. But we need to do some plumbing so that we return the correct value: if a value is in position i of A[1:] then it is in position i+1 of A. Hence, if searchRec(A[1:], v) returns i, we return i+1 Extra care is needed when searchRec(A[1:], v) returns -1",
+                        "merged": false,
+                        "keywords": [
+                          "This is closer to the informal description we started from, and does not need an auxiliary function. But we need to do some plumbing so that we return the correct value: if a value is in position i of A[1:] then it is in position i+1 of A. Hence, if searchRec(A[1:], v) returns i, we return i+1 Extra care is needed when searchRec(A[1:], v) returns -1"
+                        ],
+                        "eventId": "7",
+                        "disabled": false
+                      },
+                      {
+                        "type": "child",
+                        "name": "Negative aspects",
+                        "id": "Negative_aspects",
+                        "merged": false,
+                        "children": [
+                          {
+                            "type": "show",
+                            "id": "Although_the_sub-array_solution_is_somewhat_more_elegant_than_using_auxiliary_functions,_it_still_has_some_negative_aspects__one_has_to_be_careful_with_the__E2_80_9Cplumbing_E2_80_9D,_make_sure_that_all_the_corner_cases_are_covered_we_are_creating_a_lot_of_intermediate_arrays_A_5B1__5D_which_is_wasteful_sometimes_auxiliary_functions_cannot_be_avoided.",
+                            "name": "Although the sub-array solution is somewhat more elegant than using auxiliary functions, it still has some negative aspects: one has to be careful with the “plumbing”, make sure that all the corner cases are covered we are creating a lot of intermediate arrays A[1:] which is wasteful sometimes auxiliary functions cannot be avoided.",
+                            "merged": false,
+                            "keywords": [
+                              "Although the sub-array solution is somewhat more elegant than using auxiliary functions, it still has some negative aspects: one has to be careful with the “plumbing”, make sure that all the corner cases are covered we are creating a lot of intermediate arrays A[1:] which is wasteful sometimes auxiliary functions cannot be avoided."
+                            ],
+                            "eventId": "1",
+                            "disabled": false
+                          }
+                        ],
+                        "keywords": [
+                          "Negative aspects"
+                        ],
+                        "eventId": "6"
+                      }
+                    ],
+                    "keywords": [
+                      "Sub-Arrays"
+                    ],
+                    "eventId": "2"
+                  }
+                ],
+                "keywords": [
+                  "Linear Search"
+                ],
+                "eventId": "8"
+              }
+            ],
+            "keywords": [
+              "Recursion Examples"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "child",
+            "name": "Tail recursion",
+            "id": "Tail_recursion",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "Tail_recursion2",
+                "name": "Tail recursion",
+                "merged": false,
+                "keywords": [
+                  "Tail recursion"
+                ],
+                "eventId": "1",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Another_implementation_of_factorial",
+                "name": "Another implementation of factorial",
+                "merged": true,
+                "keywords": [
+                  "Code snippet",
+                  "Another implementation of factorial"
+                ],
+                "eventId": "2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "The_auxiliary_function_here_uses_a_special_kind_of_recursion__the_recursion_is_made_at_the_very_last_step_of_the_function_before_returning._This_is_called_tail_recursion_and_is_typically_optimised_in_most_programming_languages._Function_calls_are_usually_more_costly_than_loops.",
+                "name": "The auxiliary function here uses a special kind of recursion: the recursion is made at the very last step of the function before returning. This is called tail recursion and is typically optimised in most programming languages. Function calls are usually more costly than loops.",
+                "merged": false,
+                "keywords": [
+                  "The auxiliary function here uses a special kind of recursion: the recursion is made at the very last step of the function before returning. This is called tail recursion and is typically optimised in most programming languages. Function calls are usually more costly than loops."
+                ],
+                "eventId": "3",
+                "disabled": false
+              }
+            ],
+            "keywords": [
+              "Tail recursion"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "child",
+            "name": "Recursion gimmick",
+            "id": "Recursion_gimmick",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "Is_recursion_a_gimmick?_Or_just_syntactic_sugar?",
+                "name": "Is recursion a gimmick? Or just syntactic sugar?",
+                "merged": false,
+                "keywords": [
+                  "Is recursion a gimmick? Or just syntactic sugar?"
+                ],
+                "eventId": "1",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "No._It_is_a_useful_tool_for_thinking_about_algorithms.",
+                "name": "No. It is a useful tool for thinking about algorithms.",
+                "merged": false,
+                "keywords": [
+                  "No. It is a useful tool for thinking about algorithms."
+                ],
+                "eventId": "2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Would_you__bet_you_would_get_10_heads_in_a_row_in_250_throws?_what_about_500?_what_about_600?",
+                "name": "Would you: bet you would get 10 heads in a row in 250 throws? what about 500? what about 600?",
+                "merged": false,
+                "keywords": [
+                  "Would you: bet you would get 10 heads in a row in 250 throws? what about 500? what about 600?"
+                ],
+                "eventId": "3",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "What_is_the_expected_number_of_throws_to_get_n_heads_in_a_row?",
+                "name": "What is the expected number of throws to get n heads in a row?",
+                "merged": false,
+                "keywords": [
+                  "What is the expected number of throws to get n heads in a row?"
+                ],
+                "eventId": "4",
+                "disabled": false
+              }
+            ],
+            "keywords": [
+              "Recursion gimmick"
+            ],
+            "eventId": "8"
+          }
+        ],
+        "keywords": [
+          "Recursion"
+        ],
+        "eventId": "3"
+      },
+      {
+        "type": "child",
+        "name": "Intro sorts",
+        "id": "Intro_sorts",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Last_week_we_have_looked_at_insertion_sort_and_selection_sort._Both_these_algorithms_run_in__CE_98(n_C2_B2)_in_the_worst_case",
+            "name": "Last week we have looked at insertion sort and selection sort. Both these algorithms run in Θ(n²) in the worst case",
+            "merged": false,
+            "keywords": [
+              "Last week we have looked at insertion sort and selection sort. Both these algorithms run in Θ(n²) in the worst case"
+            ],
+            "eventId": "1",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "In_this_lecture_we_will_look_at_two_other_sorting_algorithms_that_are_faster__merge_sort,_that_runs_in__CE_98(n_logn)_in_the_worst_case,_and_quicksort,_whose_complexity_is_in__CE_98(n_C2_B2)_,_but_typically_it_runs_in__CE_98(n_logn)_Both_are_recursive_algorithms.",
+            "name": "In this lecture we will look at two other sorting algorithms that are faster: merge sort, that runs in Θ(n logn) in the worst case, and quicksort, whose complexity is in Θ(n²) , but typically it runs in Θ(n logn) Both are recursive algorithms.",
+            "merged": false,
+            "keywords": [
+              "In this lecture we will look at two other sorting algorithms that are faster: merge sort, that runs in Θ(n logn) in the worst case, and quicksort, whose complexity is in Θ(n²) , but typically it runs in Θ(n logn) Both are recursive algorithms."
+            ],
+            "eventId": "2",
+            "disabled": false
+          }
+        ],
+        "keywords": [
+          "Intro sorts"
+        ],
+        "eventId": "7"
+      },
+      {
+        "type": "child",
+        "name": "Merge",
+        "id": "Merge",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Johnny_Von_Neumann",
+            "name": "Johnny Von Neumann",
+            "merged": false,
+            "keywords": [
+              "Johnny Von Neumann"
+            ],
+            "eventId": "7",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "divide_array_A_in_two_halves_sort_the_two_halves_(recursively)_merge_the_two_halves_together",
+            "name": "divide array A in two halves sort the two halves (recursively) merge the two halves together",
+            "merged": true,
+            "keywords": [
+              "divide array A in two halves sort the two halves (recursively) merge the two halves together"
+            ],
+            "eventId": "4",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Merge_sort_is_an_example_of_a_divide_and_conquer_algorithm_",
+            "name": "Merge sort is an example of a divide and conquer algorithm:",
+            "merged": false,
+            "keywords": [
+              "Merge sort is an example of a divide and conquer algorithm:"
+            ],
+            "eventId": "5",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "to_solve_the_problem_for_an_array_A,_first_solve_it_for_two_smaller_arrays_and_then_combine_those_solutions_to_get_a_solution_for_A.",
+            "name": "to solve the problem for an array A, first solve it for two smaller arrays and then combine those solutions to get a solution for A.",
+            "merged": false,
+            "keywords": [
+              "to solve the problem for an array A, first solve it for two smaller arrays and then combine those solutions to get a solution for A."
+            ],
+            "eventId": "6",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "Merging",
+            "id": "Merging",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "The_crux_of_the_algorithm_is_in_the_merging_phase__",
+                "name": "The crux of the algorithm is in the merging phase :",
+                "merged": false,
+                "keywords": [
+                  "The crux of the algorithm is in the merging phase :",
+                  "A=[30, 25, 67, 99, 8, 16, 28, 63, 12, 20]"
+                ],
+                "eventId": "1",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Dividing_into_two_halves_we_get_",
+                "name": "Dividing into two halves we get:",
+                "merged": false,
+                "keywords": [
+                  "Dividing into two halves we get:"
+                ],
+                "eventId": "2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "half1=_5B30,_25,_67,_99,_8_5D_half2=_5B16,_28,_63,_12,_20_5D",
+                "name": "half1=[30, 25, 67, 99, 8] half2=[16, 28, 63, 12, 20]",
+                "merged": true,
+                "keywords": [
+                  "half1=[30, 25, 67, 99, 8] half2=[16, 28, 63, 12, 20]"
+                ],
+                "eventId": "3",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Suppose_that_these_two_halves_are_sorted_(by_applying_merge_sort_to_them)",
+                "name": "Suppose that these two halves are sorted (by applying merge sort to them)",
+                "merged": false,
+                "keywords": [
+                  "Suppose that these two halves are sorted (by applying merge sort to them)"
+                ],
+                "eventId": "4",
+                "disabled": false
+              },
+              {
+                "type": "hide",
+                "id": "half1=_5B30,_25,_67,_99,_8_5D_half2=_5B16,_28,_63,_12,_20_5D",
+                "name": "half1=[30, 25, 67, 99, 8] half2=[16, 28, 63, 12, 20]",
+                "merged": false,
+                "keywords": [
+                  "half1=[30, 25, 67, 99, 8] half2=[16, 28, 63, 12, 20]"
+                ],
+                "eventId": "5",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "half1=_5B8,_25,_30,_67,_99_5D_half2=_5B12,_16,_20,_28,_63_5D",
+                "name": "half1=[8, 25, 30, 67, 99] half2=[12, 16, 20, 28, 63]",
+                "merged": false,
+                "keywords": [
+                  "half1=[8, 25, 30, 67, 99] half2=[12, 16, 20, 28, 63]"
+                ],
+                "eventId": "6",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "To_merge_the_two_halves_we_simply_interleave_them_in_order_and_put_them_back_in_A",
+                "name": "To merge the two halves we simply interleave them in order and put them back in A",
+                "merged": false,
+                "keywords": [
+                  "To merge the two halves we simply interleave them in order and put them back in A"
+                ],
+                "eventId": "7",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "We_go_through_elements_of_half1_and_half2_using_counters_j1,_j2__If_half1_5Bj1_5D__3C_half2_5Bj2_5D__then_we_put_half1_5Bj1_5D_in_the_next_position_of_A_and_increase_j1_Otherwise,_put_half2_5Bj2_5D_in_the_next_position_of_A_and_increase_j2_We_continue_this_way_until_we_have_put_all_the_elements_of_half1_and_half2_in_A.",
+                "name": "We go through elements of half1 and half2 using counters j1, j2: If half1[j1] < half2[j2]: then we put half1[j1] in the next position of A and increase j1 Otherwise, put half2[j2] in the next position of A and increase j2 We continue this way until we have put all the elements of half1 and half2 in A.",
+                "merged": false,
+                "keywords": [
+                  "We go through elements of half1 and half2 using counters j1, j2: If half1[j1] < half2[j2]: then we put half1[j1] in the next position of A and increase j1 Otherwise, put half2[j2] in the next position of A and increase j2 We continue this way until we have put all the elements of half1 and half2 in A."
+                ],
+                "eventId": "10",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "Mergesort Code",
+                "id": "Mergesort_Code",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "Code_snippet_main",
+                    "name": "Code snippet main",
+                    "merged": false,
+                    "keywords": [
+                      "Code snippet main"
+                    ],
+                    "eventId": "4",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "base_case",
+                    "name": "base case",
+                    "merged": false,
+                    "keywords": [
+                      "base case"
+                    ],
+                    "eventId": "2",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "divide_",
+                    "name": "divide ",
+                    "merged": false,
+                    "keywords": [
+                      "divide A into two halves",
+                      "divide "
+                    ],
+                    "eventId": "6",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "sort_the_two_halves",
+                    "name": "sort the two halves",
+                    "merged": false,
+                    "keywords": [
+                      "sort the two halves"
+                    ],
+                    "eventId": "5",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "finally_merge_the_solution",
+                    "name": "finally merge the solution",
+                    "merged": false,
+                    "keywords": [
+                      "finally merge the solution"
+                    ],
+                    "eventId": "10",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "Code_snippet_merge",
+                    "name": "Code snippet merge",
+                    "merged": false,
+                    "keywords": [
+                      "Code snippet merge"
+                    ],
+                    "eventId": "7",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "interleave_the_elements_of_the_halves_in_order_and_put_them_in_A",
+                    "name": "interleave the elements of the halves in order and put them in A",
+                    "merged": false,
+                    "keywords": [
+                      "interleave the elements of the halves in order and put them in A"
+                    ],
+                    "eventId": "8",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "put_the_remaining_elements_of_the_halves_back_in_A",
+                    "name": "put the remaining elements of the halves back in A",
+                    "merged": false,
+                    "keywords": [
+                      "put the remaining elements of the halves back in A"
+                    ],
+                    "eventId": "9",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "Three_indices_are_used__i_ranges_over_positions_in_A,_j1_is_for_h1,_and_j2_for_h2._We_go_through_h1_and_h2,_each_time_copying_into_A_the_next_smallest_element,_until_j1_reaches_the_end_of_h1_or_j2_reaches_the_end_of_h2",
+                    "name": "Three indices are used: i ranges over positions in A, j1 is for h1, and j2 for h2. We go through h1 and h2, each time copying into A the next smallest element, until j1 reaches the end of h1 or j2 reaches the end of h2",
+                    "merged": false,
+                    "keywords": [
+                      "Three indices are used: i ranges over positions in A, j1 is for h1, and j2 for h2. We go through h1 and h2, each time copying into A the next smallest element, until j1 reaches the end of h1 or j2 reaches the end of h2"
+                    ],
+                    "eventId": "11",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "Can_this_algorithm_loop_forever?",
+                    "name": "Can this algorithm loop forever?",
+                    "merged": false,
+                    "keywords": [
+                      "Can this algorithm loop forever?"
+                    ],
+                    "eventId": "12",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "No._The_base_case_makes_sure_that_it_terminates.",
+                    "name": "No. The base case makes sure that it terminates.",
+                    "merged": false,
+                    "keywords": [
+                      "No. The base case makes sure that it terminates."
+                    ],
+                    "eventId": "13",
+                    "disabled": false
+                  },
+                  {
+                    "type": "child",
+                    "name": "Tree Example",
+                    "id": "Tree_Example",
+                    "merged": false,
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "_5B30,_25,_67,_99,_8,_16,_28,_63,_12,_20_5D",
+                        "name": "[30, 25, 67, 99, 8, 16, 28, 63, 12, 20]",
+                        "merged": false,
+                        "keywords": [
+                          "[30, 25, 67, 99, 8, 16, 28, 63, 12, 20]"
+                        ],
+                        "eventId": "3",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "_5B16,_28,_63,_12,_20_5D",
+                        "name": "[16, 28, 63, 12, 20]",
+                        "merged": false,
+                        "keywords": [
+                          "[30, 25, 67, 99, 8]",
+                          "[16, 28, 63, 12, 20]"
+                        ],
+                        "eventId": "4",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "_5B63,_12,_20_5D",
+                        "name": "[63, 12, 20]",
+                        "merged": false,
+                        "keywords": [
+                          "[67, 99, 8]",
+                          "[16, 28]",
+                          "[12, 20]",
+                          "[63, 12, 20]",
+                          "[30, 25]",
+                          "[30]",
+                          "[67]",
+                          "16]",
+                          "[28]",
+                          "[63]",
+                          "[12]",
+                          "[20]",
+                          "[99]",
+                          "[8]",
+                          "[25]",
+                          "[99, 8]"
+                        ],
+                        "eventId": "5",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "Merging_phase",
+                        "name": "Merging phase",
+                        "merged": false,
+                        "keywords": [
+                          "Merging phase"
+                        ],
+                        "eventId": "6",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "_5B25,_30_5D",
+                        "name": "[25, 30]",
+                        "merged": false,
+                        "keywords": [
+                          "[25, 30]"
+                        ],
+                        "eventId": "7",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "_5B8,_99_5D",
+                        "name": "[8, 99]",
+                        "merged": false,
+                        "keywords": [
+                          "[8, 99]"
+                        ],
+                        "eventId": "8",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "_5B30,_25,_67,_99,_8,_16,_28,_63,_12,_20_5D",
+                        "name": "[30, 25, 67, 99, 8, 16, 28, 63, 12, 20]",
+                        "merged": true,
+                        "keywords": [
+                          "[30, 25, 67, 99, 8, 16, 28, 63, 12, 20]"
+                        ],
+                        "eventId": "9",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "_5B12,_20,_63_5D",
+                        "name": "[12, 20, 63]",
+                        "merged": false,
+                        "keywords": [
+                          "[12, 20, 63]",
+                          "[16, 28]",
+                          "[8, 67, 99]",
+                          "[12, 20]"
+                        ],
+                        "eventId": "10",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "_5B12,_16,_20,_28,_63_5D",
+                        "name": "[12, 16, 20, 28, 63]",
+                        "merged": false,
+                        "keywords": [
+                          "[8, 25, 30, 67, 99]",
+                          "[12, 16, 20, 28, 63]"
+                        ],
+                        "eventId": "11",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "last",
+                        "name": "last",
+                        "merged": false,
+                        "keywords": [
+                          "[8, 12, 16, 20, 25, 28, 30, 63, 67, 99]",
+                          "last"
+                        ],
+                        "eventId": "14",
+                        "disabled": false
+                      }
+                    ],
+                    "keywords": [
+                      "Tree Example"
+                    ],
+                    "eventId": "14"
+                  }
+                ],
+                "keywords": [
+                  "Mergesort Code"
+                ],
+                "eventId": "9"
+              }
+            ],
+            "keywords": [
+              "Merging"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "child",
+            "name": "Merge sort complexity",
+            "id": "Merge_sort_complexity",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "Complexity",
+                "name": "Complexity",
+                "merged": false,
+                "keywords": [
+                  "Complexity"
+                ],
+                "eventId": "1",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Suppose_array_A_has_n_elements._We_count_the_number_of_comparisons_made_(between_array_elements)_by_merge_sort_when_applied_on_A._Comparisons_happen_in_the_merge_phase__to_merge_two_ordered_halves_of_size_n/2_each,_we_need_to_make_at_most_n-1_comparisons._each_of_the_w_halves_was_sorted_by_merging_two_quarters_of_size_n/4_each,_which_required_at_most_n/2-1_comparisons_each,_and_so_on_...",
+                "name": "Suppose array A has n elements. We count the number of comparisons made (between array elements) by merge sort when applied on A. Comparisons happen in the merge phase: to merge two ordered halves of size n/2 each, we need to make at most n-1 comparisons. each of the w halves was sorted by merging two quarters of size n/4 each, which required at most n/2-1 comparisons each, and so on ...",
+                "merged": false,
+                "keywords": [
+                  "Suppose array A has n elements. We count the number of comparisons made (between array elements) by merge sort when applied on A. Comparisons happen in the merge phase: to merge two ordered halves of size n/2 each, we need to make at most n-1 comparisons. each of the w halves was sorted by merging two quarters of size n/4 each, which required at most n/2-1 comparisons each, and so on ..."
+                ],
+                "eventId": "2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "We_can_divide_the_array_A_at_most_log_n_times._So_the_maximal_number_of_comparisons_is_approximately_",
+                "name": "We can divide the array A at most log n times. So the maximal number of comparisons is approximately:",
+                "merged": false,
+                "keywords": [
+                  "We can divide the array A at most log n times. So the maximal number of comparisons is approximately:"
+                ],
+                "eventId": "3",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "which_is_better_than_the_other_sort_algorithms_we_have_seen",
+                "name": "which is better than the other sort algorithms we have seen",
+                "merged": false,
+                "keywords": [
+                  "So merge sort worst case time complexity is Θ(n log n)",
+                  "which is better than the other sort algorithms we have seen"
+                ],
+                "eventId": "4",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "There_are_however_some_practical_drawbacks__recursion_is_costly__too_many_function_calls_each_of_which_requires_their_own_environemnt_(call_stack),_context-switching_etc._starting_from_an_array_A_of_length_10,_we_ended_up_constructing_18_smaller_arrays_(but_this_can_be_improved)",
+                "name": "There are however some practical drawbacks: recursion is costly: too many function calls each of which requires their own environemnt (call stack), context-switching etc. starting from an array A of length 10, we ended up constructing 18 smaller arrays (but this can be improved)",
+                "merged": false,
+                "keywords": [
+                  "There are however some practical drawbacks: recursion is costly: too many function calls each of which requires their own environemnt (call stack), context-switching etc. starting from an array A of length 10, we ended up constructing 18 smaller arrays (but this can be improved)"
+                ],
+                "eventId": "5",
+                "disabled": false
+              }
+            ],
+            "keywords": [
+              "Merge sort complexity"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "child",
+            "name": "Merge sort optimal",
+            "id": "Merge_sort_optimal",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "Theoretically_merge_sort_is_optimal",
+                "name": "Theoretically merge sort is optimal",
+                "merged": false,
+                "keywords": [
+                  "Theoretically merge sort is optimal"
+                ],
+                "eventId": "1",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "a__3C_b",
+                "name": "a < b",
+                "merged": false,
+                "keywords": [
+                  "a < b",
+                  "b < c",
+                  "a,b,c",
+                  "a < c",
+                  "a,c,b",
+                  "c,a,b",
+                  "b,a,c",
+                  "b,c,a",
+                  "c,b,a"
+                ],
+                "eventId": "2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Decision_tree_for_an_array_with_three_elements",
+                "name": "Decision tree for an array with three elements",
+                "merged": false,
+                "keywords": [
+                  "Decision tree for an array with three elements"
+                ],
+                "eventId": "3",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Height_of_this_tree_=_maximal_number_of_comparisons_=_time_complexity",
+                "name": "Height of this tree = maximal number of comparisons = time complexity",
+                "merged": false,
+                "keywords": [
+                  "Decision tree for an array with n elements",
+                  "Height of this tree = maximal number of comparisons = time complexity"
+                ],
+                "eventId": "4",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "It_is_possible_to_show_that_the_height_of_all_such_trees_has_to_be_larger_than__CE_98(n_log_n)",
+                "name": "It is possible to show that the height of all such trees has to be larger than Θ(n log n)",
+                "merged": false,
+                "keywords": [
+                  "It is possible to show that the height of all such trees has to be larger than Θ(n log n)"
+                ],
+                "eventId": "5",
+                "disabled": false
+              }
+            ],
+            "keywords": [
+              "Merge sort optimal"
+            ],
+            "eventId": "10"
+          }
+        ],
+        "keywords": [
+          "Merge"
+        ],
+        "eventId": "4"
+      },
+      {
+        "type": "child",
+        "name": "Quick",
+        "id": "Quick",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Tony_Hoare",
+            "name": "Tony Hoare",
+            "merged": false,
+            "keywords": [
+              "Tony Hoare"
+            ],
+            "eventId": "1",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "is_an_algorithm_that_typically_performs_fast_in_practice._The_idea_is_as_follows_",
+            "name": "is an algorithm that typically performs fast in practice. The idea is as follows:",
+            "merged": true,
+            "keywords": [
+              "is an algorithm that typically performs fast in practice. The idea is as follows:"
+            ],
+            "eventId": "2",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "To_sort_an_array_A__pick_an_element_of_A_that_we_call_the_pivot_partition_(i.e._rearrange)_A_so_that__all_its_elements_that_are_less_than_pivot_are_in_the_start_all_its_elements_that_are_greater_or_equal_to_pivot_are_in_the_end_put_pivot_in_between_the_start_and_the_end_parts_we_recursively_sort_the_beginning_and_the_end_parts_of_A",
+            "name": "To sort an array A: pick an element of A that we call the pivot partition (i.e. rearrange) A so that: all its elements that are less than pivot are in the start all its elements that are greater or equal to pivot are in the end put pivot in between the start and the end parts we recursively sort the beginning and the end parts of A",
+            "merged": false,
+            "keywords": [
+              "To sort an array A: pick an element of A that we call the pivot partition (i.e. rearrange) A so that: all its elements that are less than pivot are in the start all its elements that are greater or equal to pivot are in the end put pivot in between the start and the end parts we recursively sort the beginning and the end parts of A"
+            ],
+            "eventId": "3",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "simply_pick_A_5B0_5D",
+            "name": "simply pick A[0]",
+            "merged": false,
+            "keywords": [
+              "simply pick A[0]"
+            ],
+            "eventId": "4",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "Quicksort example",
+            "id": "Quicksort_example",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "A_=__5B30,_25,_67,_99,_8,_16,_28,_63,_12,_20_5D",
+                "name": "A = [30, 25, 67, 99, 8, 16, 28, 63, 12, 20]",
+                "merged": false,
+                "keywords": [
+                  "A = [30, 25, 67, 99, 8, 16, 28, 63, 12, 20]",
+                  "pivot"
+                ],
+                "eventId": "2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "A_=__5B25,_8,_16,_28,_12,_20,_30,_63,_99,_67_5D",
+                "name": "A = [25, 8, 16, 28, 12, 20, 30, 63, 99, 67]",
+                "merged": false,
+                "keywords": [
+                  "A = [25, 8, 16, 28, 12, 20, 30, 63, 99, 67]"
+                ],
+                "eventId": "3",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "After_partitioning,_we_are_left_with_two_smaller_parts_to_sort___5B25,_8,_16,_28,_12,_20_5D_(i.e._A_5B0_6_5D)__5B63,_99,_67_5D_(i.e._A_5B7_10_5D)_(the_pivot,_30,_is_in_its_correct_position_in_the_sorted_array)_which_we_do_by_applying_the_same_procedure_on_them_(i.e._by_recursion)__we_select_a_pivot_element_for_each_of_them_and_partition_them,_and_so_on_...",
+                "name": "After partitioning, we are left with two smaller parts to sort: [25, 8, 16, 28, 12, 20] (i.e. A[0:6]) [63, 99, 67] (i.e. A[7:10]) (the pivot, 30, is in its correct position in the sorted array) which we do by applying the same procedure on them (i.e. by recursion): we select a pivot element for each of them and partition them, and so on ...",
+                "merged": false,
+                "keywords": [
+                  "After partitioning, we are left with two smaller parts to sort: [25, 8, 16, 28, 12, 20] (i.e. A[0:6]) [63, 99, 67] (i.e. A[7:10]) (the pivot, 30, is in its correct position in the sorted array) which we do by applying the same procedure on them (i.e. by recursion): we select a pivot element for each of them and partition them, and so on ..."
+                ],
+                "eventId": "4",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "A_E2_80_99_=__5B25,_8,_16,_28,_12,_20_5D",
+                "name": "A’ = [25, 8, 16, 28, 12, 20]",
+                "merged": false,
+                "keywords": [
+                  "A’ = [25, 8, 16, 28, 12, 20]"
+                ],
+                "eventId": "5",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "A_E2_80_99_=__5B8,_16,_12,_20,_25,_28_5D",
+                "name": "A’ = [8, 16, 12, 20, 25, 28]",
+                "merged": false,
+                "keywords": [
+                  "A’ = [8, 16, 12, 20, 25, 28]",
+                  "pivot"
+                ],
+                "eventId": "6",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "do_the_same_to_this_part",
+                "name": "do the same to this part",
+                "merged": false,
+                "keywords": [
+                  "do the same to this part"
+                ],
+                "eventId": "7",
+                "disabled": false
+              }
+            ],
+            "keywords": [
+              "Quicksort example"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "child",
+            "name": "Quicksort implementation",
+            "id": "Quicksort_implementation",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "Code_snippet_qsort",
+                "name": "Code snippet qsort",
+                "merged": false,
+                "keywords": [
+                  "Code snippet qsort"
+                ],
+                "eventId": "13",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "We_need_two_auxiliary_functions__quickSortRec(A,_lo,_hi)_will_sort_the_part_of_A_between_lo_and_hi-1._We_need_this_because_we_want_to_recursively_sort_smaller_parts_of_A._partition(A,_lo,_hi)_partitions_A_5Blo_hi_5D_using_the_algorithm_described_before._It_uses_A_5B0_5D_as_a_pivot,_and_returns_its_position_in_A_once_A_5Blo_hi_5D_has_been_partitioned.",
+                "name": "We need two auxiliary functions: quickSortRec(A, lo, hi) will sort the part of A between lo and hi-1. We need this because we want to recursively sort smaller parts of A. partition(A, lo, hi) partitions A[lo:hi] using the algorithm described before. It uses A[0] as a pivot, and returns its position in A once A[lo:hi] has been partitioned.",
+                "merged": false,
+                "keywords": [
+                  "We need two auxiliary functions: quickSortRec(A, lo, hi) will sort the part of A between lo and hi-1. We need this because we want to recursively sort smaller parts of A. partition(A, lo, hi) partitions A[lo:hi] using the algorithm described before. It uses A[0] as a pivot, and returns its position in A once A[lo:hi] has been partitioned."
+                ],
+                "eventId": "2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Code_snippet_partition",
+                "name": "Code snippet partition",
+                "merged": false,
+                "keywords": [
+                  "Code snippet partition"
+                ],
+                "eventId": "14",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "To_partition_A_5Blo_hi_5D_we_follow_these_steps_",
+                "name": "To partition A[lo:hi] we follow these steps:",
+                "merged": false,
+                "keywords": [
+                  "To partition A[lo:hi] we follow these steps:"
+                ],
+                "eventId": "4",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "we_set_the_pivot_to_be_A_5Blo_5D",
+                "name": "we set the pivot to be A[lo]",
+                "merged": false,
+                "keywords": [
+                  "we set the pivot to be A[lo]"
+                ],
+                "eventId": "5",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "we_create_a_new_array_B_that_is_initially_set_to__5B0,...,0_5D,_and_in_which_we_will_store_the_partition_copy_of_A_5Blo_hi_5D",
+                "name": "we create a new array B that is initially set to [0,...,0], and in which we will store the partition copy of A[lo:hi]",
+                "merged": false,
+                "keywords": [
+                  "we create a new array B that is initially set to [0,...,0], and in which we will store the partition copy of A[lo:hi]"
+                ],
+                "eventId": "6",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "we_set_loB,_hiB_to_point_to_the_beginning_and_the_end_of_B_respectively",
+                "name": "we set loB, hiB to point to the beginning and the end of B respectively",
+                "merged": false,
+                "keywords": [
+                  "we set loB, hiB to point to the beginning and the end of B respectively"
+                ],
+                "eventId": "7",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "we_loop_through_the_elements_of_A_5Blo+1_hi_5D_and_for_each_such_A_5Bi_5D_",
+                "name": "we loop through the elements of A[lo+1:hi] and for each such A[i]:",
+                "merged": false,
+                "keywords": [
+                  "we loop through the elements of A[lo+1:hi] and for each such A[i]:"
+                ],
+                "eventId": "8",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "if_A_5Bi_5D_3Cpivot_then_we_set_B_5BloB_5D_to_A_5Bi_5D_and_increase_loB_by_1_otherwise_we_set_B_5BhiB_5D_to_A_5Bi_5D_and_decrease_hiB_by_1.",
+                "name": "if A[i]<pivot then we set B[loB] to A[i] and increase loB by 1 otherwise we set B[hiB] to A[i] and decrease hiB by 1.",
+                "merged": false,
+                "keywords": [
+                  "if A[i]<pivot then we set B[loB] to A[i] and increase loB by 1 otherwise we set B[hiB] to A[i] and decrease hiB by 1."
+                ],
+                "eventId": "9",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "we_set_B_5BloB_5D_to_pivot;_note_that_loB_is_now_equal_to_hiB_as_the_two_pointers_must_have_met.",
+                "name": "we set B[loB] to pivot; note that loB is now equal to hiB as the two pointers must have met.",
+                "merged": false,
+                "keywords": [
+                  "we set B[loB] to pivot; note that loB is now equal to hiB as the two pointers must have met."
+                ],
+                "eventId": "10",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "we_copy_the_values_of_B_back_to_A",
+                "name": "we copy the values of B back to A",
+                "merged": false,
+                "keywords": [
+                  "we copy the values of B back to A"
+                ],
+                "eventId": "11",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "finally,_return_the_new_position_of_pivot_in_A.",
+                "name": "finally, return the new position of pivot in A.",
+                "merged": false,
+                "keywords": [
+                  "finally, return the new position of pivot in A."
+                ],
+                "eventId": "12",
+                "disabled": false
+              }
+            ],
+            "keywords": [
+              "Quicksort implementation"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "child",
+            "name": "qsort complexity",
+            "id": "qsort_complexity",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "Comparisons_happen_in_the_partition_phase__to_partition_the_whole_of_A_we_need_n-1_comparisons_(because_every_other_element_is_compared_to_A_5B0_5D)_if_partition_gives_us_two_sub-arrays_of_equal_length,_i.e._(n-1)/2_each,_to_partition_each_of_them_we_need_(n-1)/2-1_comparisons_and_so_on_..._We_can_divide_the_array_A_at_most_log_n_times._So_the_total_number_of_comparisons_approximately_is_",
+                "name": "Comparisons happen in the partition phase: to partition the whole of A we need n-1 comparisons (because every other element is compared to A[0]) if partition gives us two sub-arrays of equal length, i.e. (n-1)/2 each, to partition each of them we need (n-1)/2-1 comparisons and so on ... We can divide the array A at most log n times. So the total number of comparisons approximately is:",
+                "merged": false,
+                "keywords": [
+                  "Suppose array A has n elements. To find the running time, we will count the number of comparisons made by quicksort when applied to A.",
+                  "Comparisons happen in the partition phase: to partition the whole of A we need n-1 comparisons (because every other element is compared to A[0]) if partition gives us two sub-arrays of equal length, i.e. (n-1)/2 each, to partition each of them we need (n-1)/2-1 comparisons and so on ... We can divide the array A at most log n times. So the total number of comparisons approximately is:"
+                ],
+                "eventId": "1",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Rectangle_19",
+                "name": "Rectangle 19",
+                "merged": false,
+                "keywords": [
+                  "Rectangle 19"
+                ],
+                "eventId": "2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "This_complexity_bound_holds_when_pivots_are_chosen_perfectly_to_cut_the_array_into_two_equal_parts",
+                "name": "This complexity bound holds when pivots are chosen perfectly to cut the array into two equal parts",
+                "merged": false,
+                "keywords": [
+                  "This complexity bound holds when pivots are chosen perfectly to cut the array into two equal parts"
+                ],
+                "eventId": "3",
+                "disabled": false
+              }
+            ],
+            "keywords": [
+              "qsort complexity"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "child",
+            "name": "qsort complexity2",
+            "id": "qsort_complexity2",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "Partitions_depend_on_the_choice_of_pivot_and_there_is_no_guarantee_that_the_pivot_will_be_the_median_(see_our_examples)",
+                "name": "Partitions depend on the choice of pivot and there is no guarantee that the pivot will be the median (see our examples)",
+                "merged": false,
+                "keywords": [
+                  "Partitions depend on the choice of pivot and there is no guarantee that the pivot will be the median (see our examples)"
+                ],
+                "eventId": "1",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "In_the_worst_case,_the_pivot_could_be_the_smallest_element_of_the_array_",
+                "name": "In the worst case, the pivot could be the smallest element of the array:",
+                "merged": false,
+                "keywords": [
+                  "In the worst case, the pivot could be the smallest element of the array:"
+                ],
+                "eventId": "2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "to_partition_the_whole_of_A_we_need_n-1_comparisons._If_the_pivot_is_the_smallest_element,_the_partition_gives_us_one_sub-array_of_length_0_and_one_of_length_n-1._To_partition_the_sub-array_of_length_n-1_we_need_at_most_n-2_comparisons._If_the_pivot_is_the_smallest_element,_we_are_left_with_a_sub-array_of_length_n-3._and_so_on...",
+                "name": "to partition the whole of A we need n-1 comparisons. If the pivot is the smallest element, the partition gives us one sub-array of length 0 and one of length n-1. To partition the sub-array of length n-1 we need at most n-2 comparisons. If the pivot is the smallest element, we are left with a sub-array of length n-3. and so on...",
+                "merged": false,
+                "keywords": [
+                  "to partition the whole of A we need n-1 comparisons. If the pivot is the smallest element, the partition gives us one sub-array of length 0 and one of length n-1. To partition the sub-array of length n-1 we need at most n-2 comparisons. If the pivot is the smallest element, we are left with a sub-array of length n-3. and so on..."
+                ],
+                "eventId": "3",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "So_the_total_number_of_comparisons_is__n-1_+_n-2_+_n-3_+_..._+_1_=_n(n-1)/2_(i.e.__CE_98(n_C2_B2))",
+                "name": "So the total number of comparisons is: n-1 + n-2 + n-3 + ... + 1 = n(n-1)/2 (i.e. Θ(n²))",
+                "merged": false,
+                "keywords": [
+                  "So the total number of comparisons is: n-1 + n-2 + n-3 + ... + 1 = n(n-1)/2 (i.e. Θ(n²))"
+                ],
+                "eventId": "4",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Quicksort_could_have_worst_case_time_complexity_of__CE_98(n_log_n)_if_we_had_a_guarantee_that_pivots_are_selected_well.",
+                "name": "Quicksort could have worst case time complexity of Θ(n log n) if we had a guarantee that pivots are selected well.",
+                "merged": false,
+                "keywords": [
+                  "Quicksort could have worst case time complexity of Θ(n log n) if we had a guarantee that pivots are selected well."
+                ],
+                "eventId": "5",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "But_we_have_no_such_guarantee,_so_in_the_worst_case_its_complexity_is__CE_98(n_C2_B2)",
+                "name": "But we have no such guarantee, so in the worst case its complexity is Θ(n²)",
+                "merged": false,
+                "keywords": [
+                  "But we have no such guarantee, so in the worst case its complexity is Θ(n²)"
+                ],
+                "eventId": "6",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "In_practice,_though,_quicksort_is_a_fast_algorithm__different_tricks_are_used_so_that_the_selection_of_the_pivot_is_random,_and_therefore_has_a_good_chance_of_not_being_a_bad_choice_in_contrast_to_merge_sort,_the_creation_of_a_new_array_is_only_temporary_(B_is_discarded_when_partition_is_finished),_and_therefore_the_total_memory_used_is_much_smaller_(in_fact_the_creation_of_B_can_be_sidestepped_altogether.",
+                "name": "In practice, though, quicksort is a fast algorithm: different tricks are used so that the selection of the pivot is random, and therefore has a good chance of not being a bad choice in contrast to merge sort, the creation of a new array is only temporary (B is discarded when partition is finished), and therefore the total memory used is much smaller (in fact the creation of B can be sidestepped altogether.",
+                "merged": false,
+                "keywords": [
+                  "In practice, though, quicksort is a fast algorithm: different tricks are used so that the selection of the pivot is random, and therefore has a good chance of not being a bad choice in contrast to merge sort, the creation of a new array is only temporary (B is discarded when partition is finished), and therefore the total memory used is much smaller (in fact the creation of B can be sidestepped altogether."
+                ],
+                "eventId": "8",
+                "disabled": false
+              }
+            ],
+            "keywords": [
+              "qsort complexity2"
+            ],
+            "eventId": "8"
+          }
+        ],
+        "keywords": [
+          "Quick"
+        ],
+        "eventId": "5"
+      },
+      {
+        "type": "child",
+        "name": "space complxeity",
+        "id": "space_complxeity",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Space_Complexity",
+            "name": "Space Complexity",
+            "merged": false,
+            "keywords": [
+              "Space Complexity"
+            ],
+            "eventId": "1",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "In_this_module_we_mainly_focus_on_time_complexity_and_efficiency._But_there_are_cases_where_space_is_equally_(or_more!)_important__e.g._in_embedded_devices,_the_cloud,_blockchains,_etc._The_space_complexity_of_an_algorithm_is_the_size_of_auxiliary_memory_it_uses._We_measure_it_as_a_function_of_the_size_of_the_input.",
+            "name": "In this module we mainly focus on time complexity and efficiency. But there are cases where space is equally (or more!) important: e.g. in embedded devices, the cloud, blockchains, etc. The space complexity of an algorithm is the size of auxiliary memory it uses. We measure it as a function of the size of the input.",
+            "merged": false,
+            "keywords": [
+              "In this module we mainly focus on time complexity and efficiency. But there are cases where space is equally (or more!) important: e.g. in embedded devices, the cloud, blockchains, etc. The space complexity of an algorithm is the size of auxiliary memory it uses. We measure it as a function of the size of the input."
+            ],
+            "eventId": "2",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "For_example__Merge_sort_(as_seen_here)_has_space_complexity__CE_98(n_log_n)_we_can_bring_this_down_to__CE_98(n)_Quicksort_(as_seen_here)_has_space_complexity__CE_98(n)_we_can_bring_this_down_to__CE_98(1)",
+            "name": "For example: Merge sort (as seen here) has space complexity Θ(n log n) we can bring this down to Θ(n) Quicksort (as seen here) has space complexity Θ(n) we can bring this down to Θ(1)",
+            "merged": false,
+            "keywords": [
+              "For example: Merge sort (as seen here) has space complexity Θ(n log n) we can bring this down to Θ(n) Quicksort (as seen here) has space complexity Θ(n) we can bring this down to Θ(1)"
+            ],
+            "eventId": "3",
+            "disabled": false
+          }
+        ],
+        "keywords": [
+          "space complxeity"
+        ],
+        "eventId": "9"
+      },
+      {
+        "type": "child",
+        "name": "sorting objects",
+        "id": "sorting_objects",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "From_sorting_integers_to_sorting_objects",
+            "name": "From sorting integers to sorting objects",
+            "merged": false,
+            "keywords": [
+              "From sorting integers to sorting objects"
+            ],
+            "eventId": "1",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "We_may_want_to_sort_other_things_than_integers._For_example,_here_is_a_simple_class_for_student_scripts,_where_each_script_has_a_variable_id_for_student_E2_80_99s_ID,_and_mark_for_the_student_E2_80_99s_mark_",
+            "name": "We may want to sort other things than integers. For example, here is a simple class for student scripts, where each script has a variable id for student’s ID, and mark for the student’s mark:",
+            "merged": false,
+            "keywords": [
+              "We may want to sort other things than integers. For example, here is a simple class for student scripts, where each script has a variable id for student’s ID, and mark for the student’s mark:",
+              "Code snippet"
+            ],
+            "eventId": "2",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "We_have_an_array_A_of_Script_E2_80_99s_and_want_to_sort_it,_say_by_student_ID._How_can_we_do_it_using_the_algorithms_we_have_seen?",
+            "name": "We have an array A of Script’s and want to sort it, say by student ID. How can we do it using the algorithms we have seen?",
+            "merged": false,
+            "keywords": [
+              "We have an array A of Script’s and want to sort it, say by student ID. How can we do it using the algorithms we have seen?"
+            ],
+            "eventId": "3",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "You_can_adapt_each_algorithm_to_sort_Script_E2_80_99s_e.g._initialise_the_array_with_None_and_compare_.sid_E2_80_99s",
+            "name": "You can adapt each algorithm to sort Script’s e.g. initialise the array with None and compare .sid’s",
+            "merged": false,
+            "keywords": [
+              "You can adapt each algorithm to sort Script’s e.g. initialise the array with None and compare .sid’s"
+            ],
+            "eventId": "4",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "A_more_principled_(and_OOP)_solution_is_to_add_in_the_Script_class_a_comparison_function_for_objects_of_that_class_",
+            "name": "A more principled (and OOP) solution is to add in the Script class a comparison function for objects of that class:",
+            "merged": false,
+            "keywords": [
+              "A more principled (and OOP) solution is to add in the Script class a comparison function for objects of that class:",
+              "Code snippet"
+            ],
+            "eventId": "5",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "We_can_now_write_our_sorting_algorithm_as_usual_as_long_as_the_only_comparisons_it_uses_are_by__3C_._For_each_such_comparison,_Python_will_automatically_use_the___lt___function_instead._We_may_still_need_to_fix_array_initialisation_and_other_details_that_are_integer-specific_inside_our_implementations.",
+            "name": "We can now write our sorting algorithm as usual as long as the only comparisons it uses are by < . For each such comparison, Python will automatically use the __lt__ function instead. We may still need to fix array initialisation and other details that are integer-specific inside our implementations.",
+            "merged": false,
+            "keywords": [
+              "We can now write our sorting algorithm as usual as long as the only comparisons it uses are by < . For each such comparison, Python will automatically use the __lt__ function instead. We may still need to fix array initialisation and other details that are integer-specific inside our implementations."
+            ],
+            "eventId": "6",
+            "disabled": false
+          }
+        ],
+        "keywords": [
+          "sorting objects"
+        ],
+        "eventId": "10"
+      },
+      {
+        "type": "child",
+        "name": "Summary",
+        "id": "Summary",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "exercises_1",
+            "name": "exercises 1",
+            "merged": false,
+            "keywords": [
+              "exercises 1"
+            ],
+            "eventId": "1",
+            "disabled": false
+          }
+        ],
+        "keywords": [
+          "Summary"
+        ],
+        "eventId": "6"
+      }
+    ],
+    "keywords": [
+      "Algorithms and Data Structures (ECS529U)",
+      "Recursion, Faster Sorting Algorithms",
+      "Lecture 3",
+      "Title"
+    ],
+    "eventId": "root"
+  },
+  "soundDict": {}
+}

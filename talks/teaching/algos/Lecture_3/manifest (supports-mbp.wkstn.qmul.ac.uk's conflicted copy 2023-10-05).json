@@ -1,0 +1,86 @@
+{
+  "version": 0.915,
+  "presentation": "Lecture 3",
+  "slideDict": {
+    "new_slide": "Title",
+    "other_slide": "other_slide",
+    "Recursion": "Recursion",
+    "Merge": "Merge",
+    "Quick": "Quick",
+    "Summary": "Summary"
+  },
+  "tree": {
+    "type": "child",
+    "name": "Title",
+    "id": "new_slide",
+    "merged": false,
+    "children": [
+      {
+        "type": "show",
+        "id": "IV._Summary_&_Exercises",
+        "name": "IV. Summary & Exercises",
+        "merged": false,
+        "keywords": [
+          "I. Recursion",
+          "II. Merge Sort",
+          "III. Quicksort",
+          "IV. Summary & Exercises"
+        ],
+        "eventId": "2",
+        "disabled": false
+      },
+      {
+        "type": "child",
+        "name": "Recursion",
+        "id": "Recursion",
+        "merged": false,
+        "children": [],
+        "keywords": [
+          "Recursion"
+        ],
+        "eventId": "3"
+      },
+      {
+        "type": "child",
+        "name": "Merge",
+        "id": "Merge",
+        "merged": false,
+        "children": [],
+        "keywords": [
+          "Merge"
+        ],
+        "eventId": "4"
+      },
+      {
+        "type": "child",
+        "name": "Quick",
+        "id": "Quick",
+        "merged": false,
+        "children": [],
+        "keywords": [
+          "Quick"
+        ],
+        "eventId": "5"
+      },
+      {
+        "type": "child",
+        "name": "Summary",
+        "id": "Summary",
+        "merged": false,
+        "children": [],
+        "keywords": [
+          "Summary"
+        ],
+        "eventId": "6"
+      }
+    ],
+    "keywords": [
+      "Algorithms and Data Structures (ECS529U)",
+      "Recursion, Faster Sorting Algorithms",
+      "Lecture 3",
+      "Title"
+    ],
+    "eventId": "root"
+  },
+  "soundDict": {}
+}
