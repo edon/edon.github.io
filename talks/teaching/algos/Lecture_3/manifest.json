@@ -1721,6 +1721,50 @@
             ],
             "eventId": "1",
             "disabled": false
+          },
+          {
+            "type": "hide",
+            "id": "exercises_1",
+            "name": "exercises 1",
+            "merged": false,
+            "keywords": [
+              "exercises 1"
+            ],
+            "eventId": "2",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "sols11_1",
+            "name": "sols11 1",
+            "merged": false,
+            "keywords": [
+              "sols11 1"
+            ],
+            "eventId": "3",
+            "disabled": false
+          },
+          {
+            "type": "hide",
+            "id": "sols11_1",
+            "name": "sols11 1",
+            "merged": false,
+            "keywords": [
+              "sols11 1"
+            ],
+            "eventId": "4",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "sols12_1",
+            "name": "sols12 1",
+            "merged": false,
+            "keywords": [
+              "sols12 1"
+            ],
+            "eventId": "5",
+            "disabled": false
           }
         ],
         "keywords": [

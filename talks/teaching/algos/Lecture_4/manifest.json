@@ -1,0 +1,1397 @@
+{
+  "version": 0.915,
+  "presentation": "Lecture 4",
+  "slideDict": {
+    "new_slide": "Title",
+    "Data_Structures": "Data_Structures",
+    "Arrays": "Arrays",
+    "Lists": "Lists",
+    "Stacks": "Stacks",
+    "Queues": "Queues",
+    "List_Example_Usage": "List_Example_Usage",
+    "Functionalities_of_ArrayLists": "Functionalities_of_ArrayLists",
+    "ArrayList_First_Attempt": "ArrayList_First_Attempt",
+    "Objects_in_Python": "Objects_in_Python",
+    "Better_Attempt": "Better_Attempt",
+    "Better_Atttempt_Implementation": "Better_Atttempt_Implementation",
+    "Better_attempt_efficiency": "Better_attempt_efficiency",
+    "ADTs_again": "ADTs_again",
+    "Stack_Implementations": "Stack_Implementations",
+    "Exercsises": "Exercsises"
+  },
+  "tree": {
+    "type": "child",
+    "name": "Title",
+    "id": "new_slide",
+    "merged": false,
+    "children": [
+      {
+        "type": "child",
+        "name": "Data Structures",
+        "id": "Data_Structures",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Algorithms_we_have_seen_work_with_data._Data_is_put_in_a_specific_data_structure.",
+            "name": "Algorithms we have seen work with data. Data is put in a specific data structure.",
+            "merged": false,
+            "keywords": [
+              "Algorithms and Data Structures",
+              "Algorithms we have seen work with data. Data is put in a specific data structure."
+            ],
+            "eventId": "1",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "A_data_structure_is_a_way_of_storing_and_organising_data_in_order_to_facilitate_access_and_modifications.",
+            "name": "A data structure is a way of storing and organising data in order to facilitate access and modifications.",
+            "merged": false,
+            "keywords": [
+              "A data structure is a way of storing and organising data in order to facilitate access and modifications."
+            ],
+            "eventId": "2",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "storing_data_is_easy_storing_it_in_a_fast/reliable/useful_way_is_tricky",
+            "name": "storing data is easy storing it in a fast/reliable/useful way is tricky",
+            "merged": false,
+            "keywords": [
+              "storing data is easy storing it in a fast/reliable/useful way is tricky"
+            ],
+            "eventId": "3",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Analogy__Is_a_French-German_dictionary_the_same_as_a_German-French_one?",
+            "name": "Analogy: Is a French-German dictionary the same as a German-French one?",
+            "merged": false,
+            "keywords": [
+              "Analogy: Is a French-German dictionary the same as a German-French one?"
+            ],
+            "eventId": "4",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "No_single_data_structure_works_well_for_all_purposes._Therefore_it_is_important_to_know_the_strength_and_limitations_of_several_of_them.",
+            "name": "No single data structure works well for all purposes. Therefore it is important to know the strength and limitations of several of them.",
+            "merged": false,
+            "keywords": [
+              "No single data structure works well for all purposes. Therefore it is important to know the strength and limitations of several of them."
+            ],
+            "eventId": "6",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "We_have_used_the_following_basic_data_structures__arrays_(searching_and_sorting_algorithms)_strings_(just_for_printing)",
+            "name": "We have used the following basic data structures: arrays (searching and sorting algorithms) strings (just for printing)",
+            "merged": false,
+            "keywords": [
+              "We have used the following basic data structures: arrays (searching and sorting algorithms) strings (just for printing)"
+            ],
+            "eventId": "5",
+            "disabled": false
+          }
+        ],
+        "keywords": [
+          "Data Structures"
+        ],
+        "eventId": "11"
+      },
+      {
+        "type": "show",
+        "id": "III._Stacks",
+        "name": "III. Stacks",
+        "merged": false,
+        "keywords": [
+          "I. Arrays",
+          "II. Lists",
+          "III. Stacks",
+          "IV. Queues"
+        ],
+        "eventId": "12",
+        "disabled": false
+      },
+      {
+        "type": "child",
+        "name": "Arrays",
+        "id": "Arrays",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "are_the_most_common_data_type_for_storing_data__an_array_is_a_sequence_the_elements_of_an_array_can_be_read_and_modified_by_using_their_index_but_the_length_of_the_array_is_fixed_-_cannot_be_changed",
+            "name": "are the most common data type for storing data: an array is a sequence the elements of an array can be read and modified by using their index but the length of the array is fixed - cannot be changed",
+            "merged": false,
+            "keywords": [
+              "are the most common data type for storing data: an array is a sequence the elements of an array can be read and modified by using their index but the length of the array is fixed - cannot be changed"
+            ],
+            "eventId": "1",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "E.g",
+            "name": "E.g",
+            "merged": false,
+            "keywords": [
+              "2",
+              "3",
+              "4",
+              "5",
+              "42",
+              "E.g"
+            ],
+            "eventId": "2",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Typically_in_CS_arrays_(and_other_things)_are_indexed_from_0.",
+            "name": "Typically in CS arrays (and other things) are indexed from 0.",
+            "merged": false,
+            "keywords": [
+              "Typically in CS arrays (and other things) are indexed from 0."
+            ],
+            "eventId": "4",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "the_length_of_this_array_(call_it_a)_is_5_the_elements_of_this_array_are__a_5B0_5D,_a_5B1_5D,_a_5B2_5D,_a_5B3_5D,_a_5B4_5D_we_can_read_the_first_element_of_a_e.g._by_first_=_a_5B0_5D_we_can_modify_the_first_element_of_a_by_a_5B0_5D=24",
+            "name": "the length of this array (call it a) is 5 the elements of this array are: a[0], a[1], a[2], a[3], a[4] we can read the first element of a e.g. by first = a[0] we can modify the first element of a by a[0]=24",
+            "merged": false,
+            "keywords": [
+              "the length of this array (call it a) is 5 the elements of this array are: a[0], a[1], a[2], a[3], a[4] we can read the first element of a e.g. by first = a[0] we can modify the first element of a by a[0]=24"
+            ],
+            "eventId": "5",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Pros__easy_to_understand_and_use_expressive_enough_for_a_wide_range_of_tasks_typically_very_fast_to_read/write_(low-level,_close_to_underlying_hardware)_few_functionalities_so_not_many_things_can_go_wrong",
+            "name": "Pros: easy to understand and use expressive enough for a wide range of tasks typically very fast to read/write (low-level, close to underlying hardware) few functionalities so not many things can go wrong",
+            "merged": false,
+            "keywords": [
+              "Pros: easy to understand and use expressive enough for a wide range of tasks typically very fast to read/write (low-level, close to underlying hardware) few functionalities so not many things can go wrong"
+            ],
+            "eventId": "6",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Cons__(too_few_functionalities)_fixed_size_-_cannot_enlarge_an_array_sometimes_we_need_more_elaborate_data_structures_than_simply_storing_data_in_a_row_(i.e._the_whole_point_of_having_data_structures)",
+            "name": "Cons: (too few functionalities) fixed size - cannot enlarge an array sometimes we need more elaborate data structures than simply storing data in a row (i.e. the whole point of having data structures)",
+            "merged": false,
+            "keywords": [
+              "Cons: (too few functionalities) fixed size - cannot enlarge an array sometimes we need more elaborate data structures than simply storing data in a row (i.e. the whole point of having data structures)"
+            ],
+            "eventId": "7",
+            "disabled": false
+          }
+        ],
+        "keywords": [
+          "Arrays"
+        ],
+        "eventId": "13"
+      },
+      {
+        "type": "child",
+        "name": "Lists",
+        "id": "Lists",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "elements_are_stored_in_a_sequence_we_can_read/write_elements_we_can_add/remove_elements_at_any_position_(changing_the_length_of_the_list)",
+            "name": "elements are stored in a sequence we can read/write elements we can add/remove elements at any position (changing the length of the list)",
+            "merged": false,
+            "keywords": [
+              "elements are stored in a sequence we can read/write elements we can add/remove elements at any position (changing the length of the list)"
+            ],
+            "eventId": "1",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Group_2",
+            "name": "Group 2",
+            "merged": false,
+            "keywords": [
+              "Group 2"
+            ],
+            "eventId": "2",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "this_describes_functionalities_of_lists_i.e._the_functions_available_for_using_them_Such_a_description_is_called_an_Abstract_Data_Type_(ADT)",
+            "name": "this describes functionalities of lists i.e. the functions available for using them Such a description is called an Abstract Data Type (ADT)",
+            "merged": true,
+            "keywords": [
+              "this describes functionalities of lists i.e. the functions available for using them Such a description is called an Abstract Data Type (ADT)"
+            ],
+            "eventId": "3",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "ADTs_are_like_Java_Interfaces,_while_Data_Structures_are_like_their_implementations._an_ADT_gives_us_an_outside_view_of_a_data_object_-_tells_us_how_to_use_it_a_Data_Structure_gives_us_the_inside_view_of_the_object_-_shows_us_how_the_object_really_works",
+            "name": "ADTs are like Java Interfaces, while Data Structures are like their implementations. an ADT gives us an outside view of a data object - tells us how to use it a Data Structure gives us the inside view of the object - shows us how the object really works",
+            "merged": false,
+            "keywords": [
+              "ADTs are like Java Interfaces, while Data Structures are like their implementations. an ADT gives us an outside view of a data object - tells us how to use it a Data Structure gives us the inside view of the object - shows us how the object really works"
+            ],
+            "eventId": "4",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "How_to_implement_the_ADT_described_above?",
+            "name": "How to implement the ADT described above?",
+            "merged": false,
+            "keywords": [
+              "How to implement the ADT described above?"
+            ],
+            "eventId": "5",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "List Example Usage",
+            "id": "List_Example_Usage",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "2",
+                "name": "2",
+                "merged": false,
+                "keywords": [
+                  "2",
+                  "3",
+                  "4",
+                  "5"
+                ],
+                "eventId": "1",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "ls.append(42)",
+                "name": "ls.append(42)",
+                "merged": false,
+                "keywords": [
+                  "ls.append(42)"
+                ],
+                "eventId": "2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "42",
+                "name": "42",
+                "merged": false,
+                "keywords": [
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "42"
+                ],
+                "eventId": "3",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "ls.remove(2)",
+                "name": "ls.remove(2)",
+                "merged": false,
+                "keywords": [
+                  "ls.remove(2)"
+                ],
+                "eventId": "4",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "other_42",
+                "name": "other 42",
+                "merged": false,
+                "keywords": [
+                  "2",
+                  "3",
+                  "5",
+                  "42",
+                  "other 42"
+                ],
+                "eventId": "11",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "ls.insert(1,_24)",
+                "name": "ls.insert(1, 24)",
+                "merged": false,
+                "keywords": [
+                  "ls.insert(1, 24)"
+                ],
+                "eventId": "6",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "24",
+                "name": "24",
+                "merged": false,
+                "keywords": [
+                  "2",
+                  "24",
+                  "3",
+                  "5",
+                  "42"
+                ],
+                "eventId": "7",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "indices",
+                "name": "indices",
+                "merged": false,
+                "keywords": [
+                  "indices"
+                ],
+                "eventId": "8",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "values",
+                "name": "values",
+                "merged": false,
+                "keywords": [
+                  "values"
+                ],
+                "eventId": "9",
+                "disabled": false
+              }
+            ],
+            "keywords": [
+              "List Example Usage"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "Lists_are_a_family_of_data_structures,_of_which_we_will_look_at_two_representatives__array_lists_-_an_extension_of_arrays_that_also_behave_like_lists_linked_lists_-_a_new_data_structure_based_on_chaining_of_elements",
+            "name": "Lists are a family of data structures, of which we will look at two representatives: array lists - an extension of arrays that also behave like lists linked lists - a new data structure based on chaining of elements",
+            "merged": false,
+            "keywords": [
+              "Lists are a family of data structures, of which we will look at two representatives: array lists - an extension of arrays that also behave like lists linked lists - a new data structure based on chaining of elements"
+            ],
+            "eventId": "7",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "Functionalities of ArrayLists",
+            "id": "Functionalities_of_ArrayLists",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "You_have_already_used_array_lists_in_Java.",
+                "name": "You have already used array lists in Java.",
+                "merged": false,
+                "keywords": [
+                  "You have already used array lists in Java.",
+                  "Code snippet"
+                ],
+                "eventId": "1",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "In_Python,_even_though_we_have_been_using_mostly_features_of_arrays_only._The_arrays_in_fact_have_extra_functionalities_-_they_are_array_lists_",
+                "name": "In Python, even though we have been using mostly features of arrays only. The arrays in fact have extra functionalities - they are array lists:",
+                "merged": false,
+                "keywords": [
+                  "In Python, even though we have been using mostly features of arrays only. The arrays in fact have extra functionalities - they are array lists:",
+                  "Code snippet"
+                ],
+                "eventId": "2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "We_require_that_array_lists_have_the_following_functions__create()_a_function_for_creating_a_new_array_list_of_length_0_get(i)_for_reading_the_i-th_element_of_an_array_list_set(i,_e)_for_writing_an_element_e_into_i-th_element_of_an_array_list_length()_for_retrieving_the_current_length_of_an_array_list_append(e)_for_appending_an_element_e_at_the_end_of_an_array_list,_increasing_its_length_by_1_insert(i,_e)_for_inserting_an_element_e_in_the_i-th_position_of_an_array_list_and_moving_all_subsequent_elements_one_position_to_the_right,_increasing_its_length_by_1_remove(i)_for_removing_the_element_in_the_i-th_position_of_an_array_list,_returning_it,_and_moving_all_subsequent_elements_one_position_to_the_left,_reducing_its_length_by_1",
+                "name": "We require that array lists have the following functions: create() a function for creating a new array list of length 0 get(i) for reading the i-th element of an array list set(i, e) for writing an element e into i-th element of an array list length() for retrieving the current length of an array list append(e) for appending an element e at the end of an array list, increasing its length by 1 insert(i, e) for inserting an element e in the i-th position of an array list and moving all subsequent elements one position to the right, increasing its length by 1 remove(i) for removing the element in the i-th position of an array list, returning it, and moving all subsequent elements one position to the left, reducing its length by 1",
+                "merged": false,
+                "keywords": [
+                  "Functionalities of array lists",
+                  "We require that array lists have the following functions: create() a function for creating a new array list of length 0 get(i) for reading the i-th element of an array list set(i, e) for writing an element e into i-th element of an array list length() for retrieving the current length of an array list append(e) for appending an element e at the end of an array list, increasing its length by 1 insert(i, e) for inserting an element e in the i-th position of an array list and moving all subsequent elements one position to the right, increasing its length by 1 remove(i) for removing the element in the i-th position of an array list, returning it, and moving all subsequent elements one position to the left, reducing its length by 1"
+                ],
+                "eventId": "3",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "In_get,_set,_and_remove__the_index_i_is_assumed_to_be_between_0_and_the_length_of_the_list_minus_1_In_insert__the_index_i_is_assumed_to_be_between_0_and_the_length_of_the_list_actual_array_list_implementations_have_(many)_more_functions,_but_for_us_the_above_seven_will_do",
+                "name": "In get, set, and remove: the index i is assumed to be between 0 and the length of the list minus 1 In insert: the index i is assumed to be between 0 and the length of the list actual array list implementations have (many) more functions, but for us the above seven will do",
+                "merged": false,
+                "keywords": [
+                  "In get, set, and remove: the index i is assumed to be between 0 and the length of the list minus 1 In insert: the index i is assumed to be between 0 and the length of the list actual array list implementations have (many) more functions, but for us the above seven will do"
+                ],
+                "eventId": "5",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "How_to_build_arrays_that_change_in_size?",
+                "name": "How to build arrays that change in size?",
+                "merged": false,
+                "keywords": [
+                  "How to build arrays that change in size?"
+                ],
+                "eventId": "4",
+                "disabled": false
+              }
+            ],
+            "keywords": [
+              "Functionalities of ArrayLists"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "child",
+            "name": "ArrayList First Attempt",
+            "id": "ArrayList_First_Attempt",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "First_attempt",
+                "name": "First attempt",
+                "merged": false,
+                "keywords": [
+                  "First attempt"
+                ],
+                "eventId": "1",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "ls.append(42)",
+                "name": "ls.append(42)",
+                "merged": false,
+                "keywords": [
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "ls.append(42)",
+                  "42",
+                  "ls.remove(2)"
+                ],
+                "eventId": "7",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "An_array_list_is_simply_an_object_containing_an_internal_array_(as_an_instance_variable)_We_perform_any_read/write_operations_on_the_internal_array_directly_To_perform_an_operation_that_changes_the_length_of_the_array,_we_make_a_copy_of_the_array_of_the_right_size,_perform_the_required_operations_on_it,_and_finally_make_the_new_array_our_internal_array.",
+                "name": "An array list is simply an object containing an internal array (as an instance variable) We perform any read/write operations on the internal array directly To perform an operation that changes the length of the array, we make a copy of the array of the right size, perform the required operations on it, and finally make the new array our internal array.",
+                "merged": false,
+                "keywords": [
+                  "An array list is simply an object containing an internal array (as an instance variable) We perform any read/write operations on the internal array directly To perform an operation that changes the length of the array, we make a copy of the array of the right size, perform the required operations on it, and finally make the new array our internal array."
+                ],
+                "eventId": "9",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Data_structures_are_naturally_organised_as_objects._For_example,_an_array_list_described_above_would_be_an_object_of_a_class_that_would_have__methods_set,_get,_create_(which_in_Python_is___init__)_an_instance_variable_inArray_of_type_array",
+                "name": "Data structures are naturally organised as objects. For example, an array list described above would be an object of a class that would have: methods set, get, create (which in Python is __init__) an instance variable inArray of type array",
+                "merged": false,
+                "keywords": [
+                  "Data structures are naturally organised as objects. For example, an array list described above would be an object of a class that would have: methods set, get, create (which in Python is __init__) an instance variable inArray of type array"
+                ],
+                "eventId": "10",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "Objects in Python",
+                "id": "Objects_in_Python",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "class_X",
+                    "name": "class X",
+                    "merged": false,
+                    "keywords": [
+                      "class X"
+                    ],
+                    "eventId": "1",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "OOP_in_Python",
+                    "name": "OOP in Python",
+                    "merged": true,
+                    "keywords": [
+                      "OOP in Python"
+                    ],
+                    "eventId": "2",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "instance_variables",
+                    "name": "instance variables",
+                    "merged": false,
+                    "keywords": [
+                      "class variables",
+                      "instance variables"
+                    ],
+                    "eventId": "3",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "One_refers_to_instance_variables_using_the_keyword_self_(similar_to_this_in_Java)._Outside_the_class,_one_refers_to_instance_variables_as_object.variable_just_like_in_Java._Class_variables_are_referred_by_their_name_inside_the_class,_with_className.variable_from_outside.",
+                    "name": "One refers to instance variables using the keyword self (similar to this in Java). Outside the class, one refers to instance variables as object.variable just like in Java. Class variables are referred by their name inside the class, with className.variable from outside.",
+                    "merged": false,
+                    "keywords": [
+                      "One refers to instance variables using the keyword self (similar to this in Java). Outside the class, one refers to instance variables as object.variable just like in Java. Class variables are referred by their name inside the class, with className.variable from outside."
+                    ],
+                    "eventId": "4",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "class_Y",
+                    "name": "class Y",
+                    "merged": false,
+                    "keywords": [
+                      "class Y"
+                    ],
+                    "eventId": "6",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "instance_functions_have_the_first_argument_self._Class_functions_do_not_have_this_argument.",
+                    "name": "instance functions have the first argument self. Class functions do not have this argument.",
+                    "merged": false,
+                    "keywords": [
+                      "instance functions have the first argument self. Class functions do not have this argument."
+                    ],
+                    "eventId": "7",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "instance_variables_just_pop_up_when_you_use_them_note_the_lack_of_typing_in_the_example_Y___init__()_is_the_constructor",
+                    "name": "instance variables just pop up when you use them note the lack of typing in the example Y __init__() is the constructor",
+                    "merged": false,
+                    "keywords": [
+                      "instance variables just pop up when you use them note the lack of typing in the example Y __init__() is the constructor"
+                    ],
+                    "eventId": "9",
+                    "disabled": false
+                  }
+                ],
+                "keywords": [
+                  "Objects in Python"
+                ],
+                "eventId": "11"
+              },
+              {
+                "type": "show",
+                "id": "Code_snippet",
+                "name": "Code snippet",
+                "merged": false,
+                "keywords": [
+                  "Code snippet"
+                ],
+                "eventId": "12",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Why_is_this_not_a_good_idea?",
+                "name": "Why is this not a good idea?",
+                "merged": false,
+                "keywords": [
+                  "Why is this not a good idea?"
+                ],
+                "eventId": "13",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "It_is_not_efficient_(to_make_a_copy_of_an_array_we_need_to_go_through_all_its_elements)_appending,_inserting,_and_removing_all_have_complexity__CE_98(n)_not_good_if_you_intend_to_make_these_operations_many_times",
+                "name": "It is not efficient (to make a copy of an array we need to go through all its elements) appending, inserting, and removing all have complexity Θ(n) not good if you intend to make these operations many times",
+                "merged": false,
+                "keywords": [
+                  "It is not efficient (to make a copy of an array we need to go through all its elements) appending, inserting, and removing all have complexity Θ(n) not good if you intend to make these operations many times"
+                ],
+                "eventId": "14",
+                "disabled": false
+              }
+            ],
+            "keywords": [
+              "ArrayList First Attempt"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "child",
+            "name": "Better Attempt",
+            "id": "Better_Attempt",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "Better_Attempt2",
+                "name": "Better Attempt",
+                "merged": false,
+                "keywords": [
+                  "Better Attempt"
+                ],
+                "eventId": "1",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Don_E2_80_99t_expand_the_array_by_just_one_element,_but_more_to_allow_some_leeway.",
+                "name": "Don’t expand the array by just one element, but more to allow some leeway.",
+                "merged": false,
+                "keywords": [
+                  "Don’t expand the array by just one element, but more to allow some leeway."
+                ],
+                "eventId": "2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "An_array_list_is_an_object_containing_an_internal_array_and_a_counter_that_remembers_the_used_part_of_the_internal_array_The_internal_array_will_typically_have_size_larger_than_the_count,_so_that_it_can_accommodate_addition_of_new_elements_We_perform_any_read/write_operations_directly_on_the_internal_array_To_perform_an_operation_that_changes_the_size,_we_do_not_create_a_new_internal_array_but,_rather,_work_on_the_existing_one_and_change_the_count_value_We_need_to_resize_if_the_count_reaches_the_length_of_the_internal_array_(the_size_of_the_internal_array_is_something_called_capacity).",
+                "name": "An array list is an object containing an internal array and a counter that remembers the used part of the internal array The internal array will typically have size larger than the count, so that it can accommodate addition of new elements We perform any read/write operations directly on the internal array To perform an operation that changes the size, we do not create a new internal array but, rather, work on the existing one and change the count value We need to resize if the count reaches the length of the internal array (the size of the internal array is something called capacity).",
+                "merged": false,
+                "keywords": [
+                  "An array list is an object containing an internal array and a counter that remembers the used part of the internal array The internal array will typically have size larger than the count, so that it can accommodate addition of new elements We perform any read/write operations directly on the internal array To perform an operation that changes the size, we do not create a new internal array but, rather, work on the existing one and change the count value We need to resize if the count reaches the length of the internal array (the size of the internal array is something called capacity)."
+                ],
+                "eventId": "3",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "inArray",
+                "name": "inArray",
+                "merged": false,
+                "keywords": [
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "inArray",
+                  "count",
+                  "ls"
+                ],
+                "eventId": "4",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "ls.append(42)",
+                "name": "ls.append(42)",
+                "merged": false,
+                "keywords": [
+                  "ls.append(42)"
+                ],
+                "eventId": "5",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "inArray2",
+                "name": "inArray2",
+                "merged": false,
+                "keywords": [
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "42",
+                  "inArray",
+                  "count",
+                  "ls",
+                  "inArray2"
+                ],
+                "eventId": "11",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "ls.remove(2)",
+                "name": "ls.remove(2)",
+                "merged": false,
+                "keywords": [
+                  "ls.remove(2)"
+                ],
+                "eventId": "16",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "inArray3",
+                "name": "inArray3",
+                "merged": false,
+                "keywords": [
+                  "2",
+                  "3",
+                  "5",
+                  "42",
+                  "inArray",
+                  "count",
+                  "4",
+                  "ls",
+                  "inArray3"
+                ],
+                "eventId": "13",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "ls.insert(1,_24)",
+                "name": "ls.insert(1, 24)",
+                "merged": false,
+                "keywords": [
+                  "ls.insert(1, 24)"
+                ],
+                "eventId": "14",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "inArray4",
+                "name": "inArray4",
+                "merged": false,
+                "keywords": [
+                  "2",
+                  "24",
+                  "3",
+                  "5",
+                  "42",
+                  "inArray",
+                  "count",
+                  "ls",
+                  "inArray4"
+                ],
+                "eventId": "15",
+                "disabled": false
+              }
+            ],
+            "keywords": [
+              "Better Attempt"
+            ],
+            "eventId": "10"
+          },
+          {
+            "type": "child",
+            "name": "Better Atttempt Implementation",
+            "id": "Better_Atttempt_Implementation",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "Code_snippet_2",
+                "name": "Code snippet 2",
+                "merged": false,
+                "keywords": [
+                  "Code snippet 2"
+                ],
+                "eventId": "2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Code_snippet_1",
+                "name": "Code snippet 1",
+                "merged": false,
+                "keywords": [
+                  "Code snippet 1"
+                ],
+                "eventId": "3",
+                "disabled": false
+              }
+            ],
+            "keywords": [
+              "Better Atttempt Implementation"
+            ],
+            "eventId": "11"
+          },
+          {
+            "type": "child",
+            "name": "Better attempt efficiency",
+            "id": "Better_attempt_efficiency",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "Complexity_of_ArrayList_operations",
+                "name": "Complexity of ArrayList operations",
+                "merged": false,
+                "keywords": [
+                  "Complexity of ArrayList operations"
+                ],
+                "eventId": "1",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "create()_get(i)_set(i,_e)_length()_append(e)_insert(i,_e)_remove(i)",
+                "name": "create() get(i) set(i, e) length() append(e) insert(i, e) remove(i)",
+                "merged": true,
+                "keywords": [
+                  "create() get(i) set(i, e) length() append(e) insert(i, e) remove(i)"
+                ],
+                "eventId": "2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "_CE_98(1)__CE_98(1)__CE_98(1)__CE_98(1)__CE_98(n)_in_worst_case_but__CE_98(1)_in_most_cases_(when_resizing_up)__CE_98(n)_in_worst_case_but_usually_lower__CE_98(n)_in_worst_case_but_usually_lower",
+                "name": "Θ(1) Θ(1) Θ(1) Θ(1) Θ(n) in worst case but Θ(1) in most cases (when resizing up) Θ(n) in worst case but usually lower Θ(n) in worst case but usually lower",
+                "merged": false,
+                "keywords": [
+                  "Θ(1) Θ(1) Θ(1) Θ(1) Θ(n) in worst case but Θ(1) in most cases (when resizing up) Θ(n) in worst case but usually lower Θ(n) in worst case but usually lower"
+                ],
+                "eventId": "3",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "This_is_the_standard_implementation_of_array_lists._typically,_the_internal_array_also_is_resized_down_when_the_count_becomes_too_small_the_worst_case_does_not_happen_too_often_statistically_(one_may_say_that_the_algorithm_has_good_amortised_complexity)",
+                "name": "This is the standard implementation of array lists. typically, the internal array also is resized down when the count becomes too small the worst case does not happen too often statistically (one may say that the algorithm has good amortised complexity)",
+                "merged": false,
+                "keywords": [
+                  "This is the standard implementation of array lists. typically, the internal array also is resized down when the count becomes too small the worst case does not happen too often statistically (one may say that the algorithm has good amortised complexity)"
+                ],
+                "eventId": "4",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Array_lists_are_extensions_of_arrays,_so_our_array_algorithms_directly_apply_to_array_lists,_we_just_need_to_adapt_notation__reading_is_done_via_A.get(i)_instead_of_A_5Bi_5D_len(A)_is_replaced_by_A.length(),_etc_Because_their_size_is_not_fixed,_array_lists_have_greater_usability.",
+                "name": "Array lists are extensions of arrays, so our array algorithms directly apply to array lists, we just need to adapt notation: reading is done via A.get(i) instead of A[i] len(A) is replaced by A.length(), etc Because their size is not fixed, array lists have greater usability.",
+                "merged": false,
+                "keywords": [
+                  "Array lists are extensions of arrays, so our array algorithms directly apply to array lists, we just need to adapt notation: reading is done via A.get(i) instead of A[i] len(A) is replaced by A.length(), etc Because their size is not fixed, array lists have greater usability."
+                ],
+                "eventId": "5",
+                "disabled": false
+              }
+            ],
+            "keywords": [
+              "Better attempt efficiency"
+            ],
+            "eventId": "12"
+          }
+        ],
+        "keywords": [
+          "Lists"
+        ],
+        "eventId": "14"
+      },
+      {
+        "type": "child",
+        "name": "ADTs again",
+        "id": "ADTs_again",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "The_distinction_between_abstract_data_types_(ADTs)_and_data_structures_is_subtle_and_we_won_E2_80_99t_insist_too_much_on_it._But_it_is_an_important_one",
+            "name": "The distinction between abstract data types (ADTs) and data structures is subtle and we won’t insist too much on it. But it is an important one",
+            "merged": false,
+            "keywords": [
+              "Abstract Data Types vs Data Structures",
+              "The distinction between abstract data types (ADTs) and data structures is subtle and we won’t insist too much on it. But it is an important one"
+            ],
+            "eventId": "1",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Analogies_",
+            "name": "Analogies:",
+            "merged": false,
+            "keywords": [
+              "Analogies:"
+            ],
+            "eventId": "2",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Abstract_classes_or_interfaces_in_Java",
+            "name": "Abstract classes or interfaces in Java",
+            "merged": false,
+            "keywords": [
+              "Abstract classes or interfaces in Java",
+              "Implementation"
+            ],
+            "eventId": "3",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Project_specification",
+            "name": "Project specification",
+            "merged": false,
+            "keywords": [
+              "Project specification",
+              "Project realisation"
+            ],
+            "eventId": "4",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "a_heated_water_container_+_a_heating_mechanism_+_a_pipe_letting_the_water_...",
+            "name": "a heated water container + a heating mechanism + a pipe letting the water ...",
+            "merged": false,
+            "keywords": [
+              "putCoffee, putWater, getSingleCoffee, ...",
+              "a heated water container + a heating mechanism + a pipe letting the water ..."
+            ],
+            "eventId": "5",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Data_Structure",
+            "name": "Data Structure",
+            "merged": false,
+            "keywords": [
+              "ADT",
+              "Data Structure"
+            ],
+            "eventId": "6",
+            "disabled": false
+          }
+        ],
+        "keywords": [
+          "ADTs again"
+        ],
+        "eventId": "17"
+      },
+      {
+        "type": "child",
+        "name": "Stacks",
+        "id": "Stacks",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "stack_1",
+            "name": "stack 1",
+            "merged": false,
+            "keywords": [
+              "stack 1"
+            ],
+            "eventId": "1",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "LIFO_Last_In_First_Out",
+            "name": "LIFO Last In First Out",
+            "merged": false,
+            "keywords": [
+              "LIFO Last In First Out"
+            ],
+            "eventId": "2",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "push(e)",
+            "name": "push(e)",
+            "merged": false,
+            "keywords": [
+              "2",
+              "3",
+              "4",
+              "5",
+              "top",
+              "push(e)",
+              "pop()"
+            ],
+            "eventId": "4",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "s.pop()",
+            "name": "s.pop()",
+            "merged": false,
+            "keywords": [
+              "3",
+              "4",
+              "5",
+              "s",
+              "s.pop()"
+            ],
+            "eventId": "5",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "s.push(24)",
+            "name": "s.push(24)",
+            "merged": false,
+            "keywords": [
+              "24",
+              "3",
+              "4",
+              "5",
+              "s.push(24)"
+            ],
+            "eventId": "6",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Stack_ADT_create()___a_function_for_creating_a_new_stack_of_size_0_size()___for_retrieving_the_current_size_of_the_stack_push(e)___for_adding_an_element_e_at_the_top_of_the_stack,_increasing_its_size_by_1_pop()___for_removing_the_element_at_the_top_of_the_stack_and_returning_it,_decreasing_its_size_by_1.",
+            "name": "Stack ADT create() : a function for creating a new stack of size 0 size() : for retrieving the current size of the stack push(e) : for adding an element e at the top of the stack, increasing its size by 1 pop() : for removing the element at the top of the stack and returning it, decreasing its size by 1.",
+            "merged": false,
+            "keywords": [
+              "Stack ADT create() : a function for creating a new stack of size 0 size() : for retrieving the current size of the stack push(e) : for adding an element e at the top of the stack, increasing its size by 1 pop() : for removing the element at the top of the stack and returning it, decreasing its size by 1."
+            ],
+            "eventId": "8",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "A_stack_seems_to_be_an_array_list_with_fewer_features_(it_is)__we_can_only_change_the_entries_with_push/pop._So_we_can_implement_it_using_an_array_list_",
+            "name": "A stack seems to be an array list with fewer features (it is): we can only change the entries with push/pop. So we can implement it using an array list:",
+            "merged": false,
+            "keywords": [
+              "A stack seems to be an array list with fewer features (it is): we can only change the entries with push/pop. So we can implement it using an array list:"
+            ],
+            "eventId": "9",
+            "disabled": false
+          }
+        ],
+        "keywords": [
+          "Stacks"
+        ],
+        "eventId": "15"
+      },
+      {
+        "type": "child",
+        "name": "Stack Implementations",
+        "id": "Stack_Implementations",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Code_snippet",
+            "name": "Code snippet",
+            "merged": false,
+            "keywords": [
+              "Code snippet"
+            ],
+            "eventId": "1",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Does_this_satisfy_the_ADT?_Is_there_anything_wrong_with_this_implementation?",
+            "name": "Does this satisfy the ADT? Is there anything wrong with this implementation?",
+            "merged": false,
+            "keywords": [
+              "Does this satisfy the ADT? Is there anything wrong with this implementation?"
+            ],
+            "eventId": "2",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "If_the_stack_has_size_n_then_the_functions_push_and_pop_always_have_complexity__CE_98(n)__push_calls_insert_at_the_beginning_of_the_internal_array_list_pop_removes_the_first_element_of_the_array_list",
+            "name": "If the stack has size n then the functions push and pop always have complexity Θ(n): push calls insert at the beginning of the internal array list pop removes the first element of the array list",
+            "merged": false,
+            "keywords": [
+              "If the stack has size n then the functions push and pop always have complexity Θ(n): push calls insert at the beginning of the internal array list pop removes the first element of the array list"
+            ],
+            "eventId": "3",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "How_to_improve?",
+            "name": "How to improve?",
+            "merged": false,
+            "keywords": [
+              "How to improve?"
+            ],
+            "eventId": "4",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Code_snippet2",
+            "name": "Code snippet2",
+            "merged": false,
+            "keywords": [
+              "Code snippet2"
+            ],
+            "eventId": "6",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Why_is_this_better?",
+            "name": "Why is this better?",
+            "merged": false,
+            "keywords": [
+              "Why is this better?"
+            ],
+            "eventId": "7",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "pop_has_worst-case_complexity_of__CE_98(1)_push_has_worst_case_complexity_of__CE_98(n),_namely_when_there_is_a_resize._But_typically_it_will_run_in_constant_time.",
+            "name": "pop has worst-case complexity of Θ(1) push has worst case complexity of Θ(n), namely when there is a resize. But typically it will run in constant time.",
+            "merged": false,
+            "keywords": [
+              "pop has worst-case complexity of Θ(1) push has worst case complexity of Θ(n), namely when there is a resize. But typically it will run in constant time."
+            ],
+            "eventId": "8",
+            "disabled": false
+          }
+        ],
+        "keywords": [
+          "Stack Implementations"
+        ],
+        "eventId": "18"
+      },
+      {
+        "type": "child",
+        "name": "Queues",
+        "id": "Queues",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Queue-bro_1",
+            "name": "Queue-bro 1",
+            "merged": false,
+            "keywords": [
+              "Queue-bro 1"
+            ],
+            "eventId": "1",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "LIFO_Last_In_First_Out",
+            "name": "LIFO Last In First Out",
+            "merged": false,
+            "keywords": [
+              "LIFO Last In First Out"
+            ],
+            "eventId": "2",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "push(e)",
+            "name": "push(e)",
+            "merged": false,
+            "keywords": [
+              "2",
+              "3",
+              "4",
+              "5",
+              "head",
+              "tail",
+              "enq(e)",
+              "deq()",
+              "push(e)"
+            ],
+            "eventId": "3",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "q.enq(24)",
+            "name": "q.enq(24)",
+            "merged": false,
+            "keywords": [
+              "2",
+              "3",
+              "4",
+              "5",
+              "24",
+              "q.enq(24)",
+              "q"
+            ],
+            "eventId": "4",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "q.deq()",
+            "name": "q.deq()",
+            "merged": false,
+            "keywords": [
+              "q.deq()",
+              "3",
+              "4",
+              "5",
+              "24"
+            ],
+            "eventId": "5",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Queue_ADT_create()___a_function_for_creating_a_queue_of_size_0_size()___for_retrieving_the_current_size_of_the_queue_enq(e)___for_adding_an_element_at_the_tail_of_the_queue,_increasing_its_size_by_1_deq()___for_removing_the_element_from_the_head_of_the_queue_and_returning_it,_decreasing_its_size_by_1",
+            "name": "Queue ADT create() : a function for creating a queue of size 0 size() : for retrieving the current size of the queue enq(e) : for adding an element at the tail of the queue, increasing its size by 1 deq() : for removing the element from the head of the queue and returning it, decreasing its size by 1",
+            "merged": false,
+            "keywords": [
+              "Queue ADT create() : a function for creating a queue of size 0 size() : for retrieving the current size of the queue enq(e) : for adding an element at the tail of the queue, increasing its size by 1 deq() : for removing the element from the head of the queue and returning it, decreasing its size by 1"
+            ],
+            "eventId": "6",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "How_would_you_implement_a_queue_using_two_stacks?",
+            "name": "How would you implement a queue using two stacks?",
+            "merged": false,
+            "keywords": [
+              "How would you implement a queue using two stacks?"
+            ],
+            "eventId": "7",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "How_would_you_implement_a_stack_using_two_queues?",
+            "name": "How would you implement a stack using two queues?",
+            "merged": false,
+            "keywords": [
+              "How would you implement a stack using two queues?"
+            ],
+            "eventId": "8",
+            "disabled": false
+          }
+        ],
+        "keywords": [
+          "Queues"
+        ],
+        "eventId": "16"
+      },
+      {
+        "type": "show",
+        "id": "V._Summary_&_Exercises",
+        "name": "V. Summary & Exercises",
+        "merged": false,
+        "keywords": [
+          "V. Summary & Exercises"
+        ],
+        "eventId": "21",
+        "disabled": false
+      },
+      {
+        "type": "child",
+        "name": "Exercsises",
+        "id": "Exercsises",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "First_look_at_data_structures__they_are_ways_of_storing_the_data_so_that_it_can_be_used_more_efficiently_The_simplest_data_structure_is_the_array__simple_but_has_its_limitations_One_major_limitation_is_that_they_have_fixed_length_Lists_overcome_this_limitation._We_looked_at_array_lists_and_their_implementations_using_array_and_count_Array_lists_have_efficient_append_-_unless_it_leads_to_resizing_We_also_saw_two_other_simple_array-like_data_structures__stacks_and_queues.",
+            "name": "First look at data structures: they are ways of storing the data so that it can be used more efficiently The simplest data structure is the array: simple but has its limitations One major limitation is that they have fixed length Lists overcome this limitation. We looked at array lists and their implementations using array and count Array lists have efficient append - unless it leads to resizing We also saw two other simple array-like data structures: stacks and queues.",
+            "merged": false,
+            "keywords": [
+              "First look at data structures: they are ways of storing the data so that it can be used more efficiently The simplest data structure is the array: simple but has its limitations One major limitation is that they have fixed length Lists overcome this limitation. We looked at array lists and their implementations using array and count Array lists have efficient append - unless it leads to resizing We also saw two other simple array-like data structures: stacks and queues."
+            ],
+            "eventId": "1",
+            "disabled": false
+          },
+          {
+            "type": "hide",
+            "id": "First_look_at_data_structures__they_are_ways_of_storing_the_data_so_that_it_can_be_used_more_efficiently_The_simplest_data_structure_is_the_array__simple_but_has_its_limitations_One_major_limitation_is_that_they_have_fixed_length_Lists_overcome_this_limitation._We_looked_at_array_lists_and_their_implementations_using_array_and_count_Array_lists_have_efficient_append_-_unless_it_leads_to_resizing_We_also_saw_two_other_simple_array-like_data_structures__stacks_and_queues.",
+            "name": "First look at data structures: they are ways of storing the data so that it can be used more efficiently The simplest data structure is the array: simple but has its limitations One major limitation is that they have fixed length Lists overcome this limitation. We looked at array lists and their implementations using array and count Array lists have efficient append - unless it leads to resizing We also saw two other simple array-like data structures: stacks and queues.",
+            "merged": false,
+            "keywords": [
+              "First look at data structures: they are ways of storing the data so that it can be used more efficiently The simplest data structure is the array: simple but has its limitations One major limitation is that they have fixed length Lists overcome this limitation. We looked at array lists and their implementations using array and count Array lists have efficient append - unless it leads to resizing We also saw two other simple array-like data structures: stacks and queues."
+            ],
+            "eventId": "2",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "exercises_1",
+            "name": "exercises 1",
+            "merged": false,
+            "keywords": [
+              "exercises 1"
+            ],
+            "eventId": "3",
+            "disabled": false
+          },
+          {
+            "type": "hide",
+            "id": "exercises_1",
+            "name": "exercises 1",
+            "merged": false,
+            "keywords": [
+              "exercises 1"
+            ],
+            "eventId": "4",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "sols21_1",
+            "name": "sols21 1",
+            "merged": false,
+            "keywords": [
+              "sols21 1"
+            ],
+            "eventId": "5",
+            "disabled": false
+          }
+        ],
+        "keywords": [
+          "Exercsises"
+        ],
+        "eventId": "20"
+      }
+    ],
+    "keywords": [
+      "Algorithms and Data Structures (ECS529U)",
+      "Basic Data Structures: Arrays & Lists",
+      "Lecture 4",
+      "Title"
+    ],
+    "eventId": "root"
+  },
+  "soundDict": {}
+}
