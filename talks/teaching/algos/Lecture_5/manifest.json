@@ -1,0 +1,1756 @@
+{
+  "version": 0.915,
+  "presentation": "Lecture 5",
+  "slideDict": {
+    "new_slide": "Title",
+    "Definition_1": "Definition_1",
+    "Definition_2": "Definition_2",
+    "Creating_1": "Creating_1",
+    "Traversing_1": "Traversing_1",
+    "Traversing_2": "Traversing_2",
+    "Operations": "Operations",
+    "Operation_Appending": "Operation_Appending",
+    "Operation_Searching": "Operation_Searching",
+    "Inerting_1": "Inerting_1",
+    "Removing": "Removing",
+    "Removing2": "Removing2",
+    "Operations_2": "Operations_2",
+    "Other_things": "Other_things",
+    "Doubly_Linked_Lists": "Doubly_Linked_Lists",
+    "Summary": "Summary",
+    "Exercises": "Exercises"
+  },
+  "tree": {
+    "type": "child",
+    "name": "Title",
+    "id": "new_slide",
+    "merged": false,
+    "children": [
+      {
+        "type": "child",
+        "name": "Definition 1",
+        "id": "Definition_1",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Last_week,_the_List_ADT",
+            "name": "Last week, the List ADT",
+            "merged": false,
+            "keywords": [
+              "Last week, the List ADT"
+            ],
+            "eventId": "12",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "elements_are_stored_in_a_sequence_we_can_read/write_elements_we_can_add/remove_elements_at_any_position_(changing_the_length_of_the_list)",
+            "name": "elements are stored in a sequence we can read/write elements we can add/remove elements at any position (changing the length of the list)",
+            "merged": true,
+            "keywords": [
+              "elements are stored in a sequence we can read/write elements we can add/remove elements at any position (changing the length of the list)"
+            ],
+            "eventId": "1",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "create()_a_function_for_creating_a_list_of_length_0_get(i)_for_reading_the_i-th_element_of_a_list_set(i,_e)_for_writing_an_element_e_into_i-th_element_of_a_list_length()_for_retrieving_the_current_length_of_a_list_append(e)_for_appending_an_element_e_at_the_end_of_a_list,_increasing_its_length_by_1_insert(i,_e)_for_inserting_an_element_e_in_the_i-th_position_of_a_list_and_moving_all_subsequent_elements_one_position_to_the_right,_increasing_its_length_by_1_remove(i)_for_removing_the_element_in_the_i-th_position_of_a_list,_returning_it,_and_moving_all_subsequent_elements_one_position_to_the_left,_reducing_its_length_by_1",
+            "name": "create() a function for creating a list of length 0 get(i) for reading the i-th element of a list set(i, e) for writing an element e into i-th element of a list length() for retrieving the current length of a list append(e) for appending an element e at the end of a list, increasing its length by 1 insert(i, e) for inserting an element e in the i-th position of a list and moving all subsequent elements one position to the right, increasing its length by 1 remove(i) for removing the element in the i-th position of a list, returning it, and moving all subsequent elements one position to the left, reducing its length by 1",
+            "merged": false,
+            "keywords": [
+              "More precisely:",
+              "create() a function for creating a list of length 0 get(i) for reading the i-th element of a list set(i, e) for writing an element e into i-th element of a list length() for retrieving the current length of a list append(e) for appending an element e at the end of a list, increasing its length by 1 insert(i, e) for inserting an element e in the i-th position of a list and moving all subsequent elements one position to the right, increasing its length by 1 remove(i) for removing the element in the i-th position of a list, returning it, and moving all subsequent elements one position to the left, reducing its length by 1"
+            ],
+            "eventId": "2",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Lists_are_a_family_of_data_structures,_of_which_we_will_look_at_two_representatives__array_lists_-_an_extension_of_arrays_that_also_behave_like_lists_linked_lists_-_a_new_data_structure_based_on_chaining_of_elements",
+            "name": "Lists are a family of data structures, of which we will look at two representatives: array lists - an extension of arrays that also behave like lists linked lists - a new data structure based on chaining of elements",
+            "merged": false,
+            "keywords": [
+              "Lists are a family of data structures, of which we will look at two representatives: array lists - an extension of arrays that also behave like lists linked lists - a new data structure based on chaining of elements"
+            ],
+            "eventId": "3",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Rectangle_2",
+            "name": "Rectangle 2",
+            "merged": false,
+            "keywords": [
+              "Rectangle 2"
+            ],
+            "eventId": "4",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Arrays_put_data_in_a_sequence_of_cells_",
+            "name": "Arrays put data in a sequence of cells:",
+            "merged": false,
+            "keywords": [
+              "Arrays put data in a sequence of cells:",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "eventId": "5",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Linked_lists,_on_the_other_hand,_use_a_chain_of_nodes_-_each_node_stores_the_data_we_want_to_store_a_pointer_to_the_next_node_in_the_chain",
+            "name": "Linked lists, on the other hand, use a chain of nodes - each node stores the data we want to store a pointer to the next node in the chain",
+            "merged": false,
+            "keywords": [
+              "Linked lists, on the other hand, use a chain of nodes - each node stores the data we want to store a pointer to the next node in the chain",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "eventId": "6",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "What_is_a_pointer?",
+            "name": "What is a pointer?",
+            "merged": false,
+            "keywords": [
+              "What is a pointer?"
+            ],
+            "eventId": "8",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "it_is_the_memory_address_to_the_next_node,_or_a_reference_to_the_next_node.",
+            "name": "it is the memory address to the next node, or a reference to the next node.",
+            "merged": false,
+            "keywords": [
+              "it is the memory address to the next node, or a reference to the next node."
+            ],
+            "eventId": "9",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "If_there_is_no_next_node_we_store_some__E2_80_98null_E2_80_99_address,_in_Python__None",
+            "name": "If there is no next node we store some ‘null’ address, in Python: None",
+            "merged": false,
+            "keywords": [
+              "If there is no next node we store some ‘null’ address, in Python: None"
+            ],
+            "eventId": "10",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "The_head_f_the_list_is_depicted_by_an_incoming_arrow_with_no_source_node.",
+            "name": "The head f the list is depicted by an incoming arrow with no source node.",
+            "merged": false,
+            "keywords": [
+              "The head f the list is depicted by an incoming arrow with no source node."
+            ],
+            "eventId": "11",
+            "disabled": false
+          }
+        ],
+        "keywords": [
+          "Definition 1"
+        ],
+        "eventId": "22"
+      },
+      {
+        "type": "child",
+        "name": "Definition 2",
+        "id": "Definition_2",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Are_linked_lists_just_another_way_of_depicting_array?",
+            "name": "Are linked lists just another way of depicting array?",
+            "merged": false,
+            "keywords": [
+              "Are linked lists just another way of depicting array?",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "eventId": "2",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "They_fulfil_the_same_abstract_data_type_but_they_have_crucial_differences.",
+            "name": "They fulfil the same abstract data type but they have crucial differences.",
+            "merged": false,
+            "keywords": [
+              "They fulfil the same abstract data type but they have crucial differences."
+            ],
+            "eventId": "3",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Name_an_advantage_that_linked_lists_have_over_arrays",
+            "name": "Name an advantage that linked lists have over arrays",
+            "merged": false,
+            "keywords": [
+              "Name an advantage that linked lists have over arrays"
+            ],
+            "eventId": "4",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Name_an_advantage_that_arrays_have_over_linked_lists",
+            "name": "Name an advantage that arrays have over linked lists",
+            "merged": false,
+            "keywords": [
+              "Name an advantage that arrays have over linked lists"
+            ],
+            "eventId": "5",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "appending,_prepending,_inserting_are_more_efficient",
+            "name": "appending, prepending, inserting are more efficient",
+            "merged": false,
+            "keywords": [
+              "appending, prepending, inserting are more efficient"
+            ],
+            "eventId": "8",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "accessing_entries_in_arbitrary_positions_is_more_efficient",
+            "name": "accessing entries in arbitrary positions is more efficient",
+            "merged": false,
+            "keywords": [
+              "accessing entries in arbitrary positions is more efficient"
+            ],
+            "eventId": "9",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "In_which_data_structure_is_swapping_the_first_and_second_entry_more_efficient?_In_which_data_structure_is_swapping_the_first_and_last_entry_more_efficient?_In_which_one_is_swapping_the_i-th_and_j-th_entry_more_efficient?",
+            "name": "In which data structure is swapping the first and second entry more efficient? In which data structure is swapping the first and last entry more efficient? In which one is swapping the i-th and j-th entry more efficient?",
+            "merged": false,
+            "keywords": [
+              "In which data structure is swapping the first and second entry more efficient? In which data structure is swapping the first and last entry more efficient? In which one is swapping the i-th and j-th entry more efficient?"
+            ],
+            "eventId": "7",
+            "disabled": false
+          }
+        ],
+        "keywords": [
+          "Definition 2"
+        ],
+        "eventId": "23"
+      },
+      {
+        "type": "show",
+        "id": "III._Operations",
+        "name": "III. Operations",
+        "merged": false,
+        "keywords": [
+          "II. Creating",
+          "II. Traversing",
+          "III. Operations"
+        ],
+        "eventId": "25",
+        "disabled": false
+      },
+      {
+        "type": "child",
+        "name": "Creating 1",
+        "id": "Creating_1",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Code_snippet",
+            "name": "Code snippet",
+            "merged": false,
+            "keywords": [
+              "Code snippet"
+            ],
+            "eventId": "1",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "implemented_as",
+            "name": "implemented as",
+            "merged": false,
+            "keywords": [
+              "implemented as",
+              "data",
+              "5",
+              "next"
+            ],
+            "eventId": "2",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "For_example_the_list__5B7,_5,_3_5D_would_look_like_",
+            "name": "For example the list [7, 5, 3] would look like:",
+            "merged": false,
+            "keywords": [
+              "data",
+              "7",
+              "next",
+              "5",
+              "3",
+              "For example the list [7, 5, 3] would look like:",
+              "None"
+            ],
+            "eventId": "3",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "We_draw_it_as_",
+            "name": "We draw it as:",
+            "merged": false,
+            "keywords": [
+              "5",
+              "3",
+              "7",
+              "We draw it as:"
+            ],
+            "eventId": "4",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "How_to_construct_this_example_with_three_elements_using_the_class_Node_in_python?",
+            "name": "How to construct this example with three elements using the class Node in python?",
+            "merged": false,
+            "keywords": [
+              "How to construct this example with three elements using the class Node in python?"
+            ],
+            "eventId": "5",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Code_snippet1",
+            "name": "Code snippet1",
+            "merged": false,
+            "keywords": [
+              "Code snippet1"
+            ],
+            "eventId": "8",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Code_snippet2",
+            "name": "Code snippet2",
+            "merged": false,
+            "keywords": [
+              "Code snippet2"
+            ],
+            "eventId": "9",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "How_would_you_turn_an_array_(whose_size_you_do_not_know_a_priori)_to_a_linked_list?",
+            "name": "How would you turn an array (whose size you do not know a priori) to a linked list?",
+            "merged": false,
+            "keywords": [
+              "How would you turn an array (whose size you do not know a priori) to a linked list?"
+            ],
+            "eventId": "10",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "It_is_easier_to_build_the_list_from_the_end._Because_we_can_append_to_the_head_of_the_list_easier_than_to_the_end.",
+            "name": "It is easier to build the list from the end. Because we can append to the head of the list easier than to the end.",
+            "merged": false,
+            "keywords": [
+              "It is easier to build the list from the end. Because we can append to the head of the list easier than to the end."
+            ],
+            "eventId": "12",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Code_snippet3",
+            "name": "Code snippet3",
+            "merged": false,
+            "keywords": [
+              "Code snippet3"
+            ],
+            "eventId": "13",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "When_we_write_e.g._ls_=_Node(5,_ls)_we_mean__create_a_new_node_with_data_equal_to_5,_and_with_next_pointing_to_the_node_stored_in_ls_store_the_newly_created_node_in_ls_Identical_to_",
+            "name": "When we write e.g. ls = Node(5, ls) we mean: create a new node with data equal to 5, and with next pointing to the node stored in ls store the newly created node in ls Identical to:",
+            "merged": false,
+            "keywords": [
+              "When we write e.g. ls = Node(5, ls) we mean: create a new node with data equal to 5, and with next pointing to the node stored in ls store the newly created node in ls Identical to:",
+              "Code snippet4"
+            ],
+            "eventId": "14",
+            "disabled": false
+          }
+        ],
+        "keywords": [
+          "Creating 1"
+        ],
+        "eventId": "24"
+      },
+      {
+        "type": "child",
+        "name": "Traversing 1",
+        "id": "Traversing_1",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "The_point_of_access_of_a_linked_list_is_the_head_node_(left_most_node,_in_our_drawing)",
+            "name": "The point of access of a linked list is the head node (left most node, in our drawing)",
+            "merged": false,
+            "keywords": [
+              "The point of access of a linked list is the head node (left most node, in our drawing)"
+            ],
+            "eventId": "2",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "7_5_3_group",
+            "name": "7 5 3 group",
+            "merged": true,
+            "keywords": [
+              "5",
+              "3",
+              "7",
+              "7 5 3 group"
+            ],
+            "eventId": "3",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "We_can_use_a_pointer,_call_it_ptr,_to_point_to_the_head_of_the_list",
+            "name": "We can use a pointer, call it ptr, to point to the head of the list",
+            "merged": false,
+            "keywords": [
+              "We can use a pointer, call it ptr, to point to the head of the list"
+            ],
+            "eventId": "6",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "ptr",
+            "name": "ptr",
+            "merged": true,
+            "keywords": [
+              "ptr"
+            ],
+            "eventId": "5",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "To_access_other_nodes,_we_can_move_this_pointer_down_the_list_by",
+            "name": "To access other nodes, we can move this pointer down the list by",
+            "merged": false,
+            "keywords": [
+              "To access other nodes, we can move this pointer down the list by",
+              "Code snippet"
+            ],
+            "eventId": "7",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "this_is_the_same_as_doing_i_=_i+1_for_arrays",
+            "name": "this is the same as doing i = i+1 for arrays",
+            "merged": false,
+            "keywords": [
+              "this is the same as doing i = i+1 for arrays"
+            ],
+            "eventId": "8",
+            "disabled": false
+          },
+          {
+            "type": "hide",
+            "id": "ptr",
+            "name": "ptr",
+            "merged": false,
+            "keywords": [
+              "ptr"
+            ],
+            "eventId": "9",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "ptr2",
+            "name": "ptr2",
+            "merged": false,
+            "keywords": [
+              "ptr",
+              "ptr2"
+            ],
+            "eventId": "10",
+            "disabled": false
+          },
+          {
+            "type": "hide",
+            "id": "ptr2",
+            "name": "ptr2",
+            "merged": false,
+            "keywords": [
+              "ptr2"
+            ],
+            "eventId": "11",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "ptr3",
+            "name": "ptr3",
+            "merged": false,
+            "keywords": [
+              "ptr",
+              "ptr3"
+            ],
+            "eventId": "12",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "This_is_called_traversing_the_linked_list",
+            "name": "This is called traversing the linked list",
+            "merged": false,
+            "keywords": [
+              "This is called traversing the linked list"
+            ],
+            "eventId": "13",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "What_is_the_equivalent_to",
+            "name": "What is the equivalent to",
+            "merged": false,
+            "keywords": [
+              "What is the equivalent to",
+              "Code snippet"
+            ],
+            "eventId": "14",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Code_snippet1",
+            "name": "Code snippet1",
+            "merged": false,
+            "keywords": [
+              "Code snippet1"
+            ],
+            "eventId": "15",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Write_a_function_that_prints_all_the_elements_of_a_linked_list",
+            "name": "Write a function that prints all the elements of a linked list",
+            "merged": false,
+            "keywords": [
+              "Write a function that prints all the elements of a linked list"
+            ],
+            "eventId": "16",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Code_snippet2",
+            "name": "Code snippet2",
+            "merged": false,
+            "keywords": [
+              "Code snippet2"
+            ],
+            "eventId": "17",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Does_it_always_terminate?",
+            "name": "Does it always terminate?",
+            "merged": false,
+            "keywords": [
+              "Does it always terminate?"
+            ],
+            "eventId": "18",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Write_a_function_hasLoop(ls)_that_returns_the_obvious_boolean_value",
+            "name": "Write a function hasLoop(ls) that returns the obvious boolean value",
+            "merged": false,
+            "keywords": [
+              "Write a function hasLoop(ls) that returns the obvious boolean value"
+            ],
+            "eventId": "19",
+            "disabled": false
+          }
+        ],
+        "keywords": [
+          "Traversing 1"
+        ],
+        "eventId": "26"
+      },
+      {
+        "type": "child",
+        "name": "Traversing 2",
+        "id": "Traversing_2",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Suppose_that_we_have_these_two_lists",
+            "name": "Suppose that we have these two lists",
+            "merged": false,
+            "keywords": [
+              "z",
+              "k",
+              "w",
+              "t",
+              "u",
+              "n",
+              "Suppose that we have these two lists",
+              "list1",
+              "list2"
+            ],
+            "eventId": "1",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Perform_the_following_operations_in_a_sequence,_and_draw_the_new_lists_",
+            "name": "Perform the following operations in a sequence, and draw the new lists:",
+            "merged": false,
+            "keywords": [
+              "Perform the following operations in a sequence, and draw the new lists:"
+            ],
+            "eventId": "2",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Code_snippet1",
+            "name": "Code snippet1",
+            "merged": false,
+            "keywords": [
+              "Code snippet1"
+            ],
+            "eventId": "3",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Code_snippet4",
+            "name": "Code snippet4",
+            "merged": false,
+            "keywords": [
+              "Code snippet4"
+            ],
+            "eventId": "4",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Code_snippet3",
+            "name": "Code snippet3",
+            "merged": false,
+            "keywords": [
+              "Code snippet3"
+            ],
+            "eventId": "5",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Code_snippet2",
+            "name": "Code snippet2",
+            "merged": false,
+            "keywords": [
+              "Code snippet2"
+            ],
+            "eventId": "6",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Code_snippet5",
+            "name": "Code snippet5",
+            "merged": false,
+            "keywords": [
+              "Code snippet5"
+            ],
+            "eventId": "7",
+            "disabled": false
+          }
+        ],
+        "keywords": [
+          "Traversing 2"
+        ],
+        "eventId": "27"
+      },
+      {
+        "type": "child",
+        "name": "Operations",
+        "id": "Operations",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Appending",
+            "name": "Appending",
+            "merged": false,
+            "keywords": [
+              "Appending",
+              "Searching",
+              "Inserting",
+              "Removing"
+            ],
+            "eventId": "5",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "Operation Appending",
+            "id": "Operation_Appending",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Traverse_until_None_is_found,_meaning_we_have_reached_the_end,_and_add_the_new_element_there",
+                "name": "Traverse until None is found, meaning we have reached the end, and add the new element there",
+                "merged": false,
+                "keywords": [
+                  "Traverse until None is found, meaning we have reached the end, and add the new element there"
+                ],
+                "eventId": "1",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Code_snippet",
+                "name": "Code snippet",
+                "merged": false,
+                "keywords": [
+                  "Code snippet"
+                ],
+                "eventId": "2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "if_ls_is_empty_then_we_simply_assign__5Bd_5D_to_it",
+                "name": "if ls is empty then we simply assign [d] to it",
+                "merged": false,
+                "keywords": [
+                  "if ls is empty then we simply assign [d] to it"
+                ],
+                "eventId": "3",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Otherwise,_we_move_the_pointer_ptr_down_ls_until_it_points_to_the_last_node_of_ls",
+                "name": "Otherwise, we move the pointer ptr down ls until it points to the last node of ls",
+                "merged": false,
+                "keywords": [
+                  "Otherwise, we move the pointer ptr down ls until it points to the last node of ls"
+                ],
+                "eventId": "4",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "We_insert_d_by__create_a_new_node_(d,_None)_setting_ptr.next_to_that_new_node",
+                "name": "We insert d by: create a new node (d, None) setting ptr.next to that new node",
+                "merged": false,
+                "keywords": [
+                  "We insert d by: create a new node (d, None) setting ptr.next to that new node"
+                ],
+                "eventId": "5",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Can_this_be_improved?",
+                "name": "Can this be improved?",
+                "merged": false,
+                "keywords": [
+                  "Can this be improved?"
+                ],
+                "eventId": "6",
+                "disabled": false
+              }
+            ],
+            "keywords": [
+              "Operation Appending"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "child",
+            "name": "Operation Searching",
+            "id": "Operation_Searching",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "Search_for_a_value_in_a_linked_list__and_store_in_its_position_in_the_list_(its_index)_or_return_-1_if_the_value_is_not_in_the_list",
+                "name": "Search for a value in a linked list: and store in its position in the list (its index) or return -1 if the value is not in the list",
+                "merged": false,
+                "keywords": [
+                  "Search for a value in a linked list: and store in its position in the list (its index) or return -1 if the value is not in the list"
+                ],
+                "eventId": "1",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "We_can_do_the_same_as_we_did_for_arrays.",
+                "name": "We can do the same as we did for arrays.",
+                "merged": false,
+                "keywords": [
+                  "We can do the same as we did for arrays."
+                ],
+                "eventId": "2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Code_snippet",
+                "name": "Code snippet",
+                "merged": false,
+                "keywords": [
+                  "Code snippet"
+                ],
+                "eventId": "3",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "The_variable_i_counts_the_index.",
+                "name": "The variable i counts the index.",
+                "merged": false,
+                "keywords": [
+                  "The variable i counts the index."
+                ],
+                "eventId": "4",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "We_then_move_the_pointer_ptr_down_ls_until_it_points_to_a_node_whose_data_is_equal_to_d.",
+                "name": "We then move the pointer ptr down ls until it points to a node whose data is equal to d.",
+                "merged": false,
+                "keywords": [
+                  "We then move the pointer ptr down ls until it points to a node whose data is equal to d."
+                ],
+                "eventId": "5",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "So_i_keeps_track_of_the_position_of_ptr_in_the_list",
+                "name": "So i keeps track of the position of ptr in the list",
+                "merged": false,
+                "keywords": [
+                  "So i keeps track of the position of ptr in the list"
+                ],
+                "eventId": "6",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "If_ls_is_None_or_if_d_is_not_found_in_it_then_the_while_loop_will_stop_when_ptr_is_None,_and_we_will_return_-1",
+                "name": "If ls is None or if d is not found in it then the while loop will stop when ptr is None, and we will return -1",
+                "merged": false,
+                "keywords": [
+                  "If ls is None or if d is not found in it then the while loop will stop when ptr is None, and we will return -1"
+                ],
+                "eventId": "7",
+                "disabled": false
+              }
+            ],
+            "keywords": [
+              "Operation Searching"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "child",
+            "name": "Inerting 1",
+            "id": "Inerting_1",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "How_to_insert_in_an_arbitrary_position_i?",
+                "name": "How to insert in an arbitrary position i?",
+                "merged": false,
+                "keywords": [
+                  "How to insert in an arbitrary position i?"
+                ],
+                "eventId": "1",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "For_example_how_to_insert_42_in_position_2?",
+                "name": "For example how to insert 42 in position 2?",
+                "merged": false,
+                "keywords": [
+                  "For example how to insert 42 in position 2?"
+                ],
+                "eventId": "2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "2",
+                "name": "2",
+                "merged": false,
+                "keywords": [
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "42"
+                ],
+                "eventId": "3",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Vector_3",
+                "name": "Vector 3",
+                "merged": true,
+                "keywords": [
+                  "Vector 3"
+                ],
+                "eventId": "7",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Suppose_that_ptr_already_points_to_position_i-1_(in_our_case_2-1=1)",
+                "name": "Suppose that ptr already points to position i-1 (in our case 2-1=1)",
+                "merged": false,
+                "keywords": [
+                  "Suppose that ptr already points to position i-1 (in our case 2-1=1)"
+                ],
+                "eventId": "4",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "ptr3",
+                "name": "ptr3",
+                "merged": false,
+                "keywords": [
+                  "ptr",
+                  "ptr3"
+                ],
+                "eventId": "5",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "To_add_a_new_element_with_value_42_right_after_ptr,_we_create_a_new_node_that_stores_42_and_goes_right_between_3_and_4._We_do_the_latter_by_updating_the_the_appropriate_next_attributes.",
+                "name": "To add a new element with value 42 right after ptr, we create a new node that stores 42 and goes right between 3 and 4. We do the latter by updating the the appropriate next attributes.",
+                "merged": false,
+                "keywords": [
+                  "To add a new element with value 42 right after ptr, we create a new node that stores 42 and goes right between 3 and 4. We do the latter by updating the the appropriate next attributes."
+                ],
+                "eventId": "11",
+                "disabled": false
+              },
+              {
+                "type": "hide",
+                "id": "Vector_3",
+                "name": "Vector 3",
+                "merged": false,
+                "keywords": [
+                  "Vector 3"
+                ],
+                "eventId": "8",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Group_11",
+                "name": "Group 11",
+                "merged": false,
+                "keywords": [
+                  "Group 11"
+                ],
+                "eventId": "9",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "How_is_this_done_in_Python?",
+                "name": "How is this done in Python?",
+                "merged": false,
+                "keywords": [
+                  "How is this done in Python?"
+                ],
+                "eventId": "10",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Code_snippet",
+                "name": "Code snippet",
+                "merged": false,
+                "keywords": [
+                  "Code snippet"
+                ],
+                "eventId": "13",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Code_snippet2",
+                "name": "Code snippet2",
+                "merged": false,
+                "keywords": [
+                  "Code snippet2"
+                ],
+                "eventId": "14",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "inserting_in_first_position_is_easy",
+                "name": "inserting in first position is easy",
+                "merged": false,
+                "keywords": [
+                  "inserting in first position is easy"
+                ],
+                "eventId": "15",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Otherwise,_we_move_the_pointer_ptr_down_ls_until_we_find_the_position_after_which_we_want_to_insert_d._This_is_when_i_becomes_1._Finally_we_insert_d_in_that_position.",
+                "name": "Otherwise, we move the pointer ptr down ls until we find the position after which we want to insert d. This is when i becomes 1. Finally we insert d in that position.",
+                "merged": false,
+                "keywords": [
+                  "Otherwise, we move the pointer ptr down ls until we find the position after which we want to insert d. This is when i becomes 1. Finally we insert d in that position."
+                ],
+                "eventId": "16",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "For_example...",
+                "name": "For example...",
+                "merged": false,
+                "keywords": [
+                  "For example..."
+                ],
+                "eventId": "17",
+                "disabled": false
+              }
+            ],
+            "keywords": [
+              "Inerting 1"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "child",
+            "name": "Removing",
+            "id": "Removing2",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "elements_amounts_to_bypassing_them.",
+                "name": "elements amounts to bypassing them.",
+                "merged": false,
+                "keywords": [
+                  "elements amounts to bypassing them."
+                ],
+                "eventId": "1",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "As_was_the_case_with_insertion,_we_need_a_pointer_to_the_node_before_the_one_to_remove_",
+                "name": "As was the case with insertion, we need a pointer to the node before the one to remove:",
+                "merged": false,
+                "keywords": [
+                  "As was the case with insertion, we need a pointer to the node before the one to remove:"
+                ],
+                "eventId": "2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "ptr",
+                "name": "ptr",
+                "merged": false,
+                "keywords": [
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "ptr"
+                ],
+                "eventId": "3",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Vector_6",
+                "name": "Vector 6",
+                "merged": true,
+                "keywords": [
+                  "Vector 6"
+                ],
+                "eventId": "7",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Suppose_that_we_want_to_remove_containing_data_4,_and_suppose_that_the_pointer_already_points_to_the_node_that_immediately_precedes_the_node_we_want_to_remove._How_to_remove_the_node_containing_4_in_our_implementation?",
+                "name": "Suppose that we want to remove containing data 4, and suppose that the pointer already points to the node that immediately precedes the node we want to remove. How to remove the node containing 4 in our implementation?",
+                "merged": false,
+                "keywords": [
+                  "Suppose that we want to remove containing data 4, and suppose that the pointer already points to the node that immediately precedes the node we want to remove. How to remove the node containing 4 in our implementation?"
+                ],
+                "eventId": "5",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "ptr.next_=_ptr.next.next",
+                "name": "ptr.next = ptr.next.next",
+                "merged": false,
+                "keywords": [
+                  "ptr.next = ptr.next.next"
+                ],
+                "eventId": "6",
+                "disabled": false
+              },
+              {
+                "type": "hide",
+                "id": "Vector_6",
+                "name": "Vector 6",
+                "merged": false,
+                "keywords": [
+                  "Vector 6"
+                ],
+                "eventId": "8",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Vector_26",
+                "name": "Vector 26",
+                "merged": false,
+                "keywords": [
+                  "Vector 26"
+                ],
+                "eventId": "9",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Unless_there_is_another_pointer_to_the_node_that_we_bypassed,_the_garbage_collector_will_eventually_claim_it_and_free_that_part_of_memory.",
+                "name": "Unless there is another pointer to the node that we bypassed, the garbage collector will eventually claim it and free that part of memory.",
+                "merged": false,
+                "keywords": [
+                  "Unless there is another pointer to the node that we bypassed, the garbage collector will eventually claim it and free that part of memory."
+                ],
+                "eventId": "10",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Code_snippet",
+                "name": "Code snippet",
+                "merged": false,
+                "keywords": [
+                  "Code snippet"
+                ],
+                "eventId": "11",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "removing_the_node_at_the_head_is_easy",
+                "name": "removing the node at the head is easy",
+                "merged": false,
+                "keywords": [
+                  "removing the node at the head is easy"
+                ],
+                "eventId": "12",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "We_move_the_pointer_ptr_down_ls_until_we_find_the_position_after_which_we_have_the_node_that_we_want_to_remove._In_that_case_i_will_be_equal_to_1._We_remove_the_next_node_by_bypassing_it",
+                "name": "We move the pointer ptr down ls until we find the position after which we have the node that we want to remove. In that case i will be equal to 1. We remove the next node by bypassing it",
+                "merged": false,
+                "keywords": [
+                  "We move the pointer ptr down ls until we find the position after which we have the node that we want to remove. In that case i will be equal to 1. We remove the next node by bypassing it"
+                ],
+                "eventId": "13",
+                "disabled": false
+              }
+            ],
+            "keywords": [
+              "Removing"
+            ],
+            "eventId": "10"
+          },
+          {
+            "type": "show",
+            "id": "Hitherto_we_have_only_described_linked_lists_in_terms_of_nodes.",
+            "name": "Hitherto we have only described linked lists in terms of nodes.",
+            "merged": false,
+            "keywords": [
+              "Hitherto we have only described linked lists in terms of nodes."
+            ],
+            "eventId": "11",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "More_precisely_they_should_be_implemented_as_a_class_",
+            "name": "More precisely they should be implemented as a class:",
+            "merged": false,
+            "keywords": [
+              "More precisely they should be implemented as a class:",
+              "Code snippet"
+            ],
+            "eventId": "12",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "head_is_a_variable_of_type_Node_we_can_expand_the_list_of_instance_variables_to_also_hold_a_pointer_to_the_tail_of_the_list,_for_example.",
+            "name": "head is a variable of type Node we can expand the list of instance variables to also hold a pointer to the tail of the list, for example.",
+            "merged": false,
+            "keywords": [
+              "head is a variable of type Node we can expand the list of instance variables to also hold a pointer to the tail of the list, for example."
+            ],
+            "eventId": "13",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "create()_get(i)_set(i,_e)_length()_append(e)_insert(i,_e)_remove(i)",
+            "name": "create() get(i) set(i, e) length() append(e) insert(i, e) remove(i)",
+            "merged": false,
+            "keywords": [
+              "create() get(i) set(i, e) length() append(e) insert(i, e) remove(i)",
+              "Complexity"
+            ],
+            "eventId": "14",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "_CE_98(1)",
+            "name": "Θ(1)",
+            "merged": false,
+            "keywords": [
+              "Θ(1)"
+            ],
+            "eventId": "15",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "_CE_98(n)",
+            "name": "Θ(n)",
+            "merged": false,
+            "keywords": [
+              "Θ(n)"
+            ],
+            "eventId": "16",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "_CE_98(n)2",
+            "name": "Θ(n)2",
+            "merged": false,
+            "keywords": [
+              "Θ(n)2"
+            ],
+            "eventId": "17",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "_CE_98(1)2",
+            "name": "Θ(1)2",
+            "merged": false,
+            "keywords": [
+              "Θ(1)2"
+            ],
+            "eventId": "18",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "_CE_98(1)3",
+            "name": "Θ(1)3",
+            "merged": false,
+            "keywords": [
+              "Θ(1)3"
+            ],
+            "eventId": "19",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "_CE_98(n)5",
+            "name": "Θ(n)5",
+            "merged": false,
+            "keywords": [
+              "Θ(n)5"
+            ],
+            "eventId": "23",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "_CE_98(n)4",
+            "name": "Θ(n)4",
+            "merged": false,
+            "keywords": [
+              "Θ(n)4"
+            ],
+            "eventId": "20",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "How_do_linked_lists_compare_to_array_lists?",
+            "name": "How do linked lists compare to array lists?",
+            "merged": false,
+            "keywords": [
+              "How do linked lists compare to array lists?"
+            ],
+            "eventId": "21",
+            "disabled": false
+          }
+        ],
+        "keywords": [
+          "Operations"
+        ],
+        "eventId": "28"
+      },
+      {
+        "type": "child",
+        "name": "Operations 2",
+        "id": "Operations_2",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Linked_Lists_vs_Array_Lists",
+            "name": "Linked Lists vs Array Lists",
+            "merged": false,
+            "keywords": [
+              "Linked Lists vs Array Lists"
+            ],
+            "eventId": "1",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "table_1",
+            "name": "table 1",
+            "merged": true,
+            "keywords": [
+              "table 1"
+            ],
+            "eventId": "2",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Rectangle_10",
+            "name": "Rectangle 10",
+            "merged": false,
+            "keywords": [
+              "Rectangle 10"
+            ],
+            "eventId": "3",
+            "disabled": false
+          }
+        ],
+        "keywords": [
+          "Operations 2"
+        ],
+        "eventId": "29"
+      },
+      {
+        "type": "child",
+        "name": "Other things",
+        "id": "Other_things",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Some_other_questions_to_consider",
+            "name": "Some other questions to consider",
+            "merged": false,
+            "keywords": [
+              "Some other questions to consider"
+            ],
+            "eventId": "17",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "For_linked_lists__get(0)_is_in_constant_time",
+            "name": "For linked lists: get(0) is in constant time",
+            "merged": false,
+            "keywords": [
+              "For linked lists: get(0) is in constant time"
+            ],
+            "eventId": "1",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "get(n)_is_in",
+            "name": "get(n) is in",
+            "merged": false,
+            "keywords": [
+              "get(n) is in"
+            ],
+            "eventId": "2",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "also_in_constant_time_if_we_keep_a_pointer_to_the_tail",
+            "name": "also in constant time if we keep a pointer to the tail",
+            "merged": false,
+            "keywords": [
+              "also in constant time if we keep a pointer to the tail"
+            ],
+            "eventId": "3",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "get(1)",
+            "name": "get(1)",
+            "merged": false,
+            "keywords": [
+              "get(1)"
+            ],
+            "eventId": "4",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "is_in_constant_time",
+            "name": "is in constant time",
+            "merged": false,
+            "keywords": [
+              "is in constant time"
+            ],
+            "eventId": "5",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "get(n-1)",
+            "name": "get(n-1)",
+            "merged": false,
+            "keywords": [
+              "get(n-1)"
+            ],
+            "eventId": "6",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "always_in__CE_98(n)",
+            "name": "always in Θ(n)",
+            "merged": false,
+            "keywords": [
+              "always in Θ(n)"
+            ],
+            "eventId": "7",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "How_to_improve?",
+            "name": "How to improve?",
+            "merged": false,
+            "keywords": [
+              "How to improve?"
+            ],
+            "eventId": "8",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "Doubly Linked Lists",
+            "id": "Doubly_Linked_Lists",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Pointers_pointing_backwards",
+                "name": "Pointers pointing backwards",
+                "merged": false,
+                "keywords": [
+                  "Pointers pointing backwards"
+                ],
+                "eventId": "1",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "head",
+                "name": "head",
+                "merged": false,
+                "keywords": [
+                  "7",
+                  "5",
+                  "3",
+                  "head",
+                  "tail"
+                ],
+                "eventId": "2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "We_would_implement_such_a_node_in_Python_as_",
+                "name": "We would implement such a node in Python as:",
+                "merged": false,
+                "keywords": [
+                  "We would implement such a node in Python as:",
+                  "Code snippet"
+                ],
+                "eventId": "3",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "This_revision_makes_get(n-1)_run_in_O(1)_Lists_based_on_such_nodes_are_known_as_doubly_linked_lists",
+                "name": "This revision makes get(n-1) run in O(1) Lists based on such nodes are known as doubly linked lists",
+                "merged": false,
+                "keywords": [
+                  "This revision makes get(n-1) run in O(1) Lists based on such nodes are known as doubly linked lists"
+                ],
+                "eventId": "4",
+                "disabled": false
+              }
+            ],
+            "keywords": [
+              "Doubly Linked Lists"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "show",
+            "id": "Can_you_implement_a_Stack_with_a_linked_list?",
+            "name": "Can you implement a Stack with a linked list?",
+            "merged": false,
+            "keywords": [
+              "Can you implement a Stack with a linked list?"
+            ],
+            "eventId": "10",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "What_about_a_Queue?",
+            "name": "What about a Queue?",
+            "merged": false,
+            "keywords": [
+              "What about a Queue?"
+            ],
+            "eventId": "11",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "What_would_the_complexity_of_push,_pop,_enq,_deq_respectively_be?",
+            "name": "What would the complexity of push, pop, enq, deq respectively be?",
+            "merged": false,
+            "keywords": [
+              "What would the complexity of push, pop, enq, deq respectively be?"
+            ],
+            "eventId": "12",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "If_you_were_to_implement_a_MultiSet_(like_a_Set_but_multiple_elements_are_allowed)_using_a_linked_list._How_would_you_implement_the_union_operation?",
+            "name": "If you were to implement a MultiSet (like a Set but multiple elements are allowed) using a linked list. How would you implement the union operation?",
+            "merged": false,
+            "keywords": [
+              "If you were to implement a MultiSet (like a Set but multiple elements are allowed) using a linked list. How would you implement the union operation?"
+            ],
+            "eventId": "13",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "How_do_you_reverse_a_doubly_linked_list?",
+            "name": "How do you reverse a doubly linked list?",
+            "merged": false,
+            "keywords": [
+              "How do you reverse a doubly linked list?"
+            ],
+            "eventId": "14",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "How_do_you_reverse_a_(singly)_linked_list?",
+            "name": "How do you reverse a (singly) linked list?",
+            "merged": false,
+            "keywords": [
+              "How do you reverse a (singly) linked list?"
+            ],
+            "eventId": "15",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "in__CE_98(1)_space_and__CE_98(n)_time",
+            "name": "in Θ(1) space and Θ(n) time",
+            "merged": false,
+            "keywords": [
+              "in Θ(1) space and Θ(n) time"
+            ],
+            "eventId": "16",
+            "disabled": false
+          }
+        ],
+        "keywords": [
+          "Other things"
+        ],
+        "eventId": "30"
+      },
+      {
+        "type": "child",
+        "name": "Summary",
+        "id": "Summary",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Linked_lists_are_an_important_data_structure,_and_can_be_used_to_implement_other_data_types_such_as_array_lists,_queues_and_stacks._They_are_very_efficient_for_adding/removing_elements,_especially_near_the_head/tail._But_they_are_not_as_good_for_finding_and_indexing_their_elements_They_are_a_good_choice_for_implementing_lists_that_are_sub-listed_often_as_they_allow_for_a_space_efficient_implementation_where_the_same_nodes_are_used_in_several_places.",
+            "name": "Linked lists are an important data structure, and can be used to implement other data types such as array lists, queues and stacks. They are very efficient for adding/removing elements, especially near the head/tail. But they are not as good for finding and indexing their elements They are a good choice for implementing lists that are sub-listed often as they allow for a space efficient implementation where the same nodes are used in several places.",
+            "merged": false,
+            "keywords": [
+              "Summary",
+              "Linked lists are an important data structure, and can be used to implement other data types such as array lists, queues and stacks. They are very efficient for adding/removing elements, especially near the head/tail. But they are not as good for finding and indexing their elements They are a good choice for implementing lists that are sub-listed often as they allow for a space efficient implementation where the same nodes are used in several places."
+            ],
+            "eventId": "1",
+            "disabled": false
+          }
+        ],
+        "keywords": [
+          "Summary"
+        ],
+        "eventId": "31"
+      },
+      {
+        "type": "child",
+        "name": "Exercises",
+        "id": "Exercises",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Exercises2",
+            "name": "Exercises",
+            "merged": false,
+            "keywords": [
+              "Exercises"
+            ],
+            "eventId": "1",
+            "disabled": false
+          },
+          {
+            "type": "hide",
+            "id": "Exercises2",
+            "name": "Exercises",
+            "merged": false,
+            "keywords": [
+              "Exercises"
+            ],
+            "eventId": "2",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Group_12",
+            "name": "Group 12",
+            "merged": false,
+            "keywords": [
+              "Group 12"
+            ],
+            "eventId": "3",
+            "disabled": false
+          }
+        ],
+        "keywords": [
+          "Exercises"
+        ],
+        "eventId": "32"
+      }
+    ],
+    "keywords": [
+      "Algorithms and Data Structures (ECS529U)",
+      "Linked Lists",
+      "Lecture 5",
+      "Title"
+    ],
+    "eventId": "root"
+  },
+  "soundDict": {}
+}
