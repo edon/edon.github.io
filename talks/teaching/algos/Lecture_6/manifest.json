@@ -2440,6 +2440,28 @@
             ],
             "eventId": "2",
             "disabled": false
+          },
+          {
+            "type": "hide",
+            "id": "exercises_1",
+            "name": "exercises 1",
+            "merged": false,
+            "keywords": [
+              "exercises 1"
+            ],
+            "eventId": "3",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "solutions_1",
+            "name": "solutions 1",
+            "merged": false,
+            "keywords": [
+              "solutions 1"
+            ],
+            "eventId": "4",
+            "disabled": false
           }
         ],
         "keywords": [
