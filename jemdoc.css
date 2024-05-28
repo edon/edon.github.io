@@ -16,8 +16,9 @@ body {
     margin-right: 5px;
     margin: auto;
     font-family: Georgia;
-    /*    background-color: #fdf6e3; */
-    background-color:    #fcfff0;
+    /* background-color: #fdf6e3;*/
+    /* background-color:    #fcfff0; */
+
     color: #111;
     counter-reset: sidenote-counter;
     max-width: 1500px;
@@ -37,8 +38,8 @@ body {
 /* } */
 
 #layout-menu {
-    /*	background: #fdf6e3;*/
-        background-color:    #fcfff0;
+    	/* background: #fdf6e3; */
+        /* background-color:    #fcfff0;*/
 	border: 1px solid white;
 	padding-top: 0.5em;
 	padding-left: 8px;
@@ -51,8 +52,8 @@ body {
 }
 
 #layout-menu td {
-    /*	background: #fdf6e3;*/
-        background-color:    #fcfff0;
+    	/* background: #fdf6e3; */ 
+        /* background-color:    #fcfff0; */ 
 	vertical-align: top;
 }
 
@@ -64,8 +65,8 @@ body {
 	text-align: left;
 	vertical-align: top;
         width: 100%; 
-	/*	background-color: #fdf6e3;*/
-	background-color:    #fffff8;
+	/*background-color: #fdf6e3;*/
+	/* background-color:    #fffff8; */ 
 	color: #111;
 }
 
@@ -77,7 +78,7 @@ body {
 }
 
 tt {
-	background: #ffffdd;
+	/* background: #ffffdd; */ 
 }
 
 pre, tt {
@@ -400,7 +401,7 @@ table.imgtable, table.imgtable td {
 	border: none;
 	text-align: left;
 }
-/* Adds dark mode */
+
 /* @media (prefers-color-scheme: dark) { */
 /*     body { */
 /*         background-color: #151515; */
