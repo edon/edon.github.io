@@ -1,0 +1,1193 @@
+{
+  "version": 3.1,
+  "presentation": "Multiple Reachability Highlights",
+  "slideDict": {
+    "new_slide": "Root",
+    "Defs": "Defs",
+    "Example_": "Example",
+    "Rotation_drawing": "Rotation_drawing",
+    "hyperplane_and_halfspace": "hyperplane_and_halfspace",
+    "hyperplane_and_halfspace_2": "hyperplane_and_halfspace_2",
+    "Generalisations": "Generalisations",
+    "Multiple_definition": "Multiple_definition",
+    "Zoom_into_theorems": "Zoom_into_theorems",
+    "Undecidable": "Undecidable",
+    "Positive_Result": "Positive_Result"
+  },
+  "tree": {
+    "type": "child",
+    "name": "Root",
+    "id": "new_slide",
+    "enabled": "enabled",
+    "merged": false,
+    "children": [
+      {
+        "type": "child",
+        "name": "Defs",
+        "id": "Defs",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_1",
+            "enabled": "enabled",
+            "name": "a point",
+            "merged": false,
+            "keywords": [
+              "a point"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_12",
+            "enabled": "enabled",
+            "name": "and a linear map",
+            "merged": true,
+            "keywords": [
+              "and a linear map"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Group_72",
+            "enabled": "enabled",
+            "name": "x0",
+            "merged": true,
+            "keywords": [
+              "x0"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "arrow_1",
+            "enabled": "enabled",
+            "name": "arrow 1",
+            "merged": false,
+            "keywords": [
+              "arrow 1"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "x1",
+            "enabled": "enabled",
+            "name": "x1",
+            "merged": false,
+            "keywords": [
+              "x1"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "x2",
+            "enabled": "enabled",
+            "name": "x2",
+            "merged": false,
+            "keywords": [
+              "x2"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "x3",
+            "enabled": "enabled",
+            "name": "x3",
+            "merged": false,
+            "keywords": [
+              "x3"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "x4",
+            "enabled": "enabled",
+            "name": "x4",
+            "merged": false,
+            "keywords": [
+              "x4"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "show",
+            "id": "x5",
+            "enabled": "enabled",
+            "name": "x5",
+            "merged": false,
+            "keywords": [
+              "x5"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "show",
+            "id": "x6",
+            "enabled": "enabled",
+            "name": "x6",
+            "merged": false,
+            "keywords": [
+              "x6"
+            ],
+            "eventId": "10"
+          },
+          {
+            "type": "show",
+            "id": "arrow_last",
+            "enabled": "enabled",
+            "name": "arrow last",
+            "merged": false,
+            "keywords": [
+              "arrow last"
+            ],
+            "eventId": "11"
+          },
+          {
+            "type": "show",
+            "id": "xs",
+            "enabled": "enabled",
+            "name": "xs",
+            "merged": false,
+            "keywords": [
+              "xs"
+            ],
+            "eventId": "12"
+          },
+          {
+            "type": "show",
+            "id": "the_orbit",
+            "enabled": "enabled",
+            "name": "the orbit",
+            "merged": false,
+            "keywords": [
+              "the orbit of under",
+              "the orbit"
+            ],
+            "eventId": "13"
+          },
+          {
+            "type": "child",
+            "name": "Example",
+            "id": "Example_",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "F",
+                "enabled": "enabled",
+                "name": "F",
+                "merged": false,
+                "keywords": [
+                  "F"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "x1",
+                "enabled": "enabled",
+                "name": "x1",
+                "merged": false,
+                "keywords": [
+                  "x1"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "equals",
+                "enabled": "enabled",
+                "name": "equals",
+                "merged": false,
+                "keywords": [
+                  "equals"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Group_1",
+                "enabled": "enabled",
+                "name": "The orbit is",
+                "merged": false,
+                "keywords": [
+                  "The orbit is"
+                ],
+                "eventId": "4"
+              }
+            ],
+            "keywords": [
+              "For example:",
+              "Example"
+            ],
+            "eventId": "15",
+            "originalParams": {
+              "F": {
+                "opacity": 1
+              },
+              "x1": {
+                "opacity": 1
+              },
+              "equals": {
+                "opacity": 1
+              },
+              "Group_1": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "Rotation drawing",
+            "id": "Rotation_drawing",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "Ellipse_3",
+                "enabled": "enabled",
+                "name": "Ellipse 3",
+                "merged": false,
+                "keywords": [
+                  "Ellipse 3"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "__3_5__4_5_",
+                "enabled": "enabled",
+                "name": "(-3/5, 4/5)",
+                "merged": true,
+                "keywords": [
+                  "(-3/5, 4/5)"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Ellipse_4",
+                "enabled": "enabled",
+                "name": "Ellipse 4",
+                "merged": false,
+                "keywords": [
+                  "Ellipse 4"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "__24_25__7_25_",
+                "enabled": "enabled",
+                "name": "(-24/25, 7/25)",
+                "merged": true,
+                "keywords": [
+                  "(-24/25, 7/25)"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "Ellipse_2",
+                "enabled": "enabled",
+                "name": "Ellipse 2",
+                "merged": false,
+                "keywords": [
+                  "Ellipse 2"
+                ],
+                "eventId": "5"
+              }
+            ],
+            "keywords": [
+              "(0,1)",
+              "Rotation drawing"
+            ],
+            "eventId": "16",
+            "originalParams": {
+              "Ellipse_3": {
+                "opacity": 1
+              },
+              "__3_5__4_5_": {
+                "opacity": 1
+              },
+              "Ellipse_4": {
+                "opacity": 1
+              },
+              "__24_25__7_25_": {
+                "opacity": 1
+              },
+              "Ellipse_2": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "We_would_like_algorithms_for_deciding_properties_of_orbits__In_particular_reachability",
+            "enabled": "enabled",
+            "name": "We would like algorithms for deciding properties of orbits. In particular reachability",
+            "merged": false,
+            "keywords": [
+              "We would like algorithms for deciding properties of orbits. In particular reachability"
+            ],
+            "eventId": "17"
+          },
+          {
+            "type": "show",
+            "id": "Text",
+            "enabled": "enabled",
+            "name": "Nobody knows how.",
+            "merged": false,
+            "keywords": [
+              "Nobody knows how."
+            ],
+            "eventId": "18"
+          }
+        ],
+        "keywords": [
+          "Defs"
+        ],
+        "eventId": "2",
+        "originalParams": {
+          "Group_1": {
+            "opacity": 1
+          },
+          "Group_12": {
+            "opacity": 1
+          },
+          "Group_72": {
+            "opacity": 1
+          },
+          "arrow_1": {
+            "opacity": 1
+          },
+          "x1": {
+            "opacity": 1
+          },
+          "x2": {
+            "opacity": 1
+          },
+          "x3": {
+            "opacity": 1
+          },
+          "x4": {
+            "opacity": 1
+          },
+          "x5": {
+            "opacity": 1
+          },
+          "x6": {
+            "opacity": 1
+          },
+          "arrow_last": {
+            "opacity": 1
+          },
+          "xs": {
+            "opacity": 1
+          },
+          "the_orbit": {
+            "opacity": 1
+          },
+          "We_would_like_algorithms_for_deciding_properties_of_orbits__In_particular_reachability": {
+            "opacity": 1
+          },
+          "Text": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "hyperplane and halfspace",
+        "id": "hyperplane_and_halfspace",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "also_known_as_the_Skolem_s_problem_",
+            "enabled": "enabled",
+            "name": "also known as the Skolem’s problem.",
+            "merged": false,
+            "keywords": [
+              "also known as the Skolem’s problem."
+            ],
+            "eventId": "2"
+          }
+        ],
+        "keywords": [
+          "Reaching a hyperplane",
+          "the target is the set of solutions of a homogeneous linear equation",
+          "hyperplane and halfspace"
+        ],
+        "eventId": "4",
+        "originalParams": {
+          "also_known_as_the_Skolem_s_problem_": {
+            "opacity": 1
+          },
+          "Equivalent_to_the_emptiness_of": {
+            "opacity": 1
+          },
+          "Frame2": {
+            "opacity": 1
+          },
+          "for_linear_recurrence_sequences": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "hyperplane and halfspace 2",
+        "id": "hyperplane_and_halfspace_2",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "at_least_as_hard_as_Skolem_s_problem",
+            "enabled": "enabled",
+            "name": "at least as hard as Skolem’s problem",
+            "merged": false,
+            "keywords": [
+              "at least as hard as Skolem’s problem"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "also_known_as_the_positivity_problem",
+            "enabled": "enabled",
+            "name": "also known as the positivity problem",
+            "merged": false,
+            "keywords": [
+              "also known as the positivity problem"
+            ],
+            "eventId": "5"
+          }
+        ],
+        "keywords": [
+          "Reaching a halfspace",
+          "the target is the set of solutions of a homogeneous linear inequality",
+          "hyperplane and halfspace 2"
+        ],
+        "eventId": "5",
+        "originalParams": {
+          "at_least_as_hard_as_Skolem_s_problem": {
+            "opacity": 1
+          },
+          "for_linear_recurrence_sequences": {
+            "opacity": 1
+          },
+          "also_known_as_the_positivity_problem": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Generalisations",
+        "id": "Generalisations",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Source",
+            "enabled": "enabled",
+            "name": "Source",
+            "merged": false,
+            "keywords": [
+              "Source"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Target",
+            "enabled": "enabled",
+            "name": "Target",
+            "merged": true,
+            "keywords": [
+              "Target"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Vector_60",
+            "enabled": "enabled",
+            "name": "Vector 60",
+            "merged": true,
+            "keywords": [
+              "Vector 60"
+            ],
+            "eventId": "34"
+          },
+          {
+            "type": "show",
+            "id": "Vector_61",
+            "enabled": "enabled",
+            "name": "Vector 61",
+            "merged": true,
+            "keywords": [
+              "Vector 61"
+            ],
+            "eventId": "35"
+          },
+          {
+            "type": "show",
+            "id": "Group_2",
+            "enabled": "enabled",
+            "name": "Group 2",
+            "merged": false,
+            "keywords": [
+              "Group 2"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "Frame",
+            "enabled": "enabled",
+            "name": "Frame",
+            "merged": true,
+            "keywords": [
+              "Frame"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "Family_of_sets___any_set_that_can_be_described_algebraically__i_e__boolean_combinations_of_polynomial__in_equalities_",
+            "enabled": "enabled",
+            "name": "Family of sets = any set that can be described algebraically; i.e. boolean combinations of polynomial (in)equalities.",
+            "merged": false,
+            "keywords": [
+              "Family of sets = any set that can be described algebraically; i.e. boolean combinations of polynomial (in)equalities."
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "Semialgebraic_sets",
+            "enabled": "enabled",
+            "name": "Semialgebraic sets",
+            "merged": false,
+            "keywords": [
+              "Semialgebraic sets"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "show",
+            "id": "Complicated_source_target_set___more_difficult_reachability_problem",
+            "enabled": "enabled",
+            "name": "Complicated source/target set → more difficult reachability problem",
+            "merged": false,
+            "keywords": [
+              "Complicated source/target set → more difficult reachability problem"
+            ],
+            "eventId": "12"
+          },
+          {
+            "type": "show",
+            "id": "No_",
+            "enabled": "enabled",
+            "name": "No.",
+            "merged": false,
+            "keywords": [
+              "No."
+            ],
+            "eventId": "14"
+          },
+          {
+            "type": "show",
+            "id": "Vector_28",
+            "enabled": "enabled",
+            "name": "Vector 28",
+            "merged": true,
+            "keywords": [
+              "Vector 28"
+            ],
+            "eventId": "15"
+          },
+          {
+            "type": "show",
+            "id": "reduces",
+            "enabled": "enabled",
+            "name": "reduces",
+            "merged": true,
+            "keywords": [
+              "reduces"
+            ],
+            "eventId": "16"
+          },
+          {
+            "type": "show",
+            "id": "Vector_29",
+            "enabled": "enabled",
+            "name": "Vector 29",
+            "merged": true,
+            "keywords": [
+              "Vector 29"
+            ],
+            "eventId": "18"
+          },
+          {
+            "type": "show",
+            "id": "polytope",
+            "enabled": "enabled",
+            "name": "polytope",
+            "merged": true,
+            "keywords": [
+              "polytope"
+            ],
+            "eventId": "19"
+          },
+          {
+            "type": "show",
+            "id": "Vector_30",
+            "enabled": "enabled",
+            "name": "Vector 30",
+            "merged": true,
+            "keywords": [
+              "Vector 30"
+            ],
+            "eventId": "20"
+          },
+          {
+            "type": "show",
+            "id": "Ellipse_4",
+            "enabled": "enabled",
+            "name": "Ellipse 6",
+            "merged": true,
+            "keywords": [
+              "Ellipse 6"
+            ],
+            "eventId": "22"
+          },
+          {
+            "type": "show",
+            "id": "Vector_16",
+            "enabled": "enabled",
+            "name": "Vector 16",
+            "merged": true,
+            "keywords": [
+              "Vector 16"
+            ],
+            "eventId": "23"
+          },
+          {
+            "type": "show",
+            "id": "Vector_18",
+            "enabled": "enabled",
+            "name": "Vector 18",
+            "merged": true,
+            "keywords": [
+              "Vector 18"
+            ],
+            "eventId": "24"
+          },
+          {
+            "type": "show",
+            "id": "Vector_17",
+            "enabled": "enabled",
+            "name": "Vector 17",
+            "merged": true,
+            "keywords": [
+              "Vector 17"
+            ],
+            "eventId": "25"
+          },
+          {
+            "type": "show",
+            "id": "Vector_19",
+            "enabled": "enabled",
+            "name": "Vector 19",
+            "merged": true,
+            "keywords": [
+              "Vector 19"
+            ],
+            "eventId": "26"
+          },
+          {
+            "type": "show",
+            "id": "Vector_19",
+            "enabled": "enabled",
+            "name": "Vector 19",
+            "merged": true,
+            "keywords": [
+              "Vector 19"
+            ],
+            "eventId": "28"
+          },
+          {
+            "type": "show",
+            "id": "Vector_20",
+            "enabled": "enabled",
+            "name": "Vector 20",
+            "merged": true,
+            "keywords": [
+              "Vector 20"
+            ],
+            "eventId": "29"
+          },
+          {
+            "type": "show",
+            "id": "Vector_21",
+            "enabled": "enabled",
+            "name": "Vector 21",
+            "merged": true,
+            "keywords": [
+              "Vector 21"
+            ],
+            "eventId": "30"
+          },
+          {
+            "type": "show",
+            "id": "Vector_22",
+            "enabled": "enabled",
+            "name": "Vector 22",
+            "merged": true,
+            "keywords": [
+              "Vector 22"
+            ],
+            "eventId": "31"
+          },
+          {
+            "type": "show",
+            "id": "Vector_23",
+            "enabled": "enabled",
+            "name": "Vector 23",
+            "merged": true,
+            "keywords": [
+              "Vector 23"
+            ],
+            "eventId": "32"
+          }
+        ],
+        "keywords": [
+          "In this work, we take a step back - zoom out",
+          "Generalisations"
+        ],
+        "eventId": "6",
+        "originalParams": {
+          "Source": {
+            "opacity": 1
+          },
+          "Target": {
+            "opacity": 1
+          },
+          "Group_2": {
+            "opacity": 1
+          },
+          "Frame": {
+            "opacity": 1
+          },
+          "Family_of_sets___any_set_that_can_be_described_algebraically__i_e__boolean_combinations_of_polynomial__in_equalities_": {
+            "opacity": 1
+          },
+          "Semialgebraic_sets": {
+            "opacity": 1
+          },
+          "Frame2": {
+            "opacity": 1
+          },
+          "Complicated_source_target_set___more_difficult_reachability_problem": {
+            "opacity": 1
+          },
+          "No_": {
+            "opacity": 1
+          },
+          "Vector_28": {
+            "opacity": 1
+          },
+          "reduces": {
+            "opacity": 1
+          },
+          "Vector_29": {
+            "opacity": 1
+          },
+          "polytope": {
+            "opacity": 1
+          },
+          "Vector_30": {
+            "opacity": 1
+          },
+          "Ellipse_4": {
+            "opacity": 1
+          },
+          "Vector_16": {
+            "opacity": 1
+          },
+          "Vector_18": {
+            "opacity": 1
+          },
+          "Vector_17": {
+            "opacity": 1
+          },
+          "Vector_19": {
+            "opacity": 1
+          },
+          "Vector_20": {
+            "opacity": 1
+          },
+          "Vector_21": {
+            "opacity": 1
+          },
+          "Vector_22": {
+            "opacity": 1
+          },
+          "Vector_23": {
+            "opacity": 1
+          },
+          "Vector_60": {
+            "opacity": 1
+          },
+          "Vector_61": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Multiple definition",
+        "id": "Multiple_definition",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "This_family_of_decision_problems_is_the_subject_of_our_work",
+            "enabled": "enabled",
+            "name": "This family of decision problems is the subject of our work",
+            "merged": false,
+            "keywords": [
+              "This family of decision problems is the subject of our work"
+            ],
+            "eventId": "3"
+          }
+        ],
+        "keywords": [
+          "We try from a different direction:",
+          "Source",
+          "Target",
+          "added to the input",
+          "1",
+          "2",
+          "3",
+          "There exists a point in the source whose orbit intersects the target at least m times.",
+          "Multiple definition"
+        ],
+        "eventId": "7",
+        "originalParams": {
+          "This_family_of_decision_problems_is_the_subject_of_our_work": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "show",
+        "id": "Main_theorem__Uses_a_different_technique_",
+        "enabled": "enabled",
+        "name": "Main theorem. Uses a different technique.",
+        "merged": false,
+        "keywords": [
+          "Main theorem. Uses a different technique."
+        ],
+        "eventId": "14"
+      },
+      {
+        "type": "show",
+        "id": "Theorem__Multiple_reachability_is_undecidable__Even_for_fixed_m_9__and_dimension___10_",
+        "enabled": "enabled",
+        "name": "Theorem__Multiple_reachability_is_undecidable__Even_for_fixed_m_9__and_dimension___10_",
+        "merged": true,
+        "keywords": [
+          "Theorem__Multiple_reachability_is_undecidable__Even_for_fixed_m_9__and_dimension___10_"
+        ],
+        "eventId": "8"
+      },
+      {
+        "type": "show",
+        "id": "Theorem__On_the_plane__semialgebraic_to_semialgebraic_multiple_reachability_is_decidable_for_rotations_",
+        "enabled": "enabled",
+        "name": "Theorem__On_the_plane__semialgebraic_to_semialgebraic_multiple_reachability_is_decidable_for_rotations_",
+        "merged": true,
+        "keywords": [
+          "Theorem__On_the_plane__semialgebraic_to_semialgebraic_multiple_reachability_is_decidable_for_rotations_"
+        ],
+        "eventId": "9"
+      },
+      {
+        "type": "child",
+        "name": "Zoom into theorems",
+        "id": "Zoom_into_theorems",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [],
+        "keywords": [
+          "Zoom into theorems"
+        ],
+        "eventId": "13",
+        "originalParams": {}
+      },
+      {
+        "type": "child",
+        "name": "Undecidable",
+        "id": "Undecidable",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Allows_to_reduce_from_Hilbert_s_10th_Problem",
+            "enabled": "enabled",
+            "name": "Allows to reduce from Hilbert’s 10th Problem",
+            "merged": false,
+            "keywords": [
+              "Allows to reduce from Hilbert’s 10th Problem"
+            ],
+            "eventId": "1"
+          }
+        ],
+        "keywords": [
+          "We can construct a linear map and a hyperplane such that for all the orbit",
+          "intersects the hyperplane H at least m times",
+          "All coordinates of are integers",
+          "For the negative result",
+          "Undecidable"
+        ],
+        "eventId": "10",
+        "originalParams": {
+          "Allows_to_reduce_from_Hilbert_s_10th_Problem": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Positive Result",
+        "id": "Positive_Result",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "The_main_tool_",
+            "enabled": "enabled",
+            "name": "The main tool:",
+            "merged": false,
+            "keywords": [
+              "The main tool:"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "Theorem___Bombieri___Zannier_2000_",
+            "enabled": "enabled",
+            "name": "Theorem. (Bombieri & Zannier 2000)",
+            "merged": true,
+            "keywords": [
+              "Theorem. (Bombieri & Zannier 2000)"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "One_can_effectively_upper_bound_the_height_of_algebraic_points_in_intersections",
+            "enabled": "enabled",
+            "name": "One can effectively upper bound the height of algebraic points in intersections",
+            "merged": true,
+            "keywords": [
+              "One can effectively upper bound the height of algebraic points in intersections"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "certain_subvarieties",
+            "enabled": "enabled",
+            "name": "certain subvarieties",
+            "merged": true,
+            "keywords": [
+              "certain subvarieties"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "show",
+            "id": "Vector_62",
+            "enabled": "enabled",
+            "name": "Vector 62",
+            "merged": true,
+            "keywords": [
+              "Vector 62"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "show",
+            "id": "Vector_63",
+            "enabled": "enabled",
+            "name": "Vector 63",
+            "merged": true,
+            "keywords": [
+              "Vector 63"
+            ],
+            "eventId": "10"
+          },
+          {
+            "type": "show",
+            "id": "union_of_all_algebraic_subgroups_of_dimension_1",
+            "enabled": "enabled",
+            "name": "union of all algebraic subgroups of dimension 1",
+            "merged": true,
+            "keywords": [
+              "union of all algebraic subgroups of dimension 1"
+            ],
+            "eventId": "11"
+          },
+          {
+            "type": "show",
+            "id": "Vector_64",
+            "enabled": "enabled",
+            "name": "Vector 64",
+            "merged": true,
+            "keywords": [
+              "Vector 64"
+            ],
+            "eventId": "12"
+          },
+          {
+            "type": "show",
+            "id": "contains_all",
+            "enabled": "enabled",
+            "name": "contains all",
+            "merged": true,
+            "keywords": [
+              "contains all"
+            ],
+            "eventId": "13"
+          },
+          {
+            "type": "show",
+            "id": "intersection",
+            "enabled": "enabled",
+            "name": "intersection",
+            "merged": true,
+            "keywords": [
+              "intersection"
+            ],
+            "eventId": "14"
+          },
+          {
+            "type": "show",
+            "id": "lambdas",
+            "enabled": "enabled",
+            "name": "lambdas",
+            "merged": true,
+            "keywords": [
+              "lambdas"
+            ],
+            "eventId": "15"
+          }
+        ],
+        "keywords": [
+          "For the positive result",
+          "It’s about effectively solving systems of (in)equalities",
+          "in integers",
+          "where , and",
+          "with",
+          "Positive Result"
+        ],
+        "eventId": "12",
+        "originalParams": {
+          "The_main_tool_": {
+            "opacity": 1
+          },
+          "Theorem___Bombieri___Zannier_2000_": {
+            "opacity": 1
+          },
+          "One_can_effectively_upper_bound_the_height_of_algebraic_points_in_intersections": {
+            "opacity": 1
+          },
+          "certain_subvarieties": {
+            "opacity": 1
+          },
+          "Vector_62": {
+            "opacity": 1
+          },
+          "Vector_63": {
+            "opacity": 1
+          },
+          "union_of_all_algebraic_subgroups_of_dimension_1": {
+            "opacity": 1
+          },
+          "Vector_64": {
+            "opacity": 1
+          },
+          "contains_all": {
+            "opacity": 1
+          },
+          "intersection": {
+            "opacity": 1
+          },
+          "lambdas": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "show",
+        "id": "Thank_you",
+        "enabled": "enabled",
+        "name": "Thank you",
+        "merged": false,
+        "keywords": [
+          "Thank you"
+        ],
+        "eventId": "15"
+      }
+    ],
+    "keywords": [
+      "Multiple Reachability in Linear Dynamical Systems",
+      "E. Kelmendi",
+      "T. Karimov",
+      "J. Ouaknine",
+      "J. Worrell",
+      "Max Planck Institute for Software Systems",
+      "University of Oxford",
+      "Queen Mary University of London",
+      "Root"
+    ],
+    "eventId": "root",
+    "originalParams": {
+      "Theorem__Multiple_reachability_is_undecidable__Even_for_fixed_m_9__and_dimension___10_": {
+        "opacity": 1
+      },
+      "Theorem__On_the_plane__semialgebraic_to_semialgebraic_multiple_reachability_is_decidable_for_rotations_": {
+        "opacity": 1
+      },
+      "Main_theorem__Uses_a_different_technique_": {
+        "opacity": 1
+      },
+      "Thank_you": {
+        "opacity": 1
+      }
+    }
+  },
+  "treeTimeLine": [],
+  "chronicleTimeLine": []
+}
