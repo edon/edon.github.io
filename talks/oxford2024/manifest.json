@@ -1,0 +1,1650 @@
+{
+  "version": 3,
+  "presentation": "Iterations of Piecewise Maps",
+  "slideDict": {
+    "new_slide": "Root",
+    "open_problem": "open_problem",
+    "Theorem": "Theorem",
+    "History": "History",
+    "Undecidable_General_Problem": "Undecidable_General_Problem",
+    "Pictures": "Pictures",
+    "One_Step_Reachability": "One_Step_Reachability",
+    "Negative_Slope": "Negative_Slope",
+    "P_adic": "P_adic",
+    "when_is_padic_available": "when_is_padic_available",
+    "Bijection": "Bijection",
+    "Poincare": "Poincare",
+    "Topological_Invariant": "Topological_Invariant",
+    "Boshernitzan": "Boshernitzan",
+    "Case_with_Gaps": "Case_with_Gaps"
+  },
+  "tree": {
+    "type": "child",
+    "name": "Root",
+    "id": "new_slide",
+    "enabled": "enabled",
+    "merged": false,
+    "children": [
+      {
+        "type": "child",
+        "name": "open problem",
+        "id": "open_problem",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_1",
+            "enabled": "enabled",
+            "name": "n times",
+            "merged": false,
+            "keywords": [
+              "n times"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Does",
+            "enabled": "enabled",
+            "name": "Does",
+            "merged": false,
+            "keywords": [
+              "Does"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "Code_snippet",
+            "enabled": "enabled",
+            "name": "Code snippet",
+            "merged": true,
+            "keywords": [
+              "Code snippet"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "terminate_",
+            "enabled": "enabled",
+            "name": "terminate?",
+            "merged": true,
+            "keywords": [
+              "terminate?"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "show",
+            "id": "Is_the_orbit_periodic__Does_it_reach_some_interval__etc_",
+            "enabled": "enabled",
+            "name": "Is the orbit periodic? Does it reach some interval? etc.",
+            "merged": false,
+            "keywords": [
+              "Is the orbit periodic? Does it reach some interval? etc."
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "show",
+            "id": "For_example_",
+            "enabled": "enabled",
+            "name": "For example:",
+            "merged": false,
+            "keywords": [
+              "For example:"
+            ],
+            "eventId": "10"
+          },
+          {
+            "type": "show",
+            "id": "Frame5",
+            "enabled": "enabled",
+            "name": "Frame",
+            "merged": true,
+            "keywords": [
+              "Frame"
+            ],
+            "eventId": "11"
+          },
+          {
+            "type": "show",
+            "id": "Frame6",
+            "enabled": "enabled",
+            "name": "Frame",
+            "merged": true,
+            "keywords": [
+              "Frame"
+            ],
+            "eventId": "12"
+          },
+          {
+            "type": "show",
+            "id": "or",
+            "enabled": "enabled",
+            "name": "or",
+            "merged": false,
+            "keywords": [
+              "or"
+            ],
+            "eventId": "13"
+          },
+          {
+            "type": "show",
+            "id": "Frame7",
+            "enabled": "enabled",
+            "name": "Frame",
+            "merged": true,
+            "keywords": [
+              "Frame"
+            ],
+            "eventId": "14"
+          },
+          {
+            "type": "show",
+            "id": "Reachability_for_piecewise_affine_maps__PAM__in_dimension_1_with_two_intervals",
+            "enabled": "enabled",
+            "name": "Reachability for piecewise affine maps (PAM) in dimension 1 with two intervals",
+            "merged": false,
+            "keywords": [
+              "Reachability for piecewise affine maps (PAM) in dimension 1 with two intervals"
+            ],
+            "eventId": "17"
+          }
+        ],
+        "keywords": [
+          "Open Problem",
+          "Given mapping",
+          "and decide whether for some n",
+          "open problem"
+        ],
+        "eventId": "1",
+        "originalParams": {
+          "Group_1": {
+            "opacity": 1
+          },
+          "Does": {
+            "opacity": 1
+          },
+          "Code_snippet": {
+            "opacity": 1
+          },
+          "terminate_": {
+            "opacity": 1
+          },
+          "Is_the_orbit_periodic__Does_it_reach_some_interval__etc_": {
+            "opacity": 1
+          },
+          "For_example_": {
+            "opacity": 1
+          },
+          "Frame5": {
+            "opacity": 1
+          },
+          "Frame6": {
+            "opacity": 1
+          },
+          "or": {
+            "opacity": 1
+          },
+          "Frame7": {
+            "opacity": 1
+          },
+          "Reachability_for_piecewise_affine_maps__PAM__in_dimension_1_with_two_intervals": {
+            "opacity": 1
+          },
+          "Theorem__Decidable_for_injective_maps": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Theorem",
+        "id": "Theorem",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [],
+        "keywords": [
+          "Theorem. Decidable for injective maps",
+          "Theorem"
+        ],
+        "eventId": "5",
+        "originalParams": {}
+      },
+      {
+        "type": "child",
+        "name": "History",
+        "id": "History",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "General_definition_",
+            "enabled": "enabled",
+            "name": "General definition:",
+            "merged": false,
+            "keywords": [
+              "General definition:"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Frame",
+            "enabled": "enabled",
+            "name": "Frame",
+            "merged": true,
+            "keywords": [
+              "Frame"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Frame2",
+            "enabled": "enabled",
+            "name": "Frame",
+            "merged": true,
+            "keywords": [
+              "Frame"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Group_1",
+            "enabled": "enabled",
+            "name": "Group 1",
+            "merged": false,
+            "keywords": [
+              "Group 1"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Box",
+            "enabled": "enabled",
+            "name": "Box",
+            "merged": false,
+            "keywords": [
+              "Box"
+            ],
+            "eventId": "14"
+          },
+          {
+            "type": "show",
+            "id": "Vector_322",
+            "enabled": "enabled",
+            "name": "Vector 32",
+            "merged": false,
+            "keywords": [
+              "Vector 32"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "Ellipse_2",
+            "enabled": "enabled",
+            "name": "Ellipse 2",
+            "merged": true,
+            "keywords": [
+              "Ellipse 2"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "show",
+            "id": "Ellipse_1",
+            "enabled": "enabled",
+            "name": "Ellipse 1",
+            "merged": true,
+            "keywords": [
+              "Ellipse 1"
+            ],
+            "eventId": "10"
+          },
+          {
+            "type": "show",
+            "id": "linear_map___translation",
+            "enabled": "enabled",
+            "name": "linear map + translation",
+            "merged": true,
+            "keywords": [
+              "linear map + translation"
+            ],
+            "eventId": "11"
+          },
+          {
+            "type": "show",
+            "id": "__Dynamical_Systems",
+            "enabled": "enabled",
+            "name": "§ Dynamical Systems",
+            "merged": false,
+            "keywords": [
+              "§ Dynamical Systems"
+            ],
+            "eventId": "15"
+          },
+          {
+            "type": "show",
+            "id": "with_origins_in__Celestial_Mechanics_PDAs",
+            "enabled": "enabled",
+            "name": "with origins in: Celestial Mechanics PDAs",
+            "merged": true,
+            "keywords": [
+              "with origins in: Celestial Mechanics PDAs"
+            ],
+            "eventId": "16"
+          },
+          {
+            "type": "show",
+            "id": "__In_CS",
+            "enabled": "enabled",
+            "name": "§ In CS",
+            "merged": false,
+            "keywords": [
+              "§ In CS"
+            ],
+            "eventId": "17"
+          },
+          {
+            "type": "show",
+            "id": "with_origins_in__Recurrent_Neural_Networks",
+            "enabled": "enabled",
+            "name": "with origins in: Recurrent Neural Networks",
+            "merged": true,
+            "keywords": [
+              "with origins in: Recurrent Neural Networks"
+            ],
+            "eventId": "18"
+          },
+          {
+            "type": "show",
+            "id": "___",
+            "enabled": "enabled",
+            "name": "...",
+            "merged": true,
+            "keywords": [
+              "..."
+            ],
+            "eventId": "21"
+          },
+          {
+            "type": "show",
+            "id": "Koiran__Cosnard__Garzon__1994_",
+            "enabled": "enabled",
+            "name": "Koiran, Cosnard, Garzon (1994)",
+            "merged": true,
+            "keywords": [
+              "Koiran, Cosnard, Garzon (1994)"
+            ],
+            "eventId": "25"
+          },
+          {
+            "type": "show",
+            "id": "Siegelmann___Sontag__1991_",
+            "enabled": "enabled",
+            "name": "Siegelmann & Sontag (1991)",
+            "merged": true,
+            "keywords": [
+              "Siegelmann & Sontag (1991)"
+            ],
+            "eventId": "24"
+          },
+          {
+            "type": "child",
+            "name": "Undecidable General Problem",
+            "id": "Undecidable_General_Problem",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "0_11010101010101010000101011111111100011",
+                "enabled": "enabled",
+                "name": "0.11010101010101010000101011111111100011",
+                "merged": false,
+                "keywords": [
+                  "0.11010101010101010000101011111111100011"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Vector_33",
+                "enabled": "enabled",
+                "name": "Vector 33",
+                "merged": false,
+                "keywords": [
+                  "Vector 33"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Vector_34",
+                "enabled": "enabled",
+                "name": "Vector 34",
+                "merged": true,
+                "keywords": [
+                  "Vector 34"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Rectangle_1",
+                "enabled": "enabled",
+                "name": "Rectangle 1",
+                "merged": true,
+                "keywords": [
+                  "Rectangle 1"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "Rectangle_2",
+                "enabled": "enabled",
+                "name": "Rectangle 2",
+                "merged": true,
+                "keywords": [
+                  "Rectangle 2"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "finite_state_space",
+                "enabled": "enabled",
+                "name": "finite state space",
+                "merged": true,
+                "keywords": [
+                  "finite state space"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "show",
+                "id": "stack",
+                "enabled": "enabled",
+                "name": "stack",
+                "merged": true,
+                "keywords": [
+                  "stack"
+                ],
+                "eventId": "7"
+              },
+              {
+                "type": "show",
+                "id": "Shift_to_the_left_or_right_using_multiplication",
+                "enabled": "enabled",
+                "name": "Shift to the left or right using multiplication",
+                "merged": false,
+                "keywords": [
+                  "Shift to the left or right using multiplication"
+                ],
+                "eventId": "8"
+              },
+              {
+                "type": "show",
+                "id": "Change_the_finite_state_space_and_top_of_stack_with_addition",
+                "enabled": "enabled",
+                "name": "Change the finite state space and top of stack with addition",
+                "merged": false,
+                "keywords": [
+                  "Change the finite state space and top of stack with addition"
+                ],
+                "eventId": "9"
+              },
+              {
+                "type": "show",
+                "id": "Use_the_finitely_many_boxes_to_condition_on_the_red_part___top_of_stack",
+                "enabled": "enabled",
+                "name": "Use the finitely many boxes to condition on the red part + top of stack",
+                "merged": false,
+                "keywords": [
+                  "Use the finitely many boxes to condition on the red part + top of stack"
+                ],
+                "eventId": "10"
+              },
+              {
+                "type": "show",
+                "id": "In_dimension_d__simulate_a_machine_with_d_stacks",
+                "enabled": "enabled",
+                "name": "In dimension d, simulate a machine with d stacks",
+                "merged": false,
+                "keywords": [
+                  "In dimension d, simulate a machine with d stacks"
+                ],
+                "eventId": "11"
+              },
+              {
+                "type": "show",
+                "id": "Even_global_properties_are_undecidable_in_dimension_2_e_g__does_every_trajectory_end_up_in_0",
+                "enabled": "enabled",
+                "name": "Even global properties are undecidable in dimension 2 e.g. does every trajectory end up in 0",
+                "merged": false,
+                "keywords": [
+                  "Even global properties are undecidable in dimension 2 e.g. does every trajectory end up in 0"
+                ],
+                "eventId": "12"
+              },
+              {
+                "type": "show",
+                "id": "Blondel__Bournez__Koiran__Papadimitriou__Tsitsiklis__2001_",
+                "enabled": "enabled",
+                "name": "Blondel, Bournez, Koiran, Papadimitriou, Tsitsiklis (2001)",
+                "merged": true,
+                "keywords": [
+                  "Blondel, Bournez, Koiran, Papadimitriou, Tsitsiklis (2001)"
+                ],
+                "eventId": "14"
+              }
+            ],
+            "keywords": [
+              "In this generality, most properties are undecidable",
+              "Undecidable General Problem"
+            ],
+            "eventId": "22",
+            "originalParams": {
+              "0_11010101010101010000101011111111100011": {
+                "opacity": 1
+              },
+              "Vector_33": {
+                "opacity": 1
+              },
+              "Vector_34": {
+                "opacity": 1
+              },
+              "Rectangle_1": {
+                "opacity": 1
+              },
+              "Rectangle_2": {
+                "opacity": 1
+              },
+              "finite_state_space": {
+                "opacity": 1
+              },
+              "stack": {
+                "opacity": 1
+              },
+              "Shift_to_the_left_or_right_using_multiplication": {
+                "opacity": 1
+              },
+              "Change_the_finite_state_space_and_top_of_stack_with_addition": {
+                "opacity": 1
+              },
+              "Use_the_finitely_many_boxes_to_condition_on_the_red_part___top_of_stack": {
+                "opacity": 1
+              },
+              "In_dimension_d__simulate_a_machine_with_d_stacks": {
+                "opacity": 1
+              },
+              "Even_global_properties_are_undecidable_in_dimension_2_e_g__does_every_trajectory_end_up_in_0": {
+                "opacity": 1
+              },
+              "Blondel__Bournez__Koiran__Papadimitriou__Tsitsiklis__2001_": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "What_about_d___1__",
+            "enabled": "enabled",
+            "name": "What about d = 1 ?",
+            "merged": false,
+            "keywords": [
+              "What about d = 1 ?"
+            ],
+            "eventId": "23"
+          },
+          {
+            "type": "show",
+            "id": "Expansions_of_number_in_non_integral_bases_Discount_Sum_Automata",
+            "enabled": "enabled",
+            "name": "Expansions of number in non-integral bases Discount-Sum Automata",
+            "merged": false,
+            "keywords": [
+              "Expansions of number in non-integral bases Discount-Sum Automata"
+            ],
+            "eventId": "28"
+          },
+          {
+            "type": "show",
+            "id": "Boker__Henzinger__Otop__2015_",
+            "enabled": "enabled",
+            "name": "Boker, Henzinger, Otop (2015)",
+            "merged": true,
+            "keywords": [
+              "Boker, Henzinger, Otop (2015)"
+            ],
+            "eventId": "29"
+          },
+          {
+            "type": "show",
+            "id": "Hybrid_Systems",
+            "enabled": "enabled",
+            "name": "Hybrid Systems",
+            "merged": true,
+            "keywords": [
+              "Hybrid Systems"
+            ],
+            "eventId": "30"
+          },
+          {
+            "type": "show",
+            "id": "Asarin__Mysore__Pnueli__Schneider__2012_",
+            "enabled": "enabled",
+            "name": "Asarin, Mysore, Pnueli, Schneider (2012)",
+            "merged": true,
+            "keywords": [
+              "Asarin, Mysore, Pnueli, Schneider (2012)"
+            ],
+            "eventId": "31"
+          }
+        ],
+        "keywords": [
+          "Background Story",
+          "History"
+        ],
+        "eventId": "2",
+        "originalParams": {
+          "General_definition_": {
+            "opacity": 1
+          },
+          "Frame": {
+            "opacity": 1
+          },
+          "Frame2": {
+            "opacity": 1
+          },
+          "Group_1": {
+            "opacity": 1
+          },
+          "Vector_322": {
+            "opacity": 1
+          },
+          "Ellipse_2": {
+            "opacity": 1
+          },
+          "Ellipse_1": {
+            "opacity": 1
+          },
+          "linear_map___translation": {
+            "opacity": 1
+          },
+          "Box": {
+            "opacity": 1
+          },
+          "__Dynamical_Systems": {
+            "opacity": 1
+          },
+          "with_origins_in__Celestial_Mechanics_PDAs": {
+            "opacity": 1
+          },
+          "__In_CS": {
+            "opacity": 1
+          },
+          "with_origins_in__Recurrent_Neural_Networks": {
+            "opacity": 1
+          },
+          "___": {
+            "opacity": 1
+          },
+          "What_about_d___1__": {
+            "opacity": 1
+          },
+          "Siegelmann___Sontag__1991_": {
+            "opacity": 1
+          },
+          "Koiran__Cosnard__Garzon__1994_": {
+            "opacity": 1
+          },
+          "Expansions_of_number_in_non_integral_bases_Discount_Sum_Automata": {
+            "opacity": 1
+          },
+          "Boker__Henzinger__Otop__2015_": {
+            "opacity": 1
+          },
+          "Hybrid_Systems": {
+            "opacity": 1
+          },
+          "Asarin__Mysore__Pnueli__Schneider__2012_": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Pictures",
+        "id": "Pictures",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Frame_4",
+            "enabled": "enabled",
+            "name": "Frame 4",
+            "merged": false,
+            "keywords": [
+              "Frame 4"
+            ],
+            "eventId": "87"
+          },
+          {
+            "type": "show",
+            "id": "Group_254",
+            "enabled": "enabled",
+            "name": "previous example",
+            "merged": false,
+            "keywords": [
+              "For example:",
+              "previous example"
+            ],
+            "eventId": "91"
+          },
+          {
+            "type": "show",
+            "id": "immediate_dynamics",
+            "enabled": "enabled",
+            "name": "immediate dynamics",
+            "merged": false,
+            "keywords": [
+              "In some cases we can immediately see the dynamics",
+              "immediate dynamics"
+            ],
+            "eventId": "93"
+          },
+          {
+            "type": "show",
+            "id": "explanation_of_the_dynamics",
+            "enabled": "enabled",
+            "name": "explanation of the dynamics",
+            "merged": false,
+            "keywords": [
+              "No matter where we start in the first interval, eventually we move from the first to the second interval, and then converge to 1",
+              "explanation of the dynamics"
+            ],
+            "eventId": "94"
+          },
+          {
+            "type": "show",
+            "id": "affine_map_iterated",
+            "enabled": "enabled",
+            "name": "affine map iterated",
+            "merged": false,
+            "keywords": [
+              "An affine map",
+              "iterated, as long as , is",
+              "affine map iterated"
+            ],
+            "eventId": "95"
+          },
+          {
+            "type": "show",
+            "id": "Text",
+            "enabled": "enabled",
+            "name": "The first map is expanding → we reach the second interval The second map is contracting → converges to 1",
+            "merged": false,
+            "keywords": [
+              "The first map is expanding → we reach the second interval The second map is contracting → converges to 1"
+            ],
+            "eventId": "97"
+          }
+        ],
+        "keywords": [
+          "is characterised by",
+          "Pictures"
+        ],
+        "eventId": "3",
+        "originalParams": {
+          "Frame_4": {
+            "opacity": 1
+          },
+          "Group_254": {
+            "opacity": 1
+          },
+          "immediate_dynamics": {
+            "opacity": 1
+          },
+          "explanation_of_the_dynamics": {
+            "opacity": 1
+          },
+          "affine_map_iterated": {
+            "opacity": 1
+          },
+          "We_can_see": {
+            "opacity": 1
+          },
+          "Text": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "One Step Reachability",
+        "id": "One_Step_Reachability",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Construct_the_graph_of_one_step_reachability",
+            "enabled": "enabled",
+            "name": "Construct the graph of one step reachability",
+            "merged": false,
+            "keywords": [
+              "Construct the graph of one step reachability"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "immediate_dynamics",
+            "enabled": "enabled",
+            "name": "immediate dynamics example",
+            "merged": false,
+            "keywords": [
+              "E.g.",
+              "1",
+              "2",
+              "immediate dynamics example"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Theorem__Reachability_is_decidable_if_the_one_step_reachability_graph_has_either_of_these_two_properties__Every_vertex_has_a_unique_outgoing_edge_The_only_cycles_are_self_cycles",
+            "enabled": "enabled",
+            "name": "Theorem. Reachability is decidable if the one step reachability graph has either of these two properties: Every vertex has a unique outgoing edge The only cycles are self-cycles",
+            "merged": false,
+            "keywords": [
+              "Theorem. Reachability is decidable if the one step reachability graph has either of these two properties: Every vertex has a unique outgoing edge The only cycles are self-cycles"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "f2n_maps_intervals_to_themselves",
+            "enabled": "enabled",
+            "name": "f2n maps intervals to themselves",
+            "merged": false,
+            "keywords": [
+              "1",
+              "2",
+              "maps each interval to itself",
+              "in other cases, you reach an interval and stay there",
+              "f2n maps intervals to themselves"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Corollary",
+            "enabled": "enabled",
+            "name": "Corollary",
+            "merged": false,
+            "keywords": [
+              "Corollary. If then reachability is decidable.",
+              "Corollary"
+            ],
+            "eventId": "5"
+          }
+        ],
+        "keywords": [
+          "Let f be a PAM with intervals",
+          "We can go from interval 1 in interval 2 in one step if",
+          "One Step Reachability"
+        ],
+        "eventId": "6",
+        "originalParams": {
+          "Construct_the_graph_of_one_step_reachability": {
+            "opacity": 1
+          },
+          "immediate_dynamics": {
+            "opacity": 1
+          },
+          "Theorem__Reachability_is_decidable_if_the_one_step_reachability_graph_has_either_of_these_two_properties__Every_vertex_has_a_unique_outgoing_edge_The_only_cycles_are_self_cycles": {
+            "opacity": 1
+          },
+          "f2n_maps_intervals_to_themselves": {
+            "opacity": 1
+          },
+          "Corollary": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Negative Slope",
+        "id": "Negative_Slope",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Example_negative_slope",
+            "enabled": "enabled",
+            "name": "Example negative slope",
+            "merged": false,
+            "keywords": [
+              "E.g.",
+              "Example negative slope"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "one_step_reachability_of_negative_slope",
+            "enabled": "enabled",
+            "name": "one step reachability of negative slope",
+            "merged": false,
+            "keywords": [
+              "One step reachability graph of g will look like",
+              "1",
+              "2",
+              "or",
+              "one step reachability of negative slope"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "This_is_how_far_we_were_able_to_go_with_elementary_techniques",
+            "enabled": "enabled",
+            "name": "This is how far we were able to go with elementary techniques",
+            "merged": false,
+            "keywords": [
+              "This is how far we were able to go with elementary techniques"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "child",
+            "name": "P-adic",
+            "id": "P_adic",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Because_denominator_should_be_a_power_of_3",
+                "enabled": "enabled",
+                "name": "Because denominator should be a power of 3",
+                "merged": false,
+                "keywords": [
+                  "Because denominator should be a power of 3"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "valuation_addition",
+                "enabled": "enabled",
+                "name": "valuation addition",
+                "merged": false,
+                "keywords": [
+                  "Let p be prime and r,s,u integers co-prime to p.",
+                  "valuation addition"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "arrows_with_mod_p",
+                "enabled": "enabled",
+                "name": "arrows with mod p",
+                "merged": false,
+                "keywords": [
+                  "arrows with mod p"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "power_of_p_does_not_decrease",
+                "enabled": "enabled",
+                "name": "power of p does not decrease",
+                "merged": false,
+                "keywords": [
+                  "power of p does not decrease"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "p_adic_valuation",
+                "enabled": "enabled",
+                "name": "p-adic valuation",
+                "merged": false,
+                "keywords": [
+                  "unless",
+                  "p-adic valuation"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "orbit_grows_p_adically",
+                "enabled": "enabled",
+                "name": "orbit grows p-adically",
+                "merged": false,
+                "keywords": [
+                  "While the orbit has absolute value in [0,1), its p-adic absolute value is monotone increasing.",
+                  "orbit grows p-adically"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "child",
+                "name": "when is padic available",
+                "id": "when_is_padic_available",
+                "enabled": "enabled",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "No_cancellations",
+                    "enabled": "enabled",
+                    "name": "No cancellations",
+                    "merged": false,
+                    "keywords": [
+                      "No cancellations"
+                    ],
+                    "eventId": "1"
+                  },
+                  {
+                    "type": "show",
+                    "id": "complete_maps",
+                    "enabled": "enabled",
+                    "name": "complete maps",
+                    "merged": false,
+                    "keywords": [
+                      "You can use this technique to decide reachability for (non-injective) maps of the kind:",
+                      "complete maps"
+                    ],
+                    "eventId": "2"
+                  }
+                ],
+                "keywords": [
+                  "When: primes dividing the numerator of are disjoint from primes dividing the denominator of and primes dividing the numerator of are disjoint from primes dividing the denominator of",
+                  "when is padic available"
+                ],
+                "eventId": "7",
+                "originalParams": {
+                  "No_cancellations": {
+                    "opacity": 1
+                  },
+                  "complete_maps": {
+                    "opacity": 1
+                  }
+                }
+              },
+              {
+                "type": "show",
+                "id": "Bournez__Kurganskyy__Potapov__2018_",
+                "enabled": "enabled",
+                "name": "Bournez, Kurganskyy, Potapov (2018)",
+                "merged": false,
+                "keywords": [
+                  "Bournez, Kurganskyy, Potapov (2018)"
+                ],
+                "eventId": "8"
+              }
+            ],
+            "keywords": [
+              "Not reachable",
+              "P-adic"
+            ],
+            "eventId": "3",
+            "originalParams": {
+              "Because_denominator_should_be_a_power_of_3": {
+                "opacity": 1
+              },
+              "valuation_addition": {
+                "opacity": 1
+              },
+              "arrows_with_mod_p": {
+                "opacity": 1
+              },
+              "power_of_p_does_not_decrease": {
+                "opacity": 1
+              },
+              "p_adic_valuation": {
+                "opacity": 1
+              },
+              "orbit_grows_p_adically": {
+                "opacity": 1
+              },
+              "Bournez__Kurganskyy__Potapov__2018_": {
+                "opacity": 1
+              }
+            }
+          }
+        ],
+        "keywords": [
+          "Theorem. If or then we can decide reachability.",
+          "Negative Slope"
+        ],
+        "eventId": "7",
+        "originalParams": {
+          "Example_negative_slope": {
+            "opacity": 1
+          },
+          "one_step_reachability_of_negative_slope": {
+            "opacity": 1
+          },
+          "This_is_how_far_we_were_able_to_go_with_elementary_techniques": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Bijection",
+        "id": "Bijection",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "pleasant_properties",
+            "enabled": "enabled",
+            "name": "pleasant properties",
+            "merged": false,
+            "keywords": [
+              "Seen as a map on the circle it has pleasant properties: bijective continuous its inverse is also continuous orientation-preserving",
+              "pleasant properties"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "homeomorphism",
+            "enabled": "enabled",
+            "name": "homeomorphism",
+            "merged": false,
+            "keywords": [
+              "homeomorphism"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "poincare_picture",
+            "enabled": "enabled",
+            "name": "poincare picture",
+            "merged": false,
+            "keywords": [
+              "Henri Poincaré (1854-1912)",
+              "poincare picture"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "child",
+            "name": "Poincare",
+            "id": "Poincare",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "rotation_number",
+                "enabled": "enabled",
+                "name": "rotation number",
+                "merged": false,
+                "keywords": [
+                  "rotation number"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "rotation_number_is_average_rotation",
+                "enabled": "enabled",
+                "name": "rotation number is average rotation",
+                "merged": false,
+                "keywords": [
+                  "The average rotation among",
+                  "rotation number is average rotation"
+                ],
+                "eventId": "2"
+              }
+            ],
+            "keywords": [
+              "While studying celestial mechanics in 1885 “Sur les courbes définies par les équations différentielles” he proved:",
+              "If is an orientation preserving homeomorphism then can be lifted to a homeomorphism satisfying for all 1. 2. for all The following limit exists and is independent of x.",
+              "fractional part",
+              "Poincare"
+            ],
+            "eventId": "3",
+            "originalParams": {
+              "rotation_number": {
+                "opacity": 1
+              },
+              "rotation_number_is_average_rotation": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "Topological Invariant",
+            "id": "Topological_Invariant",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "rotation_number_is_invariant",
+                "enabled": "enabled",
+                "name": "rotation number is invariant",
+                "merged": false,
+                "keywords": [
+                  "same rotation number",
+                  "homeomorphism of the circle",
+                  "rotation number is invariant"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "simplest_rotation",
+                "enabled": "enabled",
+                "name": "simplest rotation",
+                "merged": false,
+                "keywords": [
+                  "The simplest such map with rotation number ρ is",
+                  "simplest rotation"
+                ],
+                "eventId": "2"
+              }
+            ],
+            "keywords": [
+              "Rotation number is a topological invariant",
+              "it does not change when we conjugate with a homeomorphism",
+              "Topological Invariant"
+            ],
+            "eventId": "5",
+            "originalParams": {
+              "rotation_number_is_invariant": {
+                "opacity": 1
+              },
+              "simplest_rotation": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "is_our_function_conjugate",
+            "enabled": "enabled",
+            "name": "is our function conjugate",
+            "merged": false,
+            "keywords": [
+              "Is our function conjugate to ?",
+              "is our function conjugate"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "Yes___Denjoy__1932_",
+            "enabled": "enabled",
+            "name": "Yes - Denjoy (1932)",
+            "merged": false,
+            "keywords": [
+              "Yes - Denjoy (1932)"
+            ],
+            "eventId": "7"
+          }
+        ],
+        "keywords": [
+          "None of the previous methods work",
+          "Bijection"
+        ],
+        "eventId": "8",
+        "originalParams": {
+          "pleasant_properties": {
+            "opacity": 1
+          },
+          "homeomorphism": {
+            "opacity": 1
+          },
+          "poincare_picture": {
+            "opacity": 1
+          },
+          "is_our_function_conjugate": {
+            "opacity": 1
+          },
+          "Yes___Denjoy__1932_": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Boshernitzan",
+        "id": "Boshernitzan",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "diagram",
+            "enabled": "enabled",
+            "name": "diagram",
+            "merged": false,
+            "keywords": [
+              "diagram"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "simpler_dynamical_system",
+            "enabled": "enabled",
+            "name": "simpler dynamical system",
+            "merged": false,
+            "keywords": [
+              "much simpler dynamical system",
+              "simpler dynamical system"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "can_we_construct",
+            "enabled": "enabled",
+            "name": "can we construct",
+            "merged": false,
+            "keywords": [
+              "But can we construct: the rotation number the homeomorphism h?",
+              "can we construct"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Boshernitzan__1993____The_author_first_observed__using_an_indirect__long_argument__that_the_rotation_number_of_f_is_____",
+            "enabled": "enabled",
+            "name": "Boshernitzan (1993): “The author first observed (using an indirect, long argument) that the rotation number of f is ...”",
+            "merged": false,
+            "keywords": [
+              "Boshernitzan (1993): “The author first observed (using an indirect, long argument) that the rotation number of f is ...”"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "logs_",
+            "enabled": "enabled",
+            "name": "logs ",
+            "merged": false,
+            "keywords": [
+              "logs "
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "we_can_compute_h",
+            "enabled": "enabled",
+            "name": "we can compute h",
+            "merged": false,
+            "keywords": [
+              "Then it is possible to compute h",
+              "we can compute h"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "reachability_is_equivalent_to",
+            "enabled": "enabled",
+            "name": "reachability is equivalent to",
+            "merged": false,
+            "keywords": [
+              "This means that reachability from to is equivalent",
+              "reachability is equivalent to"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "show",
+            "id": "iff_exists_pos_integers_n_and_m",
+            "enabled": "enabled",
+            "name": "iff exists pos integers n and m",
+            "merged": false,
+            "keywords": [
+              "exist positive integers n and m",
+              "iff exists pos integers n and m"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "show",
+            "id": "decide_periodicity",
+            "enabled": "enabled",
+            "name": "decide periodicity",
+            "merged": false,
+            "keywords": [
+              "We can also easily decide periodicity:",
+              "orbit is periodic",
+              "there are non-trivial multiplicative relations",
+              "among",
+              "decide periodicity"
+            ],
+            "eventId": "10"
+          },
+          {
+            "type": "show",
+            "id": "If_the_orbit_is_not_periodic_then_it_is_dense_in__0_1_",
+            "enabled": "enabled",
+            "name": "If the orbit is not periodic then it is dense in [0,1)",
+            "merged": false,
+            "keywords": [
+              "If the orbit is not periodic then it is dense in [0,1)"
+            ],
+            "eventId": "11"
+          }
+        ],
+        "keywords": [
+          "Boshernitzan"
+        ],
+        "eventId": "9",
+        "originalParams": {
+          "diagram": {
+            "opacity": 1
+          },
+          "simpler_dynamical_system": {
+            "opacity": 1
+          },
+          "can_we_construct": {
+            "opacity": 1
+          },
+          "Boshernitzan__1993____The_author_first_observed__using_an_indirect__long_argument__that_the_rotation_number_of_f_is_____": {
+            "opacity": 1
+          },
+          "logs_": {
+            "opacity": 1
+          },
+          "we_can_compute_h": {
+            "opacity": 1
+          },
+          "reachability_is_equivalent_to": {
+            "opacity": 1
+          },
+          "iff_exists_pos_integers_n_and_m": {
+            "opacity": 1
+          },
+          "decide_periodicity": {
+            "opacity": 1
+          },
+          "If_the_orbit_is_not_periodic_then_it_is_dense_in__0_1_": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Case with Gaps",
+        "id": "Case_with_Gaps",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Studied_by_Laurent___Nogueira__2019_",
+            "enabled": "enabled",
+            "name": "Studied by Laurent & Nogueira (2019)",
+            "merged": false,
+            "keywords": [
+              "Studied by Laurent & Nogueira (2019)"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "gaps_case_conjugate",
+            "enabled": "enabled",
+            "name": "gaps case conjugate",
+            "merged": false,
+            "keywords": [
+              "In this case we conjugate with:",
+              "where ρ is the rotation number and δ,λ,μ are constants depending on the given PAM",
+              "gaps case conjugate"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Hecke_Maher_Series",
+            "enabled": "enabled",
+            "name": "Hecke Maher Series",
+            "merged": false,
+            "keywords": [
+              "The conjugate h can also be given in terms of Hecke-Mahler series",
+              "Hecke Maher Series"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "A_transcendence_result_on_these_series_implies_that___is_rational",
+            "enabled": "enabled",
+            "name": "A transcendence result on these series implies that ρ is rational",
+            "merged": false,
+            "keywords": [
+              "A transcendence result on these series implies that ρ is rational"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "dynamics_of_laurent_and_nogueira",
+            "enabled": "enabled",
+            "name": "dynamics of laurent and nogueira",
+            "merged": false,
+            "keywords": [
+              "Dynamics of these maps are: There is one finite orbit",
+              "dynamics of laurent and nogueira"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "orbits_converge_to_the_finite_one",
+            "enabled": "enabled",
+            "name": "orbits converge to the finite one",
+            "merged": false,
+            "keywords": [
+              "Every other orbit converges to the finite one",
+              "orbits converge to the finite one"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "algorithm",
+            "enabled": "enabled",
+            "name": "algorithm",
+            "merged": false,
+            "keywords": [
+              "Compute ρ Check to see whether source or target is in the finite orbit Use effective bounds on the red intervals to come up with a deadline after which we know that the target cannot be reached",
+              "Algorithm",
+              "algorithm"
+            ],
+            "eventId": "7"
+          }
+        ],
+        "keywords": [
+          "We are left with this case:",
+          "Case with Gaps"
+        ],
+        "eventId": "10",
+        "originalParams": {
+          "Studied_by_Laurent___Nogueira__2019_": {
+            "opacity": 1
+          },
+          "gaps_case_conjugate": {
+            "opacity": 1
+          },
+          "Hecke_Maher_Series": {
+            "opacity": 1
+          },
+          "A_transcendence_result_on_these_series_implies_that___is_rational": {
+            "opacity": 1
+          },
+          "dynamics_of_laurent_and_nogueira": {
+            "opacity": 1
+          },
+          "orbits_converge_to_the_finite_one": {
+            "opacity": 1
+          },
+          "algorithm": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "show",
+        "id": "Thank_you",
+        "enabled": "enabled",
+        "name": "Thank you",
+        "merged": false,
+        "keywords": [
+          "Thank you"
+        ],
+        "eventId": "11"
+      }
+    ],
+    "keywords": [
+      "Iterations of Piecewise Maps",
+      "Edon Kelmendi",
+      "QMUL",
+      "based on joint work with Faraz Ghraremani and Joël Ouaknine",
+      "Root"
+    ],
+    "eventId": "root",
+    "originalParams": {
+      "Thank_you": {
+        "opacity": 1
+      }
+    }
+  },
+  "treeTimeLine": [],
+  "chronicleTimeLine": []
+}
