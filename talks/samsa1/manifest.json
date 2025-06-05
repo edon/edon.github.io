@@ -1,0 +1,3541 @@
+{
+  "version": 3,
+  "presentation": "samsa1",
+  "slideDict": {
+    "new_slide": "root",
+    "first_definition": "first_definition",
+    "PAM": "PAM",
+    "One_dimensional_PAM": "One_dimensional_PAM",
+    "LDS_definition": "LDS_definition",
+    "for_example": "for_example",
+    "Targets": "Targets",
+    "Examples": "Examples",
+    "related_questions": "related_questions",
+    "LRS": "LRS",
+    "LRS2": "LRS2",
+    "Markov_chain": "Markov_chain",
+    "What_we_don_t_know2": "What_we_don_t_know",
+    "What_we_know2": "What_we_know",
+    "Jordan": "Jordan",
+    "Jordan2": "Jordan2",
+    "Close_to_curve": "Close_to_curve",
+    "Positive_hard_problem": "Positive_hard_problem",
+    "reaching_a_point": "reaching_a_point",
+    "Probabilistic_automata": "Probabilistic_automata",
+    "Probabilistic_automata_2": "Probabilistic_automata_2",
+    "Baker": "Baker",
+    "use_of_Baker": "use_of_Baker"
+  },
+  "tree": {
+    "type": "child",
+    "name": "root",
+    "id": "new_slide",
+    "enabled": "enabled",
+    "merged": false,
+    "children": [
+      {
+        "type": "child",
+        "name": "PAM",
+        "id": "PAM",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_1",
+            "enabled": "enabled",
+            "name": "Only two variables ranging over Linear conditionals Affine variable updates",
+            "merged": false,
+            "keywords": [
+              "Only two variables ranging over Linear conditionals Affine variable updates"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Same_as_a_Turing_machine",
+            "enabled": "enabled",
+            "name": "Same as a Turing machine",
+            "merged": false,
+            "keywords": [
+              "Same as a Turing machine"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Group_12",
+            "enabled": "enabled",
+            "name": "x=0.35643459830230438 y=0.12585430200000000",
+            "merged": false,
+            "keywords": [
+              "x=0.35643459830230438 y=0.12585430200000000",
+              "finite state",
+              "stack"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Weaker__but_natural__models_which_we_can_verify",
+            "enabled": "enabled",
+            "name": "Weaker, but natural, models which we can verify",
+            "merged": false,
+            "keywords": [
+              "Weaker, but natural, models which we can verify"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Vector_1",
+            "enabled": "enabled",
+            "name": "Vector 1",
+            "merged": false,
+            "keywords": [
+              "Vector 1"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "one",
+            "enabled": "enabled",
+            "name": "one",
+            "merged": false,
+            "keywords": [
+              "one"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "child",
+            "name": "One dimensional PAM",
+            "id": "One_dimensional_PAM",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Weaker__but_natural__models_which_we_can_verify",
+                "enabled": "enabled",
+                "name": "halting",
+                "merged": false,
+                "keywords": [
+                  "halting"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Frame5",
+                "enabled": "enabled",
+                "name": "Frame",
+                "merged": false,
+                "keywords": [
+                  "Frame"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Group_1",
+                "enabled": "enabled",
+                "name": "By iteratively applying f to 0.3 do we ever get the value 0.7",
+                "merged": false,
+                "keywords": [
+                  "By iteratively applying f to 0.3 do we get the value 0.7",
+                  "By iteratively applying f to 0.3 do we ever get the value 0.7"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "open_problem",
+                "enabled": "enabled",
+                "name": "open problem",
+                "merged": false,
+                "keywords": [
+                  "open problem"
+                ],
+                "eventId": "9"
+              },
+              {
+                "type": "show",
+                "id": "Rectangle_5",
+                "enabled": "enabled",
+                "name": "Rectangle 5",
+                "merged": true,
+                "keywords": [
+                  "Rectangle 5"
+                ],
+                "eventId": "10"
+              },
+              {
+                "type": "show",
+                "id": "Is_there_a_procedure_to_decide_reachability_for_Piecewise_Affine_Maps",
+                "enabled": "enabled",
+                "name": "Is there a procedure to decide reachability for Piecewise Affine Maps",
+                "merged": true,
+                "keywords": [
+                  "Is there a procedure to decide reachability for Piecewise Affine Maps"
+                ],
+                "eventId": "11"
+              },
+              {
+                "type": "show",
+                "id": "periodicity_of___reaching_intervals__other_properties_____",
+                "enabled": "enabled",
+                "name": "periodicity of , reaching intervals, other properties, ...",
+                "merged": false,
+                "keywords": [
+                  "periodicity of , reaching intervals, other properties, ..."
+                ],
+                "eventId": "31"
+              }
+            ],
+            "keywords": [
+              "x=0.3 while (x!=0.7) { if (x < 0.5) { x = 4*x/3 + 1/3; } else { x = -4/3 * x + 5/3; } }",
+              "One dimensional PAM"
+            ],
+            "eventId": "8",
+            "originalParams": {
+              "Weaker__but_natural__models_which_we_can_verify": {
+                "opacity": 1
+              },
+              "Frame5": {
+                "opacity": 1
+              },
+              "Group_1": {
+                "opacity": 1
+              },
+              "open_problem": {
+                "opacity": 1
+              },
+              "Rectangle_5": {
+                "opacity": 1
+              },
+              "Is_there_a_procedure_to_decide_reachability_for_Piecewise_Affine_Maps": {
+                "opacity": 1
+              },
+              "periodicity_of___reaching_intervals__other_properties_____": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "Vector_2",
+            "enabled": "enabled",
+            "name": "Vector 2",
+            "merged": false,
+            "keywords": [
+              "Vector 2"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "show",
+            "id": "Vector_3",
+            "enabled": "enabled",
+            "name": "Vector 3",
+            "merged": false,
+            "keywords": [
+              "Vector 3"
+            ],
+            "eventId": "12"
+          },
+          {
+            "type": "show",
+            "id": "arbitrary",
+            "enabled": "enabled",
+            "name": "arbitrary",
+            "merged": false,
+            "keywords": [
+              "arbitrary"
+            ],
+            "eventId": "13"
+          },
+          {
+            "type": "show",
+            "id": "Group_13",
+            "enabled": "enabled",
+            "name": "this talk",
+            "merged": false,
+            "keywords": [
+              "this talk"
+            ],
+            "eventId": "11"
+          },
+          {
+            "type": "show",
+            "id": "Rectangle_5",
+            "enabled": "enabled",
+            "name": "Rectangle 5",
+            "merged": false,
+            "keywords": [
+              "Rectangle 5"
+            ],
+            "eventId": "14"
+          },
+          {
+            "type": "show",
+            "id": "open_problem",
+            "enabled": "enabled",
+            "name": "open problem",
+            "merged": true,
+            "keywords": [
+              "open problem"
+            ],
+            "eventId": "15"
+          },
+          {
+            "type": "show",
+            "id": "Is_this_natural__What_algorithms_can_be_expressed_in_this_way_",
+            "enabled": "enabled",
+            "name": "Is this natural? What algorithms can be expressed in this way?",
+            "merged": true,
+            "keywords": [
+              "Is this natural? What algorithms can be expressed in this way?"
+            ],
+            "eventId": "16"
+          }
+        ],
+        "keywords": [
+          "x=0.3 y=0.1 while (0.5 * x > 0.2) { if (x > 0.5) { x = 1-0.2*y; y = x; } if (x <= 0.5 && y > 0.1) { y = y - 0.1*x; } }",
+          "PAM"
+        ],
+        "eventId": "2",
+        "originalParams": {
+          "Group_1": {
+            "opacity": 1
+          },
+          "Same_as_a_Turing_machine": {
+            "opacity": 1
+          },
+          "Group_12": {
+            "opacity": 1
+          },
+          "Weaker__but_natural__models_which_we_can_verify": {
+            "opacity": 1
+          },
+          "Vector_1": {
+            "opacity": 1
+          },
+          "one": {
+            "opacity": 1
+          },
+          "Vector_2": {
+            "opacity": 1
+          },
+          "Group_13": {
+            "opacity": 1
+          },
+          "Vector_3": {
+            "opacity": 1
+          },
+          "arbitrary": {
+            "opacity": 1
+          },
+          "Rectangle_5": {
+            "opacity": 1
+          },
+          "open_problem": {
+            "opacity": 1
+          },
+          "Is_this_natural__What_algorithms_can_be_expressed_in_this_way_": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "LDS definition",
+        "id": "LDS_definition",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_1",
+            "enabled": "enabled",
+            "name": "orbit of x under f",
+            "merged": false,
+            "keywords": [
+              "orbit of x under f"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "After_fixing_a_basis__a_linear_map_can_be_given_by_a_matrix_M",
+            "enabled": "enabled",
+            "name": "After fixing a basis, a linear map can be given by a matrix M",
+            "merged": false,
+            "keywords": [
+              "After fixing a basis, a linear map can be given by a matrix M"
+            ],
+            "eventId": "15"
+          },
+          {
+            "type": "show",
+            "id": "Applying_the_linear_map_is_the_same_as_matrix_multiplication",
+            "enabled": "enabled",
+            "name": "Applying the linear map is the same as matrix multiplication",
+            "merged": false,
+            "keywords": [
+              "Applying the linear map is the same as matrix multiplication"
+            ],
+            "eventId": "16"
+          },
+          {
+            "type": "show",
+            "id": "Frame2",
+            "enabled": "enabled",
+            "name": "Frame",
+            "merged": false,
+            "keywords": [
+              "Frame"
+            ],
+            "eventId": "17"
+          },
+          {
+            "type": "child",
+            "name": "for example",
+            "id": "for_example",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_1",
+                "enabled": "enabled",
+                "name": "the orbit of x under M is",
+                "merged": false,
+                "keywords": [
+                  "the orbit of x under M is"
+                ],
+                "eventId": "1"
+              }
+            ],
+            "keywords": [
+              "for example"
+            ],
+            "eventId": "18",
+            "originalParams": {
+              "Group_1": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "Which_properties_of_the_orbit_can_we_decide_",
+            "enabled": "enabled",
+            "name": "Which properties of the orbit can we decide?",
+            "merged": false,
+            "keywords": [
+              "Which properties of the orbit can we decide?"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "child",
+            "name": "Targets",
+            "id": "Targets",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_2",
+                "enabled": "enabled",
+                "name": "Write for the orbit of x under M",
+                "merged": false,
+                "keywords": [
+                  "Write for the orbit of x under M"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Group_23",
+                "enabled": "enabled",
+                "name": "reach a point",
+                "merged": false,
+                "keywords": [
+                  "reach a point"
+                ],
+                "eventId": "15"
+              },
+              {
+                "type": "show",
+                "id": "Group_22",
+                "enabled": "enabled",
+                "name": "reach a hyperplane",
+                "merged": false,
+                "keywords": [
+                  "reach a hyperplane"
+                ],
+                "eventId": "14"
+              },
+              {
+                "type": "show",
+                "id": "reach_a_halfspace",
+                "enabled": "enabled",
+                "name": "reach a halfspace",
+                "merged": false,
+                "keywords": [
+                  "reach a halfspace"
+                ],
+                "eventId": "13"
+              },
+              {
+                "type": "show",
+                "id": "other_linear_subspaces__polytopes__algebraic_sets__semi_algebraic_sets__more_complicated_properties____",
+                "enabled": "enabled",
+                "name": "other linear subspaces, polytopes, algebraic sets, semi-algebraic sets, more complicated properties,...",
+                "merged": false,
+                "keywords": [
+                  "other linear subspaces, polytopes, algebraic sets, semi-algebraic sets, more complicated properties,..."
+                ],
+                "eventId": "16"
+              },
+              {
+                "type": "show",
+                "id": "Group_24",
+                "enabled": "enabled",
+                "name": "open problems",
+                "merged": false,
+                "keywords": [
+                  "open problems"
+                ],
+                "eventId": "17"
+              },
+              {
+                "type": "child",
+                "name": "Examples",
+                "id": "Examples",
+                "enabled": "enabled",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "reaching_a_point__is_some_entry_equal_to__",
+                    "enabled": "enabled",
+                    "name": "reaching a point: is some entry equal to ?",
+                    "merged": false,
+                    "keywords": [
+                      "reaching a point: is some entry equal to ?"
+                    ],
+                    "eventId": "4"
+                  },
+                  {
+                    "type": "show",
+                    "id": "g1",
+                    "enabled": "enabled",
+                    "name": "g1",
+                    "merged": true,
+                    "keywords": [
+                      "g1"
+                    ],
+                    "eventId": "5"
+                  },
+                  {
+                    "type": "show",
+                    "id": "reaching_a_hyperplane__is_there_some_entry_for_which",
+                    "enabled": "enabled",
+                    "name": "reaching a hyperplane: is there some entry for which",
+                    "merged": false,
+                    "keywords": [
+                      "reaching a hyperplane: is there some entry for which"
+                    ],
+                    "eventId": "6"
+                  },
+                  {
+                    "type": "show",
+                    "id": "g3",
+                    "enabled": "enabled",
+                    "name": "g3",
+                    "merged": true,
+                    "keywords": [
+                      "g3"
+                    ],
+                    "eventId": "7"
+                  },
+                  {
+                    "type": "show",
+                    "id": "g2",
+                    "enabled": "enabled",
+                    "name": "g2",
+                    "merged": true,
+                    "keywords": [
+                      "g2"
+                    ],
+                    "eventId": "8"
+                  },
+                  {
+                    "type": "show",
+                    "id": "reaching_a_halfspace__is_there_some_entry_for_which",
+                    "enabled": "enabled",
+                    "name": "reaching a halfspace: is there some entry for which",
+                    "merged": false,
+                    "keywords": [
+                      "reaching a halfspace: is there some entry for which"
+                    ],
+                    "eventId": "9"
+                  },
+                  {
+                    "type": "show",
+                    "id": "g4",
+                    "enabled": "enabled",
+                    "name": "g4",
+                    "merged": true,
+                    "keywords": [
+                      "g4"
+                    ],
+                    "eventId": "10"
+                  },
+                  {
+                    "type": "show",
+                    "id": "g2d",
+                    "enabled": "enabled",
+                    "name": "g2d",
+                    "merged": true,
+                    "keywords": [
+                      "g2d"
+                    ],
+                    "eventId": "11"
+                  }
+                ],
+                "keywords": [
+                  "For example",
+                  "Examples"
+                ],
+                "eventId": "18",
+                "originalParams": {
+                  "reaching_a_point__is_some_entry_equal_to__": {
+                    "opacity": 1
+                  },
+                  "g1": {
+                    "opacity": 1
+                  },
+                  "reaching_a_hyperplane__is_there_some_entry_for_which": {
+                    "opacity": 1
+                  },
+                  "g3": {
+                    "opacity": 1
+                  },
+                  "g2": {
+                    "opacity": 1
+                  },
+                  "reaching_a_halfspace__is_there_some_entry_for_which": {
+                    "opacity": 1
+                  },
+                  "g4": {
+                    "opacity": 1
+                  },
+                  "g2d": {
+                    "opacity": 1
+                  }
+                }
+              }
+            ],
+            "keywords": [
+              "reaching various targets",
+              "Targets"
+            ],
+            "eventId": "14",
+            "originalParams": {
+              "Group_2": {
+                "opacity": 1
+              },
+              "reach_a_halfspace": {
+                "opacity": 1
+              },
+              "Group_22": {
+                "opacity": 1
+              },
+              "Group_23": {
+                "opacity": 1
+              },
+              "other_linear_subspaces__polytopes__algebraic_sets__semi_algebraic_sets__more_complicated_properties____": {
+                "opacity": 1
+              },
+              "Group_24": {
+                "opacity": 1
+              }
+            }
+          }
+        ],
+        "keywords": [
+          "linear map",
+          "LDS definition"
+        ],
+        "eventId": "3",
+        "originalParams": {
+          "Group_1": {
+            "opacity": 1
+          },
+          "Which_properties_of_the_orbit_can_we_decide_": {
+            "opacity": 1
+          },
+          "After_fixing_a_basis__a_linear_map_can_be_given_by_a_matrix_M": {
+            "opacity": 1
+          },
+          "Applying_the_linear_map_is_the_same_as_matrix_multiplication": {
+            "opacity": 1
+          },
+          "Frame2": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "related questions",
+        "id": "related_questions",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "child",
+            "name": "LRS",
+            "id": "LRS",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "lrseq",
+                "enabled": "enabled",
+                "name": "lrseq",
+                "merged": false,
+                "keywords": [
+                  "lrseq"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "initial_us",
+                "enabled": "enabled",
+                "name": "initial us",
+                "merged": true,
+                "keywords": [
+                  "initial us"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "E_g_",
+                "enabled": "enabled",
+                "name": "E.g.",
+                "merged": false,
+                "keywords": [
+                  "E.g."
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "fib",
+                "enabled": "enabled",
+                "name": "fib",
+                "merged": true,
+                "keywords": [
+                  "fib"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "fib_init",
+                "enabled": "enabled",
+                "name": "fib init",
+                "merged": true,
+                "keywords": [
+                  "fib init"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "to_matrices",
+                "enabled": "enabled",
+                "name": "to matrices",
+                "merged": false,
+                "keywords": [
+                  "to matrices"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "show",
+                "id": "Is_there_a_zero_term",
+                "enabled": "enabled",
+                "name": "Is there a zero term",
+                "merged": false,
+                "keywords": [
+                  "Is there a zero term"
+                ],
+                "eventId": "7"
+              },
+              {
+                "type": "show",
+                "id": "__iff__",
+                "enabled": "enabled",
+                "name": "$\\iff$ ",
+                "merged": true,
+                "keywords": [
+                  "$\\iff$ "
+                ],
+                "eventId": "8"
+              },
+              {
+                "type": "show",
+                "id": "reaching_a_hyperplane",
+                "enabled": "enabled",
+                "name": "reaching a hyperplane",
+                "merged": true,
+                "keywords": [
+                  "reaching a hyperplane"
+                ],
+                "eventId": "9"
+              }
+            ],
+            "keywords": [
+              "Linear recurrence sequences",
+              "LRS"
+            ],
+            "eventId": "1",
+            "originalParams": {
+              "lrseq": {
+                "opacity": 1
+              },
+              "initial_us": {
+                "opacity": 1
+              },
+              "E_g_": {
+                "opacity": 1
+              },
+              "fib": {
+                "opacity": 1
+              },
+              "fib_init": {
+                "opacity": 1
+              },
+              "to_matrices": {
+                "opacity": 1
+              },
+              "Is_there_a_zero_term": {
+                "opacity": 1
+              },
+              "__iff__": {
+                "opacity": 1
+              },
+              "reaching_a_hyperplane": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "LRS2",
+            "id": "LRS2",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "See_also_rational_canonical_form_for_matrices",
+                "enabled": "enabled",
+                "name": "See also rational canonical form for matrices",
+                "merged": false,
+                "keywords": [
+                  "See also rational canonical form for matrices"
+                ],
+                "eventId": "1"
+              }
+            ],
+            "keywords": [
+              "The inverse direction follows from the Cayley-Hamilton theorem which states: Theorem. For every square matrix M, there is a polynomial P in Z[x], such that P(M)=0.",
+              "LRS2"
+            ],
+            "eventId": "2",
+            "originalParams": {
+              "See_also_rational_canonical_form_for_matrices": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "Markov chain",
+            "id": "Markov_chain",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "Stochastic_matrix_M__probability_to_go_from_state_i_to_state_j_is",
+                "enabled": "enabled",
+                "name": "Stochastic matrix M: probability to go from state i to state j is",
+                "merged": false,
+                "keywords": [
+                  "Stochastic matrix M: probability to go from state i to state j is"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "_M__i_j__",
+                "enabled": "enabled",
+                "name": "$M_{i,j}$",
+                "merged": true,
+                "keywords": [
+                  "$M_{i,j}$"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Is_the_probability_to_go_from_state_i_to_j_in_n_steps___1_2__for_some_n_",
+                "enabled": "enabled",
+                "name": "Is the probability to go from state i to j in n steps > 1/2, for some n?",
+                "merged": false,
+                "keywords": [
+                  "Is the probability to go from state i to j in n steps > 1/2, for some n?"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Reaching_a_halfspace",
+                "enabled": "enabled",
+                "name": "Reaching a halfspace",
+                "merged": false,
+                "keywords": [
+                  "Reaching a halfspace"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "__Rightarrow_",
+                "enabled": "enabled",
+                "name": "$\\Rightarrow$",
+                "merged": true,
+                "keywords": [
+                  "$\\Rightarrow$"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "but_also",
+                "enabled": "enabled",
+                "name": "but also",
+                "merged": false,
+                "keywords": [
+                  "but also"
+                ],
+                "eventId": "9"
+              },
+              {
+                "type": "show",
+                "id": "__Rightarrow_2",
+                "enabled": "enabled",
+                "name": "$\\Rightarrow$",
+                "merged": true,
+                "keywords": [
+                  "$\\Rightarrow$"
+                ],
+                "eventId": "10"
+              },
+              {
+                "type": "show",
+                "id": "image_1",
+                "enabled": "enabled",
+                "name": "image 1",
+                "merged": false,
+                "keywords": [
+                  "image 1"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "show",
+                "id": "image_2",
+                "enabled": "enabled",
+                "name": "image 2",
+                "merged": true,
+                "keywords": [
+                  "image 2"
+                ],
+                "eventId": "7"
+              },
+              {
+                "type": "show",
+                "id": "image_3",
+                "enabled": "enabled",
+                "name": "image 3",
+                "merged": true,
+                "keywords": [
+                  "image 3"
+                ],
+                "eventId": "8"
+              },
+              {
+                "type": "show",
+                "id": "Another_POV__reaching_a_hyperplane_halfspace_are_questions_about_",
+                "enabled": "enabled",
+                "name": "Another POV: reaching a hyperplane/halfspace are questions about:",
+                "merged": false,
+                "keywords": [
+                  "Another POV: reaching a hyperplane/halfspace are questions about:"
+                ],
+                "eventId": "11"
+              },
+              {
+                "type": "show",
+                "id": "Markov_chains",
+                "enabled": "enabled",
+                "name": "Markov chains",
+                "merged": true,
+                "keywords": [
+                  "Markov chains"
+                ],
+                "eventId": "12"
+              },
+              {
+                "type": "show",
+                "id": "or",
+                "enabled": "enabled",
+                "name": "or",
+                "merged": true,
+                "keywords": [
+                  "or"
+                ],
+                "eventId": "13"
+              },
+              {
+                "type": "show",
+                "id": "Stochastic_languages_defined_by_unitary_probabilistic_automata",
+                "enabled": "enabled",
+                "name": "Stochastic languages defined by unitary probabilistic automata",
+                "merged": true,
+                "keywords": [
+                  "Stochastic languages defined by unitary probabilistic automata"
+                ],
+                "eventId": "14"
+              }
+            ],
+            "keywords": [
+              "Discrete time Markov chains",
+              "Markov chain"
+            ],
+            "eventId": "3",
+            "originalParams": {
+              "Stochastic_matrix_M__probability_to_go_from_state_i_to_state_j_is": {
+                "opacity": 1
+              },
+              "_M__i_j__": {
+                "opacity": 1
+              },
+              "Is_the_probability_to_go_from_state_i_to_j_in_n_steps___1_2__for_some_n_": {
+                "opacity": 1
+              },
+              "Reaching_a_halfspace": {
+                "opacity": 1
+              },
+              "__Rightarrow_": {
+                "opacity": 1
+              },
+              "image_1": {
+                "opacity": 1
+              },
+              "image_2": {
+                "opacity": 1
+              },
+              "image_3": {
+                "opacity": 1
+              },
+              "but_also": {
+                "opacity": 1
+              },
+              "__Rightarrow_2": {
+                "opacity": 1
+              },
+              "Another_POV__reaching_a_hyperplane_halfspace_are_questions_about_": {
+                "opacity": 1
+              },
+              "Markov_chains": {
+                "opacity": 1
+              },
+              "or": {
+                "opacity": 1
+              },
+              "Stochastic_languages_defined_by_unitary_probabilistic_automata": {
+                "opacity": 1
+              }
+            }
+          }
+        ],
+        "keywords": [
+          "Some related problems",
+          "related questions"
+        ],
+        "eventId": "4",
+        "originalParams": {}
+      },
+      {
+        "type": "show",
+        "id": "What_we_know",
+        "enabled": "enabled",
+        "name": "What we know",
+        "merged": true,
+        "keywords": [
+          "What we know"
+        ],
+        "eventId": "9"
+      },
+      {
+        "type": "show",
+        "id": "What_we_don_t_know",
+        "enabled": "enabled",
+        "name": "What is difficult?",
+        "merged": true,
+        "keywords": [
+          "What is difficult?"
+        ],
+        "eventId": "11"
+      },
+      {
+        "type": "child",
+        "name": "What is difficult?",
+        "id": "What_we_don_t_know2",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Suppose",
+            "enabled": "enabled",
+            "name": "Suppose",
+            "merged": false,
+            "keywords": [
+              "Suppose"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "M_",
+            "enabled": "enabled",
+            "name": "M=",
+            "merged": true,
+            "keywords": [
+              "M="
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "canonical_basis",
+            "enabled": "enabled",
+            "name": "canonical basis",
+            "merged": false,
+            "keywords": [
+              "canonical basis"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "show",
+            "id": "Vector_7",
+            "enabled": "enabled",
+            "name": "Vector 7",
+            "merged": true,
+            "keywords": [
+              "Vector 7"
+            ],
+            "eventId": "10"
+          },
+          {
+            "type": "show",
+            "id": "Mv_lambda_v",
+            "enabled": "enabled",
+            "name": "Mv=lambda v",
+            "merged": true,
+            "keywords": [
+              "Mv=lambda v"
+            ],
+            "eventId": "11"
+          },
+          {
+            "type": "show",
+            "id": "Vector_6",
+            "enabled": "enabled",
+            "name": "Vector 6",
+            "merged": true,
+            "keywords": [
+              "Vector 6"
+            ],
+            "eventId": "12"
+          },
+          {
+            "type": "show",
+            "id": "set_of_eigenvalues",
+            "enabled": "enabled",
+            "name": "set of eigenvalues",
+            "merged": true,
+            "keywords": [
+              "set of eigenvalues"
+            ],
+            "eventId": "13"
+          },
+          {
+            "type": "show",
+            "id": "eigenvectors",
+            "enabled": "enabled",
+            "name": "eigenvectors",
+            "merged": false,
+            "keywords": [
+              "eigenvectors"
+            ],
+            "eventId": "14"
+          },
+          {
+            "type": "show",
+            "id": "eigenvalues",
+            "enabled": "enabled",
+            "name": "eigenvalues",
+            "merged": true,
+            "keywords": [
+              "eigenvalues"
+            ],
+            "eventId": "15"
+          },
+          {
+            "type": "show",
+            "id": "scale_in_the_direction_of_canonical_basis",
+            "enabled": "enabled",
+            "name": "scale in the direction of canonical basis",
+            "merged": false,
+            "keywords": [
+              "scale in the direction of canonical basis"
+            ],
+            "eventId": "16"
+          },
+          {
+            "type": "show",
+            "id": "then_reaching_a_halfspace___hyperplane_is_easy",
+            "enabled": "enabled",
+            "name": "then reaching a halfspace / hyperplane is easy",
+            "merged": false,
+            "keywords": [
+              "then reaching a halfspace / hyperplane is easy"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "Solve",
+            "enabled": "enabled",
+            "name": "Solve",
+            "merged": false,
+            "keywords": [
+              "Solve"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "inequality",
+            "enabled": "enabled",
+            "name": "inequality",
+            "merged": true,
+            "keywords": [
+              "=",
+              "inequality"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "in",
+            "enabled": "enabled",
+            "name": "in",
+            "merged": true,
+            "keywords": [
+              "in"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "n_in_N",
+            "enabled": "enabled",
+            "name": "n in N",
+            "merged": true,
+            "keywords": [
+              "n in N"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "child",
+            "name": "Jordan",
+            "id": "Jordan",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Embed_everything_in",
+                "enabled": "enabled",
+                "name": "Embed everything in",
+                "merged": false,
+                "keywords": [
+                  "Embed everything in"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "for_which_the_linear_map_of_M_is",
+                "enabled": "enabled",
+                "name": "for which the linear map of M is",
+                "merged": true,
+                "keywords": [
+                  "for which the linear map of M is"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "matrix",
+                "enabled": "enabled",
+                "name": "matrix",
+                "merged": true,
+                "keywords": [
+                  "matrix"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Cd",
+                "enabled": "enabled",
+                "name": "Cd",
+                "merged": true,
+                "keywords": [
+                  "Cd"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "then_there_exists_a_basis",
+                "enabled": "enabled",
+                "name": "then there exists a basis",
+                "merged": true,
+                "keywords": [
+                  "then there exists a basis"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "where_are_complex_in_general__and_the_non_real_ones_come_in_conjugate_pairs",
+                "enabled": "enabled",
+                "name": "where are complex in general, and the non-real ones come in conjugate pairs",
+                "merged": false,
+                "keywords": [
+                  "where are complex in general, and the non-real ones come in conjugate pairs"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "show",
+                "id": "Lambda_i",
+                "enabled": "enabled",
+                "name": "Lambda_i",
+                "merged": true,
+                "keywords": [
+                  "Lambda_i"
+                ],
+                "eventId": "7"
+              },
+              {
+                "type": "show",
+                "id": "this_is_only_true_for_diagonalisable_matrices__in_general_an_eigenvalue_can_repeat__in_which_case_above_the_repetitions_there_is_a_1_in_the_diagonal__ignore_for_now_",
+                "enabled": "enabled",
+                "name": "this is only true for diagonalisable matrices, in general an eigenvalue can repeat, in which case above the repetitions there is a 1 in the diagonal (ignore for now)",
+                "merged": false,
+                "keywords": [
+                  "this is only true for diagonalisable matrices, in general an eigenvalue can repeat, in which case above the repetitions there is a 1 in the diagonal (ignore for now)"
+                ],
+                "eventId": "8"
+              },
+              {
+                "type": "child",
+                "name": "reaching a point",
+                "id": "reaching_a_point",
+                "enabled": "enabled",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "Vector_16",
+                    "enabled": "enabled",
+                    "name": "Vector 16",
+                    "merged": false,
+                    "keywords": [
+                      "Vector 16"
+                    ],
+                    "eventId": "1"
+                  },
+                  {
+                    "type": "show",
+                    "id": "is_there_some_n_for_which",
+                    "enabled": "enabled",
+                    "name": "is there some n for which",
+                    "merged": true,
+                    "keywords": [
+                      "is there some n for which"
+                    ],
+                    "eventId": "2"
+                  },
+                  {
+                    "type": "show",
+                    "id": "lambda_n___y",
+                    "enabled": "enabled",
+                    "name": "lambda^n = y",
+                    "merged": true,
+                    "keywords": [
+                      "lambda^n = y"
+                    ],
+                    "eventId": "3"
+                  },
+                  {
+                    "type": "show",
+                    "id": "when",
+                    "enabled": "enabled",
+                    "name": "when",
+                    "merged": false,
+                    "keywords": [
+                      "when"
+                    ],
+                    "eventId": "4"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Lambda_i_not_1",
+                    "enabled": "enabled",
+                    "name": "Lambda_i not 1",
+                    "merged": true,
+                    "keywords": [
+                      "Lambda_i not 1"
+                    ],
+                    "eventId": "5"
+                  },
+                  {
+                    "type": "show",
+                    "id": "it_s_easy",
+                    "enabled": "enabled",
+                    "name": "it’s easy",
+                    "merged": true,
+                    "keywords": [
+                      "it’s easy"
+                    ],
+                    "eventId": "6"
+                  },
+                  {
+                    "type": "show",
+                    "id": "otherwise_there_is_some",
+                    "enabled": "enabled",
+                    "name": "otherwise there is some",
+                    "merged": false,
+                    "keywords": [
+                      "otherwise there is some"
+                    ],
+                    "eventId": "7"
+                  },
+                  {
+                    "type": "show",
+                    "id": "sigma_in_gal",
+                    "enabled": "enabled",
+                    "name": "sigma in gal",
+                    "merged": true,
+                    "keywords": [
+                      "sigma in gal"
+                    ],
+                    "eventId": "8"
+                  },
+                  {
+                    "type": "show",
+                    "id": "for_which",
+                    "enabled": "enabled",
+                    "name": "for which",
+                    "merged": true,
+                    "keywords": [
+                      "for which"
+                    ],
+                    "eventId": "9"
+                  },
+                  {
+                    "type": "show",
+                    "id": "sigma_not_1",
+                    "enabled": "enabled",
+                    "name": "sigma not 1",
+                    "merged": true,
+                    "keywords": [
+                      "sigma not 1"
+                    ],
+                    "eventId": "10"
+                  },
+                  {
+                    "type": "show",
+                    "id": "image_5",
+                    "enabled": "enabled",
+                    "name": "image 5",
+                    "merged": false,
+                    "keywords": [
+                      "image 5"
+                    ],
+                    "eventId": "11"
+                  }
+                ],
+                "keywords": [
+                  "reach a halfspace",
+                  "reach a hyperplane",
+                  "reach a point",
+                  "other linear subspaces, polytopes, algebraic sets, semi-algebraic sets, more complicated properties,...",
+                  "open problems",
+                  "reaching a point"
+                ],
+                "eventId": "17",
+                "originalParams": {
+                  "Vector_16": {
+                    "opacity": 1
+                  },
+                  "is_there_some_n_for_which": {
+                    "opacity": 1
+                  },
+                  "lambda_n___y": {
+                    "opacity": 1
+                  },
+                  "when": {
+                    "opacity": 1
+                  },
+                  "Lambda_i_not_1": {
+                    "opacity": 1
+                  },
+                  "it_s_easy": {
+                    "opacity": 1
+                  },
+                  "otherwise_there_is_some": {
+                    "opacity": 1
+                  },
+                  "sigma_in_gal": {
+                    "opacity": 1
+                  },
+                  "for_which": {
+                    "opacity": 1
+                  },
+                  "sigma_not_1": {
+                    "opacity": 1
+                  },
+                  "image_5": {
+                    "opacity": 1
+                  }
+                }
+              },
+              {
+                "type": "show",
+                "id": "So_in_fact_reaching_a_halfspace_is_about_solving_inequalities",
+                "enabled": "enabled",
+                "name": "So in fact reaching a halfspace is about solving inequalities",
+                "merged": false,
+                "keywords": [
+                  "So in fact reaching a halfspace is about solving inequalities"
+                ],
+                "eventId": "9"
+              },
+              {
+                "type": "show",
+                "id": "in_naturals_n_",
+                "enabled": "enabled",
+                "name": "in naturals n.",
+                "merged": true,
+                "keywords": [
+                  "in naturals n."
+                ],
+                "eventId": "10"
+              },
+              {
+                "type": "show",
+                "id": "inequalities",
+                "enabled": "enabled",
+                "name": "inequalities",
+                "merged": true,
+                "keywords": [
+                  "inequalities"
+                ],
+                "eventId": "11"
+              },
+              {
+                "type": "show",
+                "id": "Assume_without_loss_of_generality_that",
+                "enabled": "enabled",
+                "name": "Assume without loss of generality that",
+                "merged": false,
+                "keywords": [
+                  "Assume without loss of generality that"
+                ],
+                "eventId": "12"
+              },
+              {
+                "type": "show",
+                "id": "Lambda1_to_Lambda_k",
+                "enabled": "enabled",
+                "name": "Lambda1 to Lambda_k",
+                "merged": true,
+                "keywords": [
+                  "Lambda1 to Lambda_k"
+                ],
+                "eventId": "13"
+              },
+              {
+                "type": "show",
+                "id": "Lambdak_to_Lambdad",
+                "enabled": "enabled",
+                "name": "Lambdak to Lambdad",
+                "merged": true,
+                "keywords": [
+                  "Lambdak to Lambdad"
+                ],
+                "eventId": "14"
+              },
+              {
+                "type": "show",
+                "id": "have_absolute_value___1__and",
+                "enabled": "enabled",
+                "name": "have absolute value = 1, and",
+                "merged": true,
+                "keywords": [
+                  "have absolute value = 1, and"
+                ],
+                "eventId": "15"
+              },
+              {
+                "type": "show",
+                "id": "have_absolute_value___1_",
+                "enabled": "enabled",
+                "name": "have absolute value < 1.",
+                "merged": true,
+                "keywords": [
+                  "have absolute value < 1."
+                ],
+                "eventId": "16"
+              }
+            ],
+            "keywords": [
+              "What if M is not diagonal?",
+              "Jordan"
+            ],
+            "eventId": "8",
+            "originalParams": {
+              "Embed_everything_in": {
+                "opacity": 1
+              },
+              "for_which_the_linear_map_of_M_is": {
+                "opacity": 1
+              },
+              "matrix": {
+                "opacity": 1
+              },
+              "Cd": {
+                "opacity": 1
+              },
+              "then_there_exists_a_basis": {
+                "opacity": 1
+              },
+              "where_are_complex_in_general__and_the_non_real_ones_come_in_conjugate_pairs": {
+                "opacity": 1
+              },
+              "Lambda_i": {
+                "opacity": 1
+              },
+              "this_is_only_true_for_diagonalisable_matrices__in_general_an_eigenvalue_can_repeat__in_which_case_above_the_repetitions_there_is_a_1_in_the_diagonal__ignore_for_now_": {
+                "opacity": 1
+              },
+              "So_in_fact_reaching_a_halfspace_is_about_solving_inequalities": {
+                "opacity": 1
+              },
+              "in_naturals_n_": {
+                "opacity": 1
+              },
+              "inequalities": {
+                "opacity": 1
+              },
+              "Assume_without_loss_of_generality_that": {
+                "opacity": 1
+              },
+              "Lambda1_to_Lambda_k": {
+                "opacity": 1
+              },
+              "Lambdak_to_Lambdad": {
+                "opacity": 1
+              },
+              "have_absolute_value___1__and": {
+                "opacity": 1
+              },
+              "have_absolute_value___1_": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "Jordan2",
+            "id": "Jordan2",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "Vector_8",
+                "enabled": "enabled",
+                "name": "Vector 8",
+                "merged": false,
+                "keywords": [
+                  "Vector 8"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "this_goes_to_0_exponentially_fast",
+                "enabled": "enabled",
+                "name": "this goes to 0 exponentially fast",
+                "merged": true,
+                "keywords": [
+                  "this goes to 0 exponentially fast"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Vector_9",
+                "enabled": "enabled",
+                "name": "Vector 9",
+                "merged": false,
+                "keywords": [
+                  "Vector 9"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "this_is_upper_bounded_by_a_constant_but_when_does_it_become_small_",
+                "enabled": "enabled",
+                "name": "this is upper bounded by a constant but when does it become small?",
+                "merged": true,
+                "keywords": [
+                  "this is upper bounded by a constant but when does it become small?"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "child",
+                "name": "Close to curve",
+                "id": "Close_to_curve",
+                "enabled": "enabled",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "When_is",
+                    "enabled": "enabled",
+                    "name": "When is",
+                    "merged": false,
+                    "keywords": [
+                      "When is"
+                    ],
+                    "eventId": "1"
+                  },
+                  {
+                    "type": "show",
+                    "id": "sum_of_exp",
+                    "enabled": "enabled",
+                    "name": "sum of exp",
+                    "merged": true,
+                    "keywords": [
+                      "sum of exp"
+                    ],
+                    "eventId": "2"
+                  },
+                  {
+                    "type": "show",
+                    "id": "small_",
+                    "enabled": "enabled",
+                    "name": "small?",
+                    "merged": true,
+                    "keywords": [
+                      "small?"
+                    ],
+                    "eventId": "3"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Consider",
+                    "enabled": "enabled",
+                    "name": "Consider",
+                    "merged": false,
+                    "keywords": [
+                      "Consider"
+                    ],
+                    "eventId": "4"
+                  },
+                  {
+                    "type": "show",
+                    "id": "set_of_zeros",
+                    "enabled": "enabled",
+                    "name": "set of zeros",
+                    "merged": true,
+                    "keywords": [
+                      "set of zeros"
+                    ],
+                    "eventId": "5"
+                  },
+                  {
+                    "type": "show",
+                    "id": "0",
+                    "enabled": "enabled",
+                    "name": "0",
+                    "merged": false,
+                    "keywords": [
+                      "0"
+                    ],
+                    "eventId": "6"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Rectangle_6",
+                    "enabled": "enabled",
+                    "name": "Rectangle 6",
+                    "merged": true,
+                    "keywords": [
+                      "Rectangle 6"
+                    ],
+                    "eventId": "7"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Vector_11",
+                    "enabled": "enabled",
+                    "name": "Vector 11",
+                    "merged": true,
+                    "keywords": [
+                      "Vector 11"
+                    ],
+                    "eventId": "8"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Vector_10",
+                    "enabled": "enabled",
+                    "name": "Vector 10",
+                    "merged": true,
+                    "keywords": [
+                      "Vector 10"
+                    ],
+                    "eventId": "9"
+                  },
+                  {
+                    "type": "show",
+                    "id": "1",
+                    "enabled": "enabled",
+                    "name": "1",
+                    "merged": true,
+                    "keywords": [
+                      "1"
+                    ],
+                    "eventId": "10"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Ellipse_1",
+                    "enabled": "enabled",
+                    "name": "Ellipse 1",
+                    "merged": false,
+                    "keywords": [
+                      "Ellipse 1"
+                    ],
+                    "eventId": "11"
+                  },
+                  {
+                    "type": "show",
+                    "id": "phi1phi2",
+                    "enabled": "enabled",
+                    "name": "phi1phi2",
+                    "merged": true,
+                    "keywords": [
+                      "phi1phi2"
+                    ],
+                    "eventId": "12"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Vector_12",
+                    "enabled": "enabled",
+                    "name": "Vector 12",
+                    "merged": false,
+                    "keywords": [
+                      "Vector 12"
+                    ],
+                    "eventId": "13"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Ellipse_2",
+                    "enabled": "enabled",
+                    "name": "Ellipse 2",
+                    "merged": true,
+                    "keywords": [
+                      "Ellipse 2"
+                    ],
+                    "eventId": "14"
+                  },
+                  {
+                    "type": "show",
+                    "id": "2phiphi",
+                    "enabled": "enabled",
+                    "name": "2phiphi",
+                    "merged": true,
+                    "keywords": [
+                      "2phiphi"
+                    ],
+                    "eventId": "15"
+                  },
+                  {
+                    "type": "show",
+                    "id": "image_6",
+                    "enabled": "enabled",
+                    "name": "image 6",
+                    "merged": false,
+                    "keywords": [
+                      "image 6"
+                    ],
+                    "eventId": "22"
+                  },
+                  {
+                    "type": "show",
+                    "id": "How_close_does_this_translation_dynamical_system_get_to_the_red_curve__and_when_",
+                    "enabled": "enabled",
+                    "name": "How close does this translation dynamical system get to the red curve, and when?",
+                    "merged": false,
+                    "keywords": [
+                      "How close does this translation dynamical system get to the red curve, and when?"
+                    ],
+                    "eventId": "16"
+                  },
+                  {
+                    "type": "show",
+                    "id": "A_race_between_the_RHS_tending_to_zero_exponentially__and_this_system_approaching_the_red_curve_",
+                    "enabled": "enabled",
+                    "name": "A race between the RHS tending to zero exponentially, and this system approaching the red curve.",
+                    "merged": false,
+                    "keywords": [
+                      "A race between the RHS tending to zero exponentially, and this system approaching the red curve."
+                    ],
+                    "eventId": "17"
+                  },
+                  {
+                    "type": "show",
+                    "id": "The_winner_of_the_race_depends_on_certain_properties_of_numbers_which_are_not_yet_understood_",
+                    "enabled": "enabled",
+                    "name": "The winner of the race depends on certain properties of numbers which are not yet understood.",
+                    "merged": false,
+                    "keywords": [
+                      "The winner of the race depends on certain properties of numbers which are not yet understood."
+                    ],
+                    "eventId": "18"
+                  },
+                  {
+                    "type": "show",
+                    "id": "phi_i",
+                    "enabled": "enabled",
+                    "name": "phi i",
+                    "merged": true,
+                    "keywords": [
+                      "phi i"
+                    ],
+                    "eventId": "19"
+                  },
+                  {
+                    "type": "show",
+                    "id": "logarithms_of_algebraic_numbers",
+                    "enabled": "enabled",
+                    "name": "logarithms of algebraic numbers",
+                    "merged": false,
+                    "keywords": [
+                      "logarithms of algebraic numbers"
+                    ],
+                    "eventId": "20"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Vector_13",
+                    "enabled": "enabled",
+                    "name": "Vector 13",
+                    "merged": true,
+                    "keywords": [
+                      "Vector 13"
+                    ],
+                    "eventId": "21"
+                  }
+                ],
+                "keywords": [
+                  "A complex number Λ for which |Λ|=1, we have",
+                  "Close to curve"
+                ],
+                "eventId": "5",
+                "originalParams": {
+                  "0": {
+                    "opacity": 1
+                  },
+                  "1": {
+                    "opacity": 1
+                  },
+                  "When_is": {
+                    "opacity": 1
+                  },
+                  "sum_of_exp": {
+                    "opacity": 1
+                  },
+                  "small_": {
+                    "opacity": 1
+                  },
+                  "Consider": {
+                    "opacity": 1
+                  },
+                  "set_of_zeros": {
+                    "opacity": 1
+                  },
+                  "Rectangle_6": {
+                    "opacity": 1
+                  },
+                  "Vector_11": {
+                    "opacity": 1
+                  },
+                  "Vector_10": {
+                    "opacity": 1
+                  },
+                  "Ellipse_1": {
+                    "opacity": 1
+                  },
+                  "phi1phi2": {
+                    "opacity": 1
+                  },
+                  "Vector_12": {
+                    "opacity": 1
+                  },
+                  "Ellipse_2": {
+                    "opacity": 1
+                  },
+                  "2phiphi": {
+                    "opacity": 1
+                  },
+                  "How_close_does_this_translation_dynamical_system_get_to_the_red_curve__and_when_": {
+                    "opacity": 1
+                  },
+                  "A_race_between_the_RHS_tending_to_zero_exponentially__and_this_system_approaching_the_red_curve_": {
+                    "opacity": 1
+                  },
+                  "The_winner_of_the_race_depends_on_certain_properties_of_numbers_which_are_not_yet_understood_": {
+                    "opacity": 1
+                  },
+                  "phi_i": {
+                    "opacity": 1
+                  },
+                  "logarithms_of_algebraic_numbers": {
+                    "opacity": 1
+                  },
+                  "Vector_13": {
+                    "opacity": 1
+                  },
+                  "image_6": {
+                    "opacity": 1
+                  }
+                }
+              },
+              {
+                "type": "child",
+                "name": "Positive hard problem",
+                "id": "Positive_hard_problem",
+                "enabled": "enabled",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "Divide_both_sides_with",
+                    "enabled": "enabled",
+                    "name": "Divide both sides with",
+                    "merged": false,
+                    "keywords": [
+                      "Divide both sides with"
+                    ],
+                    "eventId": "1"
+                  },
+                  {
+                    "type": "show",
+                    "id": "65_n",
+                    "enabled": "enabled",
+                    "name": "65^n",
+                    "merged": true,
+                    "keywords": [
+                      "65^n"
+                    ],
+                    "eventId": "2"
+                  },
+                  {
+                    "type": "show",
+                    "id": "on_LHS_we_have_terms_on_the_unit_circle__RHS_is",
+                    "enabled": "enabled",
+                    "name": "on LHS we have terms on the unit circle, RHS is",
+                    "merged": false,
+                    "keywords": [
+                      "on LHS we have terms on the unit circle, RHS is"
+                    ],
+                    "eventId": "3"
+                  },
+                  {
+                    "type": "show",
+                    "id": "2_65",
+                    "enabled": "enabled",
+                    "name": "2/65",
+                    "merged": true,
+                    "keywords": [
+                      "2/65"
+                    ],
+                    "eventId": "4"
+                  },
+                  {
+                    "type": "show",
+                    "id": "red_curve_is__",
+                    "enabled": "enabled",
+                    "name": "red curve is →",
+                    "merged": false,
+                    "keywords": [
+                      "red curve is →"
+                    ],
+                    "eventId": "5"
+                  },
+                  {
+                    "type": "show",
+                    "id": "image_4",
+                    "enabled": "enabled",
+                    "name": "image 4",
+                    "merged": true,
+                    "keywords": [
+                      "image 4"
+                    ],
+                    "eventId": "6"
+                  },
+                  {
+                    "type": "show",
+                    "id": "the_dynamical_system_translates_by_mod_1",
+                    "enabled": "enabled",
+                    "name": "the dynamical system translates by mod 1",
+                    "merged": false,
+                    "keywords": [
+                      "the dynamical system translates by mod 1"
+                    ],
+                    "eventId": "7"
+                  },
+                  {
+                    "type": "show",
+                    "id": "arctans",
+                    "enabled": "enabled",
+                    "name": "arctans",
+                    "merged": true,
+                    "keywords": [
+                      "arctans"
+                    ],
+                    "eventId": "8"
+                  },
+                  {
+                    "type": "show",
+                    "id": "0_35241638234956672582459892377525947404886547611308___",
+                    "enabled": "enabled",
+                    "name": "0.35241638234956672582459892377525947404886547611308...",
+                    "merged": false,
+                    "keywords": [
+                      "0.35241638234956672582459892377525947404886547611308..."
+                    ],
+                    "eventId": "9"
+                  },
+                  {
+                    "type": "show",
+                    "id": "0_31283295818900118381374725243522144766524242491163___",
+                    "enabled": "enabled",
+                    "name": "0.31283295818900118381374725243522144766524242491163...",
+                    "merged": true,
+                    "keywords": [
+                      "0.31283295818900118381374725243522144766524242491163..."
+                    ],
+                    "eventId": "10"
+                  }
+                ],
+                "keywords": [
+                  "Here is a particular open problem (by Joël)",
+                  "Is it the case that for all positive integers n",
+                  "Positive hard problem"
+                ],
+                "eventId": "6",
+                "originalParams": {
+                  "Divide_both_sides_with": {
+                    "opacity": 1
+                  },
+                  "65_n": {
+                    "opacity": 1
+                  },
+                  "on_LHS_we_have_terms_on_the_unit_circle__RHS_is": {
+                    "opacity": 1
+                  },
+                  "2_65": {
+                    "opacity": 1
+                  },
+                  "red_curve_is__": {
+                    "opacity": 1
+                  },
+                  "image_4": {
+                    "opacity": 1
+                  },
+                  "the_dynamical_system_translates_by_mod_1": {
+                    "opacity": 1
+                  },
+                  "arctans": {
+                    "opacity": 1
+                  },
+                  "0_35241638234956672582459892377525947404886547611308___": {
+                    "opacity": 1
+                  },
+                  "0_31283295818900118381374725243522144766524242491163___": {
+                    "opacity": 1
+                  }
+                }
+              }
+            ],
+            "keywords": [
+              "for which n",
+              "Jordan2"
+            ],
+            "eventId": "17",
+            "originalParams": {
+              "Vector_8": {
+                "opacity": 1
+              },
+              "this_goes_to_0_exponentially_fast": {
+                "opacity": 1
+              },
+              "Vector_9": {
+                "opacity": 1
+              },
+              "this_is_upper_bounded_by_a_constant_but_when_does_it_become_small_": {
+                "opacity": 1
+              }
+            }
+          }
+        ],
+        "keywords": [
+          "What is difficult?"
+        ],
+        "eventId": "7",
+        "originalParams": {
+          "Suppose": {
+            "opacity": 1
+          },
+          "M_": {
+            "opacity": 1
+          },
+          "Solve": {
+            "opacity": 1
+          },
+          "inequality": {
+            "opacity": 1
+          },
+          "in": {
+            "opacity": 1
+          },
+          "n_in_N": {
+            "opacity": 1
+          },
+          "then_reaching_a_halfspace___hyperplane_is_easy": {
+            "opacity": 1
+          },
+          "canonical_basis": {
+            "opacity": 1
+          },
+          "Vector_7": {
+            "opacity": 1
+          },
+          "Mv_lambda_v": {
+            "opacity": 1
+          },
+          "Vector_6": {
+            "opacity": 1
+          },
+          "set_of_eigenvalues": {
+            "opacity": 1
+          },
+          "eigenvectors": {
+            "opacity": 1
+          },
+          "eigenvalues": {
+            "opacity": 1
+          },
+          "scale_in_the_direction_of_canonical_basis": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "What we know",
+        "id": "What_we_know2",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "image_7",
+            "enabled": "enabled",
+            "name": "image 7",
+            "merged": false,
+            "keywords": [
+              "image 7"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Theorem__The_set_of_zeros_of_a_LRS_is_the_union_of_a_finite_set___finitely_many_arithmetic_progressions",
+            "enabled": "enabled",
+            "name": "Theorem. The set of zeros of a LRS is the union of a finite set + finitely many arithmetic progressions",
+            "merged": true,
+            "keywords": [
+              "Theorem. The set of zeros of a LRS is the union of a finite set + finitely many arithmetic progressions"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Thoralf_Skolem__1887___1963_",
+            "enabled": "enabled",
+            "name": "Thoralf Skolem (1887 - 1963)",
+            "merged": true,
+            "keywords": [
+              "Thoralf Skolem (1887 - 1963)"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Another_perspective___",
+            "enabled": "enabled",
+            "name": "Another perspective...",
+            "merged": false,
+            "keywords": [
+              "Another perspective..."
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "child",
+            "name": "Probabilistic automata",
+            "id": "Probabilistic_automata",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Two_d_by_d_stochastic_matrices",
+                "enabled": "enabled",
+                "name": "Two d by d stochastic matrices",
+                "merged": false,
+                "keywords": [
+                  "Two d by d stochastic matrices"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Ma_Mb",
+                "enabled": "enabled",
+                "name": "Ma Mb",
+                "merged": true,
+                "keywords": [
+                  "Ma Mb"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "alphabet_of_two_letters",
+                "enabled": "enabled",
+                "name": "alphabet of two letters",
+                "merged": false,
+                "keywords": [
+                  "alphabet of two letters"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Sigma_a_b",
+                "enabled": "enabled",
+                "name": "Sigma a b",
+                "merged": true,
+                "keywords": [
+                  "Sigma a b"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "homomorphism_of_semigroups",
+                "enabled": "enabled",
+                "name": "homomorphism of semigroups",
+                "merged": false,
+                "keywords": [
+                  "homomorphism of semigroups"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "homomorphism",
+                "enabled": "enabled",
+                "name": "homomorphism",
+                "merged": true,
+                "keywords": [
+                  "homomorphism"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "show",
+                "id": "Let",
+                "enabled": "enabled",
+                "name": "Let",
+                "merged": false,
+                "keywords": [
+                  "Let"
+                ],
+                "eventId": "7"
+              },
+              {
+                "type": "show",
+                "id": "v",
+                "enabled": "enabled",
+                "name": "v",
+                "merged": true,
+                "keywords": [
+                  "v"
+                ],
+                "eventId": "8"
+              },
+              {
+                "type": "show",
+                "id": "be_the_function_that_applies___then_returns_the_upper_right_corner",
+                "enabled": "enabled",
+                "name": "be the function that applies φ then returns the upper right corner",
+                "merged": true,
+                "keywords": [
+                  "be the function that applies φ then returns the upper right corner"
+                ],
+                "eventId": "9"
+              },
+              {
+                "type": "show",
+                "id": "i_e__v_w__is_the_probability_of_going_from_state_1_to_state_d_by_reading_word_w",
+                "enabled": "enabled",
+                "name": "i.e. v(w) is the probability of going from state 1 to state d by reading word w",
+                "merged": false,
+                "keywords": [
+                  "i.e. v(w) is the probability of going from state 1 to state d by reading word w"
+                ],
+                "eventId": "10"
+              },
+              {
+                "type": "show",
+                "id": "words_equal",
+                "enabled": "enabled",
+                "name": "words equal",
+                "merged": false,
+                "keywords": [
+                  "words equal"
+                ],
+                "eventId": "11"
+              },
+              {
+                "type": "show",
+                "id": "not_regular",
+                "enabled": "enabled",
+                "name": "in general not regular",
+                "merged": false,
+                "keywords": [
+                  "in general not regular"
+                ],
+                "eventId": "12"
+              },
+              {
+                "type": "show",
+                "id": "words_larger",
+                "enabled": "enabled",
+                "name": "words larger",
+                "merged": false,
+                "keywords": [
+                  "words larger"
+                ],
+                "eventId": "13"
+              },
+              {
+                "type": "show",
+                "id": "in_general_not_regular",
+                "enabled": "enabled",
+                "name": "in general not regular",
+                "merged": true,
+                "keywords": [
+                  "in general not regular"
+                ],
+                "eventId": "14"
+              },
+              {
+                "type": "show",
+                "id": "but_if_the_image_does_not_intersect_some_neighbourhood_of_1_2_then_the_language_above_is_regular___isolated_cutpoint_",
+                "enabled": "enabled",
+                "name": "but if the image does not intersect some neighbourhood of 1/2 then the language above is regular. (isolated cutpoint)",
+                "merged": false,
+                "keywords": [
+                  "but if the image does not intersect some neighbourhood of 1/2 then the language above is regular. (isolated cutpoint)"
+                ],
+                "eventId": "34"
+              },
+              {
+                "type": "show",
+                "id": "v_sigma",
+                "enabled": "enabled",
+                "name": "v sigma",
+                "merged": true,
+                "keywords": [
+                  "v sigma"
+                ],
+                "eventId": "35"
+              },
+              {
+                "type": "show",
+                "id": "0",
+                "enabled": "enabled",
+                "name": "0",
+                "merged": false,
+                "keywords": [
+                  "0"
+                ],
+                "eventId": "15"
+              },
+              {
+                "type": "show",
+                "id": "Vector_17",
+                "enabled": "enabled",
+                "name": "Vector 17",
+                "merged": true,
+                "keywords": [
+                  "Vector 17"
+                ],
+                "eventId": "16"
+              },
+              {
+                "type": "show",
+                "id": "Ellipse_15",
+                "enabled": "enabled",
+                "name": "Ellipse 15",
+                "merged": true,
+                "keywords": [
+                  "Ellipse 15"
+                ],
+                "eventId": "17"
+              },
+              {
+                "type": "show",
+                "id": "Ellipse_14",
+                "enabled": "enabled",
+                "name": "Ellipse 14",
+                "merged": true,
+                "keywords": [
+                  "Ellipse 14"
+                ],
+                "eventId": "18"
+              },
+              {
+                "type": "show",
+                "id": "Ellipse_13",
+                "enabled": "enabled",
+                "name": "Ellipse 13",
+                "merged": true,
+                "keywords": [
+                  "Ellipse 13"
+                ],
+                "eventId": "19"
+              },
+              {
+                "type": "show",
+                "id": "Ellipse_12",
+                "enabled": "enabled",
+                "name": "Ellipse 12",
+                "merged": true,
+                "keywords": [
+                  "Ellipse 12"
+                ],
+                "eventId": "20"
+              },
+              {
+                "type": "show",
+                "id": "Ellipse_11",
+                "enabled": "enabled",
+                "name": "Ellipse 11",
+                "merged": true,
+                "keywords": [
+                  "Ellipse 11"
+                ],
+                "eventId": "21"
+              },
+              {
+                "type": "show",
+                "id": "_",
+                "enabled": "enabled",
+                "name": "[",
+                "merged": true,
+                "keywords": [
+                  "["
+                ],
+                "eventId": "22"
+              },
+              {
+                "type": "show",
+                "id": "1_2",
+                "enabled": "enabled",
+                "name": "1/2",
+                "merged": true,
+                "keywords": [
+                  "1/2"
+                ],
+                "eventId": "23"
+              },
+              {
+                "type": "show",
+                "id": "Ellipse_3",
+                "enabled": "enabled",
+                "name": "Ellipse 3",
+                "merged": true,
+                "keywords": [
+                  "Ellipse 3"
+                ],
+                "eventId": "24"
+              },
+              {
+                "type": "show",
+                "id": "_2",
+                "enabled": "enabled",
+                "name": "]",
+                "merged": true,
+                "keywords": [
+                  "]"
+                ],
+                "eventId": "25"
+              },
+              {
+                "type": "show",
+                "id": "Ellipse_4",
+                "enabled": "enabled",
+                "name": "Ellipse 4",
+                "merged": true,
+                "keywords": [
+                  "Ellipse 4"
+                ],
+                "eventId": "26"
+              },
+              {
+                "type": "show",
+                "id": "Ellipse_5",
+                "enabled": "enabled",
+                "name": "Ellipse 5",
+                "merged": true,
+                "keywords": [
+                  "Ellipse 5"
+                ],
+                "eventId": "27"
+              },
+              {
+                "type": "show",
+                "id": "Ellipse_6",
+                "enabled": "enabled",
+                "name": "Ellipse 6",
+                "merged": true,
+                "keywords": [
+                  "Ellipse 6"
+                ],
+                "eventId": "28"
+              },
+              {
+                "type": "show",
+                "id": "Ellipse_7",
+                "enabled": "enabled",
+                "name": "Ellipse 7",
+                "merged": true,
+                "keywords": [
+                  "Ellipse 7"
+                ],
+                "eventId": "29"
+              },
+              {
+                "type": "show",
+                "id": "Ellipse_8",
+                "enabled": "enabled",
+                "name": "Ellipse 8",
+                "merged": true,
+                "keywords": [
+                  "Ellipse 8"
+                ],
+                "eventId": "30"
+              },
+              {
+                "type": "show",
+                "id": "Ellipse_9",
+                "enabled": "enabled",
+                "name": "Ellipse 9",
+                "merged": true,
+                "keywords": [
+                  "Ellipse 9"
+                ],
+                "eventId": "31"
+              },
+              {
+                "type": "show",
+                "id": "Ellipse_10",
+                "enabled": "enabled",
+                "name": "Ellipse 10",
+                "merged": true,
+                "keywords": [
+                  "Ellipse 10"
+                ],
+                "eventId": "32"
+              },
+              {
+                "type": "show",
+                "id": "1",
+                "enabled": "enabled",
+                "name": "1",
+                "merged": true,
+                "keywords": [
+                  "1"
+                ],
+                "eventId": "33"
+              },
+              {
+                "type": "show",
+                "id": "if_you_know_the_length_of_the_neighbourhood_you_can_construct_the_DFA_accepting_the_language",
+                "enabled": "enabled",
+                "name": "if you know the length of the neighbourhood you can construct the DFA accepting the language",
+                "merged": false,
+                "keywords": [
+                  "if you know the length of the neighbourhood you can construct the DFA accepting the language"
+                ],
+                "eventId": "36"
+              },
+              {
+                "type": "show",
+                "id": "image_8",
+                "enabled": "enabled",
+                "name": "image 8",
+                "merged": false,
+                "keywords": [
+                  "image 8"
+                ],
+                "eventId": "37"
+              },
+              {
+                "type": "show",
+                "id": "Cannot_decide_whether_cutpoint_is_isolated",
+                "enabled": "enabled",
+                "name": "Cannot decide whether cutpoint is isolated",
+                "merged": false,
+                "keywords": [
+                  "Cannot decide whether cutpoint is isolated"
+                ],
+                "eventId": "38"
+              }
+            ],
+            "keywords": [
+              "Probabilistic Automata",
+              "Probabilistic automata"
+            ],
+            "eventId": "5",
+            "originalParams": {
+              "0": {
+                "opacity": 1
+              },
+              "1": {
+                "opacity": 1
+              },
+              "Two_d_by_d_stochastic_matrices": {
+                "opacity": 1
+              },
+              "Ma_Mb": {
+                "opacity": 1
+              },
+              "alphabet_of_two_letters": {
+                "opacity": 1
+              },
+              "Sigma_a_b": {
+                "opacity": 1
+              },
+              "homomorphism_of_semigroups": {
+                "opacity": 1
+              },
+              "homomorphism": {
+                "opacity": 1
+              },
+              "Let": {
+                "opacity": 1
+              },
+              "v": {
+                "opacity": 1
+              },
+              "be_the_function_that_applies___then_returns_the_upper_right_corner": {
+                "opacity": 1
+              },
+              "i_e__v_w__is_the_probability_of_going_from_state_1_to_state_d_by_reading_word_w": {
+                "opacity": 1
+              },
+              "words_equal": {
+                "opacity": 1
+              },
+              "not_regular": {
+                "opacity": 1
+              },
+              "words_larger": {
+                "opacity": 1
+              },
+              "in_general_not_regular": {
+                "opacity": 1
+              },
+              "Vector_17": {
+                "opacity": 1
+              },
+              "Ellipse_15": {
+                "opacity": 1
+              },
+              "Ellipse_14": {
+                "opacity": 1
+              },
+              "Ellipse_13": {
+                "opacity": 1
+              },
+              "Ellipse_12": {
+                "opacity": 1
+              },
+              "Ellipse_11": {
+                "opacity": 1
+              },
+              "_": {
+                "opacity": 1
+              },
+              "1_2": {
+                "opacity": 1
+              },
+              "Ellipse_3": {
+                "opacity": 1
+              },
+              "_2": {
+                "opacity": 1
+              },
+              "Ellipse_4": {
+                "opacity": 1
+              },
+              "Ellipse_5": {
+                "opacity": 1
+              },
+              "Ellipse_6": {
+                "opacity": 1
+              },
+              "Ellipse_7": {
+                "opacity": 1
+              },
+              "Ellipse_8": {
+                "opacity": 1
+              },
+              "Ellipse_9": {
+                "opacity": 1
+              },
+              "Ellipse_10": {
+                "opacity": 1
+              },
+              "but_if_the_image_does_not_intersect_some_neighbourhood_of_1_2_then_the_language_above_is_regular___isolated_cutpoint_": {
+                "opacity": 1
+              },
+              "v_sigma": {
+                "opacity": 1
+              },
+              "if_you_know_the_length_of_the_neighbourhood_you_can_construct_the_DFA_accepting_the_language": {
+                "opacity": 1
+              },
+              "image_8": {
+                "opacity": 1
+              },
+              "Cannot_decide_whether_cutpoint_is_isolated": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "Probabilistic automata 2",
+            "id": "Probabilistic_automata_2",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "words_equal",
+                "enabled": "enabled",
+                "name": "words equal",
+                "merged": false,
+                "keywords": [
+                  "words equal"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "always_regular",
+                "enabled": "enabled",
+                "name": "always regular",
+                "merged": true,
+                "keywords": [
+                  "always regular"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "equivalent_to_Skolem_s_theorem",
+                "enabled": "enabled",
+                "name": "equivalent to Skolem’s theorem",
+                "merged": false,
+                "keywords": [
+                  "equivalent to Skolem’s theorem"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Can_decide_whether_cutpoint_is_isolated",
+                "enabled": "enabled",
+                "name": "Can decide whether cutpoint is isolated",
+                "merged": false,
+                "keywords": [
+                  "Can decide whether cutpoint is isolated"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "this_is_classical_Markov_chain_theory",
+                "enabled": "enabled",
+                "name": "this is classical Markov chain theory",
+                "merged": true,
+                "keywords": [
+                  "this is classical Markov chain theory"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "words_larger",
+                "enabled": "enabled",
+                "name": "words larger",
+                "merged": false,
+                "keywords": [
+                  "words larger"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "show",
+                "id": "in_general_not_regular",
+                "enabled": "enabled",
+                "name": "in general not regular",
+                "merged": true,
+                "keywords": [
+                  "in general not regular"
+                ],
+                "eventId": "7"
+              },
+              {
+                "type": "show",
+                "id": "but_it_can_be_written_as_",
+                "enabled": "enabled",
+                "name": "but it can be written as:",
+                "merged": false,
+                "keywords": [
+                  "but it can be written as:"
+                ],
+                "eventId": "8"
+              },
+              {
+                "type": "show",
+                "id": "finite",
+                "enabled": "enabled",
+                "name": "finite",
+                "merged": true,
+                "keywords": [
+                  "finite"
+                ],
+                "eventId": "9"
+              },
+              {
+                "type": "show",
+                "id": "Vector_18",
+                "enabled": "enabled",
+                "name": "Vector 18",
+                "merged": true,
+                "keywords": [
+                  "Vector 18"
+                ],
+                "eventId": "10"
+              },
+              {
+                "type": "show",
+                "id": "f_cup_a",
+                "enabled": "enabled",
+                "name": "f cup a",
+                "merged": true,
+                "keywords": [
+                  "f cup a"
+                ],
+                "eventId": "11"
+              },
+              {
+                "type": "show",
+                "id": "Vector_19",
+                "enabled": "enabled",
+                "name": "Vector 19",
+                "merged": false,
+                "keywords": [
+                  "Vector 19"
+                ],
+                "eventId": "12"
+              },
+              {
+                "type": "show",
+                "id": "has_decidable_MSO_theory",
+                "enabled": "enabled",
+                "name": "has decidable MSO theory",
+                "merged": true,
+                "keywords": [
+                  "has decidable MSO theory"
+                ],
+                "eventId": "13"
+              },
+              {
+                "type": "show",
+                "id": "one_can_decide_asymptotic_properties_in_particular_ultimate_positivity",
+                "enabled": "enabled",
+                "name": "one can decide asymptotic properties in particular ultimate positivity",
+                "merged": false,
+                "keywords": [
+                  "one can decide asymptotic properties in particular ultimate positivity"
+                ],
+                "eventId": "14"
+              },
+              {
+                "type": "show",
+                "id": "for_d_5__one_can_compute_F_too",
+                "enabled": "enabled",
+                "name": "for d<5, one can compute F too",
+                "merged": false,
+                "keywords": [
+                  "for d<5, one can compute F too"
+                ],
+                "eventId": "15"
+              }
+            ],
+            "keywords": [
+              "For unary alphabet",
+              "Probabilistic automata 2"
+            ],
+            "eventId": "6",
+            "originalParams": {
+              "words_equal": {
+                "opacity": 1
+              },
+              "always_regular": {
+                "opacity": 1
+              },
+              "equivalent_to_Skolem_s_theorem": {
+                "opacity": 1
+              },
+              "Can_decide_whether_cutpoint_is_isolated": {
+                "opacity": 1
+              },
+              "this_is_classical_Markov_chain_theory": {
+                "opacity": 1
+              },
+              "words_larger": {
+                "opacity": 1
+              },
+              "in_general_not_regular": {
+                "opacity": 1
+              },
+              "but_it_can_be_written_as_": {
+                "opacity": 1
+              },
+              "finite": {
+                "opacity": 1
+              },
+              "Vector_18": {
+                "opacity": 1
+              },
+              "f_cup_a": {
+                "opacity": 1
+              },
+              "Vector_19": {
+                "opacity": 1
+              },
+              "has_decidable_MSO_theory": {
+                "opacity": 1
+              },
+              "one_can_decide_asymptotic_properties_in_particular_ultimate_positivity": {
+                "opacity": 1
+              },
+              "for_d_5__one_can_compute_F_too": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "Baker",
+            "id": "Baker",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "when_are_linearly_independent_over_the_rationals",
+                "enabled": "enabled",
+                "name": "when are linearly independent over the rationals",
+                "merged": false,
+                "keywords": [
+                  "when are linearly independent over the rationals"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "fi1fi22",
+                "enabled": "enabled",
+                "name": "fi1fi2",
+                "merged": true,
+                "keywords": [
+                  "fi1fi2"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "image_of_system",
+                "enabled": "enabled",
+                "name": "image of system",
+                "merged": true,
+                "keywords": [
+                  "image of system"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "is_dense_",
+                "enabled": "enabled",
+                "name": "is dense.",
+                "merged": true,
+                "keywords": [
+                  "is dense."
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "Getting_close_to_the_red_curve_was_difficult_but_what_about_getting_close_to_a_point__say__0_0___",
+                "enabled": "enabled",
+                "name": "Getting close to the red curve was difficult but what about getting close to a point, say (0,0) ?",
+                "merged": false,
+                "keywords": [
+                  "Getting close to the red curve was difficult but what about getting close to a point, say (0,0) ?"
+                ],
+                "eventId": "13"
+              },
+              {
+                "type": "show",
+                "id": "Ellipse_16",
+                "enabled": "enabled",
+                "name": "Ellipse 16",
+                "merged": true,
+                "keywords": [
+                  "Ellipse 16"
+                ],
+                "eventId": "14"
+              },
+              {
+                "type": "show",
+                "id": "There_is_an_effective_bound_that_says_you_can_t_get_too_close_too_quickly",
+                "enabled": "enabled",
+                "name": "There is an effective bound that says you can’t get too close too quickly",
+                "merged": false,
+                "keywords": [
+                  "There is an effective bound that says you can’t get too close too quickly"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "image_9",
+                "enabled": "enabled",
+                "name": "image 9",
+                "merged": false,
+                "keywords": [
+                  "image 9"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "show",
+                "id": "Alan_Baker__1939___2018_",
+                "enabled": "enabled",
+                "name": "Alan Baker (1939 - 2018)",
+                "merged": true,
+                "keywords": [
+                  "Alan Baker (1939 - 2018)"
+                ],
+                "eventId": "7"
+              },
+              {
+                "type": "show",
+                "id": "Theorem__There_exists_an_effective_lower_bound_on",
+                "enabled": "enabled",
+                "name": "Theorem. There exists an effective lower bound on",
+                "merged": true,
+                "keywords": [
+                  "Theorem. There exists an effective lower bound on"
+                ],
+                "eventId": "8"
+              },
+              {
+                "type": "show",
+                "id": "baker_bound",
+                "enabled": "enabled",
+                "name": "baker bound",
+                "merged": true,
+                "keywords": [
+                  "baker bound"
+                ],
+                "eventId": "9"
+              },
+              {
+                "type": "show",
+                "id": "which_decreases_polynomially_in",
+                "enabled": "enabled",
+                "name": "which decreases polynomially in",
+                "merged": true,
+                "keywords": [
+                  "which decreases polynomially in"
+                ],
+                "eventId": "10"
+              },
+              {
+                "type": "show",
+                "id": "alpha_algebraic",
+                "enabled": "enabled",
+                "name": "alpha algebraic",
+                "merged": true,
+                "keywords": [
+                  "alpha algebraic"
+                ],
+                "eventId": "11"
+              },
+              {
+                "type": "show",
+                "id": "max_ni",
+                "enabled": "enabled",
+                "name": "max ni",
+                "merged": true,
+                "keywords": [
+                  "max ni"
+                ],
+                "eventId": "12"
+              }
+            ],
+            "keywords": [
+              "0",
+              "1",
+              "logs of algebraic numbers",
+              "Baker"
+            ],
+            "eventId": "7",
+            "originalParams": {
+              "when_are_linearly_independent_over_the_rationals": {
+                "opacity": 1
+              },
+              "fi1fi22": {
+                "opacity": 1
+              },
+              "image_of_system": {
+                "opacity": 1
+              },
+              "is_dense_": {
+                "opacity": 1
+              },
+              "There_is_an_effective_bound_that_says_you_can_t_get_too_close_too_quickly": {
+                "opacity": 1
+              },
+              "image_9": {
+                "opacity": 1
+              },
+              "Alan_Baker__1939___2018_": {
+                "opacity": 1
+              },
+              "Theorem__There_exists_an_effective_lower_bound_on": {
+                "opacity": 1
+              },
+              "baker_bound": {
+                "opacity": 1
+              },
+              "which_decreases_polynomially_in": {
+                "opacity": 1
+              },
+              "alpha_algebraic": {
+                "opacity": 1
+              },
+              "max_ni": {
+                "opacity": 1
+              },
+              "Getting_close_to_the_red_curve_was_difficult_but_what_about_getting_close_to_a_point__say__0_0___": {
+                "opacity": 1
+              },
+              "Ellipse_16": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "use of Baker",
+            "id": "use_of_Baker",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "for_which_n",
+                "enabled": "enabled",
+                "name": "for which n",
+                "merged": false,
+                "keywords": [
+                  "for which n"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "inequality",
+                "enabled": "enabled",
+                "name": "inequality",
+                "merged": true,
+                "keywords": [
+                  "inequality"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "dimension_2",
+                "enabled": "enabled",
+                "name": "dimension 2",
+                "merged": false,
+                "keywords": [
+                  "dimension 2"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "last_inequality",
+                "enabled": "enabled",
+                "name": "last inequality",
+                "merged": false,
+                "keywords": [
+                  "last inequality"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "lower_bound_that_decreases_polynomially_fast",
+                "enabled": "enabled",
+                "name": "lower bound that decreases polynomially fast",
+                "merged": false,
+                "keywords": [
+                  "lower bound that decreases polynomially fast"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "Vector_21",
+                "enabled": "enabled",
+                "name": "Vector 21",
+                "merged": true,
+                "keywords": [
+                  "Vector 21"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "show",
+                "id": "Vector_22",
+                "enabled": "enabled",
+                "name": "Vector 22",
+                "merged": true,
+                "keywords": [
+                  "Vector 22"
+                ],
+                "eventId": "7"
+              },
+              {
+                "type": "show",
+                "id": "upper_bound_that_decreases_exponentially_fast",
+                "enabled": "enabled",
+                "name": "upper bound that decreases exponentially fast",
+                "merged": true,
+                "keywords": [
+                  "upper bound that decreases exponentially fast"
+                ],
+                "eventId": "8"
+              },
+              {
+                "type": "show",
+                "id": "The_inequality_can_only_hold_for_n___N_for_some_computable_N_",
+                "enabled": "enabled",
+                "name": "The inequality can only hold for n < N for some computable N.",
+                "merged": false,
+                "keywords": [
+                  "The inequality can only hold for n < N for some computable N."
+                ],
+                "eventId": "9"
+              }
+            ],
+            "keywords": [
+              "use of Baker"
+            ],
+            "eventId": "8",
+            "originalParams": {
+              "for_which_n": {
+                "opacity": 1
+              },
+              "inequality": {
+                "opacity": 1
+              },
+              "dimension_2": {
+                "opacity": 1
+              },
+              "last_inequality": {
+                "opacity": 1
+              },
+              "lower_bound_that_decreases_polynomially_fast": {
+                "opacity": 1
+              },
+              "Vector_21": {
+                "opacity": 1
+              },
+              "Vector_22": {
+                "opacity": 1
+              },
+              "upper_bound_that_decreases_exponentially_fast": {
+                "opacity": 1
+              },
+              "The_inequality_can_only_hold_for_n___N_for_some_computable_N_": {
+                "opacity": 1
+              }
+            }
+          }
+        ],
+        "keywords": [
+          "What we know"
+        ],
+        "eventId": "8",
+        "originalParams": {
+          "image_7": {
+            "opacity": 1
+          },
+          "Theorem__The_set_of_zeros_of_a_LRS_is_the_union_of_a_finite_set___finitely_many_arithmetic_progressions": {
+            "opacity": 1
+          },
+          "Thoralf_Skolem__1887___1963_": {
+            "opacity": 1
+          },
+          "Another_perspective___": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "show",
+        "id": "Thank_you_",
+        "enabled": "enabled",
+        "name": "Thank you!",
+        "merged": false,
+        "keywords": [
+          "Thank you!"
+        ],
+        "eventId": "12"
+      }
+    ],
+    "keywords": [
+      "Decision Problems for Linear Dynamical Systems",
+      "An overview",
+      "Edon Kelmendi • QMUL",
+      "root"
+    ],
+    "eventId": "root",
+    "originalParams": {
+      "What_we_know": {
+        "opacity": 1
+      },
+      "What_we_don_t_know": {
+        "opacity": 1
+      },
+      "Thank_you_": {
+        "opacity": 1
+      }
+    }
+  },
+  "treeTimeLine": [],
+  "chronicleTimeLine": []
+}

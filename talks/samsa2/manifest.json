@@ -1,0 +1,2813 @@
+{
+  "version": 3,
+  "presentation": "samsa2",
+  "slideDict": {
+    "new_slide": "root",
+    "at_least_once": "at_least_once",
+    "semialgebraic": "semialgebraic",
+    "phi_prime2": "phi_prime",
+    "at_least_10_times": "at_least_10_times",
+    "Proof_2": "Proof_2",
+    "Positive_density": "Positive_density",
+    "only_dominant": "only_dominant",
+    "only_dominant2": "only_dominant2",
+    "infinitely_often": "infinitely_often",
+    "diagonalisable": "diagonalisable",
+    "mordell_lang": "mordell_lang",
+    "mordell_lang2": "mordell_lang2"
+  },
+  "tree": {
+    "type": "child",
+    "name": "root",
+    "id": "new_slide",
+    "enabled": "enabled",
+    "merged": false,
+    "children": [
+      {
+        "type": "show",
+        "id": "_S__left___x_1__ldots__x_d____mathbb_R_d_____P_x_1__ldots__x_d__0_right___",
+        "enabled": "enabled",
+        "name": "$S=\\left\\{(x_1,\\ldots, x_d)∈ \\mathbb R^d\\ :\\ P(x_1,\\ldots, x_d)=0\\right\\}$",
+        "merged": false,
+        "keywords": [
+          "$S=\\left\\{(x_1,\\ldots, x_d)∈ \\mathbb R^d\\ :\\ P(x_1,\\ldots, x_d)=0\\right\\}$"
+        ],
+        "eventId": "1"
+      },
+      {
+        "type": "show",
+        "id": "Vector_1",
+        "enabled": "enabled",
+        "name": "Vector 1",
+        "merged": false,
+        "keywords": [
+          "Vector 1"
+        ],
+        "eventId": "2"
+      },
+      {
+        "type": "show",
+        "id": "____mathbb_Z_x_1__ldots_x_n__",
+        "enabled": "enabled",
+        "name": "$∈ \\mathbb Z[x_1,\\ldots,x_n]$",
+        "merged": true,
+        "keywords": [
+          "$∈ \\mathbb Z[x_1,\\ldots,x_n]$"
+        ],
+        "eventId": "3"
+      },
+      {
+        "type": "show",
+        "id": "Does_a_given_linear_program_terminate_as_long_as_the_initial_variables_satisfy_some_algebraic_conditions",
+        "enabled": "enabled",
+        "name": "Does a given linear program terminate as long as the initial variables satisfy some algebraic conditions",
+        "merged": false,
+        "keywords": [
+          "Does a given linear program terminate as long as the initial variables satisfy some algebraic conditions"
+        ],
+        "eventId": "28"
+      },
+      {
+        "type": "show",
+        "id": "Does_there_exist_some_point",
+        "enabled": "enabled",
+        "name": "Does there exist some point",
+        "merged": false,
+        "keywords": [
+          "Does there exist some point"
+        ],
+        "eventId": "4"
+      },
+      {
+        "type": "show",
+        "id": "reaches_a_halfspace_",
+        "enabled": "enabled",
+        "name": "enters a given halfspace?",
+        "merged": true,
+        "keywords": [
+          "enters a given halfspace?"
+        ],
+        "eventId": "5"
+      },
+      {
+        "type": "show",
+        "id": "_x__S_",
+        "enabled": "enabled",
+        "name": "$x∈ S$",
+        "merged": true,
+        "keywords": [
+          "$x∈ S$"
+        ],
+        "eventId": "6"
+      },
+      {
+        "type": "show",
+        "id": "whose_orbit_under",
+        "enabled": "enabled",
+        "name": "whose orbit under",
+        "merged": true,
+        "keywords": [
+          "whose orbit under"
+        ],
+        "eventId": "7"
+      },
+      {
+        "type": "show",
+        "id": "_M_",
+        "enabled": "enabled",
+        "name": "$M$",
+        "merged": true,
+        "keywords": [
+          "$M$"
+        ],
+        "eventId": "8"
+      },
+      {
+        "type": "show",
+        "id": "vigly",
+        "enabled": "enabled",
+        "name": "vigly",
+        "merged": false,
+        "keywords": [
+          "vigly"
+        ],
+        "eventId": "31"
+      },
+      {
+        "type": "show",
+        "id": "Group_1",
+        "enabled": "enabled",
+        "name": "at least once",
+        "merged": false,
+        "keywords": [
+          "at least once"
+        ],
+        "eventId": "17"
+      },
+      {
+        "type": "show",
+        "id": "Group_12",
+        "enabled": "enabled",
+        "name": "at least 10 times",
+        "merged": false,
+        "keywords": [
+          "at least 10 times"
+        ],
+        "eventId": "18"
+      },
+      {
+        "type": "show",
+        "id": "Group_13",
+        "enabled": "enabled",
+        "name": "infinitely many times",
+        "merged": false,
+        "keywords": [
+          "infinitely many times"
+        ],
+        "eventId": "19"
+      },
+      {
+        "type": "show",
+        "id": "Group_14",
+        "enabled": "enabled",
+        "name": "with positive density",
+        "merged": false,
+        "keywords": [
+          "with positive density",
+          "(at least x% of the time for some x>0)"
+        ],
+        "eventId": "20"
+      },
+      {
+        "type": "show",
+        "id": "Group_15",
+        "enabled": "enabled",
+        "name": "same as reaching a polytope",
+        "merged": false,
+        "keywords": [
+          "unknown",
+          "simultaneously reaching halfspaces",
+          "same as reaching a polytope"
+        ],
+        "eventId": "21"
+      },
+      {
+        "type": "show",
+        "id": "undecidable",
+        "enabled": "enabled",
+        "name": "undecidable",
+        "merged": false,
+        "keywords": [
+          "undecidable"
+        ],
+        "eventId": "22"
+      },
+      {
+        "type": "show",
+        "id": "Group_16",
+        "enabled": "enabled",
+        "name": "for diagonalisable maps",
+        "merged": false,
+        "keywords": [
+          "decidable",
+          "for diagonalisable maps",
+          "unknown",
+          "in general"
+        ],
+        "eventId": "23"
+      },
+      {
+        "type": "show",
+        "id": "Group_17",
+        "enabled": "enabled",
+        "name": "decidable",
+        "merged": false,
+        "keywords": [
+          "decidable"
+        ],
+        "eventId": "25"
+      },
+      {
+        "type": "show",
+        "id": "speaks_about_the_technique_our_understanding_more_than_the_problem",
+        "enabled": "enabled",
+        "name": "speaks about the technique/our understanding more than the problem",
+        "merged": false,
+        "keywords": [
+          "speaks about the technique/our understanding more than the problem"
+        ],
+        "eventId": "27"
+      },
+      {
+        "type": "child",
+        "name": "at least once",
+        "id": "at_least_once",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "There_is_some",
+            "enabled": "enabled",
+            "name": "There is some",
+            "merged": false,
+            "keywords": [
+              "There is some"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "there_is_some_n__such_that",
+            "enabled": "enabled",
+            "name": "there is some positive integer n, such that",
+            "merged": true,
+            "keywords": [
+              "there is some positive integer n, such that"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "_M_n__mathbf_x__mathbf_h___0_",
+            "enabled": "enabled",
+            "name": "$M^n \\mathbf x \\mathbf h > 0$",
+            "merged": true,
+            "keywords": [
+              "$M^n \\mathbf x \\mathbf h > 0$"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "__mathbf_x__x_1__ldots__x_d____S__",
+            "enabled": "enabled",
+            "name": "$\\mathbf x=(x_1,\\ldots, x_d) ∈ S$ ",
+            "merged": true,
+            "keywords": [
+              "$\\mathbf x=(x_1,\\ldots, x_d) ∈ S$ "
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "for_which",
+            "enabled": "enabled",
+            "name": "for which",
+            "merged": true,
+            "keywords": [
+              "for which"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "If_we_assume_M_is_diagonalisable__for_simplicity_",
+            "enabled": "enabled",
+            "name": "If we assume M is diagonalisable (for simplicity)",
+            "merged": false,
+            "keywords": [
+              "If we assume M is diagonalisable (for simplicity)"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "then_after_a_basis_change__M_can_be_written_as",
+            "enabled": "enabled",
+            "name": "then after a basis change, M can be written as",
+            "merged": true,
+            "keywords": [
+              "then after a basis change, M can be written as"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "matrix",
+            "enabled": "enabled",
+            "name": "matrix",
+            "merged": true,
+            "keywords": [
+              "matrix"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "show",
+            "id": "and_let_B_be_the_matrix_that_changes_basis",
+            "enabled": "enabled",
+            "name": "and let B be the matrix that changes basis",
+            "merged": true,
+            "keywords": [
+              "and let B be the matrix that changes basis"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "show",
+            "id": "F",
+            "enabled": "enabled",
+            "name": "F",
+            "merged": false,
+            "keywords": [
+              "F"
+            ],
+            "eventId": "14"
+          },
+          {
+            "type": "show",
+            "id": "Define_",
+            "enabled": "enabled",
+            "name": "Define:",
+            "merged": true,
+            "keywords": [
+              "Define:"
+            ],
+            "eventId": "15"
+          },
+          {
+            "type": "show",
+            "id": "Also_the_formula_",
+            "enabled": "enabled",
+            "name": "Also the formula:",
+            "merged": false,
+            "keywords": [
+              "Also the formula:"
+            ],
+            "eventId": "10"
+          },
+          {
+            "type": "show",
+            "id": "__Phi_x_1__ldots__x_d__z_1___ldots__z_d_____",
+            "enabled": "enabled",
+            "name": "$\\Phi(x_1,\\ldots, x_d, z_1, \\ldots, z_d) :=$",
+            "merged": true,
+            "keywords": [
+              "$\\Phi(x_1,\\ldots, x_d, z_1, \\ldots, z_d) :=$"
+            ],
+            "eventId": "11"
+          },
+          {
+            "type": "show",
+            "id": "_F_x_1__ldots__x_d__z_1__ldots__z_d____0_",
+            "enabled": "enabled",
+            "name": "$F(x_1,\\ldots, x_d, z_1,\\ldots, z_d) > 0$",
+            "merged": true,
+            "keywords": [
+              "$F(x_1,\\ldots, x_d, z_1,\\ldots, z_d) > 0$"
+            ],
+            "eventId": "12"
+          },
+          {
+            "type": "show",
+            "id": "_P_x_1__ldots__x_d__0__text__and__",
+            "enabled": "enabled",
+            "name": "$P(x_1,\\ldots, x_d)=0,\\text{ and}$",
+            "merged": true,
+            "keywords": [
+              "$P(x_1,\\ldots, x_d)=0,\\text{ and}$"
+            ],
+            "eventId": "13"
+          },
+          {
+            "type": "show",
+            "id": "There_is_some_x_and_some_n_such_that",
+            "enabled": "enabled",
+            "name": "There is some x and some n such that",
+            "merged": false,
+            "keywords": [
+              "There is some x and some n such that"
+            ],
+            "eventId": "17"
+          },
+          {
+            "type": "show",
+            "id": "__Phi_x_1__ldots__x_d___Lambda_1__ldots___Lambda_d__",
+            "enabled": "enabled",
+            "name": "$\\Phi(x_1,\\ldots, x_d, \\Lambda_1^n,\\ldots, \\Lambda_d^n)$",
+            "merged": true,
+            "keywords": [
+              "$\\Phi(x_1,\\ldots, x_d, \\Lambda_1^n,\\ldots, \\Lambda_d^n)$"
+            ],
+            "eventId": "18"
+          },
+          {
+            "type": "show",
+            "id": "holds",
+            "enabled": "enabled",
+            "name": "holds",
+            "merged": true,
+            "keywords": [
+              "holds"
+            ],
+            "eventId": "19"
+          },
+          {
+            "type": "show",
+            "id": "Group_1",
+            "enabled": "enabled",
+            "name": "vc",
+            "merged": true,
+            "keywords": [
+              "vc"
+            ],
+            "eventId": "20"
+          },
+          {
+            "type": "show",
+            "id": "__is_describing_a_semialgebraic_subset_of",
+            "enabled": "enabled",
+            "name": "Φ is describing a semialgebraic subset of",
+            "merged": false,
+            "keywords": [
+              "Φ is describing a semialgebraic subset of"
+            ],
+            "eventId": "21"
+          },
+          {
+            "type": "show",
+            "id": "Frame",
+            "enabled": "enabled",
+            "name": "C2d",
+            "merged": true,
+            "keywords": [
+              "C2d"
+            ],
+            "eventId": "27"
+          },
+          {
+            "type": "child",
+            "name": "semialgebraic",
+            "id": "semialgebraic",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "boolean_combinations_of_polynomial__in_equalities",
+                "enabled": "enabled",
+                "name": "boolean combinations of polynomial (in)equalities",
+                "merged": false,
+                "keywords": [
+                  "boolean combinations of polynomial (in)equalities"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Unions_of",
+                "enabled": "enabled",
+                "name": "Unions of",
+                "merged": false,
+                "keywords": [
+                  "Unions of"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Sx",
+                "enabled": "enabled",
+                "name": "Sx",
+                "merged": true,
+                "keywords": [
+                  "Sx"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Semialgebraic_sets_over_real_closed_fields_are_closed_under_projections",
+                "enabled": "enabled",
+                "name": "Semialgebraic sets over real-closed fields are closed under projections",
+                "merged": false,
+                "keywords": [
+                  "Semialgebraic sets over real-closed fields are closed under projections"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "exists_phi",
+                "enabled": "enabled",
+                "name": "exists phi",
+                "merged": true,
+                "keywords": [
+                  "exists phi"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "dtted",
+                "enabled": "enabled",
+                "name": "dtted",
+                "merged": true,
+                "keywords": [
+                  "dtted"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "show",
+                "id": "phi_prime",
+                "enabled": "enabled",
+                "name": "phi prime",
+                "merged": true,
+                "keywords": [
+                  "phi prime"
+                ],
+                "eventId": "7"
+              },
+              {
+                "type": "show",
+                "id": "dtted2",
+                "enabled": "enabled",
+                "name": "dtted2",
+                "merged": false,
+                "keywords": [
+                  "dtted2"
+                ],
+                "eventId": "8"
+              },
+              {
+                "type": "show",
+                "id": "also_semialgebraic",
+                "enabled": "enabled",
+                "name": "also semialgebraic",
+                "merged": true,
+                "keywords": [
+                  "also semialgebraic"
+                ],
+                "eventId": "9"
+              },
+              {
+                "type": "show",
+                "id": "effective",
+                "enabled": "enabled",
+                "name": "effective",
+                "merged": false,
+                "keywords": [
+                  "effective"
+                ],
+                "eventId": "10"
+              },
+              {
+                "type": "show",
+                "id": "Tarski_Seidenberg_theorem",
+                "enabled": "enabled",
+                "name": "Tarski-Seidenberg theorem",
+                "merged": false,
+                "keywords": [
+                  "Tarski-Seidenberg theorem"
+                ],
+                "eventId": "12"
+              },
+              {
+                "type": "show",
+                "id": "quadratic",
+                "enabled": "enabled",
+                "name": "quadratic",
+                "merged": false,
+                "keywords": [
+                  "quadratic"
+                ],
+                "eventId": "11"
+              }
+            ],
+            "keywords": [
+              "Semialgebraic sets",
+              "semialgebraic"
+            ],
+            "eventId": "23",
+            "originalParams": {
+              "boolean_combinations_of_polynomial__in_equalities": {
+                "opacity": 1
+              },
+              "Unions_of": {
+                "opacity": 1
+              },
+              "Sx": {
+                "opacity": 1
+              },
+              "Semialgebraic_sets_over_real_closed_fields_are_closed_under_projections": {
+                "opacity": 1
+              },
+              "exists_phi": {
+                "opacity": 1
+              },
+              "dtted": {
+                "opacity": 1
+              },
+              "phi_prime": {
+                "opacity": 1
+              },
+              "dtted2": {
+                "opacity": 1
+              },
+              "also_semialgebraic": {
+                "opacity": 1
+              },
+              "effective": {
+                "opacity": 1
+              },
+              "quadratic": {
+                "opacity": 1
+              },
+              "Tarski_Seidenberg_theorem": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "Projecting_away",
+            "enabled": "enabled",
+            "name": "Projecting away",
+            "merged": false,
+            "keywords": [
+              "Projecting away"
+            ],
+            "eventId": "24"
+          },
+          {
+            "type": "show",
+            "id": "x1to_xd",
+            "enabled": "enabled",
+            "name": "x1to xd",
+            "merged": true,
+            "keywords": [
+              "x1to xd"
+            ],
+            "eventId": "25"
+          },
+          {
+            "type": "child",
+            "name": "phi prime",
+            "id": "phi_prime2",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "The_question_is__is_there_a_positive_integer_n_for_which",
+                "enabled": "enabled",
+                "name": "The question is: is there a positive integer n for which",
+                "merged": false,
+                "keywords": [
+                  "The question is: is there a positive integer n for which"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "holds_",
+                "enabled": "enabled",
+                "name": "holds.",
+                "merged": true,
+                "keywords": [
+                  "holds."
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "gamma_lambda",
+                "enabled": "enabled",
+                "name": "gamma lambda",
+                "merged": true,
+                "keywords": [
+                  "gamma lambda"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "v1",
+                "enabled": "enabled",
+                "name": "v1",
+                "merged": false,
+                "keywords": [
+                  "v1"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "reaching_a_hyperplane",
+                "enabled": "enabled",
+                "name": "reaching a hyperplane",
+                "merged": true,
+                "keywords": [
+                  "reaching a hyperplane"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "v2",
+                "enabled": "enabled",
+                "name": "v2",
+                "merged": false,
+                "keywords": [
+                  "v2"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "show",
+                "id": "reaching_a_halfspace",
+                "enabled": "enabled",
+                "name": "reaching a halfspace",
+                "merged": true,
+                "keywords": [
+                  "reaching a halfspace"
+                ],
+                "eventId": "7"
+              },
+              {
+                "type": "show",
+                "id": "For_which_n",
+                "enabled": "enabled",
+                "name": "For which n",
+                "merged": false,
+                "keywords": [
+                  "For which n"
+                ],
+                "eventId": "8"
+              },
+              {
+                "type": "show",
+                "id": "__left__sum__i_1__k_c_i_Lambda_i_n_right_____left___sum__i_k_1__dc_i__i_n__right__",
+                "enabled": "enabled",
+                "name": "$\\left|\\sum_{i=1}^k c_i\\Lambda_i^n\\right| < \\left |\\sum_{i=k+1}^dc_iΛ_i^n \\right|$",
+                "merged": true,
+                "keywords": [
+                  "$\\left|\\sum_{i=1}^k c_i\\Lambda_i^n\\right| < \\left |\\sum_{i=k+1}^dc_iΛ_i^n \\right|$"
+                ],
+                "eventId": "9"
+              },
+              {
+                "type": "show",
+                "id": "0",
+                "enabled": "enabled",
+                "name": "0",
+                "merged": false,
+                "keywords": [
+                  "0"
+                ],
+                "eventId": "10"
+              },
+              {
+                "type": "show",
+                "id": "Rectangle_6",
+                "enabled": "enabled",
+                "name": "Rectangle 6",
+                "merged": true,
+                "keywords": [
+                  "Rectangle 6"
+                ],
+                "eventId": "11"
+              },
+              {
+                "type": "show",
+                "id": "Ellipse_1",
+                "enabled": "enabled",
+                "name": "Ellipse 1",
+                "merged": true,
+                "keywords": [
+                  "Ellipse 1"
+                ],
+                "eventId": "12"
+              },
+              {
+                "type": "show",
+                "id": "phi1phi2",
+                "enabled": "enabled",
+                "name": "phi1phi2",
+                "merged": true,
+                "keywords": [
+                  "phi1phi2"
+                ],
+                "eventId": "14"
+              },
+              {
+                "type": "show",
+                "id": "Ellipse_2",
+                "enabled": "enabled",
+                "name": "Ellipse 2",
+                "merged": true,
+                "keywords": [
+                  "Ellipse 2"
+                ],
+                "eventId": "15"
+              },
+              {
+                "type": "show",
+                "id": "2phiphi",
+                "enabled": "enabled",
+                "name": "2phiphi",
+                "merged": true,
+                "keywords": [
+                  "2phiphi"
+                ],
+                "eventId": "16"
+              },
+              {
+                "type": "show",
+                "id": "1",
+                "enabled": "enabled",
+                "name": "1",
+                "merged": true,
+                "keywords": [
+                  "1"
+                ],
+                "eventId": "19"
+              },
+              {
+                "type": "show",
+                "id": "Group_12",
+                "enabled": "enabled",
+                "name": "vc11",
+                "merged": true,
+                "keywords": [
+                  "vc11"
+                ],
+                "eventId": "20"
+              },
+              {
+                "type": "show",
+                "id": "Group_13",
+                "enabled": "enabled",
+                "name": "v12",
+                "merged": true,
+                "keywords": [
+                  "v12"
+                ],
+                "eventId": "21"
+              },
+              {
+                "type": "show",
+                "id": "Group_1",
+                "enabled": "enabled",
+                "name": "v12",
+                "merged": true,
+                "keywords": [
+                  "v12"
+                ],
+                "eventId": "22"
+              },
+              {
+                "type": "show",
+                "id": "we_want_a_lower_bound_decreasing_polynomially_in_n",
+                "enabled": "enabled",
+                "name": "we want a lower bound decreasing polynomially in n",
+                "merged": true,
+                "keywords": [
+                  "we want a lower bound decreasing polynomially in n"
+                ],
+                "eventId": "24"
+              },
+              {
+                "type": "show",
+                "id": "Group_14",
+                "enabled": "enabled",
+                "name": "larrow",
+                "merged": true,
+                "keywords": [
+                  "larrow"
+                ],
+                "eventId": "28"
+              },
+              {
+                "type": "show",
+                "id": "_we_will_see__there_is_such_a_bound_but_it_is_multiplied_by_some_1_c_M__which_is_not_effective",
+                "enabled": "enabled",
+                "name": "(we will see) there is such a bound but it is multiplied by some 1/c(M) which is not effective",
+                "merged": false,
+                "keywords": [
+                  "(we will see) there is such a bound but it is multiplied by some 1/c(M) which is not effective"
+                ],
+                "eventId": "25"
+              },
+              {
+                "type": "show",
+                "id": "If_reaching_a_hyperplane_or_halfspace_were_undecidable_c_M__would_have_to_grow_faster_than_any_computable_function_on__M__",
+                "enabled": "enabled",
+                "name": "If reaching a hyperplane or halfspace were undecidable c(M) would have to grow faster than any computable function on |M|.",
+                "merged": false,
+                "keywords": [
+                  "If reaching a hyperplane or halfspace were undecidable c(M) would have to grow faster than any computable function on |M|."
+                ],
+                "eventId": "26"
+              },
+              {
+                "type": "show",
+                "id": "We_do_not_have_any_family_of_inputs_whose_c_M__grows_exponentially__under_some_nondegeneracy_condition_",
+                "enabled": "enabled",
+                "name": "We do not have any family of inputs whose c(M) grows exponentially (under some nondegeneracy condition)",
+                "merged": false,
+                "keywords": [
+                  "We do not have any family of inputs whose c(M) grows exponentially (under some nondegeneracy condition)"
+                ],
+                "eventId": "27"
+              }
+            ],
+            "keywords": [
+              "we get some which is the union of sets of the form",
+              "phi prime"
+            ],
+            "eventId": "26",
+            "originalParams": {
+              "0": {
+                "opacity": 1
+              },
+              "1": {
+                "opacity": 1
+              },
+              "The_question_is__is_there_a_positive_integer_n_for_which": {
+                "opacity": 1
+              },
+              "holds_": {
+                "opacity": 1
+              },
+              "gamma_lambda": {
+                "opacity": 1
+              },
+              "v1": {
+                "opacity": 1
+              },
+              "reaching_a_hyperplane": {
+                "opacity": 1
+              },
+              "v2": {
+                "opacity": 1
+              },
+              "reaching_a_halfspace": {
+                "opacity": 1
+              },
+              "For_which_n": {
+                "opacity": 1
+              },
+              "__left__sum__i_1__k_c_i_Lambda_i_n_right_____left___sum__i_k_1__dc_i__i_n__right__": {
+                "opacity": 1
+              },
+              "Rectangle_6": {
+                "opacity": 1
+              },
+              "Ellipse_1": {
+                "opacity": 1
+              },
+              "phi1phi2": {
+                "opacity": 1
+              },
+              "Ellipse_2": {
+                "opacity": 1
+              },
+              "2phiphi": {
+                "opacity": 1
+              },
+              "Group_12": {
+                "opacity": 1
+              },
+              "Group_13": {
+                "opacity": 1
+              },
+              "Group_1": {
+                "opacity": 1
+              },
+              "we_want_a_lower_bound_decreasing_polynomially_in_n": {
+                "opacity": 1
+              },
+              "_we_will_see__there_is_such_a_bound_but_it_is_multiplied_by_some_1_c_M__which_is_not_effective": {
+                "opacity": 1
+              },
+              "If_reaching_a_hyperplane_or_halfspace_were_undecidable_c_M__would_have_to_grow_faster_than_any_computable_function_on__M__": {
+                "opacity": 1
+              },
+              "We_do_not_have_any_family_of_inputs_whose_c_M__grows_exponentially__under_some_nondegeneracy_condition_": {
+                "opacity": 1
+              },
+              "Group_14": {
+                "opacity": 1
+              }
+            }
+          }
+        ],
+        "keywords": [
+          "I. At least once",
+          "at least once"
+        ],
+        "eventId": "26",
+        "originalParams": {
+          "There_is_some": {
+            "opacity": 1
+          },
+          "there_is_some_n__such_that": {
+            "opacity": 1
+          },
+          "_M_n__mathbf_x__mathbf_h___0_": {
+            "opacity": 1
+          },
+          "__mathbf_x__x_1__ldots__x_d____S__": {
+            "opacity": 1
+          },
+          "for_which": {
+            "opacity": 1
+          },
+          "If_we_assume_M_is_diagonalisable__for_simplicity_": {
+            "opacity": 1
+          },
+          "then_after_a_basis_change__M_can_be_written_as": {
+            "opacity": 1
+          },
+          "matrix": {
+            "opacity": 1
+          },
+          "and_let_B_be_the_matrix_that_changes_basis": {
+            "opacity": 1
+          },
+          "Also_the_formula_": {
+            "opacity": 1
+          },
+          "__Phi_x_1__ldots__x_d__z_1___ldots__z_d_____": {
+            "opacity": 1
+          },
+          "_F_x_1__ldots__x_d__z_1__ldots__z_d____0_": {
+            "opacity": 1
+          },
+          "_P_x_1__ldots__x_d__0__text__and__": {
+            "opacity": 1
+          },
+          "F": {
+            "opacity": 1
+          },
+          "Define_": {
+            "opacity": 1
+          },
+          "There_is_some_x_and_some_n_such_that": {
+            "opacity": 1
+          },
+          "__Phi_x_1__ldots__x_d___Lambda_1__ldots___Lambda_d__": {
+            "opacity": 1
+          },
+          "holds": {
+            "opacity": 1
+          },
+          "Group_1": {
+            "opacity": 1
+          },
+          "__is_describing_a_semialgebraic_subset_of": {
+            "opacity": 1
+          },
+          "Projecting_away": {
+            "opacity": 1
+          },
+          "x1to_xd": {
+            "opacity": 1
+          },
+          "Frame": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "at least 10 times",
+        "id": "at_least_10_times",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Theorem__Hilbert_s_10th_is_undecidable_for_polynomials_with_9_variables_",
+            "enabled": "enabled",
+            "name": "Theorem. Hilbert’s 10th is undecidable for polynomials with 9 variables.",
+            "merged": false,
+            "keywords": [
+              "Theorem. Hilbert’s 10th is undecidable for polynomials with 9 variables."
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Why_can_t_we_do_the_same_as_before_",
+            "enabled": "enabled",
+            "name": "Why can’t we do the same as before?",
+            "merged": false,
+            "keywords": [
+              "Why can’t we do the same as before?"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "F",
+            "enabled": "enabled",
+            "name": "F",
+            "merged": false,
+            "keywords": [
+              "F"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "__Phi_x_1__ldots__x_d__z_1___ldots__z_d_____",
+            "enabled": "enabled",
+            "name": "$\\Phi(x_1,\\ldots, x_d, z_1, \\ldots, z_d) :=$",
+            "merged": true,
+            "keywords": [
+              "$\\Phi(x_1,\\ldots, x_d, z_1, \\ldots, z_d) :=$"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "_F_x_1__ldots__x_d__z_1__ldots__z_d____0_",
+            "enabled": "enabled",
+            "name": "$F(x_1,\\ldots, x_d, z_1,\\ldots, z_d) > 0$",
+            "merged": true,
+            "keywords": [
+              "$F(x_1,\\ldots, x_d, z_1,\\ldots, z_d) > 0$"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "_P_x_1__ldots__x_d__0__text__and__",
+            "enabled": "enabled",
+            "name": "$P(x_1,\\ldots, x_d)=0,\\text{ and}$",
+            "merged": true,
+            "keywords": [
+              "$P(x_1,\\ldots, x_d)=0,\\text{ and}$"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "and_argue_that_we_are_searching_positive_integers",
+            "enabled": "enabled",
+            "name": "and argue that we are searching positive integers",
+            "merged": false,
+            "keywords": [
+              "and argue that we are searching positive integers"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "Eliminate",
+            "enabled": "enabled",
+            "name": "Eliminate",
+            "merged": true,
+            "keywords": [
+              "Eliminate"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "show",
+            "id": "__x_1__ldots__x_d__",
+            "enabled": "enabled",
+            "name": "$(x_1,\\ldots, x_d)$",
+            "merged": true,
+            "keywords": [
+              "$(x_1,\\ldots, x_d)$"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "show",
+            "id": "to_get_some",
+            "enabled": "enabled",
+            "name": "to get some",
+            "merged": true,
+            "keywords": [
+              "to get some"
+            ],
+            "eventId": "10"
+          },
+          {
+            "type": "show",
+            "id": "_____z_1___ldots___z_d__",
+            "enabled": "enabled",
+            "name": "$Φ’ (z_1, \\ldots , z_d)$",
+            "merged": true,
+            "keywords": [
+              "$Φ’ (z_1, \\ldots , z_d)$"
+            ],
+            "eventId": "11"
+          },
+          {
+            "type": "show",
+            "id": "_n_1__ldots__n_d_",
+            "enabled": "enabled",
+            "name": "$n_1,\\ldots, n_d$",
+            "merged": true,
+            "keywords": [
+              "$n_1,\\ldots, n_d$"
+            ],
+            "eventId": "12"
+          },
+          {
+            "type": "show",
+            "id": "for_which",
+            "enabled": "enabled",
+            "name": "for which",
+            "merged": true,
+            "keywords": [
+              "for which"
+            ],
+            "eventId": "13"
+          },
+          {
+            "type": "show",
+            "id": "for_i_1_____d",
+            "enabled": "enabled",
+            "name": "for all i=1,...,d",
+            "merged": true,
+            "keywords": [
+              "for all i=1,...,d"
+            ],
+            "eventId": "14"
+          },
+          {
+            "type": "show",
+            "id": "______Lambda_1__n_i___ldots__Lambda_d__n_i___",
+            "enabled": "enabled",
+            "name": "$Φ’ (\\Lambda_1^{n_i},\\ldots,\\Lambda_d^{n_i})$",
+            "merged": true,
+            "keywords": [
+              "$Φ’ (\\Lambda_1^{n_i},\\ldots,\\Lambda_d^{n_i})$"
+            ],
+            "eventId": "15"
+          },
+          {
+            "type": "show",
+            "id": "The_problem_is_that_there_may_be_different",
+            "enabled": "enabled",
+            "name": "The problem is that there may be different",
+            "merged": false,
+            "keywords": [
+              "The problem is that there may be different"
+            ],
+            "eventId": "16"
+          },
+          {
+            "type": "show",
+            "id": "for_different",
+            "enabled": "enabled",
+            "name": "for different",
+            "merged": true,
+            "keywords": [
+              "for different"
+            ],
+            "eventId": "17"
+          },
+          {
+            "type": "show",
+            "id": "_n_i_",
+            "enabled": "enabled",
+            "name": "$n_i$",
+            "merged": true,
+            "keywords": [
+              "$n_i$"
+            ],
+            "eventId": "18"
+          },
+          {
+            "type": "show",
+            "id": "__mathbf_x__x_1__ldots__x_d__",
+            "enabled": "enabled",
+            "name": "$\\mathbf x=(x_1,\\ldots, x_d)$",
+            "merged": true,
+            "keywords": [
+              "$\\mathbf x=(x_1,\\ldots, x_d)$"
+            ],
+            "eventId": "19"
+          },
+          {
+            "type": "child",
+            "name": "Proof 2",
+            "id": "Proof_2",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Consider_sequences",
+                "enabled": "enabled",
+                "name": "Consider sequences",
+                "merged": false,
+                "keywords": [
+                  "Consider sequences"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "_P_n_____n_in_mathbb_N_",
+                "enabled": "enabled",
+                "name": "$P(n), \\ n\\in\\mathbb N$",
+                "merged": true,
+                "keywords": [
+                  "$P(n), \\ n\\in\\mathbb N$"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "where",
+                "enabled": "enabled",
+                "name": "where",
+                "merged": true,
+                "keywords": [
+                  "where"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "_P___mathbb_Z_x__",
+                "enabled": "enabled",
+                "name": "$P∈ \\mathbb Z[x]$",
+                "merged": true,
+                "keywords": [
+                  "$P∈ \\mathbb Z[x]$"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "they_satisfy_a_linear_recurrence_relation__i_e__they_are_linear_recurrence_sequences_",
+                "enabled": "enabled",
+                "name": "they satisfy a linear recurrence relation (i.e. they are linear recurrence sequences)",
+                "merged": false,
+                "keywords": [
+                  "they satisfy a linear recurrence relation (i.e. they are linear recurrence sequences)"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "e_g_",
+                "enabled": "enabled",
+                "name": "e.g.",
+                "merged": false,
+                "keywords": [
+                  "e.g."
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "show",
+                "id": "_n_2_3_n_1__2_3_n_2__2__n_3__2_",
+                "enabled": "enabled",
+                "name": "$n^2=3(n-1)^2-3(n-2)^2+(n-3)^2$",
+                "merged": true,
+                "keywords": [
+                  "$n^2=3(n-1)^2-3(n-2)^2+(n-3)^2$"
+                ],
+                "eventId": "7"
+              },
+              {
+                "type": "show",
+                "id": "__frac_1_2_n_2_2n_1___3_left__frac_1_2__n_1__2_2_n_1__1_right__",
+                "enabled": "enabled",
+                "name": "$\\frac 1 2 n^2-2n+1 = 3\\left(\\frac 1 2 (n-1)^2-2(n-1)+1\\right)$",
+                "merged": false,
+                "keywords": [
+                  "$\\frac 1 2 n^2-2n+1 = 3\\left(\\frac 1 2 (n-1)^2-2(n-1)+1\\right)$"
+                ],
+                "eventId": "8"
+              },
+              {
+                "type": "show",
+                "id": "__3_left__frac_1_2__n_2__2_2_n_2__1_right__",
+                "enabled": "enabled",
+                "name": "$-3\\left(\\frac 1 2 (n-2)^2-2(n-2)+1\\right)$",
+                "merged": true,
+                "keywords": [
+                  "$-3\\left(\\frac 1 2 (n-2)^2-2(n-2)+1\\right)$"
+                ],
+                "eventId": "9"
+              },
+              {
+                "type": "show",
+                "id": "___left__frac_1_2__n_3__2_2_n_3__1_right__",
+                "enabled": "enabled",
+                "name": "$+\\left(\\frac 1 2 (n-3)^2-2(n-3)+1\\right)$",
+                "merged": true,
+                "keywords": [
+                  "$+\\left(\\frac 1 2 (n-3)^2-2(n-3)+1\\right)$"
+                ],
+                "eventId": "10"
+              },
+              {
+                "type": "show",
+                "id": "but_also",
+                "enabled": "enabled",
+                "name": "but also",
+                "merged": true,
+                "keywords": [
+                  "but also"
+                ],
+                "eventId": "19"
+              },
+              {
+                "type": "show",
+                "id": "In_fact__all_such_polynomial_sequences_of_the_same_order_satisfy_the_same_recurrence_relation",
+                "enabled": "enabled",
+                "name": "In fact, all such polynomial sequences of the same order satisfy the same recurrence relation",
+                "merged": false,
+                "keywords": [
+                  "In fact, all such polynomial sequences of the same order satisfy the same recurrence relation"
+                ],
+                "eventId": "11"
+              },
+              {
+                "type": "show",
+                "id": "image_1",
+                "enabled": "enabled",
+                "name": "image 1",
+                "merged": true,
+                "keywords": [
+                  "image 1"
+                ],
+                "eventId": "12"
+              },
+              {
+                "type": "show",
+                "id": "The_idea_is_to_use_the_polynomial_sequence",
+                "enabled": "enabled",
+                "name": "The idea is to use the polynomial sequence",
+                "merged": false,
+                "keywords": [
+                  "The idea is to use the polynomial sequence"
+                ],
+                "eventId": "14"
+              },
+              {
+                "type": "show",
+                "id": "__n_x_1__n_x_2____n_x_d__",
+                "enabled": "enabled",
+                "name": "$(n-x_1)(n-x_2)⋯ (n-x_d)$",
+                "merged": true,
+                "keywords": [
+                  "$(n-x_1)(n-x_2)⋯ (n-x_d)$"
+                ],
+                "eventId": "15"
+              },
+              {
+                "type": "show",
+                "id": "which_has_at_least_d_zeros_if_and_only_if",
+                "enabled": "enabled",
+                "name": "which has at least d zeros if and only if all",
+                "merged": false,
+                "keywords": [
+                  "which has at least d zeros if and only if all"
+                ],
+                "eventId": "16"
+              },
+              {
+                "type": "show",
+                "id": "are_nonnegative_integers",
+                "enabled": "enabled",
+                "name": "are nonnegative integers",
+                "merged": true,
+                "keywords": [
+                  "are nonnegative integers"
+                ],
+                "eventId": "17"
+              },
+              {
+                "type": "show",
+                "id": "Text",
+                "enabled": "enabled",
+                "name": "$x_i$",
+                "merged": true,
+                "keywords": [
+                  "$x_i$"
+                ],
+                "eventId": "18"
+              },
+              {
+                "type": "show",
+                "id": "This_can_be_easily_translated_to_reaching_a_halfspace_at_least_10_times_",
+                "enabled": "enabled",
+                "name": "This can be easily translated to reaching a halfspace at least 10 times.",
+                "merged": false,
+                "keywords": [
+                  "This can be easily translated to reaching a halfspace at least 10 times."
+                ],
+                "eventId": "20"
+              }
+            ],
+            "keywords": [
+              "Undecidability proof sketch",
+              "Proof 2"
+            ],
+            "eventId": "20",
+            "originalParams": {
+              "Consider_sequences": {
+                "opacity": 1
+              },
+              "_P_n_____n_in_mathbb_N_": {
+                "opacity": 1
+              },
+              "where": {
+                "opacity": 1
+              },
+              "_P___mathbb_Z_x__": {
+                "opacity": 1
+              },
+              "they_satisfy_a_linear_recurrence_relation__i_e__they_are_linear_recurrence_sequences_": {
+                "opacity": 1
+              },
+              "e_g_": {
+                "opacity": 1
+              },
+              "_n_2_3_n_1__2_3_n_2__2__n_3__2_": {
+                "opacity": 1
+              },
+              "__frac_1_2_n_2_2n_1___3_left__frac_1_2__n_1__2_2_n_1__1_right__": {
+                "opacity": 1
+              },
+              "__3_left__frac_1_2__n_2__2_2_n_2__1_right__": {
+                "opacity": 1
+              },
+              "___left__frac_1_2__n_3__2_2_n_3__1_right__": {
+                "opacity": 1
+              },
+              "In_fact__all_such_polynomial_sequences_of_the_same_order_satisfy_the_same_recurrence_relation": {
+                "opacity": 1
+              },
+              "image_1": {
+                "opacity": 1
+              },
+              "The_idea_is_to_use_the_polynomial_sequence": {
+                "opacity": 1
+              },
+              "__n_x_1__n_x_2____n_x_d__": {
+                "opacity": 1
+              },
+              "which_has_at_least_d_zeros_if_and_only_if": {
+                "opacity": 1
+              },
+              "are_nonnegative_integers": {
+                "opacity": 1
+              },
+              "Text": {
+                "opacity": 1
+              },
+              "but_also": {
+                "opacity": 1
+              },
+              "This_can_be_easily_translated_to_reaching_a_halfspace_at_least_10_times_": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "2__9_times_is_open",
+            "enabled": "enabled",
+            "name": "2..9 times is open",
+            "merged": false,
+            "keywords": [
+              "2..9 times is open"
+            ],
+            "eventId": "21"
+          },
+          {
+            "type": "show",
+            "id": "this_is_only_saying_that__reaching_k_times__for_linear_dynamical_systems_can_be_used_to_check_that_the_initial_point_has_integer_coordinates",
+            "enabled": "enabled",
+            "name": "this is only saying that “reaching k times” for linear dynamical systems can be used to check that the initial point has integer coordinates",
+            "merged": false,
+            "keywords": [
+              "this is only saying that “reaching k times” for linear dynamical systems can be used to check that the initial point has integer coordinates"
+            ],
+            "eventId": "22"
+          }
+        ],
+        "keywords": [
+          "II. At least 10 times",
+          "at least 10 times"
+        ],
+        "eventId": "29",
+        "originalParams": {
+          "Theorem__Hilbert_s_10th_is_undecidable_for_polynomials_with_9_variables_": {
+            "opacity": 1
+          },
+          "Why_can_t_we_do_the_same_as_before_": {
+            "opacity": 1
+          },
+          "F": {
+            "opacity": 1
+          },
+          "__Phi_x_1__ldots__x_d__z_1___ldots__z_d_____": {
+            "opacity": 1
+          },
+          "_F_x_1__ldots__x_d__z_1__ldots__z_d____0_": {
+            "opacity": 1
+          },
+          "_P_x_1__ldots__x_d__0__text__and__": {
+            "opacity": 1
+          },
+          "and_argue_that_we_are_searching_positive_integers": {
+            "opacity": 1
+          },
+          "Eliminate": {
+            "opacity": 1
+          },
+          "__x_1__ldots__x_d__": {
+            "opacity": 1
+          },
+          "to_get_some": {
+            "opacity": 1
+          },
+          "_____z_1___ldots___z_d__": {
+            "opacity": 1
+          },
+          "_n_1__ldots__n_d_": {
+            "opacity": 1
+          },
+          "for_which": {
+            "opacity": 1
+          },
+          "for_i_1_____d": {
+            "opacity": 1
+          },
+          "______Lambda_1__n_i___ldots__Lambda_d__n_i___": {
+            "opacity": 1
+          },
+          "The_problem_is_that_there_may_be_different": {
+            "opacity": 1
+          },
+          "for_different": {
+            "opacity": 1
+          },
+          "_n_i_": {
+            "opacity": 1
+          },
+          "__mathbf_x__x_1__ldots__x_d__": {
+            "opacity": 1
+          },
+          "2__9_times_is_open": {
+            "opacity": 1
+          },
+          "this_is_only_saying_that__reaching_k_times__for_linear_dynamical_systems_can_be_used_to_check_that_the_initial_point_has_integer_coordinates": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Positive density",
+        "id": "Positive_density",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "_x_1__x_2__x_3___ldots__",
+            "enabled": "enabled",
+            "name": "$x_1, x_2, x_3, \\ldots $",
+            "merged": false,
+            "keywords": [
+              "$x_1, x_2, x_3, \\ldots $"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "__limsup_n__frac____text_no__of___x_1__ldots_x_n_text__in_halfspace__h___n_",
+            "enabled": "enabled",
+            "name": "$\\limsup_n \\frac { \\text{no. of } x_1,\\ldots,x_n\\text{ in halfspace }h } n$",
+            "merged": false,
+            "keywords": [
+              "$\\limsup_n \\frac { \\text{no. of } x_1,\\ldots,x_n\\text{ in halfspace }h } n$"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "brace",
+            "enabled": "enabled",
+            "name": "brace",
+            "merged": true,
+            "keywords": [
+              "brace"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "density",
+            "enabled": "enabled",
+            "name": "density",
+            "merged": true,
+            "keywords": [
+              "density"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "varrow",
+            "enabled": "enabled",
+            "name": "varrow",
+            "merged": false,
+            "keywords": [
+              "varrow"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "in_fact_limit_exists",
+            "enabled": "enabled",
+            "name": "in fact limit exists",
+            "merged": true,
+            "keywords": [
+              "in fact limit exists"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "implies_infinitely_often__but_is_not_implied_e_g__primes_",
+            "enabled": "enabled",
+            "name": "implies infinitely often, but is not implied e.g. primes.",
+            "merged": false,
+            "keywords": [
+              "implies infinitely often, but is not implied e.g. primes."
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "__sum__i_1__k_c_i__mathbf_x__Lambda_i_n__sum__i_k_1__d_c_i__mathbf_x___Lambda_i_n_0_",
+            "enabled": "enabled",
+            "name": "$\\sum_{i=1}^k c_i(\\mathbf x)\\Lambda_i^n+\\sum_{i=k+1}^d c_i(\\mathbf x) \\Lambda_i^n>0$",
+            "merged": false,
+            "keywords": [
+              "$\\sum_{i=1}^k c_i(\\mathbf x)\\Lambda_i^n+\\sum_{i=k+1}^d c_i(\\mathbf x) \\Lambda_i^n>0$"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "show",
+            "id": "Assume_wlog_that",
+            "enabled": "enabled",
+            "name": "Assume wlog that",
+            "merged": false,
+            "keywords": [
+              "Assume wlog that"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "show",
+            "id": "___Lambda_1___cdots___Lambda_k__1_",
+            "enabled": "enabled",
+            "name": "$|\\Lambda_1|=\\cdots=|\\Lambda_k|=1$",
+            "merged": true,
+            "keywords": [
+              "$|\\Lambda_1|=\\cdots=|\\Lambda_k|=1$"
+            ],
+            "eventId": "10"
+          },
+          {
+            "type": "show",
+            "id": "and",
+            "enabled": "enabled",
+            "name": "and",
+            "merged": true,
+            "keywords": [
+              "and"
+            ],
+            "eventId": "11"
+          },
+          {
+            "type": "show",
+            "id": "___Lambda_i__1__i_k_1__cdots_d_",
+            "enabled": "enabled",
+            "name": "$|\\Lambda_i|<1, i=k+1,\\cdots,d$",
+            "merged": true,
+            "keywords": [
+              "$|\\Lambda_i|<1, i=k+1,\\cdots,d$"
+            ],
+            "eventId": "12"
+          },
+          {
+            "type": "show",
+            "id": "brace2",
+            "enabled": "enabled",
+            "name": "brace2",
+            "merged": false,
+            "keywords": [
+              "brace2"
+            ],
+            "eventId": "13"
+          },
+          {
+            "type": "show",
+            "id": "_R_n___O_n____rho___",
+            "enabled": "enabled",
+            "name": "$R(n)∈ O(n^{-\\rho})$",
+            "merged": true,
+            "keywords": [
+              "$R(n)∈ O(n^{-\\rho})$"
+            ],
+            "eventId": "14"
+          },
+          {
+            "type": "show",
+            "id": "for_some___0",
+            "enabled": "enabled",
+            "name": "for some ρ>0",
+            "merged": true,
+            "keywords": [
+              "for some ρ>0"
+            ],
+            "eventId": "15"
+          },
+          {
+            "type": "child",
+            "name": "only dominant",
+            "id": "only_dominant",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "assume_we_only_have_the_dominant_terms",
+                "enabled": "enabled",
+                "name": "assume we only have the dominant terms",
+                "merged": false,
+                "keywords": [
+                  "assume we only have the dominant terms"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "when_all",
+                "enabled": "enabled",
+                "name": "when all",
+                "merged": false,
+                "keywords": [
+                  "when all"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "for_what_n",
+                "enabled": "enabled",
+                "name": "for what n",
+                "merged": true,
+                "keywords": [
+                  "for what n"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "___Lambda_i__1_",
+                "enabled": "enabled",
+                "name": "$|\\Lambda_i|=1$",
+                "merged": true,
+                "keywords": [
+                  "$|\\Lambda_i|=1$"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "__sum__i_1__k_c_i__mathbf_x___Lambda_i_n___0_",
+                "enabled": "enabled",
+                "name": "$\\sum_{i=1}^k c_i(\\mathbf x) \\Lambda_i^n > 0$",
+                "merged": true,
+                "keywords": [
+                  "$\\sum_{i=1}^k c_i(\\mathbf x) \\Lambda_i^n > 0$"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "__sum__i_1__k_c_i__mathbf_x__e__2__i__n_varphi_i__0_",
+                "enabled": "enabled",
+                "name": "$\\sum_{i=1}^k c_i(\\mathbf x) e^{2π i\\ n\\varphi_i}>0$",
+                "merged": false,
+                "keywords": [
+                  "$\\sum_{i=1}^k c_i(\\mathbf x) e^{2π i\\ n\\varphi_i}>0$"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "show",
+                "id": "picture2",
+                "enabled": "enabled",
+                "name": "picture2",
+                "merged": false,
+                "keywords": [
+                  "0",
+                  "1",
+                  "picture2"
+                ],
+                "eventId": "7"
+              },
+              {
+                "type": "show",
+                "id": "the_sum_is_positive_when_we_enter_the_red_region",
+                "enabled": "enabled",
+                "name": "the sum is positive when we enter the red region",
+                "merged": true,
+                "keywords": [
+                  "the sum is positive when we enter the red region"
+                ],
+                "eventId": "8"
+              },
+              {
+                "type": "show",
+                "id": "What_do_we_know_about_the_sequence",
+                "enabled": "enabled",
+                "name": "What do we know about the sequence",
+                "merged": false,
+                "keywords": [
+                  "What do we know about the sequence"
+                ],
+                "eventId": "9"
+              },
+              {
+                "type": "show",
+                "id": "__n_varphi_1_mod_1__n_varphi_2_mod_1__",
+                "enabled": "enabled",
+                "name": "$(n\\varphi_1\\mod 1, n\\varphi_2\\mod 1)$",
+                "merged": true,
+                "keywords": [
+                  "$(n\\varphi_1\\mod 1, n\\varphi_2\\mod 1)$"
+                ],
+                "eventId": "10"
+              },
+              {
+                "type": "show",
+                "id": "Group_13",
+                "enabled": "enabled",
+                "name": "It is dense in",
+                "merged": false,
+                "keywords": [
+                  "It is dense in"
+                ],
+                "eventId": "17"
+              },
+              {
+                "type": "show",
+                "id": "Unless",
+                "enabled": "enabled",
+                "name": "Unless",
+                "merged": false,
+                "keywords": [
+                  "Unless"
+                ],
+                "eventId": "11"
+              },
+              {
+                "type": "show",
+                "id": "are_linearly_dependent",
+                "enabled": "enabled",
+                "name": "are linearly dependent",
+                "merged": true,
+                "keywords": [
+                  "are linearly dependent"
+                ],
+                "eventId": "12"
+              },
+              {
+                "type": "show",
+                "id": "but_one_can_find_these_dependencies",
+                "enabled": "enabled",
+                "name": "but one can find these dependencies",
+                "merged": true,
+                "keywords": [
+                  "but one can find these dependencies"
+                ],
+                "eventId": "13"
+              },
+              {
+                "type": "show",
+                "id": "__varphi_1__varphi_2__",
+                "enabled": "enabled",
+                "name": "$\\varphi_1,\\varphi_2$ ",
+                "merged": true,
+                "keywords": [
+                  "$\\varphi_1,\\varphi_2$ "
+                ],
+                "eventId": "14"
+              },
+              {
+                "type": "show",
+                "id": "Group_1",
+                "enabled": "enabled",
+                "name": "Do we spend more time on the green region or the red region?",
+                "merged": false,
+                "keywords": [
+                  "0",
+                  "1",
+                  "Do we spend more time on the green region or the red region?"
+                ],
+                "eventId": "15"
+              },
+              {
+                "type": "show",
+                "id": "Group_12",
+                "enabled": "enabled",
+                "name": "Theorem. (Weyl) The amount of time spent on a region is proportional to its volume.",
+                "merged": false,
+                "keywords": [
+                  "Theorem. (Weyl) The amount of time spent on a region is proportional to its volume.",
+                  "density"
+                ],
+                "eventId": "16"
+              }
+            ],
+            "keywords": [
+              "Let us simplify further",
+              "only dominant"
+            ],
+            "eventId": "16",
+            "originalParams": {
+              "assume_we_only_have_the_dominant_terms": {
+                "opacity": 1
+              },
+              "when_all": {
+                "opacity": 1
+              },
+              "for_what_n": {
+                "opacity": 1
+              },
+              "___Lambda_i__1_": {
+                "opacity": 1
+              },
+              "__sum__i_1__k_c_i__mathbf_x___Lambda_i_n___0_": {
+                "opacity": 1
+              },
+              "__sum__i_1__k_c_i__mathbf_x__e__2__i__n_varphi_i__0_": {
+                "opacity": 1
+              },
+              "picture2": {
+                "opacity": 1
+              },
+              "the_sum_is_positive_when_we_enter_the_red_region": {
+                "opacity": 1
+              },
+              "What_do_we_know_about_the_sequence": {
+                "opacity": 1
+              },
+              "__n_varphi_1_mod_1__n_varphi_2_mod_1__": {
+                "opacity": 1
+              },
+              "Unless": {
+                "opacity": 1
+              },
+              "are_linearly_dependent": {
+                "opacity": 1
+              },
+              "but_one_can_find_these_dependencies": {
+                "opacity": 1
+              },
+              "__varphi_1__varphi_2__": {
+                "opacity": 1
+              },
+              "Group_1": {
+                "opacity": 1
+              },
+              "Group_12": {
+                "opacity": 1
+              },
+              "Group_13": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "only dominant2",
+            "id": "only_dominant2",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "so_it_has_positive_volume_if_and_only_if_it_is_nonempty",
+                "enabled": "enabled",
+                "name": "so it has positive volume if and only if it is nonempty",
+                "merged": false,
+                "keywords": [
+                  "so it has positive volume if and only if it is nonempty"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Group_1",
+                "enabled": "enabled",
+                "name": "if and only if",
+                "merged": false,
+                "keywords": [
+                  "if and only if",
+                  "unit circle"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "and_this_is_a_semialgebraic_set__so_we_can_decide_its_emptiness_",
+                "enabled": "enabled",
+                "name": "and this is a semialgebraic set, so we can decide its emptiness.",
+                "merged": false,
+                "keywords": [
+                  "and this is a semialgebraic set, so we can decide its emptiness."
+                ],
+                "eventId": "3"
+              }
+            ],
+            "keywords": [
+              "The red region, i.e. the set",
+              "is open",
+              "only dominant2"
+            ],
+            "eventId": "17",
+            "originalParams": {
+              "so_it_has_positive_volume_if_and_only_if_it_is_nonempty": {
+                "opacity": 1
+              },
+              "Group_1": {
+                "opacity": 1
+              },
+              "and_this_is_a_semialgebraic_set__so_we_can_decide_its_emptiness_": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "But_isn_t_comparison_of_the_dominant_terms_and_R_n__what_is_difficult_anyway_",
+            "enabled": "enabled",
+            "name": "But isn’t comparison of the dominant terms and R(n) what is difficult anyway?",
+            "merged": false,
+            "keywords": [
+              "But isn’t comparison of the dominant terms and R(n) what is difficult anyway?"
+            ],
+            "eventId": "18"
+          },
+          {
+            "type": "show",
+            "id": "Not_if_we_are_only_interested_in_density",
+            "enabled": "enabled",
+            "name": "Not if we are only interested in density",
+            "merged": false,
+            "keywords": [
+              "Not if we are only interested in density"
+            ],
+            "eventId": "19"
+          },
+          {
+            "type": "show",
+            "id": "Group_1",
+            "enabled": "enabled",
+            "name": "Theorem. Upper density of n for which",
+            "merged": false,
+            "keywords": [
+              "Theorem. Upper density of n for which",
+              "is zero."
+            ],
+            "eventId": "20"
+          },
+          {
+            "type": "show",
+            "id": "Proof_is_a_simple_application_of_Lebesgue_dominated_convergence_theorem_",
+            "enabled": "enabled",
+            "name": "Proof is a simple application of Lebesgue dominated convergence theorem.",
+            "merged": false,
+            "keywords": [
+              "Proof is a simple application of Lebesgue dominated convergence theorem."
+            ],
+            "eventId": "21"
+          },
+          {
+            "type": "show",
+            "id": "Indices_where_the_dominant_part__cancels_out__have_density_zero",
+            "enabled": "enabled",
+            "name": "Indices where the dominant part “cancels out” have density zero",
+            "merged": false,
+            "keywords": [
+              "Indices where the dominant part “cancels out” have density zero"
+            ],
+            "eventId": "22"
+          }
+        ],
+        "keywords": [
+          "IV. With positive density",
+          "Positive density"
+        ],
+        "eventId": "32",
+        "originalParams": {
+          "_x_1__x_2__x_3___ldots__": {
+            "opacity": 1
+          },
+          "__limsup_n__frac____text_no__of___x_1__ldots_x_n_text__in_halfspace__h___n_": {
+            "opacity": 1
+          },
+          "brace": {
+            "opacity": 1
+          },
+          "density": {
+            "opacity": 1
+          },
+          "varrow": {
+            "opacity": 1
+          },
+          "in_fact_limit_exists": {
+            "opacity": 1
+          },
+          "implies_infinitely_often__but_is_not_implied_e_g__primes_": {
+            "opacity": 1
+          },
+          "__sum__i_1__k_c_i__mathbf_x__Lambda_i_n__sum__i_k_1__d_c_i__mathbf_x___Lambda_i_n_0_": {
+            "opacity": 1
+          },
+          "Assume_wlog_that": {
+            "opacity": 1
+          },
+          "___Lambda_1___cdots___Lambda_k__1_": {
+            "opacity": 1
+          },
+          "and": {
+            "opacity": 1
+          },
+          "___Lambda_i__1__i_k_1__cdots_d_": {
+            "opacity": 1
+          },
+          "brace2": {
+            "opacity": 1
+          },
+          "_R_n___O_n____rho___": {
+            "opacity": 1
+          },
+          "for_some___0": {
+            "opacity": 1
+          },
+          "But_isn_t_comparison_of_the_dominant_terms_and_R_n__what_is_difficult_anyway_": {
+            "opacity": 1
+          },
+          "Not_if_we_are_only_interested_in_density": {
+            "opacity": 1
+          },
+          "Group_1": {
+            "opacity": 1
+          },
+          "Proof_is_a_simple_application_of_Lebesgue_dominated_convergence_theorem_": {
+            "opacity": 1
+          },
+          "Indices_where_the_dominant_part__cancels_out__have_density_zero": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "infinitely often",
+        "id": "infinitely_often",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_1",
+            "enabled": "enabled",
+            "name": "the sum is positive when we enter the red region",
+            "merged": false,
+            "keywords": [
+              "for what n",
+              "when all",
+              "0",
+              "1",
+              "the sum is positive when we enter the red region"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "blobs",
+            "enabled": "enabled",
+            "name": "blobs",
+            "merged": true,
+            "keywords": [
+              "blobs"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "hide",
+            "id": "blobs",
+            "enabled": "enabled",
+            "name": "blobs",
+            "merged": false,
+            "keywords": [
+              "blobs"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Group_12",
+            "enabled": "enabled",
+            "name": "If the dominant part is always nonpositive, can the whole expression be positive infinitely often?",
+            "merged": false,
+            "keywords": [
+              "If the dominant part is always nonpositive, can the whole expression be positive infinitely often?",
+              "for some ρ>0"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Theorem__Upper_density_of_n_for_which",
+            "enabled": "enabled",
+            "name": "Theorem. Upper density of n for which",
+            "merged": false,
+            "keywords": [
+              "Theorem. Upper density of n for which",
+              "is zero."
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "Group_13",
+            "enabled": "enabled",
+            "name": "Number",
+            "merged": false,
+            "keywords": [
+              "Number",
+              "finite"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "The_proof_is_much_more_difficult__We_still_do_not_have_a_way_of_computing_how_big_such_an_n_can_be_",
+            "enabled": "enabled",
+            "name": "The proof is much more difficult. We still do not have a way of computing how big such an n can be.",
+            "merged": false,
+            "keywords": [
+              "The proof is much more difficult. We still do not have a way of computing how big such an n can be."
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "Ultimately_depends_on",
+            "enabled": "enabled",
+            "name": "Ultimately depends on",
+            "merged": false,
+            "keywords": [
+              "Ultimately depends on"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "show",
+            "id": "image_2",
+            "enabled": "enabled",
+            "name": "image 2",
+            "merged": true,
+            "keywords": [
+              "image 2"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "show",
+            "id": "The_proof_does_not_give_a_way_of_calculating_the_subspaces",
+            "enabled": "enabled",
+            "name": "The proof does not give a way of calculating the subspaces",
+            "merged": true,
+            "keywords": [
+              "The proof does not give a way of calculating the subspaces"
+            ],
+            "eventId": "11"
+          }
+        ],
+        "keywords": [
+          "III. Infinitely many times",
+          "infinitely often"
+        ],
+        "eventId": "33",
+        "originalParams": {
+          "Group_1": {
+            "opacity": 1
+          },
+          "blobs": {
+            "opacity": 1
+          },
+          "Group_12": {
+            "opacity": 1
+          },
+          "Theorem__Upper_density_of_n_for_which": {
+            "opacity": 1
+          },
+          "Group_13": {
+            "opacity": 1
+          },
+          "The_proof_is_much_more_difficult__We_still_do_not_have_a_way_of_computing_how_big_such_an_n_can_be_": {
+            "opacity": 1
+          },
+          "Ultimately_depends_on": {
+            "opacity": 1
+          },
+          "image_2": {
+            "opacity": 1
+          },
+          "Rectangle_9": {
+            "opacity": 1
+          },
+          "The_proof_does_not_give_a_way_of_calculating_the_subspaces": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "diagonalisable",
+        "id": "diagonalisable",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "diagonalisable___eigenvalues_do_not_repeat",
+            "enabled": "enabled",
+            "name": "diagonalisable = eigenvalues do not repeat",
+            "merged": false,
+            "keywords": [
+              "diagonalisable = eigenvalues do not repeat"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_1",
+            "enabled": "enabled",
+            "name": "difference is",
+            "merged": false,
+            "keywords": [
+              "difference is"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Group_12",
+            "enabled": "enabled",
+            "name": "polynomials with coefficients in the same number field",
+            "merged": false,
+            "keywords": [
+              "polynomials with coefficients in the same number field"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Group_13",
+            "enabled": "enabled",
+            "name": "Everything I said is true for non-diagonalisable, except for",
+            "merged": false,
+            "keywords": [
+              "Everything I said is true for non-diagonalisable, except for",
+              "III. Infinitely many times",
+              "where"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Group_14",
+            "enabled": "enabled",
+            "name": "we do not know how to prove something equivalent for non-diagonalisable",
+            "merged": false,
+            "keywords": [
+              "Theorem. Upper density of n for which",
+              "is zero.",
+              "Number",
+              "finite",
+              "we do not know how to prove something equivalent for non-diagonalisable"
+            ],
+            "eventId": "5"
+          }
+        ],
+        "keywords": [
+          "A word about diagonalisable linear maps (sometimes called simple)",
+          "diagonalisable"
+        ],
+        "eventId": "34",
+        "originalParams": {
+          "diagonalisable___eigenvalues_do_not_repeat": {
+            "opacity": 1
+          },
+          "Group_1": {
+            "opacity": 1
+          },
+          "Group_12": {
+            "opacity": 1
+          },
+          "Group_13": {
+            "opacity": 1
+          },
+          "Group_14": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "mordell lang",
+        "id": "mordell_lang",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "__mathbb_G_m_n___left___z_1__ldots_z_n__in_mathbb_C_n_____z_1__z_n_ne_0_right___",
+            "enabled": "enabled",
+            "name": "$\\mathbb G_m^n:=\\left\\{(z_1,\\ldots,z_n)\\in\\mathbb C^n\\ :\\ z_1⋯ z_n\\ne 0\\right\\}$",
+            "merged": false,
+            "keywords": [
+              "$\\mathbb G_m^n:=\\left\\{(z_1,\\ldots,z_n)\\in\\mathbb C^n\\ :\\ z_1⋯ z_n\\ne 0\\right\\}$"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "has_a_group_structure_with_operation___component_wise_multiplication",
+            "enabled": "enabled",
+            "name": "has group structure with operation = component-wise multiplication",
+            "merged": false,
+            "keywords": [
+              "has group structure with operation = component-wise multiplication"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Group_1",
+            "enabled": "enabled",
+            "name": "Algebraic subgroups Γ of",
+            "merged": false,
+            "keywords": [
+              "Algebraic subgroups",
+              "are always given",
+              "by equations",
+              "Algebraic subgroups Γ of"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Group_12",
+            "enabled": "enabled",
+            "name": "a variety with coefficients in some number field",
+            "merged": false,
+            "keywords": [
+              "a variety with coefficients in some number field"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Group_13",
+            "enabled": "enabled",
+            "name": "be an algebraic reason i.e. X contains some",
+            "merged": false,
+            "keywords": [
+              "Mordell-Lang",
+              "If",
+              "is in a way large, there must",
+              "be an algebraic reason i.e. X contains some"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "Group_15",
+            "enabled": "enabled",
+            "name": "and X is the hyperplane",
+            "merged": false,
+            "keywords": [
+              "In our case",
+              "belongs to some Γ",
+              "and X is the hyperplane"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "Group_14",
+            "enabled": "enabled",
+            "name": "Unless degenerate, an LRS has finitely many zeros",
+            "merged": false,
+            "keywords": [
+              "Unless degenerate, an LRS has finitely many zeros",
+              "algebraic reason"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "Sometimes_when_there_are_also_conditions_on_the_dimensions_of_X____there_are_effective_results_",
+            "enabled": "enabled",
+            "name": "Sometimes when there are also conditions on the dimensions of X, Γ there are effective results.",
+            "merged": false,
+            "keywords": [
+              "Sometimes when there are also conditions on the dimensions of X, Γ there are effective results."
+            ],
+            "eventId": "8"
+          }
+        ],
+        "keywords": [
+          "A more general perspective",
+          "mordell lang"
+        ],
+        "eventId": "35",
+        "originalParams": {
+          "__mathbb_G_m_n___left___z_1__ldots_z_n__in_mathbb_C_n_____z_1__z_n_ne_0_right___": {
+            "opacity": 1
+          },
+          "has_a_group_structure_with_operation___component_wise_multiplication": {
+            "opacity": 1
+          },
+          "Group_1": {
+            "opacity": 1
+          },
+          "Group_12": {
+            "opacity": 1
+          },
+          "Group_13": {
+            "opacity": 1
+          },
+          "Group_14": {
+            "opacity": 1
+          },
+          "Group_15": {
+            "opacity": 1
+          },
+          "Sometimes_when_there_are_also_conditions_on_the_dimensions_of_X____there_are_effective_results_": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "mordell lang2",
+        "id": "mordell_lang2",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [],
+        "keywords": [
+          "We used this theorem to get a positive result in dimension 2.",
+          "Bombieri & Zannier 2000 - can be made effective.",
+          "mordell lang2"
+        ],
+        "eventId": "36",
+        "originalParams": {}
+      },
+      {
+        "type": "show",
+        "id": "Thank_you_",
+        "enabled": "enabled",
+        "name": "Thank you!",
+        "merged": false,
+        "keywords": [
+          "Thank you!"
+        ],
+        "eventId": "37"
+      }
+    ],
+    "keywords": [
+      "Algebraic Sets and Linear Maps",
+      "Edon Kelmendi • QMUL",
+      "root"
+    ],
+    "eventId": "root",
+    "originalParams": {
+      "_S__left___x_1__ldots__x_d____mathbb_R_d_____P_x_1__ldots__x_d__0_right___": {
+        "opacity": 1
+      },
+      "Vector_1": {
+        "opacity": 1
+      },
+      "____mathbb_Z_x_1__ldots_x_n__": {
+        "opacity": 1
+      },
+      "Does_there_exist_some_point": {
+        "opacity": 1
+      },
+      "reaches_a_halfspace_": {
+        "opacity": 1
+      },
+      "_x__S_": {
+        "opacity": 1
+      },
+      "whose_orbit_under": {
+        "opacity": 1
+      },
+      "_M_": {
+        "opacity": 1
+      },
+      "Group_1": {
+        "opacity": 1
+      },
+      "Group_12": {
+        "opacity": 1
+      },
+      "Group_13": {
+        "opacity": 1
+      },
+      "Group_14": {
+        "opacity": 1
+      },
+      "Group_15": {
+        "opacity": 1
+      },
+      "undecidable": {
+        "opacity": 1
+      },
+      "Group_16": {
+        "opacity": 1
+      },
+      "Group_17": {
+        "opacity": 1
+      },
+      "speaks_about_the_technique_our_understanding_more_than_the_problem": {
+        "opacity": 1
+      },
+      "Does_a_given_linear_program_terminate_as_long_as_the_initial_variables_satisfy_some_algebraic_conditions": {
+        "opacity": 1
+      },
+      "vigly": {
+        "opacity": 1
+      },
+      "Thank_you_": {
+        "opacity": 1
+      }
+    }
+  },
+  "treeTimeLine": [],
+  "chronicleTimeLine": []
+}
