@@ -1,0 +1,792 @@
+{
+  "version": 3.1,
+  "presentation": "LICS 2025",
+  "slideDict": {
+    "new_slide": "root",
+    "Problem_Statement": "Problem_Statement",
+    "programs": "programs",
+    "problem_statement": "problem_statement",
+    "problem_statement_2": "problem_statement_2",
+    "example_S": "example_S",
+    "zoom_on_theorems": "zoom_on_theorems",
+    "negative": "negative",
+    "rotations_on_the_plane": "rotations_on_the_plane",
+    "bombieri_zannier": "bombieri_zannier",
+    "bombieri_zannier_2": "bombieri_zannier_2"
+  },
+  "tree": {
+    "type": "child",
+    "name": "root",
+    "id": "new_slide",
+    "enabled": "enabled",
+    "merged": false,
+    "children": [
+      {
+        "type": "show",
+        "id": "Group_1",
+        "enabled": "enabled",
+        "name": "decide properties of the sequence",
+        "merged": false,
+        "keywords": [
+          "Given",
+          "and",
+          "decide properties of the sequence"
+        ],
+        "eventId": "1"
+      },
+      {
+        "type": "child",
+        "name": "Problem Statement",
+        "id": "Problem_Statement",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_1",
+            "enabled": "enabled",
+            "name": "For example",
+            "merged": false,
+            "keywords": [
+              "For example"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_12",
+            "enabled": "enabled",
+            "name": "we get the sequence",
+            "merged": false,
+            "keywords": [
+              "we get the sequence"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Group_13",
+            "enabled": "enabled",
+            "name": "Geometrically, a discrete-time dynamical system, whose dynamics are governed by the linear map M",
+            "merged": false,
+            "keywords": [
+              "Geometrically, a discrete-time dynamical system, whose dynamics are governed by the linear map M",
+              "..."
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "Group_14",
+            "enabled": "enabled",
+            "name": "repeatedly applying a linear map",
+            "merged": false,
+            "keywords": [
+              "repeatedly applying a linear map"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "We_want_to_decide_if_there_is_a_term_in_the_sequence_that_satisfies_some_property_given_with_algebra",
+            "enabled": "enabled",
+            "name": "We want to decide if there is a term in the sequence that satisfies some property given using algebra",
+            "merged": false,
+            "keywords": [
+              "We want to decide if there is a term in the sequence that satisfies some property given using algebra"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "show",
+            "id": "Group_16",
+            "enabled": "enabled",
+            "name": "e.g.",
+            "merged": false,
+            "keywords": [
+              "e.g."
+            ],
+            "eventId": "10"
+          },
+          {
+            "type": "show",
+            "id": "Group_17",
+            "enabled": "enabled",
+            "name": "or higher order",
+            "merged": false,
+            "keywords": [
+              "More generally",
+              "or higher order",
+              "linear poly"
+            ],
+            "eventId": "11"
+          },
+          {
+            "type": "show",
+            "id": "Group_18",
+            "enabled": "enabled",
+            "name": "reach a halfplane (halfspace)",
+            "merged": false,
+            "keywords": [
+              "reach a line (hyperplane)",
+              "reach a halfplane (halfspace)"
+            ],
+            "eventId": "12"
+          },
+          {
+            "type": "child",
+            "name": "programs",
+            "id": "programs",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [],
+            "keywords": [
+              "a=1; b=1; while(2*a+b >= 3) { a=4*a-3*b; b=3*a+4*b; }",
+              "Another way of viewing the above questions is: Can we verify properties of such linear (no if/else) Turing machines?",
+              "E.g. does a given program terminate?",
+              "programs"
+            ],
+            "eventId": "13",
+            "originalParams": {}
+          },
+          {
+            "type": "show",
+            "id": "Group_2",
+            "enabled": "enabled",
+            "name": "All these problems are open & longstanding",
+            "merged": false,
+            "keywords": [
+              "All these problems are open & longstanding",
+              "difficulty comes from diophantine approx."
+            ],
+            "eventId": "14"
+          }
+        ],
+        "keywords": [
+          "Problem Statement"
+        ],
+        "eventId": "3",
+        "originalParams": {
+          "Group_1": {
+            "opacity": 1
+          },
+          "Group_12": {
+            "opacity": 1
+          },
+          "Group_13": {
+            "opacity": 1
+          },
+          "Group_14": {
+            "opacity": 1
+          },
+          "We_want_to_decide_if_there_is_a_term_in_the_sequence_that_satisfies_some_property_given_with_algebra": {
+            "opacity": 1
+          },
+          "Group_16": {
+            "opacity": 1
+          },
+          "Group_17": {
+            "opacity": 1
+          },
+          "Group_18": {
+            "opacity": 1
+          },
+          "Group_2": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "problem statement 2",
+        "id": "problem_statement_2",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_1",
+            "enabled": "enabled",
+            "name": "Group 1",
+            "merged": false,
+            "keywords": [
+              "Group 1"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_2",
+            "enabled": "enabled",
+            "name": "semialgebraic i.e. points that satisfy given polynomial (in)equalities",
+            "merged": false,
+            "keywords": [
+              "semialgebraic i.e. points that satisfy given polynomial (in)equalities"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Is_there_a_point_in_S_whose_orbit_under_repeated_application_of_F__given_by_a_matrix___enters_T_at_least_k_times_",
+            "enabled": "enabled",
+            "name": "Is there a point in S whose orbit under repeated application of F (given by a matrix), enters T at least k times?",
+            "merged": false,
+            "keywords": [
+              "Is there a point in S whose orbit under repeated application of F (given by a matrix), enters T at least k times?"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Group_22",
+            "enabled": "enabled",
+            "name": "Precisely S,T, F (as a matrix M), k is the input, we want to decide whether",
+            "merged": false,
+            "keywords": [
+              "Precisely S,T, F (as a matrix M), k is the input, we want to decide whether",
+              "such that"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "child",
+            "name": "example S",
+            "id": "example_S",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Semialgebraic_sets",
+                "enabled": "enabled",
+                "name": "Semialgebraic sets",
+                "merged": false,
+                "keywords": [
+                  "Semialgebraic sets"
+                ],
+                "eventId": "1"
+              }
+            ],
+            "keywords": [
+              "An example source / target, would be the set",
+              "example S"
+            ],
+            "eventId": "5",
+            "originalParams": {
+              "Semialgebraic_sets": {
+                "opacity": 1
+              }
+            }
+          }
+        ],
+        "keywords": [
+          "In this paper we go back and consider the general problem schema:",
+          "problem statement 2"
+        ],
+        "eventId": "6",
+        "originalParams": {
+          "Group_1": {
+            "opacity": 1
+          },
+          "Is_there_a_point_in_S_whose_orbit_under_repeated_application_of_F__given_by_a_matrix___enters_T_at_least_k_times_": {
+            "opacity": 1
+          },
+          "Group_2": {
+            "opacity": 1
+          },
+          "Group_22": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "show",
+        "id": "Group_2",
+        "enabled": "enabled",
+        "name": "Theorem. On the plane, semialgerbaic to semialgebraic multiple reachability is decidable",
+        "merged": false,
+        "keywords": [
+          "Theorem. Multiple reachability is undecidable.",
+          "Theorem. On the plane, semialgebraic to halfspace multiple reachability is decidable.",
+          "Theorem. On the plane, for rotations, semialgerbaic to semialgebraic multiple reachability is decidable",
+          "Theorem. On the plane, semialgerbaic to semialgebraic multiple reachability is decidable"
+        ],
+        "eventId": "8"
+      },
+      {
+        "type": "child",
+        "name": "zoom on theorems",
+        "id": "zoom_on_theorems",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [],
+        "keywords": [
+          "zoom on theorems"
+        ],
+        "eventId": "9",
+        "originalParams": {}
+      },
+      {
+        "type": "child",
+        "name": "negative",
+        "id": "negative",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Reduction_from_Hilbert_s_10th_problem_",
+            "enabled": "enabled",
+            "name": "Reduction from Hilbert’s 10th problem:",
+            "merged": false,
+            "keywords": [
+              "Reduction from Hilbert’s 10th problem:"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Group_2",
+            "enabled": "enabled",
+            "name": "Encode the instance in the initial set S Construct a linear map, given by matrix M, and a target T, such that",
+            "merged": false,
+            "keywords": [
+              "Encode the instance in the initial set S Construct a linear map, given by matrix M, and a target T, such that",
+              "for at least d distinct positive integers n",
+              "x has integer coordinates"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Group_22",
+            "enabled": "enabled",
+            "name": "while the coefficients of P control the initial point x.",
+            "merged": false,
+            "keywords": [
+              "One can simulate sequences",
+              "for",
+              "that depend only on the order",
+              "while the coefficients of P control the initial point x."
+            ],
+            "eventId": "4"
+          }
+        ],
+        "keywords": [
+          "negative"
+        ],
+        "eventId": "10",
+        "originalParams": {
+          "Reduction_from_Hilbert_s_10th_problem_": {
+            "opacity": 1
+          },
+          "Group_2": {
+            "opacity": 1
+          },
+          "Group_22": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "show",
+        "id": "This_is_done_using_some_well_established_techniques",
+        "enabled": "enabled",
+        "name": "This is done using some well-established techniques",
+        "merged": false,
+        "keywords": [
+          "This is done using some well-established techniques"
+        ],
+        "eventId": "11"
+      },
+      {
+        "type": "child",
+        "name": "rotations on the plane",
+        "id": "rotations_on_the_plane",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_2",
+            "enabled": "enabled",
+            "name": "S:",
+            "merged": false,
+            "keywords": [
+              "S:"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "Group_22",
+            "enabled": "enabled",
+            "name": "T:",
+            "merged": false,
+            "keywords": [
+              "T:"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "show",
+            "id": "Group_23",
+            "enabled": "enabled",
+            "name": "Is there a point in S",
+            "merged": false,
+            "keywords": [
+              "Is there a point in S"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "show",
+            "id": "Group_24",
+            "enabled": "enabled",
+            "name": "which can be rotated",
+            "merged": false,
+            "keywords": [
+              "which can be rotated",
+              "..."
+            ],
+            "eventId": "10"
+          },
+          {
+            "type": "show",
+            "id": "Group_25",
+            "enabled": "enabled",
+            "name": "to > 2 points in T",
+            "merged": false,
+            "keywords": [
+              "to > 2 points in T"
+            ],
+            "eventId": "11"
+          },
+          {
+            "type": "show",
+            "id": "Group_26",
+            "enabled": "enabled",
+            "name": "this problem is easy (we rotate to finitely many points)",
+            "merged": false,
+            "keywords": [
+              "When e.g.",
+              "or the angle is a rational multiple of π",
+              "this problem is easy (we rotate to finitely many points)"
+            ],
+            "eventId": "12"
+          },
+          {
+            "type": "show",
+            "id": "Group_27",
+            "enabled": "enabled",
+            "name": "But our angles are typically of this sort:",
+            "merged": false,
+            "keywords": [
+              "But our angles are typically of this sort:",
+              "0",
+              "1",
+              "2",
+              "(1,2)",
+              "which are not rational multiples of π"
+            ],
+            "eventId": "13"
+          },
+          {
+            "type": "show",
+            "id": "Group_3",
+            "enabled": "enabled",
+            "name": "This problem reduces to effectively solving equations",
+            "merged": false,
+            "keywords": [
+              "This problem reduces to effectively solving equations",
+              "in distinct positive integers",
+              "Text",
+              "•"
+            ],
+            "eventId": "14"
+          }
+        ],
+        "keywords": [
+          "rotations on the plane"
+        ],
+        "eventId": "12",
+        "originalParams": {
+          "Group_2": {
+            "opacity": 1
+          },
+          "Group_22": {
+            "opacity": 1
+          },
+          "Group_23": {
+            "opacity": 1
+          },
+          "Group_24": {
+            "opacity": 1
+          },
+          "Group_25": {
+            "opacity": 1
+          },
+          "Group_26": {
+            "opacity": 1
+          },
+          "Group_27": {
+            "opacity": 1
+          },
+          "Group_3": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "bombieri zannier",
+        "id": "bombieri_zannier",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_32",
+            "enabled": "enabled",
+            "name": "it satisfies",
+            "merged": false,
+            "keywords": [
+              "it satisfies"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Group_3",
+            "enabled": "enabled",
+            "name": "that satisfy a system of equations of the type",
+            "merged": false,
+            "keywords": [
+              "points",
+              "that satisfy a system of equations of the type",
+              "where",
+              "are algebraic groups"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_33",
+            "enabled": "enabled",
+            "name": "i.e. they are algebraic sets / varieties that also have a group structure, where the operation is",
+            "merged": false,
+            "keywords": [
+              "i.e. they are algebraic sets / varieties that also have a group structure, where the operation is"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Group_34",
+            "enabled": "enabled",
+            "name": "belongs to some algebraic subgroup Γ",
+            "merged": false,
+            "keywords": [
+              "So any potential solution",
+              "belongs to some algebraic subgroup Γ"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "of_dimension_1",
+            "enabled": "enabled",
+            "name": "of dimension 1",
+            "merged": false,
+            "keywords": [
+              "of dimension 1"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "Group_35",
+            "enabled": "enabled",
+            "name": "Hence one does not expect",
+            "merged": false,
+            "keywords": [
+              "Hence one does not expect",
+              "to be very big (unless )",
+              "Γ⊆(P=0)"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "Group_36",
+            "enabled": "enabled",
+            "name": "Turns out that the intersection of P=0 with",
+            "merged": false,
+            "keywords": [
+              "the union of all subgroups of dimension 1",
+              "Turns out that the intersection of P=0 with",
+              "can’t be too big either"
+            ],
+            "eventId": "7"
+          }
+        ],
+        "keywords": [
+          "Consider the point",
+          "bombieri zannier"
+        ],
+        "eventId": "14",
+        "originalParams": {
+          "Group_3": {
+            "opacity": 1
+          },
+          "Group_32": {
+            "opacity": 1
+          },
+          "Group_33": {
+            "opacity": 1
+          },
+          "Group_34": {
+            "opacity": 1
+          },
+          "of_dimension_1": {
+            "opacity": 1
+          },
+          "Group_35": {
+            "opacity": 1
+          },
+          "Group_36": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "bombieri zannier 2",
+        "id": "bombieri_zannier_2",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_4",
+            "enabled": "enabled",
+            "name": "you have to remove some subsets (e.g. any subgroup that is completely contained)",
+            "merged": false,
+            "keywords": [
+              "you have to remove some subsets (e.g. any subgroup that is completely contained)"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_42",
+            "enabled": "enabled",
+            "name": "measures the complexity of the defining polynomial",
+            "merged": false,
+            "keywords": [
+              "measures the complexity of the defining polynomial"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "The_bound_is_effective",
+            "enabled": "enabled",
+            "name": "The bound is effective",
+            "merged": false,
+            "keywords": [
+              "The bound is effective"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Group_43",
+            "enabled": "enabled",
+            "name": "implies an upper bound on",
+            "merged": false,
+            "keywords": [
+              "implies an upper bound on"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "__search_potential_solutions_by_brute_force",
+            "enabled": "enabled",
+            "name": "→ search potential solutions by brute force",
+            "merged": false,
+            "keywords": [
+              "→ search potential solutions by brute force"
+            ],
+            "eventId": "5"
+          }
+        ],
+        "keywords": [
+          "Theorem. (Bombieri & Zannier ‘00)",
+          "Any algebraic point z in the intersection",
+          "has bounded (Weil) height h.",
+          "bombieri zannier 2"
+        ],
+        "eventId": "15",
+        "originalParams": {
+          "Group_4": {
+            "opacity": 1
+          },
+          "Group_42": {
+            "opacity": 1
+          },
+          "The_bound_is_effective": {
+            "opacity": 1
+          },
+          "Group_43": {
+            "opacity": 1
+          },
+          "__search_potential_solutions_by_brute_force": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "show",
+        "id": "Thank_you_",
+        "enabled": "enabled",
+        "name": "Thank you!",
+        "merged": false,
+        "keywords": [
+          "Thank you!"
+        ],
+        "eventId": "13"
+      }
+    ],
+    "keywords": [
+      "Multiple Reachability in Linear Dynamical Systems",
+      "Toghrul Karimov",
+      "Edon Kelmendi",
+      "Joël Ouaknine",
+      "James Worrell",
+      "Max Planck Institue for Software Systems",
+      "Queen Mary University of London",
+      "University of Oxford",
+      "(40th LICS, Singapore)",
+      "root"
+    ],
+    "eventId": "root",
+    "originalParams": {
+      "Group_1": {
+        "opacity": 1
+      },
+      "Group_2": {
+        "opacity": 1
+      },
+      "This_is_done_using_some_well_established_techniques": {
+        "opacity": 1
+      },
+      "Thank_you_": {
+        "opacity": 1
+      }
+    }
+  },
+  "treeTimeLine": [],
+  "chronicleTimeLine": []
+}
