@@ -1,0 +1,1695 @@
+{
+  "version": 3,
+  "presentation": "ADS2",
+  "slideDict": {
+    "new_slide": "root",
+    "asdf": "asdf",
+    "Sorting": "Sorting",
+    "Selection_Sort": "Selection_Sort",
+    "selection_sort_code": "selection_sort_code",
+    "insertion_sort": "insertion_sort",
+    "insertion_sort_code": "insertion_sort_code",
+    "running_time_analysis": "running_time_analysis",
+    "sorted_search": "sorted_search",
+    "linear_search": "linear_search",
+    "binary_search": "binary_search",
+    "binary_search_implementation": "binary_search_implementation",
+    "comparison_of_search_algorithms": "comparison_of_search_algorithms",
+    "Theta_and_O": "Theta_and_O",
+    "function_order_of_growth": "function_order_of_growth",
+    "theta_examples": "theta_examples",
+    "why_is_big_theta_useful": "why_is_big_theta_useful",
+    "big_o": "big_o",
+    "formal_definitions": "formal_definitions",
+    "runtime_of_selection_sort": "runtime_of_selection_sort",
+    "runtime_of_insertion_sort": "runtime_of_insertion_sort",
+    "exercises": "exercises"
+  },
+  "tree": {
+    "type": "child",
+    "name": "root",
+    "id": "new_slide",
+    "enabled": "enabled",
+    "merged": false,
+    "children": [
+      {
+        "type": "child",
+        "name": "Sorting",
+        "id": "Sorting",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_1",
+            "enabled": "enabled",
+            "name": "sorting algorithm",
+            "merged": false,
+            "keywords": [
+              "[2,3,0,1]",
+              "sorting algorithm",
+              "[0,1,2,3]"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "__The_array_A_can_be_arbitrarily_large___Sorting_is_not_only_about_integers__but_about_anything_that_can_be_compared__e_g__names_in_a_phone_book_",
+            "enabled": "enabled",
+            "name": "– The array A can be arbitrarily large – Sorting is not only about integers, but about anything that can be compared (e.g. names in a phone book)",
+            "merged": false,
+            "keywords": [
+              "– The array A can be arbitrarily large – Sorting is not only about integers, but about anything that can be compared (e.g. names in a phone book)"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Why_is_sorting_important_",
+            "enabled": "enabled",
+            "name": "Why is sorting important?",
+            "merged": false,
+            "keywords": [
+              "Why is sorting important?"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "image_1",
+            "enabled": "enabled",
+            "name": "image 1",
+            "merged": false,
+            "keywords": [
+              "image 1"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Group_12",
+            "enabled": "enabled",
+            "name": "380 pages",
+            "merged": false,
+            "keywords": [
+              "380 pages"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "Group_13",
+            "enabled": "enabled",
+            "name": "How do you sort a deck of cards?",
+            "merged": false,
+            "keywords": [
+              "How do you sort a deck of cards?",
+              "text2997",
+              "text3001",
+              "text3013",
+              "text2985",
+              "text3009"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "Text",
+            "enabled": "enabled",
+            "name": "Selection sort • Insertion sort",
+            "merged": false,
+            "keywords": [
+              "Selection sort • Insertion sort"
+            ],
+            "eventId": "7"
+          }
+        ],
+        "keywords": [
+          "Sorting is the problem: input an array A of integers output the array A with entries rearranged in increasing order",
+          "Sorting"
+        ],
+        "eventId": "4",
+        "originalParams": {
+          "Group_1": {
+            "opacity": 1
+          },
+          "__The_array_A_can_be_arbitrarily_large___Sorting_is_not_only_about_integers__but_about_anything_that_can_be_compared__e_g__names_in_a_phone_book_": {
+            "opacity": 1
+          },
+          "Why_is_sorting_important_": {
+            "opacity": 1
+          },
+          "image_1": {
+            "opacity": 1
+          },
+          "Group_12": {
+            "opacity": 1
+          },
+          "Group_13": {
+            "opacity": 1
+          },
+          "Text": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Selection Sort",
+        "id": "Selection_Sort",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "To_sort_an_array_A__go_through_all_its_elements__find_the_smallest_one__and_put_it_in_first_position",
+            "enabled": "enabled",
+            "name": "To sort an array A: go through all its elements, find the smallest one, and put it in first position",
+            "merged": false,
+            "keywords": [
+              "To sort an array A: go through all its elements, find the smallest one, and put it in first position",
+              "text2997",
+              "text3001",
+              "text3013",
+              "text2985",
+              "text3009"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "go_through_all_its_remaining_elements__find_the_smallest_one__and_put_it_in_second_position",
+            "enabled": "enabled",
+            "name": "go through all its remaining elements, find the smallest one, and put it in second position",
+            "merged": false,
+            "keywords": [
+              "text2997",
+              "text3001",
+              "text3013",
+              "text2985",
+              "text3009",
+              "go through all its remaining elements, find the smallest one, and put it in second position"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "and_so_on",
+            "enabled": "enabled",
+            "name": "and so on",
+            "merged": false,
+            "keywords": [
+              "and so on"
+            ],
+            "eventId": "3"
+          }
+        ],
+        "keywords": [
+          "Selection Sort"
+        ],
+        "eventId": "5",
+        "originalParams": {
+          "To_sort_an_array_A__go_through_all_its_elements__find_the_smallest_one__and_put_it_in_first_position": {
+            "opacity": 1
+          },
+          "go_through_all_its_remaining_elements__find_the_smallest_one__and_put_it_in_second_position": {
+            "opacity": 1
+          },
+          "and_so_on": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "selection sort code",
+        "id": "selection_sort_code",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "We_let_i_range_over_all_positions_in_A__from_0_to_len_A____1__in_each_repetition_of_the_loop__find_the_index_imin_that_contains_the_smallest_element_in_A_i___A_i_1_______we_then_bring_A_imin__in_the_i_th_position_by_swapping_A_i__and_A_imin_",
+            "enabled": "enabled",
+            "name": "We let i range over all positions in A (from 0 to len(A) - 1) in each repetition of the loop, find the index imin that contains the smallest element in A[i], A[i+1], ... we then bring A[imin] in the i-th position by swapping A[i] and A[imin]",
+            "merged": false,
+            "keywords": [
+              "We let i range over all positions in A (from 0 to len(A) - 1) in each repetition of the loop, find the index imin that contains the smallest element in A[i], A[i+1], ... we then bring A[imin] in the i-th position by swapping A[i] and A[imin]"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_4",
+            "enabled": "enabled",
+            "name": "findMin(i, A) finds the smallest element in A[i], A[i+1], ... it goes through all of them and stores in imin the position of the smallest so far.",
+            "merged": false,
+            "keywords": [
+              "findMin(i, A) finds the smallest element in A[i], A[i+1], ... it goes through all of them and stores in imin the position of the smallest so far."
+            ],
+            "eventId": "2"
+          }
+        ],
+        "keywords": [
+          "Code snippet selection",
+          "Implementation",
+          "selection sort code"
+        ],
+        "eventId": "6",
+        "originalParams": {
+          "We_let_i_range_over_all_positions_in_A__from_0_to_len_A____1__in_each_repetition_of_the_loop__find_the_index_imin_that_contains_the_smallest_element_in_A_i___A_i_1_______we_then_bring_A_imin__in_the_i_th_position_by_swapping_A_i__and_A_imin_": {
+            "opacity": 1
+          },
+          "Group_4": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "insertion sort",
+        "id": "insertion_sort",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_4",
+            "enabled": "enabled",
+            "name": "To sort array A: pick A[1] and insert it before/after A[0]",
+            "merged": false,
+            "keywords": [
+              "To sort array A: pick A[1] and insert it before/after A[0]",
+              "text2997",
+              "text3001",
+              "text3013",
+              "text2985",
+              "text3009"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "pick_A_2__and_insert_it_in_its_right_position_in_A_0___A_1_",
+            "enabled": "enabled",
+            "name": "pick A[2] and insert it in its right position in A[0], A[1]",
+            "merged": false,
+            "keywords": [
+              "text2997",
+              "text3001",
+              "text3013",
+              "text2985",
+              "text3009",
+              "pick A[2] and insert it in its right position in A[0], A[1]"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "pick_A_3__and_insert_it_in_its_right_position_in_A_0___A_1___A_2_",
+            "enabled": "enabled",
+            "name": "pick A[3] and insert it in its right position in A[0], A[1], A[2]",
+            "merged": false,
+            "keywords": [
+              "text2997",
+              "text3001",
+              "text3013",
+              "text2985",
+              "text3009",
+              "pick A[3] and insert it in its right position in A[0], A[1], A[2]"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Group_6",
+            "enabled": "enabled",
+            "name": "already sorted",
+            "merged": false,
+            "keywords": [
+              "already sorted"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "and_so_on",
+            "enabled": "enabled",
+            "name": "and so on",
+            "merged": false,
+            "keywords": [
+              "and so on"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "At_each_step__we_pick_an_element_A_i__of_A_and_we_insert_it_in_its_place_in_the_initial_part_of_A_0______A_i_1__of_A__that_is_already_sorted__For_that__starting_from_A_i_1___we_move_the_elements_of_A_to_the_right_until_we_find_the_position_where_A_i__needs_to_be_inserted",
+            "enabled": "enabled",
+            "name": "At each step, we pick an element A[i] of A and we insert it in its place in the initial part of A[0],...,A[i-1] of A, that is already sorted. For that: starting from A[i-1], we move the elements of A to the right until we find the position where A[i] needs to be inserted",
+            "merged": false,
+            "keywords": [
+              "At each step, we pick an element A[i] of A and we insert it in its place in the initial part of A[0],...,A[i-1] of A, that is already sorted. For that: starting from A[i-1], we move the elements of A to the right until we find the position where A[i] needs to be inserted"
+            ],
+            "eventId": "5"
+          }
+        ],
+        "keywords": [
+          "Insertion Sort",
+          "insertion sort"
+        ],
+        "eventId": "7",
+        "originalParams": {
+          "Group_4": {
+            "opacity": 1
+          },
+          "pick_A_2__and_insert_it_in_its_right_position_in_A_0___A_1_": {
+            "opacity": 1
+          },
+          "pick_A_3__and_insert_it_in_its_right_position_in_A_0___A_1___A_2_": {
+            "opacity": 1
+          },
+          "and_so_on": {
+            "opacity": 1
+          },
+          "At_each_step__we_pick_an_element_A_i__of_A_and_we_insert_it_in_its_place_in_the_initial_part_of_A_0______A_i_1__of_A__that_is_already_sorted__For_that__starting_from_A_i_1___we_move_the_elements_of_A_to_the_right_until_we_find_the_position_where_A_i__needs_to_be_inserted": {
+            "opacity": 1
+          },
+          "Group_6": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "insertion sort code",
+        "id": "insertion_sort_code",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "We_go_through_each_element_A_i__of_A__starting_from_A_1___and_call_insert_A_i___A__i__to_insert_it_in_its_ordered_position_in_A_0_______A_i_1__",
+            "enabled": "enabled",
+            "name": "We go through each element A[i] of A, starting from A[1], and call insert(A[i], A, i) to insert it in its ordered position in A[0],..., A[i-1].",
+            "merged": false,
+            "keywords": [
+              "We go through each element A[i] of A, starting from A[1], and call insert(A[i], A, i) to insert it in its ordered position in A[0],..., A[i-1]."
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "In_insert_v__A__h___we_insert_v_in_its_ordered_position_in_A_0_________A_h_1__we_pick_each_element_A_i__of_A_h_1______A_0___and_move_it_to_the_right__by_setting_A_i_1__to_A_i__unless_we_find__the_first__i_such_that_v__A_i___which_means_that_the_correct_position_for_v_is_i_1_if_we_don_t_find_such_an_i__then_this_means_that_v_is_smaller_than_all_elements_in_A_0________A_h_1___so_we_put_it_in_position_0",
+            "enabled": "enabled",
+            "name": "In insert(v, A, h): we insert v in its ordered position in A[0], ... , A[h-1] we pick each element A[i] of A[h-1],...,A[0], and move it to the right, by setting A[i+1] to A[i] unless we find (the first) i such that v>=A[i], which means that the correct position for v is i+1 if we don’t find such an i, then this means that v is smaller than all elements in A[0], ..., A[h-1], so we put it in position 0",
+            "merged": false,
+            "keywords": [
+              "In insert(v, A, h): we insert v in its ordered position in A[0], ... , A[h-1] we pick each element A[i] of A[h-1],...,A[0], and move it to the right, by setting A[i+1] to A[i] unless we find (the first) i such that v>=A[i], which means that the correct position for v is i+1 if we don’t find such an i, then this means that v is smaller than all elements in A[0], ..., A[h-1], so we put it in position 0"
+            ],
+            "eventId": "2"
+          }
+        ],
+        "keywords": [
+          "Implementation",
+          "Code snippet",
+          "insertion sort code"
+        ],
+        "eventId": "8",
+        "originalParams": {
+          "We_go_through_each_element_A_i__of_A__starting_from_A_1___and_call_insert_A_i___A__i__to_insert_it_in_its_ordered_position_in_A_0_______A_i_1__": {
+            "opacity": 1
+          },
+          "In_insert_v__A__h___we_insert_v_in_its_ordered_position_in_A_0_________A_h_1__we_pick_each_element_A_i__of_A_h_1______A_0___and_move_it_to_the_right__by_setting_A_i_1__to_A_i__unless_we_find__the_first__i_such_that_v__A_i___which_means_that_the_correct_position_for_v_is_i_1_if_we_don_t_find_such_an_i__then_this_means_that_v_is_smaller_than_all_elements_in_A_0________A_h_1___so_we_put_it_in_position_0": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "running time analysis",
+        "id": "running_time_analysis",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "How_does_one_measure_how_fast_an_algorithm_is_",
+            "enabled": "enabled",
+            "name": "How does one measure how fast an algorithm is?",
+            "merged": false,
+            "keywords": [
+              "How does one measure how fast an algorithm is?"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Running_time_analysis",
+            "enabled": "enabled",
+            "name": "Running time analysis",
+            "merged": false,
+            "keywords": [
+              "Running time analysis"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Count_the_number_of_steps_the_algorithm_takes_when_run_on_input_of_size_n",
+            "enabled": "enabled",
+            "name": "Count the number of steps the algorithm takes when run on input of size n",
+            "merged": false,
+            "keywords": [
+              "Count the number of steps the algorithm takes when run on input of size n"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "This_gives_a_systematic_way_to_measure_time__independent_of_the_machine_that_runs_the_algorithm",
+            "enabled": "enabled",
+            "name": "This gives a systematic way to measure time, independent of the machine that runs the algorithm",
+            "merged": false,
+            "keywords": [
+              "This gives a systematic way to measure time, independent of the machine that runs the algorithm"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Group_6",
+            "enabled": "enabled",
+            "name": "basic operations: number number comparisons, arithmetic operations, assignments, etc. assume all take the same amount of time",
+            "merged": false,
+            "keywords": [
+              "basic operations: number number comparisons, arithmetic operations, assignments, etc. assume all take the same amount of time"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "on_large_inputs__what_matters_is_not_how_long_each_operation_takes__but_how_many_times_we_perform_it",
+            "enabled": "enabled",
+            "name": "on large inputs, what matters is not how long each operation takes, but how many times we perform it",
+            "merged": false,
+            "keywords": [
+              "on large inputs, what matters is not how long each operation takes, but how many times we perform it"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "Group_62",
+            "enabled": "enabled",
+            "name": "written with n bits (sometimes n integers, or n letters)",
+            "merged": false,
+            "keywords": [
+              "written with n bits (sometimes n integers, or n letters)"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "Group_63",
+            "enabled": "enabled",
+            "name": "How many steps does your algorithm take to sort an array of n integers, in the worst case?",
+            "merged": false,
+            "keywords": [
+              "Running time is expressed as a function of input size",
+              "How many steps does your algorithm take to sort an array of n integers, in the worst case?"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "show",
+            "id": "Group_64",
+            "enabled": "enabled",
+            "name": "it takes steps it takes steps",
+            "merged": false,
+            "keywords": [
+              "it takes steps it takes steps"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "show",
+            "id": "Group_65",
+            "enabled": "enabled",
+            "name": "This is time complexity (higher complexity = slower algo)",
+            "merged": false,
+            "keywords": [
+              "This is time complexity (higher complexity = slower algo)"
+            ],
+            "eventId": "10"
+          },
+          {
+            "type": "show",
+            "id": "Group_66",
+            "enabled": "enabled",
+            "name": "best case does not give much information average case is subtle",
+            "merged": false,
+            "keywords": [
+              "best case does not give much information average case is subtle"
+            ],
+            "eventId": "11"
+          },
+          {
+            "type": "show",
+            "id": "Group_67",
+            "enabled": "enabled",
+            "name": "that is when efficiency matters also helps simplify analysis",
+            "merged": false,
+            "keywords": [
+              "We focus on large values of n",
+              "that is when efficiency matters also helps simplify analysis"
+            ],
+            "eventId": "12"
+          }
+        ],
+        "keywords": [
+          "Which one of the two sorting algorithms is better?",
+          "running time analysis"
+        ],
+        "eventId": "9",
+        "originalParams": {
+          "How_does_one_measure_how_fast_an_algorithm_is_": {
+            "opacity": 1
+          },
+          "Running_time_analysis": {
+            "opacity": 1
+          },
+          "Count_the_number_of_steps_the_algorithm_takes_when_run_on_input_of_size_n": {
+            "opacity": 1
+          },
+          "This_gives_a_systematic_way_to_measure_time__independent_of_the_machine_that_runs_the_algorithm": {
+            "opacity": 1
+          },
+          "Group_6": {
+            "opacity": 1
+          },
+          "on_large_inputs__what_matters_is_not_how_long_each_operation_takes__but_how_many_times_we_perform_it": {
+            "opacity": 1
+          },
+          "Group_62": {
+            "opacity": 1
+          },
+          "Group_63": {
+            "opacity": 1
+          },
+          "Group_64": {
+            "opacity": 1
+          },
+          "Group_65": {
+            "opacity": 1
+          },
+          "Group_66": {
+            "opacity": 1
+          },
+          "Group_67": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "sorted search",
+        "id": "sorted_search",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [],
+        "keywords": [
+          "Examples",
+          "Sorted search is the problem: input a sorted array of integers A, and an integer v output if v is in A return its position, otherwise return -1",
+          "E.g. if A=[8,12,16,20,25,28,30] and v=16 the answer should be 2",
+          "You have seen two algorithms for this problem: 1. linear search, 2. binary search",
+          "sorted search"
+        ],
+        "eventId": "10",
+        "originalParams": {}
+      },
+      {
+        "type": "child",
+        "name": "linear search",
+        "id": "linear_search",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Code_snippet",
+            "enabled": "enabled",
+            "name": "Code snippet",
+            "merged": false,
+            "keywords": [
+              "Code snippet"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_6",
+            "enabled": "enabled",
+            "name": "basic operations",
+            "merged": false,
+            "keywords": [
+              "basic operations"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "If_the_array_has_10_elements_how_many_comparisons_do_we_make_",
+            "enabled": "enabled",
+            "name": "If the array has 10 elements how many comparisons do we make?",
+            "merged": false,
+            "keywords": [
+              "If the array has 10 elements how many comparisons do we make?"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Best_case__we_find_v_straight_away__it_is_the_first_element__so_we_need_only_one_comparison_Worst_case__we_need_to_search_the_whole_array__if_v_is_greater_than_all_elements_in_the_array___in_which_case_we_do_20_comparisons",
+            "enabled": "enabled",
+            "name": "Best case: we find v straight away (it is the first element) so we need only one comparison Worst case: we need to search the whole array (if v is greater than all elements in the array), in which case we do 20 comparisons",
+            "merged": false,
+            "keywords": [
+              "Best case: we find v straight away (it is the first element) so we need only one comparison Worst case: we need to search the whole array (if v is greater than all elements in the array), in which case we do 20 comparisons"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "In_general__if_array_A_has_size_n__linear_search_could_make_2n_comparisons__the_running_time_of_linear_search_is_2n_in_the_worst_case",
+            "enabled": "enabled",
+            "name": "In general, if array A has size n, linear search could make 2n comparisons –the running time of linear search is 2n in the worst case",
+            "merged": false,
+            "keywords": [
+              "In general, if array A has size n, linear search could make 2n comparisons –the running time of linear search is 2n in the worst case"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "If_the_array_has_10_elements_how_many_comparisons_do_we_make_2",
+            "enabled": "enabled",
+            "name": "Can you improve?",
+            "merged": false,
+            "keywords": [
+              "Can you improve?"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "Group_8",
+            "enabled": "enabled",
+            "name": "Code snippet",
+            "merged": false,
+            "keywords": [
+              "Code snippet"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "n_1_comparisons_in_the_worst_case",
+            "enabled": "enabled",
+            "name": "n+1 comparisons in the worst case",
+            "merged": false,
+            "keywords": [
+              "n+1 comparisons in the worst case"
+            ],
+            "eventId": "8"
+          }
+        ],
+        "keywords": [
+          "Linear search",
+          "The simplest solution: scan the array A from left to right until you find v (return the current position), or you find an element greater than v (return -1), or you reach the end of the array (return -1).",
+          "linear search"
+        ],
+        "eventId": "11",
+        "originalParams": {
+          "Code_snippet": {
+            "opacity": 1
+          },
+          "Group_6": {
+            "opacity": 1
+          },
+          "If_the_array_has_10_elements_how_many_comparisons_do_we_make_": {
+            "opacity": 1
+          },
+          "Best_case__we_find_v_straight_away__it_is_the_first_element__so_we_need_only_one_comparison_Worst_case__we_need_to_search_the_whole_array__if_v_is_greater_than_all_elements_in_the_array___in_which_case_we_do_20_comparisons": {
+            "opacity": 1
+          },
+          "In_general__if_array_A_has_size_n__linear_search_could_make_2n_comparisons__the_running_time_of_linear_search_is_2n_in_the_worst_case": {
+            "opacity": 1
+          },
+          "If_the_array_has_10_elements_how_many_comparisons_do_we_make_2": {
+            "opacity": 1
+          },
+          "Group_8": {
+            "opacity": 1
+          },
+          "n_1_comparisons_in_the_worst_case": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "binary search",
+        "id": "binary_search",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "child",
+            "name": "binary search implementation",
+            "id": "binary_search_implementation",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_7",
+                "enabled": "enabled",
+                "name": "forget assignment operations for now",
+                "merged": false,
+                "keywords": [
+                  "forget assignment operations for now"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Group_72",
+                "enabled": "enabled",
+                "name": "Suppose that for some input we take the loop x times.",
+                "merged": false,
+                "keywords": [
+                  "Suppose that for some input we take the loop x times.",
+                  "How many steps do we make in the worst case?"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Group_73",
+                "enabled": "enabled",
+                "name": "2 comparisons and 2 operations in each loop, gives 4x total steps check the guard of the while loop x+1 many times 1 step for “len(A)-1”",
+                "merged": false,
+                "keywords": [
+                  "2 comparisons and 2 operations in each loop, gives 4x total steps check the guard of the while loop x+1 many times 1 step for “len(A)-1”",
+                  "In total 4x+x+1+1=5x+2 steps"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "If_the_array_has_16_elements__how_many_loop_iterations_do_we_perform_in_worst_case_",
+                "enabled": "enabled",
+                "name": "If the array has 16 elements, how many loop iterations do we perform in worst case?",
+                "merged": false,
+                "keywords": [
+                  "If the array has 16 elements, how many loop iterations do we perform in worst case?"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "Group_74",
+                "enabled": "enabled",
+                "name": "lo = 0, hi = 15, mid = 7 lo = 8, hi = 15, mid = 11 lo = 12, hi = 15, mid = 13 lo = 14, hi = 15, mid = 14 lo = 15, hi = 15, mid = 15 lo = 16, hi = 15, STOP We loop 5 times (the 6th time we skip the loop). In general, how many times do we run the loop when the array has length n?",
+                "merged": false,
+                "keywords": [
+                  "lo = 0, hi = 15, mid = 7 lo = 8, hi = 15, mid = 11 lo = 12, hi = 15, mid = 13 lo = 14, hi = 15, mid = 14 lo = 15, hi = 15, mid = 15 lo = 16, hi = 15, STOP We loop 5 times (the 6th time we skip the loop). In general, how many times do we run the loop when the array has length n?"
+                ],
+                "eventId": "7"
+              },
+              {
+                "type": "show",
+                "id": "If_the_array_has_16_elements__how_many_loop_iterations_do_we_perform_in_worst_case_2",
+                "enabled": "enabled",
+                "name": "If the array has 16 elements, how many loop iterations do we perform in worst case?",
+                "merged": false,
+                "keywords": [
+                  "If the array has 16 elements, how many loop iterations do we perform in worst case?"
+                ],
+                "eventId": "8"
+              }
+            ],
+            "keywords": [
+              "Implementation",
+              "Code snippet",
+              "binary search implementation"
+            ],
+            "eventId": "1",
+            "originalParams": {
+              "Group_7": {
+                "opacity": 1
+              },
+              "Group_72": {
+                "opacity": 1
+              },
+              "Group_73": {
+                "opacity": 1
+              },
+              "If_the_array_has_16_elements__how_many_loop_iterations_do_we_perform_in_worst_case_": {
+                "opacity": 1
+              },
+              "Group_74": {
+                "opacity": 1
+              },
+              "If_the_array_has_16_elements__how_many_loop_iterations_do_we_perform_in_worst_case_2": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "in_each_loop_iteration_we_are_halving_the_search_range_worst_case__we_iterate_until_empty_range",
+            "enabled": "enabled",
+            "name": "in each loop iteration we are halving the search range worst case: we iterate until empty range",
+            "merged": false,
+            "keywords": [
+              "in each loop iteration we are halving the search range worst case: we iterate until empty range"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Group_7",
+            "enabled": "enabled",
+            "name": "How many times do you halve to get 1?",
+            "merged": false,
+            "keywords": [
+              "How many times do you halve to get 1?"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "What_is_the_function_that_answers___to_what_power_x_do_we_have_to_raise_2__in_order_to_obtain_y__",
+            "enabled": "enabled",
+            "name": "What is the function that answers: “to what power x do we have to raise 2, in order to obtain y”?",
+            "merged": false,
+            "keywords": [
+              "What is the function that answers: “to what power x do we have to raise 2, in order to obtain y”?"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "_log_2_y___x",
+            "enabled": "enabled",
+            "name": "\\log_2 y = x",
+            "merged": false,
+            "keywords": [
+              "\\log_2 y = x"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "Group_72",
+            "enabled": "enabled",
+            "name": "in cs logs are typically base 2, so subscript 2 is often omitted",
+            "merged": false,
+            "keywords": [
+              "in cs logs are typically base 2, so subscript 2 is often omitted"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "Group_73",
+            "enabled": "enabled",
+            "name": "Fact: Any number n can be divided by //2 exactly times until we get 1.",
+            "merged": false,
+            "keywords": [
+              "Fact: Any number n can be divided by //2 exactly times until we get 1.",
+              "divide then take floor"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "Group_9",
+            "enabled": "enabled",
+            "name": "because the loop is iterated once more when lo=high",
+            "merged": false,
+            "keywords": [
+              "Total number of loop iterations is log(n)+1",
+              "because the loop is iterated once more when lo=high"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "show",
+            "id": "Vector_19",
+            "enabled": "enabled",
+            "name": "Vector 19",
+            "merged": false,
+            "keywords": [
+              "Vector 19"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "show",
+            "id": "Group_92",
+            "enabled": "enabled",
+            "name": "In worst case binary search performs:",
+            "merged": false,
+            "keywords": [
+              "In worst case binary search performs:",
+              "steps"
+            ],
+            "eventId": "10"
+          }
+        ],
+        "keywords": [
+          "Binary search",
+          "Search for v in array A: Look at the middle element of A If it is equal to v, we stop. Otherwise: if it is greater than v, we repeat the search only on the elements before the middle one; if it is less than v, we repeat the search only on the items after it. Return -1 when the range we search is of size 0.",
+          "middle element",
+          "smaller",
+          "larger",
+          "binary search"
+        ],
+        "eventId": "12",
+        "originalParams": {
+          "in_each_loop_iteration_we_are_halving_the_search_range_worst_case__we_iterate_until_empty_range": {
+            "opacity": 1
+          },
+          "Group_7": {
+            "opacity": 1
+          },
+          "What_is_the_function_that_answers___to_what_power_x_do_we_have_to_raise_2__in_order_to_obtain_y__": {
+            "opacity": 1
+          },
+          "_log_2_y___x": {
+            "opacity": 1
+          },
+          "Group_72": {
+            "opacity": 1
+          },
+          "Group_73": {
+            "opacity": 1
+          },
+          "Group_9": {
+            "opacity": 1
+          },
+          "Vector_19": {
+            "opacity": 1
+          },
+          "Group_92": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "comparison of search algorithms",
+        "id": "comparison_of_search_algorithms",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Which_one_is_better_faster_",
+            "enabled": "enabled",
+            "name": "Which one is better/faster?",
+            "merged": false,
+            "keywords": [
+              "Which one is better/faster?"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_11",
+            "enabled": "enabled",
+            "name": "1000000",
+            "merged": false,
+            "keywords": [
+              "10",
+              "100",
+              "1000",
+              "10000",
+              "100000",
+              "1000000",
+              "11",
+              "101",
+              "1001",
+              "10001",
+              "100001",
+              "1000001",
+              "22",
+              "37",
+              "52",
+              "72",
+              "87",
+              "102"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Group_112",
+            "enabled": "enabled",
+            "name": "Binary search is much more efficient",
+            "merged": false,
+            "keywords": [
+              "Binary search is much more efficient"
+            ],
+            "eventId": "7"
+          }
+        ],
+        "keywords": [
+          "We have seen two algorithms for the sorted search problem:",
+          "Linear search → n+1 steps Binary search → 5log(n)+7 steps",
+          "comparison of search algorithms"
+        ],
+        "eventId": "13",
+        "originalParams": {
+          "Which_one_is_better_faster_": {
+            "opacity": 1
+          },
+          "Group_11": {
+            "opacity": 1
+          },
+          "Group_112": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Theta and O",
+        "id": "Theta_and_O",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Which_one_is_more_efficient_",
+            "enabled": "enabled",
+            "name": "Which one is more efficient?",
+            "merged": false,
+            "keywords": [
+              "Which one is more efficient?"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Depends_on_how_big_n_is__If_n___10__but_if___so_for_large_values_of_n__which_is_what_we_care_about___Algorithm_A_is_more_efficient_",
+            "enabled": "enabled",
+            "name": "Depends on how big n is: If n = 10: but if : so for large values of n (which is what we care about), Algorithm A is more efficient.",
+            "merged": false,
+            "keywords": [
+              "Depends on how big n is: If n = 10: but if : so for large values of n (which is what we care about), Algorithm A is more efficient."
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "We_only_care_about_the_number_of_steps_the_algorithm_takes_for_large_values_of_n____Focus_on_order_of_growth_",
+            "enabled": "enabled",
+            "name": "We only care about the number of steps the algorithm takes for large values of n. → Focus on order of growth.",
+            "merged": false,
+            "keywords": [
+              "We only care about the number of steps the algorithm takes for large values of n. → Focus on order of growth."
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "child",
+            "name": "function order of growth",
+            "id": "function_order_of_growth",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_11",
+                "enabled": "enabled",
+                "name": "at some point f overtakes g, and from that point on, f will always be bigger than",
+                "merged": false,
+                "keywords": [
+                  "at some point f overtakes g, and from that point on, f will always be bigger than"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Group_112",
+                "enabled": "enabled",
+                "name": "Which one grows faster among",
+                "merged": false,
+                "keywords": [
+                  "Which one grows faster among"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "How_to_prove_",
+                "enabled": "enabled",
+                "name": "How to prove?",
+                "merged": false,
+                "keywords": [
+                  "How to prove?"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "calculus___l_H_pital_s_rule",
+                "enabled": "enabled",
+                "name": "calculus + l’Hôpital’s rule",
+                "merged": false,
+                "keywords": [
+                  "calculus + l’Hôpital’s rule"
+                ],
+                "eventId": "4"
+              }
+            ],
+            "keywords": [
+              "Function f grows faster than g, → f >> g",
+              "there is some N, such that for all n>N, f(n) > g(n)",
+              "function order of growth"
+            ],
+            "eventId": "4",
+            "originalParams": {
+              "Group_11": {
+                "opacity": 1
+              },
+              "Group_112": {
+                "opacity": 1
+              },
+              "How_to_prove_": {
+                "opacity": 1
+              },
+              "calculus___l_H_pital_s_rule": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "theta examples",
+            "id": "theta_examples",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "grows_slower__is_more_efficient_than",
+                "enabled": "enabled",
+                "name": "grows slower/ is more efficient than",
+                "merged": false,
+                "keywords": [
+                  "For large n: so we can say:",
+                  "<<",
+                  "grows slower/ is more efficient than"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Ignore_constant_factors_and_non_dominant_terms",
+                "enabled": "enabled",
+                "name": "Ignore constant factors and non-dominant terms",
+                "merged": false,
+                "keywords": [
+                  "Ignore constant factors and non-dominant terms"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "__notation_allows_us_to_compare_different_running_times_simply__ignoring_details_",
+                "enabled": "enabled",
+                "name": "Θ notation allows us to compare different running times simply, ignoring details.",
+                "merged": false,
+                "keywords": [
+                  "Θ notation allows us to compare different running times simply, ignoring details."
+                ],
+                "eventId": "3"
+              }
+            ],
+            "keywords": [
+              "Since we care only about the number of steps an algorithm performs for large n, it makes sense to only focus on the order of growth of these functions. For example: in we can focus on , we say that is in we focus on , we say that is in we focus on , we say that is in 4242 there is no change as n grows, we say that 4242 is",
+              "theta examples"
+            ],
+            "eventId": "5",
+            "originalParams": {
+              "grows_slower__is_more_efficient_than": {
+                "opacity": 1
+              },
+              "Ignore_constant_factors_and_non_dominant_terms": {
+                "opacity": 1
+              },
+              "__notation_allows_us_to_compare_different_running_times_simply__ignoring_details_": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "why is big theta useful",
+            "id": "why_is_big_theta_useful",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "It_allows_one_to__take_a_complicated_f_n__and_replace_it_with_a_simpler_one_that_is_of_essentially_the_same_size_for_large_n_compute_the_running_time_of_an_algorithm_without_caring_about_constant_multiplying_factors_or_terms_of_low_significance_e_g__it_is_OK_to_count_all_basic_operations_as_1_step_each_if_a_loop_has_constant_running_time__it_is_OK_to_count_only_the_number_of_times_it_is_repeated__rather_than_its_total_number_of_steps",
+                "enabled": "enabled",
+                "name": "It allows one to: take a complicated f(n) and replace it with a simpler one that is of essentially the same size for large n compute the running time of an algorithm without caring about constant multiplying factors or terms of low significance e.g. it is OK to count all basic operations as 1 step each if a loop has constant running time, it is OK to count only the number of times it is repeated, rather than its total number of steps",
+                "merged": false,
+                "keywords": [
+                  "It allows one to: take a complicated f(n) and replace it with a simpler one that is of essentially the same size for large n compute the running time of an algorithm without caring about constant multiplying factors or terms of low significance e.g. it is OK to count all basic operations as 1 step each if a loop has constant running time, it is OK to count only the number of times it is repeated, rather than its total number of steps"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "For_example__the_following_expressions_are_and_the_following_expressions_are",
+                "enabled": "enabled",
+                "name": "For example, the following expressions are and the following expressions are",
+                "merged": false,
+                "keywords": [
+                  "For example, the following expressions are and the following expressions are"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "What_is_the_running_time_of_sorted_linear_search_",
+                "enabled": "enabled",
+                "name": "What is the running time of sorted linear search?",
+                "merged": false,
+                "keywords": [
+                  "What is the running time of sorted linear search?"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "_Theta_n_",
+                "enabled": "enabled",
+                "name": "\\Theta(n)",
+                "merged": false,
+                "keywords": [
+                  "\\Theta(n)"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "What_is_the_running_time_of_sorted_linear_search_2",
+                "enabled": "enabled",
+                "name": "What is the running time of sorted binary search?",
+                "merged": false,
+                "keywords": [
+                  "What is the running time of sorted binary search?"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "_Theta__log_n__",
+                "enabled": "enabled",
+                "name": "\\Theta(\\log(n))",
+                "merged": false,
+                "keywords": [
+                  "\\Theta(\\log(n))"
+                ],
+                "eventId": "6"
+              }
+            ],
+            "keywords": [
+              "Why is Θ notation useful?",
+              "why is big theta useful"
+            ],
+            "eventId": "6",
+            "originalParams": {
+              "It_allows_one_to__take_a_complicated_f_n__and_replace_it_with_a_simpler_one_that_is_of_essentially_the_same_size_for_large_n_compute_the_running_time_of_an_algorithm_without_caring_about_constant_multiplying_factors_or_terms_of_low_significance_e_g__it_is_OK_to_count_all_basic_operations_as_1_step_each_if_a_loop_has_constant_running_time__it_is_OK_to_count_only_the_number_of_times_it_is_repeated__rather_than_its_total_number_of_steps": {
+                "opacity": 1
+              },
+              "For_example__the_following_expressions_are_and_the_following_expressions_are": {
+                "opacity": 1
+              },
+              "What_is_the_running_time_of_sorted_linear_search_": {
+                "opacity": 1
+              },
+              "_Theta_n_": {
+                "opacity": 1
+              },
+              "What_is_the_running_time_of_sorted_linear_search_2": {
+                "opacity": 1
+              },
+              "_Theta__log_n__": {
+                "opacity": 1
+              }
+            }
+          }
+        ],
+        "keywords": [
+          "Θ and O",
+          "We have two algorithms for a problem: Algorithm A runs in 4242 steps, no matter how big the input Algorithm B runs in steps.",
+          "Theta and O"
+        ],
+        "eventId": "14",
+        "originalParams": {
+          "Which_one_is_more_efficient_": {
+            "opacity": 1
+          },
+          "We_only_care_about_the_number_of_steps_the_algorithm_takes_for_large_values_of_n____Focus_on_order_of_growth_": {
+            "opacity": 1
+          },
+          "Depends_on_how_big_n_is__If_n___10__but_if___so_for_large_values_of_n__which_is_what_we_care_about___Algorithm_A_is_more_efficient_": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "big o",
+        "id": "big_o",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Big_O_on_the_other_hand_gives_an_upper_bound___f_n__is_O_g_n___means_that_f_n__is_approximately___than_g_n_",
+            "enabled": "enabled",
+            "name": "Big O on the other hand gives an upper bound → f(n) is O(g(n)) means that f(n) is approximately < than g(n)",
+            "merged": false,
+            "keywords": [
+              "Big O on the other hand gives an upper bound → f(n) is O(g(n)) means that f(n) is approximately < than g(n)"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_11",
+            "enabled": "enabled",
+            "name": "E.g. the worst case running time for our linear search algorithm runs in Θ(n). But it also runs in because these are all upper bounds.",
+            "merged": false,
+            "keywords": [
+              "E.g. the worst case running time for our linear search algorithm runs in Θ(n). But it also runs in because these are all upper bounds."
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Group_112",
+            "enabled": "enabled",
+            "name": "– there is an algorithm for solving the sorting problems that runs in time (maybe even ) – says nothing about whether there is a better algorithm ← such statements are very difficult to prove",
+            "merged": false,
+            "keywords": [
+              "Big O is useful when speaking about the complexity of a problem. E.g. “sorting is in “ means:",
+              "– there is an algorithm for solving the sorting problems that runs in time (maybe even ) – says nothing about whether there is a better algorithm ← such statements are very difficult to prove"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Formal_definitions",
+            "enabled": "enabled",
+            "name": "Formal definitions",
+            "merged": false,
+            "keywords": [
+              "Formal definitions"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "child",
+            "name": "formal definitions",
+            "id": "formal_definitions",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_11",
+                "enabled": "enabled",
+                "name": "there exist c>0 and positive integer N such that",
+                "merged": false,
+                "keywords": [
+                  "f(n) is O(g(n)) means",
+                  "there exist c>0 and positive integer N such that",
+                  "for all n>N",
+                  "f(n) < c⋅g(n)"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Group_112",
+                "enabled": "enabled",
+                "name": "there exist c>0, d>0, and some positive integer N such that for all n>N",
+                "merged": false,
+                "keywords": [
+                  "f(n) is Θ(g(n)) means",
+                  "there exist c>0, d>0, and some positive integer N such that for all n>N",
+                  "c⋅ g(n) < f(n) < d⋅g(n)"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Proposition__f_n__is___g_n___if_and_only_if_f_n__is_O_g_n___and_g_n__is_O_f_n__",
+                "enabled": "enabled",
+                "name": "Proposition. f(n) is Θ(g(n)) if and only if f(n) is O(g(n)) and g(n) is O(f(n))",
+                "merged": false,
+                "keywords": [
+                  "Proposition. f(n) is Θ(g(n)) if and only if f(n) is O(g(n)) and g(n) is O(f(n))"
+                ],
+                "eventId": "3"
+              }
+            ],
+            "keywords": [
+              "f,g :",
+              "→",
+              "formal definitions"
+            ],
+            "eventId": "4",
+            "originalParams": {
+              "Group_11": {
+                "opacity": 1
+              },
+              "Group_112": {
+                "opacity": 1
+              },
+              "Proposition__f_n__is___g_n___if_and_only_if_f_n__is_O_g_n___and_g_n__is_O_f_n__": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "Examples",
+            "enabled": "enabled",
+            "name": "Examples",
+            "merged": false,
+            "keywords": [
+              "Examples"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "Use_definition_to_show_that_n_1_is___n_",
+            "enabled": "enabled",
+            "name": "Use definition to show that n+1 is Θ(n)",
+            "merged": false,
+            "keywords": [
+              "Use definition to show that n+1 is Θ(n)"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "Group_113",
+            "enabled": "enabled",
+            "name": "set c=1, d=2, and N=1. Because for all n > 1 we have",
+            "merged": false,
+            "keywords": [
+              "set c=1, d=2, and N=1. Because for all n > 1 we have",
+              "n<n+1<2n"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "show",
+            "id": "Use_definition_to_show_that_n_1_is___n_2",
+            "enabled": "enabled",
+            "name": "Use definition to show that 12n+1500log(n)+2300 is Θ(n)",
+            "merged": false,
+            "keywords": [
+              "Use definition to show that 12n+1500log(n)+2300 is Θ(n)"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "show",
+            "id": "Group_114",
+            "enabled": "enabled",
+            "name": "set c=1, d=13, and N=24138. Because for all n>24138 we have",
+            "merged": false,
+            "keywords": [
+              "set c=1, d=13, and N=24138. Because for all n>24138 we have",
+              "n<12n+1500log(n)+2300<13n"
+            ],
+            "eventId": "10"
+          }
+        ],
+        "keywords": [
+          "Big O",
+          "Θ gives the order of growth → f(n) is Θ(g(n)) means that f(n) is approximately equal to g(n)",
+          "big o"
+        ],
+        "eventId": "15",
+        "originalParams": {
+          "Big_O_on_the_other_hand_gives_an_upper_bound___f_n__is_O_g_n___means_that_f_n__is_approximately___than_g_n_": {
+            "opacity": 1
+          },
+          "Group_11": {
+            "opacity": 1
+          },
+          "Group_112": {
+            "opacity": 1
+          },
+          "Formal_definitions": {
+            "opacity": 1
+          },
+          "Examples": {
+            "opacity": 1
+          },
+          "Use_definition_to_show_that_n_1_is___n_": {
+            "opacity": 1
+          },
+          "Group_113": {
+            "opacity": 1
+          },
+          "Use_definition_to_show_that_n_1_is___n_2": {
+            "opacity": 1
+          },
+          "Group_114": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "runtime of selection sort",
+        "id": "runtime_of_selection_sort",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "_n_1_____n_2_____ldots__2___1____frac__n_n_1___2______text___which_is___Theta_n_2_",
+            "enabled": "enabled",
+            "name": "(n-1) + (n-2) + \\ldots +2 + 1 = \\frac {n(n-1)} 2\\ \\  \\text{  which is }\\Theta(n^2)",
+            "merged": false,
+            "keywords": [
+              "(n-1) + (n-2) + \\ldots +2 + 1 = \\frac {n(n-1)} 2\\ \\  \\text{  which is }\\Theta(n^2)"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Which_input_is_the_worst_case_",
+            "enabled": "enabled",
+            "name": "Which input is the worst case?",
+            "merged": false,
+            "keywords": [
+              "Which input is the worst case?"
+            ],
+            "eventId": "2"
+          }
+        ],
+        "keywords": [
+          "Running time complexity of selection sort",
+          "Code snippet selection",
+          "We count the number of comparisons that are made. If the array has size n, we perform: n-1 comparisons for finding the smallest element of the array n-2 for finding the second smallest element of the array ... 1 for finding the (n-1)-the smallest element of the array Summing these steps we have:",
+          "runtime of selection sort"
+        ],
+        "eventId": "16",
+        "originalParams": {
+          "_n_1_____n_2_____ldots__2___1____frac__n_n_1___2______text___which_is___Theta_n_2_": {
+            "opacity": 1
+          },
+          "Which_input_is_the_worst_case_": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "runtime of insertion sort",
+        "id": "runtime_of_insertion_sort",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Which_input_is_the_worst_case_",
+            "enabled": "enabled",
+            "name": "Which input is the worst case?",
+            "merged": false,
+            "keywords": [
+              "Which input is the worst case?"
+            ],
+            "eventId": "1"
+          }
+        ],
+        "keywords": [
+          "Running time complexity of insertion sort",
+          "Code snippet",
+          "We count the number of comparisons that are made. If the array has size n, we perform: 1 comparison for inserting second item into array part with 1 item 1 to 2 for for inserting third item into array part with 2 items ... 1 to (n-1) for inserting n-th item into array part of n-1 items Summing these steps we have:",
+          "runtime of insertion sort"
+        ],
+        "eventId": "17",
+        "originalParams": {
+          "Which_input_is_the_worst_case_": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "exercises",
+        "id": "exercises",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [],
+        "keywords": [
+          "exercises"
+        ],
+        "eventId": "18",
+        "originalParams": {}
+      }
+    ],
+    "keywords": [
+      "Lecture 2",
+      "Sorting • Running Time • Complexity",
+      "ECS529U: Algorithms and Data Structures",
+      "Edon Kelmendi e.kelmendi@qmul.ac.uk",
+      "root"
+    ],
+    "eventId": "root",
+    "originalParams": {}
+  },
+  "treeTimeLine": [],
+  "chronicleTimeLine": [],
+  "pdfFile": "ADS2.pdf"
+}
