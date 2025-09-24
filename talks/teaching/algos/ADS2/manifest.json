@@ -23,7 +23,8 @@
     "formal_definitions": "formal_definitions",
     "runtime_of_selection_sort": "runtime_of_selection_sort",
     "runtime_of_insertion_sort": "runtime_of_insertion_sort",
-    "exercises": "exercises"
+    "exercises": "exercises",
+    "notation_illustration": "notation_illustration"
   },
   "tree": {
     "type": "child",
@@ -1473,6 +1474,31 @@
                   "Proposition. f(n) is Θ(g(n)) if and only if f(n) is O(g(n)) and g(n) is O(f(n))"
                 ],
                 "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Group_113",
+                "enabled": "enabled",
+                "name": "there exist c>0 and positive integer N such that",
+                "merged": false,
+                "keywords": [
+                  "f(n) is Ω(g(n)) means",
+                  "there exist c>0 and positive integer N such that",
+                  "for all n>N",
+                  "c⋅g(n) < f(n)"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "Group_114",
+                "enabled": "enabled",
+                "name": "equivalently f(n) is Ω(g(n))",
+                "merged": false,
+                "keywords": [
+                  "equivalently f(n) is Ω(g(n))"
+                ],
+                "eventId": "5"
               }
             ],
             "keywords": [
@@ -1490,8 +1516,27 @@
               },
               "Proposition__f_n__is___g_n___if_and_only_if_f_n__is_O_g_n___and_g_n__is_O_f_n__": {
                 "opacity": 1
+              },
+              "Group_113": {
+                "opacity": 1
+              },
+              "Group_114": {
+                "opacity": 1
               }
             }
+          },
+          {
+            "type": "child",
+            "name": "notation illustration",
+            "id": "notation_illustration",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [],
+            "keywords": [
+              "notation illustration"
+            ],
+            "eventId": "11",
+            "originalParams": {}
           },
           {
             "type": "show",
@@ -1690,6 +1735,5 @@
     "originalParams": {}
   },
   "treeTimeLine": [],
-  "chronicleTimeLine": [],
-  "pdfFile": "ADS2.pdf"
+  "chronicleTimeLine": []
 }
