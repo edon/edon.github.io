@@ -1,0 +1,2410 @@
+{
+  "version": 3,
+  "presentation": "ADS4",
+  "slideDict": {
+    "new_slide": "root",
+    "multiplication": "master_method_introduction",
+    "multiplication2": "multiplication",
+    "karatsuba": "karatsuba",
+    "multiplication_algorithms": "multiplication_algorithms",
+    "master_method": "master_method",
+    "master_method_applications": "master_method_applications",
+    "master_method_merge_sort": "master_method_merge_sort",
+    "master_method_rectint": "master_method_rectint",
+    "master_method_karatsuba": "master_method_karatsuba",
+    "karatsuba_story": "karatsuba_story",
+    "data_structures": "data_structures",
+    "arrays": "arrays",
+    "lists": "lists",
+    "list_illustration": "list_illustration",
+    "arraylists": "arraylists",
+    "first_attempt_arraylists": "first_attempt_arraylists",
+    "OOP_in_python": "OOP_in_python",
+    "better_attempt": "better_attempt",
+    "better_attempt_implementation": "better_attempt_implementation",
+    "complexity_of_array_list_operations": "complexity_of_array_list_operations",
+    "adt_vs_data_structure": "adt_vs_data_structure",
+    "exercises": "exercises"
+  },
+  "tree": {
+    "type": "child",
+    "name": "root",
+    "id": "new_slide",
+    "enabled": "enabled",
+    "merged": false,
+    "children": [
+      {
+        "type": "child",
+        "name": "master method introduction",
+        "id": "multiplication",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "In_both_cases_the_input_was_split_in___half__which_made_complexity_analysis_relatively_straightforward____log_n___and___nlog_n___respectively_",
+            "enabled": "enabled",
+            "name": "In both cases the input was split in ~ half, which made complexity analysis relatively straightforward: Θ(log(n)) and Θ(nlog(n)) respectively.",
+            "merged": false,
+            "keywords": [
+              "In both cases the input was split in ~ half, which made complexity analysis relatively straightforward: Θ(log(n)) and Θ(nlog(n)) respectively."
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Sometimes_it_is_not_straightforward",
+            "enabled": "enabled",
+            "name": "Sometimes it is not straightforward",
+            "merged": false,
+            "keywords": [
+              "Sometimes it is not straightforward"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Group_1",
+            "enabled": "enabled",
+            "name": "some parameters of a recursive divide-and-conquer algorithm",
+            "merged": false,
+            "keywords": [
+              "In this lecture:",
+              "master method",
+              "some parameters of a recursive divide-and-conquer algorithm",
+              "its complexity in O( ) notation"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Group_12",
+            "enabled": "enabled",
+            "name": "To motivate, let us revisit the first algorithm that we learn",
+            "merged": false,
+            "keywords": [
+              "To motivate, let us revisit the first algorithm that we learn"
+            ],
+            "eventId": "4"
+          }
+        ],
+        "keywords": [
+          "We have seen two algorithms following a divide-and-conquer strategy: binary search merge sort",
+          "master method introduction"
+        ],
+        "eventId": "1",
+        "originalParams": {
+          "In_both_cases_the_input_was_split_in___half__which_made_complexity_analysis_relatively_straightforward____log_n___and___nlog_n___respectively_": {
+            "opacity": 1
+          },
+          "Sometimes_it_is_not_straightforward": {
+            "opacity": 1
+          },
+          "Group_1": {
+            "opacity": 1
+          },
+          "Group_12": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "multiplication",
+        "id": "multiplication2",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_1",
+            "enabled": "enabled",
+            "name": "3439274321 5123442132",
+            "merged": false,
+            "keywords": [
+              "3439274321 5123442132"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_12",
+            "enabled": "enabled",
+            "name": "10317822963",
+            "merged": false,
+            "keywords": [
+              "6878548642",
+              "10317822963",
+              "3439274321",
+              "17196371605",
+              "13757097284"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Group_13",
+            "enabled": "enabled",
+            "name": "17620922959717092372",
+            "merged": false,
+            "keywords": [
+              "17620922959717092372"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "What_is_the_time_complexity_of_this_algorithm_",
+            "enabled": "enabled",
+            "name": "What is the time complexity of this algorithm?",
+            "merged": false,
+            "keywords": [
+              "What is the time complexity of this algorithm?"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Group_14",
+            "enabled": "enabled",
+            "name": "Θ(n²)",
+            "merged": false,
+            "keywords": [
+              "Θ(n²)",
+              "Why?"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "Is_there_a_better_algorithm_",
+            "enabled": "enabled",
+            "name": "Is there a better algorithm?",
+            "merged": false,
+            "keywords": [
+              "Is there a better algorithm?"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "Kolmogorov__1960___Requires___n__",
+            "enabled": "enabled",
+            "name": "Kolmogorov (1960): Requires Ω(n²)",
+            "merged": false,
+            "keywords": [
+              "Kolmogorov (1960): Requires Ω(n²)"
+            ],
+            "eventId": "34"
+          },
+          {
+            "type": "show",
+            "id": "Can_you_give_a_recursive_algorithm_",
+            "enabled": "enabled",
+            "name": "Can you give a recursive algorithm?",
+            "merged": false,
+            "keywords": [
+              "Can you give a recursive algorithm?"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "3439274321_828474837",
+            "enabled": "enabled",
+            "name": "3439274321 828474837",
+            "merged": false,
+            "keywords": [
+              "3439274321 5123442132",
+              "3439274321 828474837"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "show",
+            "id": "Group_15",
+            "enabled": "enabled",
+            "name": "Group 1",
+            "merged": false,
+            "keywords": [
+              "Group 1"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "show",
+            "id": "Group_2",
+            "enabled": "enabled",
+            "name": "3131292372",
+            "merged": false,
+            "keywords": [
+              "3131292372",
+              "1762039728"
+            ],
+            "eventId": "10"
+          },
+          {
+            "type": "show",
+            "id": "Group_22",
+            "enabled": "enabled",
+            "name": "176207104092372",
+            "merged": false,
+            "keywords": [
+              "176207104092372"
+            ],
+            "eventId": "11"
+          },
+          {
+            "type": "show",
+            "id": "RecInt_x_y__",
+            "enabled": "enabled",
+            "name": "RecInt(x,y):",
+            "merged": false,
+            "keywords": [
+              "RecInt(x,y):"
+            ],
+            "eventId": "33"
+          },
+          {
+            "type": "show",
+            "id": "To_multiply_to_n_digit_numbers_x_y__we_do_the_following_split_x_into_two_halves",
+            "enabled": "enabled",
+            "name": "To multiply to n-digit numbers x,y, we do the following split x into two halves",
+            "merged": false,
+            "keywords": [
+              "To multiply to n-digit numbers x,y, we do the following split x into two halves"
+            ],
+            "eventId": "19"
+          },
+          {
+            "type": "show",
+            "id": "x_10__n_2__a_b_",
+            "enabled": "enabled",
+            "name": "x=10^{n/2}⋅a+b ",
+            "merged": false,
+            "keywords": [
+              "x=10^{n/2}⋅a+b "
+            ],
+            "eventId": "12"
+          },
+          {
+            "type": "show",
+            "id": "Group_23",
+            "enabled": "enabled",
+            "name": "do the same for y",
+            "merged": false,
+            "keywords": [
+              "do the same for y"
+            ],
+            "eventId": "13"
+          },
+          {
+            "type": "show",
+            "id": "Frame",
+            "enabled": "enabled",
+            "name": "Frame",
+            "merged": false,
+            "keywords": [
+              "Frame"
+            ],
+            "eventId": "16"
+          },
+          {
+            "type": "show",
+            "id": "compute_recursively_a_c__a_d__b_c__b_d",
+            "enabled": "enabled",
+            "name": "compute recursively a⋅c, a⋅d, b⋅c, b⋅d",
+            "merged": false,
+            "keywords": [
+              "compute recursively a⋅c, a⋅d, b⋅c, b⋅d"
+            ],
+            "eventId": "17"
+          },
+          {
+            "type": "show",
+            "id": "return_this",
+            "enabled": "enabled",
+            "name": "return this",
+            "merged": false,
+            "keywords": [
+              "return this"
+            ],
+            "eventId": "28"
+          },
+          {
+            "type": "show",
+            "id": "brace",
+            "enabled": "enabled",
+            "name": "brace",
+            "merged": true,
+            "keywords": [
+              "brace"
+            ],
+            "eventId": "29"
+          },
+          {
+            "type": "show",
+            "id": "arrow",
+            "enabled": "enabled",
+            "name": "arrow",
+            "merged": true,
+            "keywords": [
+              "arrow"
+            ],
+            "eventId": "30"
+          },
+          {
+            "type": "show",
+            "id": "four_recursive_calls_in_numbers_with_n_2_digits",
+            "enabled": "enabled",
+            "name": "four recursive calls in numbers with n/2 digits",
+            "merged": false,
+            "keywords": [
+              "four recursive calls in numbers with n/2 digits"
+            ],
+            "eventId": "31"
+          },
+          {
+            "type": "show",
+            "id": "Is_this_better_than_the_school_algorithm_",
+            "enabled": "enabled",
+            "name": "Is this better than the school algorithm?",
+            "merged": false,
+            "keywords": [
+              "Is this better than the school algorithm?"
+            ],
+            "eventId": "32"
+          }
+        ],
+        "keywords": [
+          "Multiplication",
+          "multiplication"
+        ],
+        "eventId": "2",
+        "originalParams": {
+          "Group_1": {
+            "opacity": 1
+          },
+          "Group_12": {
+            "opacity": 1
+          },
+          "Group_13": {
+            "opacity": 1
+          },
+          "What_is_the_time_complexity_of_this_algorithm_": {
+            "opacity": 1
+          },
+          "Group_14": {
+            "opacity": 1
+          },
+          "Is_there_a_better_algorithm_": {
+            "opacity": 1
+          },
+          "Can_you_give_a_recursive_algorithm_": {
+            "opacity": 1
+          },
+          "3439274321_828474837": {
+            "opacity": 1
+          },
+          "Group_15": {
+            "opacity": 1
+          },
+          "Group_2": {
+            "opacity": 1
+          },
+          "Group_22": {
+            "opacity": 1
+          },
+          "x_10__n_2__a_b_": {
+            "opacity": 1
+          },
+          "Group_23": {
+            "opacity": 1
+          },
+          "Frame": {
+            "opacity": 1
+          },
+          "compute_recursively_a_c__a_d__b_c__b_d": {
+            "opacity": 1
+          },
+          "To_multiply_to_n_digit_numbers_x_y__we_do_the_following_split_x_into_two_halves": {
+            "opacity": 1
+          },
+          "return_this": {
+            "opacity": 1
+          },
+          "brace": {
+            "opacity": 1
+          },
+          "arrow": {
+            "opacity": 1
+          },
+          "four_recursive_calls_in_numbers_with_n_2_digits": {
+            "opacity": 1
+          },
+          "Is_this_better_than_the_school_algorithm_": {
+            "opacity": 1
+          },
+          "RecInt_x_y__": {
+            "opacity": 1
+          },
+          "Kolmogorov__1960___Requires___n__": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "karatsuba",
+        "id": "karatsuba",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_2",
+            "enabled": "enabled",
+            "name": "Instead of computing recursively, a⋅c, a⋅d, b⋅c, b⋅d",
+            "merged": false,
+            "keywords": [
+              "Instead of computing recursively, a⋅c, a⋅d, b⋅c, b⋅d",
+              "We compute a⋅c, b⋅d, and (a+b)⋅(c+d)"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "show",
+            "id": "Group_22",
+            "enabled": "enabled",
+            "name": "Group 2",
+            "merged": false,
+            "keywords": [
+              "Group 2"
+            ],
+            "eventId": "10"
+          },
+          {
+            "type": "show",
+            "id": "Karatsuba_x_y__",
+            "enabled": "enabled",
+            "name": "Karatsuba(x,y):",
+            "merged": false,
+            "keywords": [
+              "Karatsuba(x,y):"
+            ],
+            "eventId": "14"
+          },
+          {
+            "type": "show",
+            "id": "To_multiply_to_n_digit_numbers_x_y__we_do_the_following_split_x_into_two_halves",
+            "enabled": "enabled",
+            "name": "To multiply to n-digit numbers x,y, we do the following split x into two halves",
+            "merged": true,
+            "keywords": [
+              "To multiply to n-digit numbers x,y, we do the following split x into two halves"
+            ],
+            "eventId": "15"
+          },
+          {
+            "type": "show",
+            "id": "x_10__n_2__a_b_",
+            "enabled": "enabled",
+            "name": "x=10^{n/2}⋅a+b ",
+            "merged": true,
+            "keywords": [
+              "x=10^{n/2}⋅a+b "
+            ],
+            "eventId": "17"
+          },
+          {
+            "type": "show",
+            "id": "do_the_same_for_y",
+            "enabled": "enabled",
+            "name": "do the same for y",
+            "merged": true,
+            "keywords": [
+              "do the same for y"
+            ],
+            "eventId": "18"
+          },
+          {
+            "type": "show",
+            "id": "y_10__n_2__c_d",
+            "enabled": "enabled",
+            "name": "y=10^{n/2}⋅c+d",
+            "merged": true,
+            "keywords": [
+              "y=10^{n/2}⋅c+d"
+            ],
+            "eventId": "19"
+          },
+          {
+            "type": "show",
+            "id": "compute_recursively_a_c__b_d___a_b___c_d_",
+            "enabled": "enabled",
+            "name": "compute recursively a⋅c, b⋅d, (a+b)⋅(c+d)",
+            "merged": false,
+            "keywords": [
+              "compute recursively a⋅c, b⋅d, (a+b)⋅(c+d)"
+            ],
+            "eventId": "20"
+          },
+          {
+            "type": "show",
+            "id": "return",
+            "enabled": "enabled",
+            "name": "return",
+            "merged": false,
+            "keywords": [
+              "return"
+            ],
+            "eventId": "27"
+          },
+          {
+            "type": "show",
+            "id": "10_n_ac__10__n_2__left__a_b__c_d__ac_bd_right__bd",
+            "enabled": "enabled",
+            "name": "10^n\\cdot(ac)+10^{n/2}\\cdot\\left((a+b)(c+d)-ac-bd\\right)+bd",
+            "merged": true,
+            "keywords": [
+              "10^n\\cdot(ac)+10^{n/2}\\cdot\\left((a+b)(c+d)-ac-bd\\right)+bd"
+            ],
+            "eventId": "28"
+          },
+          {
+            "type": "show",
+            "id": "Are_these_fancy_algorithms_any_better_than_the_school_method_",
+            "enabled": "enabled",
+            "name": "Are these fancy algorithms any better than the school method?",
+            "merged": false,
+            "keywords": [
+              "Are these fancy algorithms any better than the school method?"
+            ],
+            "eventId": "24"
+          }
+        ],
+        "keywords": [
+          "Anatoly Karatsuba (1937-2008)",
+          "We need only 3 recursive calls",
+          "karatsuba"
+        ],
+        "eventId": "3",
+        "originalParams": {
+          "Group_2": {
+            "opacity": 1
+          },
+          "Group_22": {
+            "opacity": 1
+          },
+          "Karatsuba_x_y__": {
+            "opacity": 1
+          },
+          "To_multiply_to_n_digit_numbers_x_y__we_do_the_following_split_x_into_two_halves": {
+            "opacity": 1
+          },
+          "x_10__n_2__a_b_": {
+            "opacity": 1
+          },
+          "do_the_same_for_y": {
+            "opacity": 1
+          },
+          "y_10__n_2__c_d": {
+            "opacity": 1
+          },
+          "compute_recursively_a_c__b_d___a_b___c_d_": {
+            "opacity": 1
+          },
+          "Are_these_fancy_algorithms_any_better_than_the_school_method_": {
+            "opacity": 1
+          },
+          "return": {
+            "opacity": 1
+          },
+          "10_n_ac__10__n_2__left__a_b__c_d__ac_bd_right__bd": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "multiplication algorithms",
+        "id": "multiplication_algorithms",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "RecInt_does_4_recursive_calls_on_input_of_n_2_length_____n__to_combine_the_results_of_recursive_calls__and_split",
+            "enabled": "enabled",
+            "name": "RecInt does 4 recursive calls on input of n/2 length + Θ(n) to combine the results of recursive calls, and split",
+            "merged": false,
+            "keywords": [
+              "RecInt does 4 recursive calls on input of n/2 length + Θ(n) to combine the results of recursive calls, and split"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Frame",
+            "enabled": "enabled",
+            "name": "Frame",
+            "merged": false,
+            "keywords": [
+              "Frame"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Karatsuba_does_3_recursive_calls_on_input_of_n_2_length_____n__to_combine_the_results_of_recursive_calls__and_split",
+            "enabled": "enabled",
+            "name": "Karatsuba does 3 recursive calls on input of n/2 length + Θ(n) to combine the results of recursive calls, and split",
+            "merged": false,
+            "keywords": [
+              "Karatsuba does 3 recursive calls on input of n/2 length + Θ(n) to combine the results of recursive calls, and split"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Frame2",
+            "enabled": "enabled",
+            "name": "Frame",
+            "merged": true,
+            "keywords": [
+              "Frame"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "But_what_is_the_complexity_of_RecInt_and_Karatsuba_",
+            "enabled": "enabled",
+            "name": "But what is the complexity of RecInt and Karatsuba?",
+            "merged": false,
+            "keywords": [
+              "But what is the complexity of RecInt and Karatsuba?"
+            ],
+            "eventId": "5"
+          }
+        ],
+        "keywords": [
+          "School algorithm: Θ(n²)",
+          "multiplication algorithms"
+        ],
+        "eventId": "4",
+        "originalParams": {
+          "RecInt_does_4_recursive_calls_on_input_of_n_2_length_____n__to_combine_the_results_of_recursive_calls__and_split": {
+            "opacity": 1
+          },
+          "Frame": {
+            "opacity": 1
+          },
+          "Karatsuba_does_3_recursive_calls_on_input_of_n_2_length_____n__to_combine_the_results_of_recursive_calls__and_split": {
+            "opacity": 1
+          },
+          "Frame2": {
+            "opacity": 1
+          },
+          "But_what_is_the_complexity_of_RecInt_and_Karatsuba_": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "master method",
+        "id": "master_method",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_3",
+            "enabled": "enabled",
+            "name": "Parameters: a ← number of recursive calls b ← input size shrinkage factor d ← exponent in running time of the combine step",
+            "merged": false,
+            "keywords": [
+              "Definition. (Standard recurrence format)",
+              "Base case: T(n) is at most constant for sufficiently small n",
+              "General case: for larger values of n,",
+              "Parameters: a ← number of recursive calls b ← input size shrinkage factor d ← exponent in running time of the combine step"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Group_32",
+            "enabled": "enabled",
+            "name": "If T(n) is defined by a standard recurrence, with parameters a≥1, b>1, and d≥0, then",
+            "merged": false,
+            "keywords": [
+              "Theorem. (Master Method)",
+              "If T(n) is defined by a standard recurrence, with parameters a≥1, b>1, and d≥0, then"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Very_easy_to_apply_",
+            "enabled": "enabled",
+            "name": "Very easy to apply!",
+            "merged": false,
+            "keywords": [
+              "Very easy to apply!"
+            ],
+            "eventId": "4"
+          }
+        ],
+        "keywords": [
+          "The master method allows us to compute the complexity of recursive functions that fit the template: « a recursive calls on inputs of size n/b where the combination step takes »",
+          "master method"
+        ],
+        "eventId": "5",
+        "originalParams": {
+          "Group_3": {
+            "opacity": 1
+          },
+          "Group_32": {
+            "opacity": 1
+          },
+          "Very_easy_to_apply_": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "master method applications",
+        "id": "master_method_applications",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_33",
+            "enabled": "enabled",
+            "name": "What are the parameters?",
+            "merged": false,
+            "keywords": [
+              "What are the parameters?",
+              "a=",
+              "b=",
+              "d="
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "1",
+            "enabled": "enabled",
+            "name": "1",
+            "merged": false,
+            "keywords": [
+              "1"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "2",
+            "enabled": "enabled",
+            "name": "2",
+            "merged": false,
+            "keywords": [
+              "2"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "0",
+            "enabled": "enabled",
+            "name": "0",
+            "merged": false,
+            "keywords": [
+              "0"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "On_which_case_are_we_",
+            "enabled": "enabled",
+            "name": "On which case are we?",
+            "merged": false,
+            "keywords": [
+              "On which case are we?"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Group_34",
+            "enabled": "enabled",
+            "name": "1 = 2⁰",
+            "merged": false,
+            "keywords": [
+              "1 = 2⁰"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "So_BinarySearch_runs_in_time_O_n_log_n_____O_log_n___",
+            "enabled": "enabled",
+            "name": "So BinarySearch runs in time O(n⁰log(n)) = O(log(n)).",
+            "merged": false,
+            "keywords": [
+              "So BinarySearch runs in time O(n⁰log(n)) = O(log(n))."
+            ],
+            "eventId": "8"
+          }
+        ],
+        "keywords": [
+          "Search for v in array A: Look at the middle element of A If it is equal to v, we stop. Otherwise: if it is greater than v, we repeat the search only on the elements before the middle one; if it is less than v, we repeat the search only on the items after it. Return -1 when the range we search is of size 0.",
+          "BinarySearch(v, A):",
+          "Definition. (Standard recurrence format)",
+          "Base case: T(n) is at most constant for sufficiently small n",
+          "General case: for larger values of n,",
+          "Parameters: a ← number of recursive calls b ← input size shrinkage factor d ← exponent in running time of the combine step",
+          "Theorem. (Master Method)",
+          "If T(n) is defined by a standard recurrence, with parameters a≥1, b>1, and d≥0, then",
+          "master method applications"
+        ],
+        "eventId": "6",
+        "originalParams": {
+          "0": {
+            "opacity": 1
+          },
+          "1": {
+            "opacity": 1
+          },
+          "2": {
+            "opacity": 1
+          },
+          "Group_33": {
+            "opacity": 1
+          },
+          "On_which_case_are_we_": {
+            "opacity": 1
+          },
+          "Group_34": {
+            "opacity": 1
+          },
+          "So_BinarySearch_runs_in_time_O_n_log_n_____O_log_n___": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "master method merge sort",
+        "id": "master_method_merge_sort",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_33",
+            "enabled": "enabled",
+            "name": "What are the parameters?",
+            "merged": false,
+            "keywords": [
+              "What are the parameters?",
+              "a=",
+              "b=",
+              "d="
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "2",
+            "enabled": "enabled",
+            "name": "2",
+            "merged": false,
+            "keywords": [
+              "2"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "22",
+            "enabled": "enabled",
+            "name": "2",
+            "merged": false,
+            "keywords": [
+              "2"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "1",
+            "enabled": "enabled",
+            "name": "1",
+            "merged": false,
+            "keywords": [
+              "1"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "On_which_case_are_we_",
+            "enabled": "enabled",
+            "name": "On which case are we?",
+            "merged": false,
+            "keywords": [
+              "On which case are we?"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "2___2_",
+            "enabled": "enabled",
+            "name": "2 = 2¹",
+            "merged": false,
+            "keywords": [
+              "2 = 2¹"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "show",
+            "id": "So_MergeSort_runs_in_time_O_n_log_n__",
+            "enabled": "enabled",
+            "name": "So MergeSort runs in time O(n⋅log(n))",
+            "merged": false,
+            "keywords": [
+              "So MergeSort runs in time O(n⋅log(n))"
+            ],
+            "eventId": "7"
+          }
+        ],
+        "keywords": [
+          "Definition. (Standard recurrence format)",
+          "Base case: T(n) is at most constant for sufficiently small n",
+          "General case: for larger values of n,",
+          "Parameters: a ← number of recursive calls b ← input size shrinkage factor d ← exponent in running time of the combine step",
+          "Theorem. (Master Method)",
+          "If T(n) is defined by a standard recurrence, with parameters a≥1, b>1, and d≥0, then",
+          "MergeSort(A):",
+          "if A has only one element return A split A into two halves half1, half2 MergeSort(half1) MergeSort(half2) merge(half1,half2)",
+          "To merge the two halves interleave them in order and put them back in A",
+          "We go through the elements of half1 and half2 using counters j1 and j2:",
+          "if half1[j1] < half2[j2] → we put half1[j1] in the next position in A, and increase j1+=1",
+          "otherwise → we put half2[j2] in the next position in A, and increase j2+=1",
+          "Continue until all elements in half1 and half2 are exhausted",
+          "master method merge sort"
+        ],
+        "eventId": "7",
+        "originalParams": {
+          "1": {
+            "opacity": 1
+          },
+          "2": {
+            "opacity": 1
+          },
+          "22": {
+            "opacity": 1
+          },
+          "Group_33": {
+            "opacity": 1
+          },
+          "On_which_case_are_we_": {
+            "opacity": 1
+          },
+          "So_MergeSort_runs_in_time_O_n_log_n__": {
+            "opacity": 1
+          },
+          "2___2_": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "master method rectint",
+        "id": "master_method_rectint",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_33",
+            "enabled": "enabled",
+            "name": "What are the parameters?",
+            "merged": false,
+            "keywords": [
+              "What are the parameters?",
+              "a=",
+              "b=",
+              "d="
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "4",
+            "enabled": "enabled",
+            "name": "4",
+            "merged": false,
+            "keywords": [
+              "4"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "2",
+            "enabled": "enabled",
+            "name": "2",
+            "merged": false,
+            "keywords": [
+              "2"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "1",
+            "enabled": "enabled",
+            "name": "1",
+            "merged": false,
+            "keywords": [
+              "1"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "On_which_case_are_we_",
+            "enabled": "enabled",
+            "name": "On which case are we?",
+            "merged": false,
+            "keywords": [
+              "On which case are we?"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "4___2_",
+            "enabled": "enabled",
+            "name": "4 > 2¹",
+            "merged": false,
+            "keywords": [
+              "4 > 2¹"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "So_MergeSort_runs_in_time_O_n_log_n__",
+            "enabled": "enabled",
+            "name": "So MergeSort runs in time O(n⋅log(n))",
+            "merged": false,
+            "keywords": [
+              "So MergeSort runs in time O(n⋅log(n))"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "show",
+            "id": "O_n___log_2_4___O_n_2_",
+            "enabled": "enabled",
+            "name": "O(n^{\\log_2 4})=O(n^2)",
+            "merged": true,
+            "keywords": [
+              "O(n^{\\log_2 4})=O(n^2)"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "show",
+            "id": "No_better_than_the_school_algorithm_",
+            "enabled": "enabled",
+            "name": "No better than the school algorithm!",
+            "merged": false,
+            "keywords": [
+              "No better than the school algorithm!"
+            ],
+            "eventId": "10"
+          }
+        ],
+        "keywords": [
+          "To multiply to n-digit numbers x,y, we do the following split x into two halves",
+          "do the same for y",
+          "compute recursively a⋅c, a⋅d, b⋅c, b⋅d",
+          "return this",
+          "RecInt(x,y):",
+          "Definition. (Standard recurrence format)",
+          "Base case: T(n) is at most constant for sufficiently small n",
+          "General case: for larger values of n,",
+          "Parameters: a ← number of recursive calls b ← input size shrinkage factor d ← exponent in running time of the combine step",
+          "Theorem. (Master Method)",
+          "If T(n) is defined by a standard recurrence, with parameters a≥1, b>1, and d≥0, then",
+          "master method rectint"
+        ],
+        "eventId": "8",
+        "originalParams": {
+          "1": {
+            "opacity": 1
+          },
+          "2": {
+            "opacity": 1
+          },
+          "4": {
+            "opacity": 1
+          },
+          "Group_33": {
+            "opacity": 1
+          },
+          "On_which_case_are_we_": {
+            "opacity": 1
+          },
+          "4___2_": {
+            "opacity": 1
+          },
+          "So_MergeSort_runs_in_time_O_n_log_n__": {
+            "opacity": 1
+          },
+          "O_n___log_2_4___O_n_2_": {
+            "opacity": 1
+          },
+          "No_better_than_the_school_algorithm_": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "master method karatsuba",
+        "id": "master_method_karatsuba",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_33",
+            "enabled": "enabled",
+            "name": "What are the parameters?",
+            "merged": false,
+            "keywords": [
+              "What are the parameters?",
+              "a=",
+              "b=",
+              "d="
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "3",
+            "enabled": "enabled",
+            "name": "3",
+            "merged": false,
+            "keywords": [
+              "3"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "2",
+            "enabled": "enabled",
+            "name": "2",
+            "merged": false,
+            "keywords": [
+              "2"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "1",
+            "enabled": "enabled",
+            "name": "1",
+            "merged": false,
+            "keywords": [
+              "1"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "On_which_case_are_we_",
+            "enabled": "enabled",
+            "name": "On which case are we?",
+            "merged": false,
+            "keywords": [
+              "On which case are we?"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "3_2_",
+            "enabled": "enabled",
+            "name": "3>2¹",
+            "merged": false,
+            "keywords": [
+              "3>2¹"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "So_Karatsuba_runs_in_time",
+            "enabled": "enabled",
+            "name": "So Karatsuba runs in time",
+            "merged": false,
+            "keywords": [
+              "So Karatsuba runs in time"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "O_n___log_2_3___O_n__1_59__",
+            "enabled": "enabled",
+            "name": "O(n^{\\log_2 3})=O(n^{1.59})",
+            "merged": true,
+            "keywords": [
+              "O(n^{\\log_2 3})=O(n^{1.59})"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "show",
+            "id": "Better_than_the_school_algorithm_",
+            "enabled": "enabled",
+            "name": "Better than the school algorithm!",
+            "merged": false,
+            "keywords": [
+              "Better than the school algorithm!"
+            ],
+            "eventId": "9"
+          }
+        ],
+        "keywords": [
+          "Karatsuba(x,y):",
+          "To multiply to n-digit numbers x,y, we do the following split x into two halves",
+          "do the same for y",
+          "compute recursively a⋅c, b⋅d, (a+b)⋅(c+d)",
+          "return",
+          "Definition. (Standard recurrence format)",
+          "Base case: T(n) is at most constant for sufficiently small n",
+          "General case: for larger values of n,",
+          "Parameters: a ← number of recursive calls b ← input size shrinkage factor d ← exponent in running time of the combine step",
+          "Theorem. (Master Method)",
+          "If T(n) is defined by a standard recurrence, with parameters a≥1, b>1, and d≥0, then",
+          "master method karatsuba"
+        ],
+        "eventId": "9",
+        "originalParams": {
+          "1": {
+            "opacity": 1
+          },
+          "2": {
+            "opacity": 1
+          },
+          "3": {
+            "opacity": 1
+          },
+          "Group_33": {
+            "opacity": 1
+          },
+          "On_which_case_are_we_": {
+            "opacity": 1
+          },
+          "3_2_": {
+            "opacity": 1
+          },
+          "So_Karatsuba_runs_in_time": {
+            "opacity": 1
+          },
+          "O_n___log_2_3___O_n__1_59__": {
+            "opacity": 1
+          },
+          "Better_than_the_school_algorithm_": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "karatsuba story",
+        "id": "karatsuba_story",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Karatsuba_gave_algorithm_in",
+            "enabled": "enabled",
+            "name": "Karatsuba gave algorithm in",
+            "merged": false,
+            "keywords": [
+              "Karatsuba gave algorithm in"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "O_n__1_59__",
+            "enabled": "enabled",
+            "name": "O(n^{1.59})",
+            "merged": true,
+            "keywords": [
+              "O(n^{1.59})"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Group_3",
+            "enabled": "enabled",
+            "name": "Group 3",
+            "merged": false,
+            "keywords": [
+              "Group 3"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Now_we_even_know_an_algorithm_that_runs_in_time_O_n_log_n___which_is_probably_the_best_we_can_do__we_do_not_know_yet___but_it_s_not_good_in_practice_",
+            "enabled": "enabled",
+            "name": "Now we even know an algorithm that runs in time O(n log(n)) which is probably the best we can do (we do not know yet); but it’s not good in practice.",
+            "merged": false,
+            "keywords": [
+              "Now we even know an algorithm that runs in time O(n log(n)) which is probably the best we can do (we do not know yet); but it’s not good in practice."
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Group_4",
+            "enabled": "enabled",
+            "name": "an example of a galactic algorithm ← see wiki page",
+            "merged": false,
+            "keywords": [
+              "an example of a galactic algorithm ← see wiki page"
+            ],
+            "eventId": "5"
+          }
+        ],
+        "keywords": [
+          "Conjectured: every algorithm to multiply 2 n-digit numbers takes time Ω(n²)",
+          "karatsuba story"
+        ],
+        "eventId": "10",
+        "originalParams": {
+          "Karatsuba_gave_algorithm_in": {
+            "opacity": 1
+          },
+          "O_n__1_59__": {
+            "opacity": 1
+          },
+          "Group_3": {
+            "opacity": 1
+          },
+          "Now_we_even_know_an_algorithm_that_runs_in_time_O_n_log_n___which_is_probably_the_best_we_can_do__we_do_not_know_yet___but_it_s_not_good_in_practice_": {
+            "opacity": 1
+          },
+          "Group_4": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "data structures",
+        "id": "data_structures",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_4",
+            "enabled": "enabled",
+            "name": "A data structure is a way of storing and organising data in order to facilitate access and modifications.",
+            "merged": false,
+            "keywords": [
+              "A data structure is a way of storing and organising data in order to facilitate access and modifications.",
+              "storing data is easy storing it in a fast/reliable/useful way is tricky"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Analogy__Is_a_French_German_dictionary_the_same_as_a_German_French_one_",
+            "enabled": "enabled",
+            "name": "Analogy: Is a French-German dictionary the same as a German-French one?",
+            "merged": false,
+            "keywords": [
+              "Analogy: Is a French-German dictionary the same as a German-French one?"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "No_single_data_structure_works_well_for_all_purposes__Therefore_it_is_important_to_know_the_strength_and_limitations_of_several_of_them_",
+            "enabled": "enabled",
+            "name": "No single data structure works well for all purposes. Therefore it is important to know the strength and limitations of several of them.",
+            "merged": false,
+            "keywords": [
+              "No single data structure works well for all purposes. Therefore it is important to know the strength and limitations of several of them."
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "We_have_used_the_following_basic_data_structures__arrays__searching_and_sorting_algorithms__strings__just_for_printing_",
+            "enabled": "enabled",
+            "name": "We have used the following basic data structures: arrays (searching and sorting algorithms) strings (just for printing)",
+            "merged": false,
+            "keywords": [
+              "We have used the following basic data structures: arrays (searching and sorting algorithms) strings (just for printing)"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "child",
+            "name": "arrays",
+            "id": "arrays",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "E_g",
+                "enabled": "enabled",
+                "name": "E.g",
+                "merged": false,
+                "keywords": [
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "42",
+                  "E.g"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Typically_in_CS_arrays__and_other_things__are_indexed_from_0_",
+                "enabled": "enabled",
+                "name": "Typically in CS arrays (and other things) are indexed from 0.",
+                "merged": true,
+                "keywords": [
+                  "Typically in CS arrays (and other things) are indexed from 0."
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "the_length_of_this_array__call_it_a__is_5_the_elements_of_this_array_are__a_0___a_1___a_2___a_3___a_4__we_can_read_the_first_element_of_a_e_g__by_first___a_0__we_can_modify_the_first_element_of_a_by_a_0__24",
+                "enabled": "enabled",
+                "name": "the length of this array (call it a) is 5 the elements of this array are: a[0], a[1], a[2], a[3], a[4] we can read the first element of a e.g. by first = a[0] we can modify the first element of a by a[0]=24",
+                "merged": false,
+                "keywords": [
+                  "the length of this array (call it a) is 5 the elements of this array are: a[0], a[1], a[2], a[3], a[4] we can read the first element of a e.g. by first = a[0] we can modify the first element of a by a[0]=24"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Pros__easy_to_understand_and_use_expressive_enough_for_a_wide_range_of_tasks_typically_very_fast_to_read_write__low_level__close_to_underlying_hardware__few_functionalities_so_not_many_things_can_go_wrong",
+                "enabled": "enabled",
+                "name": "Pros: easy to understand and use expressive enough for a wide range of tasks typically very fast to read/write (low-level, close to underlying hardware) few functionalities so not many things can go wrong",
+                "merged": false,
+                "keywords": [
+                  "Pros: easy to understand and use expressive enough for a wide range of tasks typically very fast to read/write (low-level, close to underlying hardware) few functionalities so not many things can go wrong"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "Cons___too_few_functionalities__fixed_size___cannot_enlarge_an_array_sometimes_we_need_more_elaborate_data_structures_than_simply_storing_data_in_a_row__i_e__the_whole_point_of_having_data_structures_",
+                "enabled": "enabled",
+                "name": "Cons: (too few functionalities) fixed size - cannot enlarge an array sometimes we need more elaborate data structures than simply storing data in a row (i.e. the whole point of having data structures)",
+                "merged": false,
+                "keywords": [
+                  "Cons: (too few functionalities) fixed size - cannot enlarge an array sometimes we need more elaborate data structures than simply storing data in a row (i.e. the whole point of having data structures)"
+                ],
+                "eventId": "5"
+              }
+            ],
+            "keywords": [
+              "Arrays",
+              "are the most common data type for storing data: an array is a sequence the elements of an array can be read and modified by using their index but the length of the array is fixed - cannot be changed",
+              "arrays"
+            ],
+            "eventId": "5",
+            "originalParams": {
+              "E_g": {
+                "opacity": 1
+              },
+              "Typically_in_CS_arrays__and_other_things__are_indexed_from_0_": {
+                "opacity": 1
+              },
+              "the_length_of_this_array__call_it_a__is_5_the_elements_of_this_array_are__a_0___a_1___a_2___a_3___a_4__we_can_read_the_first_element_of_a_e_g__by_first___a_0__we_can_modify_the_first_element_of_a_by_a_0__24": {
+                "opacity": 1
+              },
+              "Pros__easy_to_understand_and_use_expressive_enough_for_a_wide_range_of_tasks_typically_very_fast_to_read_write__low_level__close_to_underlying_hardware__few_functionalities_so_not_many_things_can_go_wrong": {
+                "opacity": 1
+              },
+              "Cons___too_few_functionalities__fixed_size___cannot_enlarge_an_array_sometimes_we_need_more_elaborate_data_structures_than_simply_storing_data_in_a_row__i_e__the_whole_point_of_having_data_structures_": {
+                "opacity": 1
+              }
+            }
+          }
+        ],
+        "keywords": [
+          "Algorithms and data structures",
+          "Algorithms we have seen work with data. Data is put in a specific data structure.",
+          "data structures"
+        ],
+        "eventId": "11",
+        "originalParams": {
+          "Group_4": {
+            "opacity": 1
+          },
+          "Analogy__Is_a_French_German_dictionary_the_same_as_a_German_French_one_": {
+            "opacity": 1
+          },
+          "No_single_data_structure_works_well_for_all_purposes__Therefore_it_is_important_to_know_the_strength_and_limitations_of_several_of_them_": {
+            "opacity": 1
+          },
+          "We_have_used_the_following_basic_data_structures__arrays__searching_and_sorting_algorithms__strings__just_for_printing_": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "lists",
+        "id": "lists",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_4",
+            "enabled": "enabled",
+            "name": "this describes functionalities of lists i.e. the functions available for using them Such a description is called an Abstract Data Type (ADT)",
+            "merged": false,
+            "keywords": [
+              "this describes functionalities of lists i.e. the functions available for using them Such a description is called an Abstract Data Type (ADT)"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "ADTs_are_like_Java_Interfaces__while_Data_Structures_are_like_their_implementations__an_ADT_gives_us_an_outside_view_of_a_data_object___tells_us_how_to_use_it_a_Data_Structure_gives_us_the_inside_view_of_the_object___shows_us_how_the_object_really_works",
+            "enabled": "enabled",
+            "name": "ADTs are like Java Interfaces, while Data Structures are like their implementations. an ADT gives us an outside view of a data object - tells us how to use it a Data Structure gives us the inside view of the object - shows us how the object really works",
+            "merged": false,
+            "keywords": [
+              "ADTs are like Java Interfaces, while Data Structures are like their implementations. an ADT gives us an outside view of a data object - tells us how to use it a Data Structure gives us the inside view of the object - shows us how the object really works"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "child",
+            "name": "list illustration",
+            "id": "list_illustration",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "ls_append_42_",
+                "enabled": "enabled",
+                "name": "ls.append(42)",
+                "merged": false,
+                "keywords": [
+                  "ls.append(42)"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "42",
+                "enabled": "enabled",
+                "name": "42",
+                "merged": false,
+                "keywords": [
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "42"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "ls_remove_2_",
+                "enabled": "enabled",
+                "name": "ls.remove(2)",
+                "merged": false,
+                "keywords": [
+                  "ls.remove(2)"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "other_42",
+                "enabled": "enabled",
+                "name": "other 42",
+                "merged": false,
+                "keywords": [
+                  "2",
+                  "3",
+                  "5",
+                  "42",
+                  "other 42"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "ls_insert_1__24_",
+                "enabled": "enabled",
+                "name": "ls.insert(1, 24)",
+                "merged": false,
+                "keywords": [
+                  "ls.insert(1, 24)"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "24",
+                "enabled": "enabled",
+                "name": "24",
+                "merged": false,
+                "keywords": [
+                  "2",
+                  "24",
+                  "3",
+                  "5",
+                  "42"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "show",
+                "id": "indices",
+                "enabled": "enabled",
+                "name": "indices",
+                "merged": false,
+                "keywords": [
+                  "indices"
+                ],
+                "eventId": "7"
+              },
+              {
+                "type": "show",
+                "id": "values",
+                "enabled": "enabled",
+                "name": "values",
+                "merged": false,
+                "keywords": [
+                  "values"
+                ],
+                "eventId": "8"
+              }
+            ],
+            "keywords": [
+              "For example",
+              "2",
+              "3",
+              "4",
+              "5",
+              "list illustration"
+            ],
+            "eventId": "4",
+            "originalParams": {
+              "24": {
+                "opacity": 1
+              },
+              "42": {
+                "opacity": 1
+              },
+              "ls_append_42_": {
+                "opacity": 1
+              },
+              "ls_remove_2_": {
+                "opacity": 1
+              },
+              "other_42": {
+                "opacity": 1
+              },
+              "ls_insert_1__24_": {
+                "opacity": 1
+              },
+              "indices": {
+                "opacity": 1
+              },
+              "values": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "How_to_implement_a_list_",
+            "enabled": "enabled",
+            "name": "How to implement a list?",
+            "merged": false,
+            "keywords": [
+              "How to implement a list?"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "Lists_are_a_family_of_data_structures__of_which_we_will_look_at_two_representatives__array_lists___an_extension_of_arrays_that_also_behave_like_lists_linked_lists___a_new_data_structure_based_on_chaining_of_elements",
+            "enabled": "enabled",
+            "name": "Lists are a family of data structures, of which we will look at two representatives: array lists - an extension of arrays that also behave like lists linked lists - a new data structure based on chaining of elements",
+            "merged": false,
+            "keywords": [
+              "Lists are a family of data structures, of which we will look at two representatives: array lists - an extension of arrays that also behave like lists linked lists - a new data structure based on chaining of elements"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "Group_42",
+            "enabled": "enabled",
+            "name": "today",
+            "merged": false,
+            "keywords": [
+              "today"
+            ],
+            "eventId": "7"
+          }
+        ],
+        "keywords": [
+          "Lists",
+          "elements are stored in a sequence we can read/write elements we can add/remove elements at any position (changing the length of the list)",
+          "lists"
+        ],
+        "eventId": "12",
+        "originalParams": {
+          "Group_4": {
+            "opacity": 1
+          },
+          "ADTs_are_like_Java_Interfaces__while_Data_Structures_are_like_their_implementations__an_ADT_gives_us_an_outside_view_of_a_data_object___tells_us_how_to_use_it_a_Data_Structure_gives_us_the_inside_view_of_the_object___shows_us_how_the_object_really_works": {
+            "opacity": 1
+          },
+          "How_to_implement_a_list_": {
+            "opacity": 1
+          },
+          "Lists_are_a_family_of_data_structures__of_which_we_will_look_at_two_representatives__array_lists___an_extension_of_arrays_that_also_behave_like_lists_linked_lists___a_new_data_structure_based_on_chaining_of_elements": {
+            "opacity": 1
+          },
+          "Group_42": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "arraylists",
+        "id": "arraylists",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "In_Python__even_though_we_have_been_using_mostly_features_of_arrays_only__The_arrays_in_fact_have_extra_functionalities___they_are_array_lists_",
+            "enabled": "enabled",
+            "name": "In Python, even though we have been using mostly features of arrays only. The arrays in fact have extra functionalities - they are array lists:",
+            "merged": false,
+            "keywords": [
+              "In Python, even though we have been using mostly features of arrays only. The arrays in fact have extra functionalities - they are array lists:",
+              "Code snippet"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "We_require_that_array_lists_have_the_following_functions__create___a_function_for_creating_a_new_array_list_of_length_0_get_i__for_reading_the_i_th_element_of_an_array_list_set_i__e__for_writing_an_element_e_into_i_th_element_of_an_array_list_length___for_retrieving_the_current_length_of_an_array_list_append_e__for_appending_an_element_e_at_the_end_of_an_array_list__increasing_its_length_by_1_insert_i__e__for_inserting_an_element_e_in_the_i_th_position_of_an_array_list_and_moving_all_subsequent_elements_one_position_to_the_right__increasing_its_length_by_1_remove_i__for_removing_the_element_in_the_i_th_position_of_an_array_list__returning_it__and_moving_all_subsequent_elements_one_position_to_the_left__reducing_its_length_by_1",
+            "enabled": "enabled",
+            "name": "We require that array lists have the following functions: create() a function for creating a new array list of length 0 get(i) for reading the i-th element of an array list set(i, e) for writing an element e into i-th element of an array list length() for retrieving the current length of an array list append(e) for appending an element e at the end of an array list, increasing its length by 1 insert(i, e) for inserting an element e in the i-th position of an array list and moving all subsequent elements one position to the right, increasing its length by 1 remove(i) for removing the element in the i-th position of an array list, returning it, and moving all subsequent elements one position to the left, reducing its length by 1",
+            "merged": false,
+            "keywords": [
+              "Functionalities of array lists",
+              "We require that array lists have the following functions: create() a function for creating a new array list of length 0 get(i) for reading the i-th element of an array list set(i, e) for writing an element e into i-th element of an array list length() for retrieving the current length of an array list append(e) for appending an element e at the end of an array list, increasing its length by 1 insert(i, e) for inserting an element e in the i-th position of an array list and moving all subsequent elements one position to the right, increasing its length by 1 remove(i) for removing the element in the i-th position of an array list, returning it, and moving all subsequent elements one position to the left, reducing its length by 1"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "In_get__set__and_remove__the_index_i_is_assumed_to_be_between_0_and_the_length_of_the_list_minus_1_In_insert__the_index_i_is_assumed_to_be_between_0_and_the_length_of_the_list_actual_array_list_implementations_have__many__more_functions__but_for_us_the_above_seven_will_do",
+            "enabled": "enabled",
+            "name": "In get, set, and remove: the index i is assumed to be between 0 and the length of the list minus 1 In insert: the index i is assumed to be between 0 and the length of the list actual array list implementations have (many) more functions, but for us the above seven will do",
+            "merged": false,
+            "keywords": [
+              "In get, set, and remove: the index i is assumed to be between 0 and the length of the list minus 1 In insert: the index i is assumed to be between 0 and the length of the list actual array list implementations have (many) more functions, but for us the above seven will do"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "How_to_build_arrays_that_change_size_",
+            "enabled": "enabled",
+            "name": "How to build arrays that change size?",
+            "merged": false,
+            "keywords": [
+              "How to build arrays that change size?"
+            ],
+            "eventId": "4"
+          }
+        ],
+        "keywords": [
+          "You have already used array lists in Java.",
+          "Code snippet",
+          "Array lists",
+          "arraylists"
+        ],
+        "eventId": "13",
+        "originalParams": {
+          "In_Python__even_though_we_have_been_using_mostly_features_of_arrays_only__The_arrays_in_fact_have_extra_functionalities___they_are_array_lists_": {
+            "opacity": 1
+          },
+          "We_require_that_array_lists_have_the_following_functions__create___a_function_for_creating_a_new_array_list_of_length_0_get_i__for_reading_the_i_th_element_of_an_array_list_set_i__e__for_writing_an_element_e_into_i_th_element_of_an_array_list_length___for_retrieving_the_current_length_of_an_array_list_append_e__for_appending_an_element_e_at_the_end_of_an_array_list__increasing_its_length_by_1_insert_i__e__for_inserting_an_element_e_in_the_i_th_position_of_an_array_list_and_moving_all_subsequent_elements_one_position_to_the_right__increasing_its_length_by_1_remove_i__for_removing_the_element_in_the_i_th_position_of_an_array_list__returning_it__and_moving_all_subsequent_elements_one_position_to_the_left__reducing_its_length_by_1": {
+            "opacity": 1
+          },
+          "In_get__set__and_remove__the_index_i_is_assumed_to_be_between_0_and_the_length_of_the_list_minus_1_In_insert__the_index_i_is_assumed_to_be_between_0_and_the_length_of_the_list_actual_array_list_implementations_have__many__more_functions__but_for_us_the_above_seven_will_do": {
+            "opacity": 1
+          },
+          "How_to_build_arrays_that_change_size_": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "first attempt arraylists",
+        "id": "first_attempt_arraylists",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Data_structures_are_naturally_organised_as_objects__For_example__an_array_list_described_above_would_be_an_object_of_a_class_that_would_have__methods_set__get__create__which_in_Python_is___init____an_instance_variable_inArray_of_type_array",
+            "enabled": "enabled",
+            "name": "Data structures are naturally organised as objects. For example, an array list described above would be an object of a class that would have: methods set, get, create (which in Python is __init__) an instance variable inArray of type array",
+            "merged": false,
+            "keywords": [
+              "Data structures are naturally organised as objects. For example, an array list described above would be an object of a class that would have: methods set, get, create (which in Python is __init__) an instance variable inArray of type array"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "child",
+            "name": "OOP in python",
+            "id": "OOP_in_python",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "instance_variables",
+                "enabled": "enabled",
+                "name": "instance variables",
+                "merged": false,
+                "keywords": [
+                  "class variables",
+                  "instance variables"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "One_refers_to_instance_variables_using_the_keyword_self__similar_to_this_in_Java___Outside_the_class__one_refers_to_instance_variables_as_object_variable_just_like_in_Java__Class_variables_are_referred_by_their_name_inside_the_class__with_className_variable_from_outside_",
+                "enabled": "enabled",
+                "name": "One refers to instance variables using the keyword self (similar to this in Java). Outside the class, one refers to instance variables as object.variable just like in Java. Class variables are referred by their name inside the class, with className.variable from outside.",
+                "merged": false,
+                "keywords": [
+                  "One refers to instance variables using the keyword self (similar to this in Java). Outside the class, one refers to instance variables as object.variable just like in Java. Class variables are referred by their name inside the class, with className.variable from outside."
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "class_Y",
+                "enabled": "enabled",
+                "name": "class Y",
+                "merged": false,
+                "keywords": [
+                  "class Y"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "instance_functions_have_the_first_argument_self__Class_functions_do_not_have_this_argument_",
+                "enabled": "enabled",
+                "name": "instance functions have the first argument self. Class functions do not have this argument.",
+                "merged": false,
+                "keywords": [
+                  "instance functions have the first argument self. Class functions do not have this argument."
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "instance_variables_just_pop_up_when_you_use_them_note_the_lack_of_typing_in_the_example_Y___init_____is_the_constructor",
+                "enabled": "enabled",
+                "name": "instance variables just pop up when you use them note the lack of typing in the example Y __init__() is the constructor",
+                "merged": false,
+                "keywords": [
+                  "instance variables just pop up when you use them note the lack of typing in the example Y __init__() is the constructor"
+                ],
+                "eventId": "5"
+              }
+            ],
+            "keywords": [
+              "OOP in Python",
+              "class X",
+              "OOP in python"
+            ],
+            "eventId": "2",
+            "originalParams": {
+              "instance_variables": {
+                "opacity": 1
+              },
+              "One_refers_to_instance_variables_using_the_keyword_self__similar_to_this_in_Java___Outside_the_class__one_refers_to_instance_variables_as_object_variable_just_like_in_Java__Class_variables_are_referred_by_their_name_inside_the_class__with_className_variable_from_outside_": {
+                "opacity": 1
+              },
+              "class_Y": {
+                "opacity": 1
+              },
+              "instance_functions_have_the_first_argument_self__Class_functions_do_not_have_this_argument_": {
+                "opacity": 1
+              },
+              "instance_variables_just_pop_up_when_you_use_them_note_the_lack_of_typing_in_the_example_Y___init_____is_the_constructor": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "Code_snippet",
+            "enabled": "enabled",
+            "name": "Code snippet",
+            "merged": false,
+            "keywords": [
+              "Code snippet"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "What_is_naive_about_this_implementation_",
+            "enabled": "enabled",
+            "name": "What is naive about this implementation?",
+            "merged": false,
+            "keywords": [
+              "What is naive about this implementation?"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "It_is_not_efficient__to_make_a_copy_of_an_array_we_need_to_go_through_all_its_elements__appending__inserting__and_removing_all_have_complexity___n__not_good_if_you_intend_to_make_these_operations_many_times",
+            "enabled": "enabled",
+            "name": "It is not efficient (to make a copy of an array we need to go through all its elements) appending, inserting, and removing all have complexity Θ(n) not good if you intend to make these operations many times",
+            "merged": false,
+            "keywords": [
+              "It is not efficient (to make a copy of an array we need to go through all its elements) appending, inserting, and removing all have complexity Θ(n) not good if you intend to make these operations many times"
+            ],
+            "eventId": "5"
+          }
+        ],
+        "keywords": [
+          "First attempt",
+          "An array list is simply an object containing an internal array (as an instance variable) We perform any read/write operations on the internal array directly To perform an operation that changes the length of the array, we make a copy of the array of the right size, perform the required operations on it, and finally make the new array our internal array.",
+          "first attempt arraylists"
+        ],
+        "eventId": "14",
+        "originalParams": {
+          "Data_structures_are_naturally_organised_as_objects__For_example__an_array_list_described_above_would_be_an_object_of_a_class_that_would_have__methods_set__get__create__which_in_Python_is___init____an_instance_variable_inArray_of_type_array": {
+            "opacity": 1
+          },
+          "Code_snippet": {
+            "opacity": 1
+          },
+          "What_is_naive_about_this_implementation_": {
+            "opacity": 1
+          },
+          "It_is_not_efficient__to_make_a_copy_of_an_array_we_need_to_go_through_all_its_elements__appending__inserting__and_removing_all_have_complexity___n__not_good_if_you_intend_to_make_these_operations_many_times": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "better attempt",
+        "id": "better_attempt",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "An_array_list_is_an_object_containing_an_internal_array_and_a_counter_that_remembers_the_used_part_of_the_internal_array_The_internal_array_will_typically_have_size_larger_than_the_count__so_that_it_can_accommodate_addition_of_new_elements_We_perform_any_read_write_operations_directly_on_the_internal_array_To_perform_an_operation_that_changes_the_size__we_do_not_create_a_new_internal_array_but__rather__work_on_the_existing_one_and_change_the_count_value_We_need_to_resize_if_the_count_reaches_the_length_of_the_internal_array__the_size_of_the_internal_array_is_something_called_capacity__",
+            "enabled": "enabled",
+            "name": "An array list is an object containing an internal array and a counter that remembers the used part of the internal array The internal array will typically have size larger than the count, so that it can accommodate addition of new elements We perform any read/write operations directly on the internal array To perform an operation that changes the size, we do not create a new internal array but, rather, work on the existing one and change the count value We need to resize if the count reaches the length of the internal array (the size of the internal array is something called capacity).",
+            "merged": false,
+            "keywords": [
+              "An array list is an object containing an internal array and a counter that remembers the used part of the internal array The internal array will typically have size larger than the count, so that it can accommodate addition of new elements We perform any read/write operations directly on the internal array To perform an operation that changes the size, we do not create a new internal array but, rather, work on the existing one and change the count value We need to resize if the count reaches the length of the internal array (the size of the internal array is something called capacity)."
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_4",
+            "enabled": "enabled",
+            "name": "inArray",
+            "merged": false,
+            "keywords": [
+              "2",
+              "3",
+              "4",
+              "5",
+              "inArray",
+              "count",
+              "ls"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "ls_append_42_",
+            "enabled": "enabled",
+            "name": "ls.append(42)",
+            "merged": false,
+            "keywords": [
+              "ls.append(42)"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Group_42",
+            "enabled": "enabled",
+            "name": "inArray",
+            "merged": false,
+            "keywords": [
+              "2",
+              "3",
+              "4",
+              "5",
+              "42",
+              "inArray",
+              "count",
+              "ls"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "ls_remove_2_",
+            "enabled": "enabled",
+            "name": "ls.remove(2)",
+            "merged": false,
+            "keywords": [
+              "ls.remove(2)"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "inArray3",
+            "enabled": "enabled",
+            "name": "inArray3",
+            "merged": false,
+            "keywords": [
+              "2",
+              "3",
+              "5",
+              "42",
+              "inArray",
+              "count",
+              "4",
+              "ls",
+              "inArray3"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "ls_insert_1__24_",
+            "enabled": "enabled",
+            "name": "ls.insert(1, 24)",
+            "merged": false,
+            "keywords": [
+              "ls.insert(1, 24)"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "inArray4",
+            "enabled": "enabled",
+            "name": "inArray4",
+            "merged": false,
+            "keywords": [
+              "2",
+              "24",
+              "3",
+              "5",
+              "42",
+              "inArray",
+              "count",
+              "ls",
+              "inArray4"
+            ],
+            "eventId": "8"
+          }
+        ],
+        "keywords": [
+          "Better attempt",
+          "Don’t expand the array by just one element, but more to allow some leeway.",
+          "better attempt"
+        ],
+        "eventId": "15",
+        "originalParams": {
+          "An_array_list_is_an_object_containing_an_internal_array_and_a_counter_that_remembers_the_used_part_of_the_internal_array_The_internal_array_will_typically_have_size_larger_than_the_count__so_that_it_can_accommodate_addition_of_new_elements_We_perform_any_read_write_operations_directly_on_the_internal_array_To_perform_an_operation_that_changes_the_size__we_do_not_create_a_new_internal_array_but__rather__work_on_the_existing_one_and_change_the_count_value_We_need_to_resize_if_the_count_reaches_the_length_of_the_internal_array__the_size_of_the_internal_array_is_something_called_capacity__": {
+            "opacity": 1
+          },
+          "Group_4": {
+            "opacity": 1
+          },
+          "ls_append_42_": {
+            "opacity": 1
+          },
+          "Group_42": {
+            "opacity": 1
+          },
+          "ls_remove_2_": {
+            "opacity": 1
+          },
+          "inArray3": {
+            "opacity": 1
+          },
+          "ls_insert_1__24_": {
+            "opacity": 1
+          },
+          "inArray4": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "better attempt implementation",
+        "id": "better_attempt_implementation",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [],
+        "keywords": [
+          "Code snippet 2",
+          "Code snippet 1",
+          "better attempt implementation"
+        ],
+        "eventId": "16",
+        "originalParams": {}
+      },
+      {
+        "type": "child",
+        "name": "complexity of array list operations",
+        "id": "complexity_of_array_list_operations",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "__1____1____1____1____n__in_worst_case_but___1__in_most_cases__when_resizing_up____n__in_worst_case_but_usually_lower___n__in_worst_case_but_usually_lower",
+            "enabled": "enabled",
+            "name": "Θ(1) Θ(1) Θ(1) Θ(1) Θ(n) in worst case but Θ(1) in most cases (when resizing up) Θ(n) in worst case but usually lower Θ(n) in worst case but usually lower",
+            "merged": false,
+            "keywords": [
+              "Θ(1) Θ(1) Θ(1) Θ(1) Θ(n) in worst case but Θ(1) in most cases (when resizing up) Θ(n) in worst case but usually lower Θ(n) in worst case but usually lower"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "This_is_the_standard_implementation_of_array_lists__typically__the_internal_array_also_is_resized_down_when_the_count_becomes_too_small_the_worst_case_does_not_happen_too_often_statistically__one_may_say_that_the_algorithm_has_good_amortised_complexity_",
+            "enabled": "enabled",
+            "name": "This is the standard implementation of array lists. typically, the internal array also is resized down when the count becomes too small the worst case does not happen too often statistically (one may say that the algorithm has good amortised complexity)",
+            "merged": false,
+            "keywords": [
+              "This is the standard implementation of array lists. typically, the internal array also is resized down when the count becomes too small the worst case does not happen too often statistically (one may say that the algorithm has good amortised complexity)"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Array_lists_are_extensions_of_arrays__so_our_array_algorithms_directly_apply_to_array_lists__we_just_need_to_adapt_notation__reading_is_done_via_A_get_i__instead_of_A_i__len_A__is_replaced_by_A_length____etc_Because_their_size_is_not_fixed__array_lists_have_greater_usability_",
+            "enabled": "enabled",
+            "name": "Array lists are extensions of arrays, so our array algorithms directly apply to array lists, we just need to adapt notation: reading is done via A.get(i) instead of A[i] len(A) is replaced by A.length(), etc Because their size is not fixed, array lists have greater usability.",
+            "merged": false,
+            "keywords": [
+              "Array lists are extensions of arrays, so our array algorithms directly apply to array lists, we just need to adapt notation: reading is done via A.get(i) instead of A[i] len(A) is replaced by A.length(), etc Because their size is not fixed, array lists have greater usability."
+            ],
+            "eventId": "3"
+          }
+        ],
+        "keywords": [
+          "Complexity of ArrayList operations",
+          "create() get(i) set(i, e) length() append(e) insert(i, e) remove(i)",
+          "complexity of array list operations"
+        ],
+        "eventId": "17",
+        "originalParams": {
+          "__1____1____1____1____n__in_worst_case_but___1__in_most_cases__when_resizing_up____n__in_worst_case_but_usually_lower___n__in_worst_case_but_usually_lower": {
+            "opacity": 1
+          },
+          "This_is_the_standard_implementation_of_array_lists__typically__the_internal_array_also_is_resized_down_when_the_count_becomes_too_small_the_worst_case_does_not_happen_too_often_statistically__one_may_say_that_the_algorithm_has_good_amortised_complexity_": {
+            "opacity": 1
+          },
+          "Array_lists_are_extensions_of_arrays__so_our_array_algorithms_directly_apply_to_array_lists__we_just_need_to_adapt_notation__reading_is_done_via_A_get_i__instead_of_A_i__len_A__is_replaced_by_A_length____etc_Because_their_size_is_not_fixed__array_lists_have_greater_usability_": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "adt vs data structure",
+        "id": "adt_vs_data_structure",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Abstract_classes_or_interfaces_in_Java",
+            "enabled": "enabled",
+            "name": "Abstract classes or interfaces in Java",
+            "merged": false,
+            "keywords": [
+              "Abstract classes or interfaces in Java",
+              "Implementation"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Project_specification",
+            "enabled": "enabled",
+            "name": "Project specification",
+            "merged": false,
+            "keywords": [
+              "Project specification",
+              "Project realisation"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "a_heated_water_container___a_heating_mechanism___a_pipe_letting_the_water____",
+            "enabled": "enabled",
+            "name": "a heated water container + a heating mechanism + a pipe letting the water ...",
+            "merged": false,
+            "keywords": [
+              "putCoffee, putWater, getSingleCoffee, ...",
+              "a heated water container + a heating mechanism + a pipe letting the water ..."
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Data_Structure",
+            "enabled": "enabled",
+            "name": "Data Structure",
+            "merged": false,
+            "keywords": [
+              "ADT",
+              "Data Structure"
+            ],
+            "eventId": "4"
+          }
+        ],
+        "keywords": [
+          "ADT vs Data Structure",
+          "The distinction between abstract data types (ADTs) and data structures is subtle and we won’t insist too much on it. But it is an important one",
+          "Analogies:",
+          "adt vs data structure"
+        ],
+        "eventId": "18",
+        "originalParams": {
+          "Abstract_classes_or_interfaces_in_Java": {
+            "opacity": 1
+          },
+          "Project_specification": {
+            "opacity": 1
+          },
+          "a_heated_water_container___a_heating_mechanism___a_pipe_letting_the_water____": {
+            "opacity": 1
+          },
+          "Data_Structure": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "exercises",
+        "id": "exercises",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [],
+        "keywords": [
+          "Exercises",
+          "Can we apply the master method to",
+          "Code snippet",
+          "Apply the master method to the recurrence",
+          "Suppose that the running time of an algorithm is bounded by the recurrence",
+          "what is the smallest upper bound on the running time of the algorithm?",
+          "Let ls be the list [2,3,4,5,42]. Perform the following operations on ls in sequence:",
+          "ls.insert(3,3) ls.remove(2) ls.append(23) print(ls.remove(3))",
+          "Write an ArrayList function",
+          "def isEmpty(self)",
+          "that returns True if the array list is empty, otherwise False.",
+          "def search(self, e)",
+          "that searches the array list and returns the first index with value e, or -1 if e is not in it.",
+          "def reverse(self)",
+          "that reverses the array list (e.g. [1,2]→[2,1])",
+          "exercises"
+        ],
+        "eventId": "19",
+        "originalParams": {}
+      }
+    ],
+    "keywords": [
+      "Lecture 4",
+      "Sorting • Running Time • Complexity",
+      "ECS529U: Algorithms and Data Structures",
+      "Edon Kelmendi e.kelmendi@qmul.ac.uk",
+      "root"
+    ],
+    "eventId": "root",
+    "originalParams": {}
+  },
+  "treeTimeLine": [],
+  "chronicleTimeLine": []
+}
