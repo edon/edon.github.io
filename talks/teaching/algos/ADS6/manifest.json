@@ -1,0 +1,2942 @@
+{
+  "version": 3,
+  "presentation": "ADS6",
+  "slideDict": {
+    "new_slide": "root",
+    "tree_definition": "tree_definition",
+    "tree_examples": "tree_examples",
+    "tree_representation_of_data": "tree_representation_of_data",
+    "binary_trees": "binary_trees",
+    "binary_trees_construction_continued": "binary_trees_construction_continued",
+    "accessing_data_in_a_tree": "accessing_data_in_a_tree",
+    "depth_first_search": "depth_first_search",
+    "dfs_example_explanation": "dfs_example_explanation",
+    "breadth_first_search": "breadth_first_search",
+    "dfs_code": "dfs_code",
+    "dfs_code_print": "dfs_code_print",
+    "bfs_code": "bfs_code",
+    "binary_search_trees": "binary_search_trees",
+    "bst_search": "bst_search",
+    "bst_search_code": "bst_search_code",
+    "bst_adding": "bst_adding",
+    "bst_adding_code": "bst_adding_code",
+    "bst_removing": "bst_removing",
+    "removing_a_node_with_two_children": "removing_a_node_with_two_children",
+    "things_to_take_care_implementation": "things_to_take_care_implementation",
+    "remove_implementation": "remove_implementation",
+    "remove_implementation_2": "remove_implementation_2",
+    "exercises": "exercises"
+  },
+  "tree": {
+    "type": "child",
+    "name": "root",
+    "id": "new_slide",
+    "enabled": "enabled",
+    "merged": false,
+    "children": [
+      {
+        "type": "child",
+        "name": "tree definition",
+        "id": "tree_definition",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "In_this_lecture_we_will_look_at_the_tree_data_structure_",
+            "enabled": "enabled",
+            "name": "In this lecture we will look at the tree data structure:",
+            "merged": false,
+            "keywords": [
+              "In this lecture we will look at the tree data structure:"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Normal_Tree",
+            "enabled": "enabled",
+            "name": "Normal Tree",
+            "merged": false,
+            "keywords": [
+              "2",
+              "5",
+              "51",
+              "8",
+              "42",
+              "3",
+              "Normal Tree"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "1296971_1",
+            "enabled": "enabled",
+            "name": "1296971 1",
+            "merged": false,
+            "keywords": [
+              "1296971 1"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "What_is_a_tree__more_precisely_",
+            "enabled": "enabled",
+            "name": "What is a tree, more precisely?",
+            "merged": false,
+            "keywords": [
+              "What is a tree, more precisely?"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Trees_are_linked_lists_where_each_node_can_point_to_more_than_one__next__node__which_are_called_its_children__For_example_",
+            "enabled": "enabled",
+            "name": "Trees are linked lists where each node can point to more than one “next” node, which are called its children. For example:",
+            "merged": false,
+            "keywords": [
+              "Trees are linked lists where each node can point to more than one “next” node, which are called its children. For example:"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "Extended_Tree",
+            "enabled": "enabled",
+            "name": "Extended Tree",
+            "merged": false,
+            "keywords": [
+              "2",
+              "5",
+              "51",
+              "8",
+              "42",
+              "3",
+              "Extended Tree"
+            ],
+            "eventId": "11"
+          },
+          {
+            "type": "show",
+            "id": "We_usually_draw_trees_without_the_pointer_boxes_and_root_pointer",
+            "enabled": "enabled",
+            "name": "We usually draw trees without the pointer boxes and root pointer",
+            "merged": false,
+            "keywords": [
+              "We usually draw trees without the pointer boxes and root pointer"
+            ],
+            "eventId": "10"
+          },
+          {
+            "type": "hide",
+            "id": "1296971_1",
+            "enabled": "enabled",
+            "name": "1296971 1",
+            "merged": false,
+            "keywords": [
+              "1296971 1"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "Group_9",
+            "enabled": "enabled",
+            "name": "Useful terminology: Root is the head of the tree, the node from which every other node can be reached",
+            "merged": false,
+            "keywords": [
+              "root",
+              "Useful terminology: Root is the head of the tree, the node from which every other node can be reached"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "Group_93",
+            "enabled": "enabled",
+            "name": "Leaf is a node that has no children",
+            "merged": false,
+            "keywords": [
+              "leaf",
+              "Leaf is a node that has no children"
+            ],
+            "eventId": "13"
+          },
+          {
+            "type": "show",
+            "id": "Group_92",
+            "enabled": "enabled",
+            "name": "edge",
+            "merged": false,
+            "keywords": [
+              "edge",
+              "Edge"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "show",
+            "id": "Level",
+            "enabled": "enabled",
+            "name": "Level",
+            "merged": false,
+            "keywords": [
+              "Level"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "show",
+            "id": "Level_0",
+            "enabled": "enabled",
+            "name": "Level 0",
+            "merged": false,
+            "keywords": [
+              "Level 0"
+            ],
+            "eventId": "14"
+          },
+          {
+            "type": "hide",
+            "id": "Level_0",
+            "enabled": "enabled",
+            "name": "Level 0",
+            "merged": false,
+            "keywords": [
+              "Level 0"
+            ],
+            "eventId": "15"
+          },
+          {
+            "type": "show",
+            "id": "Level_1",
+            "enabled": "enabled",
+            "name": "Level 1",
+            "merged": true,
+            "keywords": [
+              "Level 1"
+            ],
+            "eventId": "16"
+          },
+          {
+            "type": "hide",
+            "id": "Level_1",
+            "enabled": "enabled",
+            "name": "Level 1",
+            "merged": false,
+            "keywords": [
+              "Level 1"
+            ],
+            "eventId": "17"
+          },
+          {
+            "type": "show",
+            "id": "Level_2",
+            "enabled": "enabled",
+            "name": "Level 2",
+            "merged": true,
+            "keywords": [
+              "Level 2"
+            ],
+            "eventId": "18"
+          },
+          {
+            "type": "hide",
+            "id": "Level_2",
+            "enabled": "enabled",
+            "name": "Level 2",
+            "merged": false,
+            "keywords": [
+              "Level 2"
+            ],
+            "eventId": "19"
+          },
+          {
+            "type": "show",
+            "id": "Level_3",
+            "enabled": "enabled",
+            "name": "Level 3",
+            "merged": true,
+            "keywords": [
+              "Level 3"
+            ],
+            "eventId": "20"
+          },
+          {
+            "type": "show",
+            "id": "Height",
+            "enabled": "enabled",
+            "name": "Height",
+            "merged": false,
+            "keywords": [
+              "Height"
+            ],
+            "eventId": "21"
+          }
+        ],
+        "keywords": [
+          "The data structures that we have seen so far have been linear: a collection of data put in line, in some way we access the data either by indexing (arrays) or by traversing the data structure (linked lists)",
+          "tree definition"
+        ],
+        "eventId": "11",
+        "originalParams": {
+          "In_this_lecture_we_will_look_at_the_tree_data_structure_": {
+            "opacity": 1
+          },
+          "Normal_Tree": {
+            "opacity": 1
+          },
+          "1296971_1": {
+            "opacity": 1
+          },
+          "What_is_a_tree__more_precisely_": {
+            "opacity": 1
+          },
+          "Trees_are_linked_lists_where_each_node_can_point_to_more_than_one__next__node__which_are_called_its_children__For_example_": {
+            "opacity": 1
+          },
+          "Group_9": {
+            "opacity": 1
+          },
+          "Group_92": {
+            "opacity": 1
+          },
+          "Level": {
+            "opacity": 1
+          },
+          "We_usually_draw_trees_without_the_pointer_boxes_and_root_pointer": {
+            "opacity": 1
+          },
+          "Extended_Tree": {
+            "opacity": 1
+          },
+          "Group_93": {
+            "opacity": 1
+          },
+          "Level_0": {
+            "opacity": 1
+          },
+          "Level_1": {
+            "opacity": 1
+          },
+          "Level_2": {
+            "opacity": 1
+          },
+          "Level_3": {
+            "opacity": 1
+          },
+          "Height": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "tree examples",
+        "id": "tree_examples",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "S___N___S_S___S_S____S__N___1___2___3_________1000",
+            "enabled": "enabled",
+            "name": "S → N | S+S | S*S | (S) N → 1 | 2 | 3 | ... | 1000",
+            "merged": false,
+            "keywords": [
+              "Parse trees for context-free grammars:",
+              "S",
+              "N",
+              "2",
+              "+",
+              "*",
+              "4",
+              "S → N | S+S | S*S | (S) N → 1 | 2 | 3 | ... | 1000"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "HTML_document_tree",
+            "enabled": "enabled",
+            "name": "HTML document tree",
+            "merged": false,
+            "keywords": [
+              "HTML document tree",
+              "Code snippet"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "All_the_data_structures_we_have_seen_so_far_have_been_linear",
+            "enabled": "enabled",
+            "name": "All the data structures we have seen so far have been linear",
+            "merged": false,
+            "keywords": [
+              "doc",
+              "<html>",
+              "<p>",
+              "<ul>",
+              "<li>",
+              "Text",
+              "All the data structures we have seen so far have been linear",
+              "a collection of data put in line, in some way",
+              "we access the data either by indexing or by ..."
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "A_web_browser_needs_to_parse_documents_into_tree_data_structures__DOM__in_order_to_display_them_and_react_to_user_inputs",
+            "enabled": "enabled",
+            "name": "A web browser needs to parse documents into tree data structures (DOM) in order to display them and react to user inputs",
+            "merged": false,
+            "keywords": [
+              "A web browser needs to parse documents into tree data structures (DOM) in order to display them and react to user inputs"
+            ],
+            "eventId": "4"
+          }
+        ],
+        "keywords": [
+          "Examples",
+          "tree examples"
+        ],
+        "eventId": "2",
+        "originalParams": {
+          "S___N___S_S___S_S____S__N___1___2___3_________1000": {
+            "opacity": 1
+          },
+          "HTML_document_tree": {
+            "opacity": 1
+          },
+          "All_the_data_structures_we_have_seen_so_far_have_been_linear": {
+            "opacity": 1
+          },
+          "A_web_browser_needs_to_parse_documents_into_tree_data_structures__DOM__in_order_to_display_them_and_react_to_user_inputs": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "tree representation of data",
+        "id": "tree_representation_of_data",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "The_benefit_of_using_trees_is_that_we_can_have_quicker_access_to_elements_than_in_linear_data_structures__following_one_pointer_in_a_tree_amounts_to_going_forward_a_whole_level_of_nodes_",
+            "enabled": "enabled",
+            "name": "The benefit of using trees is that we can have quicker access to elements than in linear data structures: following one pointer in a tree amounts to going forward a whole level of nodes.",
+            "merged": false,
+            "keywords": [
+              "The benefit of using trees is that we can have quicker access to elements than in linear data structures: following one pointer in a tree amounts to going forward a whole level of nodes."
+            ],
+            "eventId": "1"
+          }
+        ],
+        "keywords": [
+          "Tree representations of data are very common: in text processing in compilers on the web (html, xml, json) in databases in file systems (and hierarchical systems more generally) etc.",
+          "tree representation of data"
+        ],
+        "eventId": "3",
+        "originalParams": {
+          "The_benefit_of_using_trees_is_that_we_can_have_quicker_access_to_elements_than_in_linear_data_structures__following_one_pointer_in_a_tree_amounts_to_going_forward_a_whole_level_of_nodes_": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "binary trees",
+        "id": "binary_trees",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Here_is_an_implementation_of_binary_tree_nodes_in_Python_",
+            "enabled": "enabled",
+            "name": "Here is an implementation of binary tree nodes in Python:",
+            "merged": false,
+            "keywords": [
+              "Here is an implementation of binary tree nodes in Python:",
+              "Code snippet"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "is_the_same_as",
+            "enabled": "enabled",
+            "name": "is the same as",
+            "merged": false,
+            "keywords": [
+              "8",
+              "is the same as",
+              "implemented as",
+              "data",
+              "left",
+              "right"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Group_17",
+            "enabled": "enabled",
+            "name": "How to construct a binary tree?",
+            "merged": false,
+            "keywords": [
+              "How to construct a binary tree?",
+              "2",
+              "5",
+              "51",
+              "8",
+              "42"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "The_easiest_way_to_create_a_tree_is_to_start_from_its_leaves_",
+            "enabled": "enabled",
+            "name": "The easiest way to create a tree is to start from its leaves.",
+            "merged": false,
+            "keywords": [
+              "The easiest way to create a tree is to start from its leaves."
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "Code_snippet",
+            "enabled": "enabled",
+            "name": "Code snippet",
+            "merged": true,
+            "keywords": [
+              "Code snippet"
+            ],
+            "eventId": "6"
+          }
+        ],
+        "keywords": [
+          "Binary trees",
+          "We call a tree binary when each node in it has at most two children - we refer to the children as: left, right. We will focus on binary trees.",
+          "binary trees"
+        ],
+        "eventId": "4",
+        "originalParams": {
+          "Here_is_an_implementation_of_binary_tree_nodes_in_Python_": {
+            "opacity": 1
+          },
+          "is_the_same_as": {
+            "opacity": 1
+          },
+          "Group_17": {
+            "opacity": 1
+          },
+          "The_easiest_way_to_create_a_tree_is_to_start_from_its_leaves_": {
+            "opacity": 1
+          },
+          "Code_snippet": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "binary trees construction continued",
+        "id": "binary_trees_construction_continued",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "In_general__depending_on_the_kind_of_the_tree_and_the_use_we_intend_for_it__we_write_functions_for_adding_elements_to_it_and_we_usually_combine_top_down_and_bottom_up",
+            "enabled": "enabled",
+            "name": "In general, depending on the kind of the tree and the use we intend for it, we write functions for adding elements to it and we usually combine top-down and bottom-up",
+            "merged": false,
+            "keywords": [
+              "In general, depending on the kind of the tree and the use we intend for it, we write functions for adding elements to it and we usually combine top-down and bottom-up"
+            ],
+            "eventId": "1"
+          }
+        ],
+        "keywords": [
+          "We can also create the tree from its root. A top-down approach.",
+          "Code snippet 3",
+          "binary trees construction continued"
+        ],
+        "eventId": "5",
+        "originalParams": {
+          "In_general__depending_on_the_kind_of_the_tree_and_the_use_we_intend_for_it__we_write_functions_for_adding_elements_to_it_and_we_usually_combine_top_down_and_bottom_up": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "accessing data in a tree",
+        "id": "accessing_data_in_a_tree",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_17",
+            "enabled": "enabled",
+            "name": "We could go level by level from the top, going through each level left-to-right",
+            "merged": false,
+            "keywords": [
+              "Ways of traversing the tree:",
+              "We could go level by level from the top, going through each level left-to-right"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "We_could_keep_following_the_arrows_to_the_left__until_it_is_not_possible_anymore__and_then_repeating_the_procedure_for_the_right_sub_tree",
+            "enabled": "enabled",
+            "name": "We could keep following the arrows to the left, until it is not possible anymore, and then repeating the procedure for the right sub-tree (root → left sub-tree → right sub-tree)",
+            "merged": false,
+            "keywords": [
+              "We could keep following the arrows to the left, until it is not possible anymore, and then repeating the procedure for the right sub-tree (root → left sub-tree → right sub-tree)"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "What_implementation_does_this_bring_to_mind_",
+            "enabled": "enabled",
+            "name": "What implementation does this bring to mind?",
+            "merged": false,
+            "keywords": [
+              "What implementation does this bring to mind?"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Other_options____As_above_but_root___right_sub_tree___left_sub_tree",
+            "enabled": "enabled",
+            "name": "Other options? - As above but root → right sub-tree → left sub-tree",
+            "merged": false,
+            "keywords": [
+              "Other options? - As above but root → right sub-tree → left sub-tree"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "Group_172",
+            "enabled": "enabled",
+            "name": "BFS",
+            "merged": false,
+            "keywords": [
+              "BFS"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "Group_173",
+            "enabled": "enabled",
+            "name": "DFS",
+            "merged": false,
+            "keywords": [
+              "DFS"
+            ],
+            "eventId": "7"
+          }
+        ],
+        "keywords": [
+          "2",
+          "5",
+          "51",
+          "15",
+          "8",
+          "18",
+          "42",
+          "21",
+          "How to access data stored in a tree, in a systematic way? (e.g. write a function for searching)",
+          "accessing data in a tree"
+        ],
+        "eventId": "6",
+        "originalParams": {
+          "Group_17": {
+            "opacity": 1
+          },
+          "We_could_keep_following_the_arrows_to_the_left__until_it_is_not_possible_anymore__and_then_repeating_the_procedure_for_the_right_sub_tree": {
+            "opacity": 1
+          },
+          "What_implementation_does_this_bring_to_mind_": {
+            "opacity": 1
+          },
+          "Other_options____As_above_but_root___right_sub_tree___left_sub_tree": {
+            "opacity": 1
+          },
+          "Group_172": {
+            "opacity": 1
+          },
+          "Group_173": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "depth first search",
+        "id": "depth_first_search",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_17",
+            "enabled": "enabled",
+            "name": "Group 17",
+            "merged": false,
+            "keywords": [
+              "Group 17"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "This_is_called_depth_first_search__because_we_traverse_the_tree_down__by_going_left__until_we_reach_its_leaves__then_we_backtrack_and_continue_with_the_lowest_right_node_that_we_have_not_traversed_yet__What_algorithm_can_we_use_for_this_",
+            "enabled": "enabled",
+            "name": "This is called depth-first search, because we traverse the tree down (by going left) until we reach its leaves, then we backtrack and continue with the lowest right node that we have not traversed yet. What algorithm can we use for this?",
+            "merged": false,
+            "keywords": [
+              "This is called depth-first search, because we traverse the tree down (by going left) until we reach its leaves, then we backtrack and continue with the lowest right node that we have not traversed yet. What algorithm can we use for this?"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "What_algorithm_can_we_use_for_this_",
+            "enabled": "enabled",
+            "name": "What algorithm can we use for this?",
+            "merged": false,
+            "keywords": [
+              "What algorithm can we use for this?"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "A_recursive_one__we_start_from_the_root_go_left_and_recursively_search_left_subtree_go_right_and_recursively_search_right_subtree",
+            "enabled": "enabled",
+            "name": "A recursive one: we start from the root go left and recursively search left subtree go right and recursively search right subtree",
+            "merged": false,
+            "keywords": [
+              "A recursive one: we start from the root go left and recursively search left subtree go right and recursively search right subtree"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "child",
+            "name": "dfs example explanation",
+            "id": "dfs_example_explanation",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_18",
+                "enabled": "enabled",
+                "name": "start from 2",
+                "merged": false,
+                "keywords": [
+                  "start from 2"
+                ],
+                "eventId": "26"
+              },
+              {
+                "type": "show",
+                "id": "Rectangle_13",
+                "enabled": "enabled",
+                "name": "Rectangle 13",
+                "merged": true,
+                "keywords": [
+                  "Rectangle 13"
+                ],
+                "eventId": "27"
+              },
+              {
+                "type": "show",
+                "id": "Rectangle_14",
+                "enabled": "enabled",
+                "name": "Rectangle 14",
+                "merged": false,
+                "keywords": [
+                  "Rectangle 14"
+                ],
+                "eventId": "28"
+              },
+              {
+                "type": "show",
+                "id": "Vector_70",
+                "enabled": "enabled",
+                "name": "Vector 70",
+                "merged": true,
+                "keywords": [
+                  "Vector 70"
+                ],
+                "eventId": "29"
+              },
+              {
+                "type": "show",
+                "id": "go_left__subtree_with_root_5__start_from_5",
+                "enabled": "enabled",
+                "name": "go left (subtree with root 5) start from 5",
+                "merged": true,
+                "keywords": [
+                  "go left (subtree with root 5) start from 5"
+                ],
+                "eventId": "30"
+              },
+              {
+                "type": "hide",
+                "id": "Rectangle_13",
+                "enabled": "enabled",
+                "name": "Rectangle 13",
+                "merged": true,
+                "keywords": [
+                  "Rectangle 13"
+                ],
+                "eventId": "31"
+              },
+              {
+                "type": "show",
+                "id": "Rectangle_15",
+                "enabled": "enabled",
+                "name": "Rectangle 15",
+                "merged": false,
+                "keywords": [
+                  "Rectangle 15"
+                ],
+                "eventId": "32"
+              },
+              {
+                "type": "show",
+                "id": "Vector_71",
+                "enabled": "enabled",
+                "name": "Vector 71",
+                "merged": true,
+                "keywords": [
+                  "Vector 71"
+                ],
+                "eventId": "33"
+              },
+              {
+                "type": "show",
+                "id": "go_left__subtree_with_root_15__start_from_15",
+                "enabled": "enabled",
+                "name": "go left (subtree with root 15) start from 15",
+                "merged": true,
+                "keywords": [
+                  "go left (subtree with root 15) start from 15"
+                ],
+                "eventId": "34"
+              },
+              {
+                "type": "hide",
+                "id": "Rectangle_14",
+                "enabled": "enabled",
+                "name": "Rectangle 14",
+                "merged": true,
+                "keywords": [
+                  "Rectangle 14"
+                ],
+                "eventId": "35"
+              },
+              {
+                "type": "show",
+                "id": "cannot_go_left__done",
+                "enabled": "enabled",
+                "name": "cannot go left →done",
+                "merged": false,
+                "keywords": [
+                  "cannot go left →done"
+                ],
+                "eventId": "36"
+              },
+              {
+                "type": "show",
+                "id": "cannot_go_right__done",
+                "enabled": "enabled",
+                "name": "cannot go right →done",
+                "merged": false,
+                "keywords": [
+                  "cannot go right →done"
+                ],
+                "eventId": "37"
+              },
+              {
+                "type": "hide",
+                "id": "Rectangle_15",
+                "enabled": "enabled",
+                "name": "Rectangle 15",
+                "merged": false,
+                "keywords": [
+                  "Rectangle 15"
+                ],
+                "eventId": "38"
+              },
+              {
+                "type": "show",
+                "id": "__done_15",
+                "enabled": "enabled",
+                "name": "→ done 15",
+                "merged": false,
+                "keywords": [
+                  "→ done 15"
+                ],
+                "eventId": "83"
+              },
+              {
+                "type": "show",
+                "id": "Rectangle_14",
+                "enabled": "enabled",
+                "name": "Rectangle 14",
+                "merged": false,
+                "keywords": [
+                  "Rectangle 14"
+                ],
+                "eventId": "39"
+              },
+              {
+                "type": "show",
+                "id": "Vector_72",
+                "enabled": "enabled",
+                "name": "Vector 72",
+                "merged": false,
+                "keywords": [
+                  "Vector 72"
+                ],
+                "eventId": "40"
+              },
+              {
+                "type": "show",
+                "id": "Rectangle_16",
+                "enabled": "enabled",
+                "name": "Rectangle 16",
+                "merged": true,
+                "keywords": [
+                  "Rectangle 16"
+                ],
+                "eventId": "41"
+              },
+              {
+                "type": "show",
+                "id": "go_right__subtree_with_root_51_",
+                "enabled": "enabled",
+                "name": "go right (subtree with root 51)",
+                "merged": true,
+                "keywords": [
+                  "go right (subtree with root 51)"
+                ],
+                "eventId": "42"
+              },
+              {
+                "type": "hide",
+                "id": "Rectangle_14",
+                "enabled": "enabled",
+                "name": "Rectangle 14",
+                "merged": true,
+                "keywords": [
+                  "Rectangle 14"
+                ],
+                "eventId": "43"
+              },
+              {
+                "type": "show",
+                "id": "start_from_51",
+                "enabled": "enabled",
+                "name": "start from 51",
+                "merged": false,
+                "keywords": [
+                  "start from 51"
+                ],
+                "eventId": "44"
+              },
+              {
+                "type": "show",
+                "id": "cannot_go_left__done_2",
+                "enabled": "enabled",
+                "name": "cannot go left →done 2",
+                "merged": false,
+                "keywords": [
+                  "cannot go left →done 2"
+                ],
+                "eventId": "45"
+              },
+              {
+                "type": "show",
+                "id": "cannot_go_right__done_2",
+                "enabled": "enabled",
+                "name": "cannot go right →done 2",
+                "merged": true,
+                "keywords": [
+                  "cannot go right →done 2"
+                ],
+                "eventId": "46"
+              },
+              {
+                "type": "hide",
+                "id": "Rectangle_16",
+                "enabled": "enabled",
+                "name": "Rectangle 16",
+                "merged": false,
+                "keywords": [
+                  "Rectangle 16"
+                ],
+                "eventId": "47"
+              },
+              {
+                "type": "show",
+                "id": "Rectangle_14",
+                "enabled": "enabled",
+                "name": "Rectangle 14",
+                "merged": true,
+                "keywords": [
+                  "Rectangle 14"
+                ],
+                "eventId": "48"
+              },
+              {
+                "type": "show",
+                "id": "__done_51",
+                "enabled": "enabled",
+                "name": "→ done 51",
+                "merged": true,
+                "keywords": [
+                  "→ done 51"
+                ],
+                "eventId": "51"
+              },
+              {
+                "type": "show",
+                "id": "Rectangle_13",
+                "enabled": "enabled",
+                "name": "Rectangle 13",
+                "merged": false,
+                "keywords": [
+                  "Rectangle 13"
+                ],
+                "eventId": "49"
+              },
+              {
+                "type": "hide",
+                "id": "Rectangle_14",
+                "enabled": "enabled",
+                "name": "Rectangle 14",
+                "merged": true,
+                "keywords": [
+                  "Rectangle 14"
+                ],
+                "eventId": "50"
+              },
+              {
+                "type": "show",
+                "id": "__done",
+                "enabled": "enabled",
+                "name": "→ done",
+                "merged": true,
+                "keywords": [
+                  "→ done"
+                ],
+                "eventId": "52"
+              },
+              {
+                "type": "show",
+                "id": "Vector_73",
+                "enabled": "enabled",
+                "name": "Vector 73",
+                "merged": false,
+                "keywords": [
+                  "Vector 73"
+                ],
+                "eventId": "53"
+              },
+              {
+                "type": "show",
+                "id": "Rectangle_17",
+                "enabled": "enabled",
+                "name": "Rectangle 17",
+                "merged": true,
+                "keywords": [
+                  "Rectangle 17"
+                ],
+                "eventId": "54"
+              },
+              {
+                "type": "show",
+                "id": "go_right__subtree_with_root_8__start_from_8",
+                "enabled": "enabled",
+                "name": "go right (subtree with root 8) start from 8",
+                "merged": true,
+                "keywords": [
+                  "go right (subtree with root 8) start from 8"
+                ],
+                "eventId": "55"
+              },
+              {
+                "type": "hide",
+                "id": "Rectangle_13",
+                "enabled": "enabled",
+                "name": "Rectangle 13",
+                "merged": true,
+                "keywords": [
+                  "Rectangle 13"
+                ],
+                "eventId": "56"
+              },
+              {
+                "type": "show",
+                "id": "Rectangle_18",
+                "enabled": "enabled",
+                "name": "Rectangle 18",
+                "merged": false,
+                "keywords": [
+                  "Rectangle 18"
+                ],
+                "eventId": "57"
+              },
+              {
+                "type": "show",
+                "id": "Vector_74",
+                "enabled": "enabled",
+                "name": "Vector 74",
+                "merged": true,
+                "keywords": [
+                  "Vector 74"
+                ],
+                "eventId": "58"
+              },
+              {
+                "type": "show",
+                "id": "go_left__subtree_with_root_42__start_from_42",
+                "enabled": "enabled",
+                "name": "go left (subtree with root 42) start from 42",
+                "merged": true,
+                "keywords": [
+                  "go left (subtree with root 42) start from 42"
+                ],
+                "eventId": "59"
+              },
+              {
+                "type": "hide",
+                "id": "Rectangle_17",
+                "enabled": "enabled",
+                "name": "Rectangle 17",
+                "merged": true,
+                "keywords": [
+                  "Rectangle 17"
+                ],
+                "eventId": "60"
+              },
+              {
+                "type": "show",
+                "id": "Rectangle_19",
+                "enabled": "enabled",
+                "name": "Rectangle 19",
+                "merged": false,
+                "keywords": [
+                  "Rectangle 19"
+                ],
+                "eventId": "61"
+              },
+              {
+                "type": "show",
+                "id": "Vector_75",
+                "enabled": "enabled",
+                "name": "Vector 75",
+                "merged": true,
+                "keywords": [
+                  "Vector 75"
+                ],
+                "eventId": "62"
+              },
+              {
+                "type": "show",
+                "id": "go_left__subtree_with_root_21__start_from_21",
+                "enabled": "enabled",
+                "name": "go left (subtree with root 21) start from 21",
+                "merged": true,
+                "keywords": [
+                  "go left (subtree with root 21) start from 21"
+                ],
+                "eventId": "63"
+              },
+              {
+                "type": "hide",
+                "id": "Rectangle_18",
+                "enabled": "enabled",
+                "name": "Rectangle 18",
+                "merged": true,
+                "keywords": [
+                  "Rectangle 18"
+                ],
+                "eventId": "64"
+              },
+              {
+                "type": "show",
+                "id": "cannot_go_left_or_right__done",
+                "enabled": "enabled",
+                "name": "cannot go left or right →done",
+                "merged": false,
+                "keywords": [
+                  "cannot go left or right →done"
+                ],
+                "eventId": "65"
+              },
+              {
+                "type": "hide",
+                "id": "Rectangle_19",
+                "enabled": "enabled",
+                "name": "Rectangle 19",
+                "merged": false,
+                "keywords": [
+                  "Rectangle 19"
+                ],
+                "eventId": "66"
+              },
+              {
+                "type": "show",
+                "id": "Rectangle_18",
+                "enabled": "enabled",
+                "name": "Rectangle 18",
+                "merged": true,
+                "keywords": [
+                  "Rectangle 18"
+                ],
+                "eventId": "67"
+              },
+              {
+                "type": "show",
+                "id": "cannot_go_right__done2",
+                "enabled": "enabled",
+                "name": "cannot go right →done",
+                "merged": false,
+                "keywords": [
+                  "cannot go right →done"
+                ],
+                "eventId": "68"
+              },
+              {
+                "type": "show",
+                "id": "_done_8",
+                "enabled": "enabled",
+                "name": "→done 8",
+                "merged": false,
+                "keywords": [
+                  "→done 8"
+                ],
+                "eventId": "84"
+              },
+              {
+                "type": "hide",
+                "id": "Rectangle_18",
+                "enabled": "enabled",
+                "name": "Rectangle 18",
+                "merged": false,
+                "keywords": [
+                  "Rectangle 18"
+                ],
+                "eventId": "69"
+              },
+              {
+                "type": "show",
+                "id": "Rectangle_17",
+                "enabled": "enabled",
+                "name": "Rectangle 17",
+                "merged": true,
+                "keywords": [
+                  "Rectangle 17"
+                ],
+                "eventId": "70"
+              },
+              {
+                "type": "show",
+                "id": "Rectangle_20",
+                "enabled": "enabled",
+                "name": "Rectangle 20",
+                "merged": false,
+                "keywords": [
+                  "Rectangle 20"
+                ],
+                "eventId": "71"
+              },
+              {
+                "type": "show",
+                "id": "Vector_76",
+                "enabled": "enabled",
+                "name": "Vector 76",
+                "merged": true,
+                "keywords": [
+                  "Vector 76"
+                ],
+                "eventId": "72"
+              },
+              {
+                "type": "show",
+                "id": "go_right__subtree_with_root_18__start_from_18",
+                "enabled": "enabled",
+                "name": "go right (subtree with root 18) start from 18",
+                "merged": true,
+                "keywords": [
+                  "go right (subtree with root 18) start from 18"
+                ],
+                "eventId": "73"
+              },
+              {
+                "type": "hide",
+                "id": "Rectangle_17",
+                "enabled": "enabled",
+                "name": "Rectangle 17",
+                "merged": true,
+                "keywords": [
+                  "Rectangle 17"
+                ],
+                "eventId": "74"
+              },
+              {
+                "type": "show",
+                "id": "cannot_go_left_or_right___done_last",
+                "enabled": "enabled",
+                "name": "cannot go left or right → done last",
+                "merged": false,
+                "keywords": [
+                  "cannot go left or right → done last"
+                ],
+                "eventId": "75"
+              },
+              {
+                "type": "show",
+                "id": "_done_root_18",
+                "enabled": "enabled",
+                "name": "→done root 18",
+                "merged": false,
+                "keywords": [
+                  "→done root 18"
+                ],
+                "eventId": "76"
+              },
+              {
+                "type": "hide",
+                "id": "Rectangle_20",
+                "enabled": "enabled",
+                "name": "Rectangle 20",
+                "merged": false,
+                "keywords": [
+                  "Rectangle 20"
+                ],
+                "eventId": "77"
+              },
+              {
+                "type": "show",
+                "id": "Rectangle_17",
+                "enabled": "enabled",
+                "name": "Rectangle 17",
+                "merged": true,
+                "keywords": [
+                  "Rectangle 17"
+                ],
+                "eventId": "78"
+              },
+              {
+                "type": "show",
+                "id": "_done_root_8",
+                "enabled": "enabled",
+                "name": "→done root 8",
+                "merged": true,
+                "keywords": [
+                  "→done root 8"
+                ],
+                "eventId": "79"
+              },
+              {
+                "type": "show",
+                "id": "Rectangle_13",
+                "enabled": "enabled",
+                "name": "Rectangle 13",
+                "merged": false,
+                "keywords": [
+                  "Rectangle 13"
+                ],
+                "eventId": "80"
+              },
+              {
+                "type": "hide",
+                "id": "Rectangle_17",
+                "enabled": "enabled",
+                "name": "Rectangle 17",
+                "merged": true,
+                "keywords": [
+                  "Rectangle 17"
+                ],
+                "eventId": "81"
+              },
+              {
+                "type": "show",
+                "id": "_done_root_2",
+                "enabled": "enabled",
+                "name": "→done root 2",
+                "merged": true,
+                "keywords": [
+                  "→done root 2"
+                ],
+                "eventId": "82"
+              }
+            ],
+            "keywords": [
+              "2",
+              "5",
+              "51",
+              "15",
+              "8",
+              "18",
+              "42",
+              "21",
+              "Algorithm: start from the root recursively search left subtree recursively search right subtree",
+              "dfs example explanation"
+            ],
+            "eventId": "5",
+            "originalParams": {
+              "Group_18": {
+                "opacity": 1
+              },
+              "Rectangle_13": {
+                "opacity": 1
+              },
+              "Rectangle_14": {
+                "opacity": 1
+              },
+              "Vector_70": {
+                "opacity": 1
+              },
+              "go_left__subtree_with_root_5__start_from_5": {
+                "opacity": 1
+              },
+              "Rectangle_15": {
+                "opacity": 1
+              },
+              "Vector_71": {
+                "opacity": 1
+              },
+              "go_left__subtree_with_root_15__start_from_15": {
+                "opacity": 1
+              },
+              "cannot_go_left__done": {
+                "opacity": 1
+              },
+              "cannot_go_right__done": {
+                "opacity": 1
+              },
+              "Vector_72": {
+                "opacity": 1
+              },
+              "Rectangle_16": {
+                "opacity": 1
+              },
+              "go_right__subtree_with_root_51_": {
+                "opacity": 1
+              },
+              "start_from_51": {
+                "opacity": 1
+              },
+              "cannot_go_left__done_2": {
+                "opacity": 1
+              },
+              "cannot_go_right__done_2": {
+                "opacity": 1
+              },
+              "__done_51": {
+                "opacity": 1
+              },
+              "__done": {
+                "opacity": 1
+              },
+              "Vector_73": {
+                "opacity": 1
+              },
+              "Rectangle_17": {
+                "opacity": 1
+              },
+              "go_right__subtree_with_root_8__start_from_8": {
+                "opacity": 1
+              },
+              "Rectangle_18": {
+                "opacity": 1
+              },
+              "Vector_74": {
+                "opacity": 1
+              },
+              "go_left__subtree_with_root_42__start_from_42": {
+                "opacity": 1
+              },
+              "Rectangle_19": {
+                "opacity": 1
+              },
+              "Vector_75": {
+                "opacity": 1
+              },
+              "go_left__subtree_with_root_21__start_from_21": {
+                "opacity": 1
+              },
+              "cannot_go_left_or_right__done": {
+                "opacity": 1
+              },
+              "cannot_go_right__done2": {
+                "opacity": 1
+              },
+              "Rectangle_20": {
+                "opacity": 1
+              },
+              "Vector_76": {
+                "opacity": 1
+              },
+              "go_right__subtree_with_root_18__start_from_18": {
+                "opacity": 1
+              },
+              "cannot_go_left_or_right___done_last": {
+                "opacity": 1
+              },
+              "_done_root_18": {
+                "opacity": 1
+              },
+              "_done_root_8": {
+                "opacity": 1
+              },
+              "_done_root_2": {
+                "opacity": 1
+              },
+              "__done_15": {
+                "opacity": 1
+              },
+              "_done_8": {
+                "opacity": 1
+              }
+            }
+          }
+        ],
+        "keywords": [
+          "Depth-first Search (DFS)",
+          "Idea: pick one direction (e.g. left), and go through the whole tree on that direction; then, go through the whole subtree in the other direction. In each tree we follow the same idea.",
+          "2",
+          "5",
+          "51",
+          "15",
+          "8",
+          "18",
+          "42",
+          "21",
+          "depth first search"
+        ],
+        "eventId": "7",
+        "originalParams": {
+          "Group_17": {
+            "opacity": 1
+          },
+          "This_is_called_depth_first_search__because_we_traverse_the_tree_down__by_going_left__until_we_reach_its_leaves__then_we_backtrack_and_continue_with_the_lowest_right_node_that_we_have_not_traversed_yet__What_algorithm_can_we_use_for_this_": {
+            "opacity": 1
+          },
+          "What_algorithm_can_we_use_for_this_": {
+            "opacity": 1
+          },
+          "A_recursive_one__we_start_from_the_root_go_left_and_recursively_search_left_subtree_go_right_and_recursively_search_right_subtree": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "dfs code",
+        "id": "dfs_code",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Code_snippet",
+            "enabled": "enabled",
+            "name": "Code snippet",
+            "merged": false,
+            "keywords": [
+              "Code snippet"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "return_true_if_the_data_has_been_found",
+            "enabled": "enabled",
+            "name": "return true if the data has been found",
+            "merged": false,
+            "keywords": [
+              "return true if the data has been found"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "search_for_d_in_the_left_subtree__return_true_if_found",
+            "enabled": "enabled",
+            "name": "search for d in the left subtree, return true if found",
+            "merged": false,
+            "keywords": [
+              "search for d in the left subtree, return true if found"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "otherwise_return_whatever_the_result_of_searching_the_right_subtree_is",
+            "enabled": "enabled",
+            "name": "otherwise return whatever the result of searching the right subtree is",
+            "merged": false,
+            "keywords": [
+              "otherwise return whatever the result of searching the right subtree is"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Even_though_this_looks_easy__Make_sure_that_you_understand_it_completely_",
+            "enabled": "enabled",
+            "name": "Even though this looks easy. Make sure that you understand it completely.",
+            "merged": false,
+            "keywords": [
+              "Even though this looks easy. Make sure that you understand it completely."
+            ],
+            "eventId": "5"
+          }
+        ],
+        "keywords": [
+          "It is very convenient to implement depth-first search using recursion. For example here is how to search the value d in a tree t:",
+          "dfs code"
+        ],
+        "eventId": "10",
+        "originalParams": {
+          "Code_snippet": {
+            "opacity": 1
+          },
+          "return_true_if_the_data_has_been_found": {
+            "opacity": 1
+          },
+          "search_for_d_in_the_left_subtree__return_true_if_found": {
+            "opacity": 1
+          },
+          "otherwise_return_whatever_the_result_of_searching_the_right_subtree_is": {
+            "opacity": 1
+          },
+          "Even_though_this_looks_easy__Make_sure_that_you_understand_it_completely_": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "dfs code print",
+        "id": "dfs_code_print",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_18",
+            "enabled": "enabled",
+            "name": "For example, we can write the following function to print all the elements of a tree using DFS:",
+            "merged": false,
+            "keywords": [
+              "For example, we can write the following function to print all the elements of a tree using DFS:",
+              "Code snippet",
+              "pre-order (root →left →right)"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "There_is_more_than_one_manner_of_traversing_a_tree_with_DFS",
+            "enabled": "enabled",
+            "name": "There is more than one manner of traversing a tree with DFS",
+            "merged": false,
+            "keywords": [
+              "There is more than one manner of traversing a tree with DFS"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "inorder",
+            "enabled": "enabled",
+            "name": "inorder",
+            "merged": false,
+            "keywords": [
+              "Code snippet in-order",
+              "in-order (left →root → right)",
+              "inorder"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "post_order",
+            "enabled": "enabled",
+            "name": "post-order",
+            "merged": true,
+            "keywords": [
+              "Code snippet in-order",
+              "post-order (left →right → root)",
+              "post-order"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Group_182",
+            "enabled": "enabled",
+            "name": "Can you reconstruct the tree from the output produced by any of these functions?",
+            "merged": false,
+            "keywords": [
+              "Can you reconstruct the tree from the output produced by any of these functions?",
+              "Give an example of a print function that retains the tree structure."
+            ],
+            "eventId": "5"
+          }
+        ],
+        "keywords": [
+          "DFS is a general traversal algorithm. It can be used for any task that requires going through all the elements of the tree.",
+          "dfs code print"
+        ],
+        "eventId": "12",
+        "originalParams": {
+          "Group_18": {
+            "opacity": 1
+          },
+          "There_is_more_than_one_manner_of_traversing_a_tree_with_DFS": {
+            "opacity": 1
+          },
+          "inorder": {
+            "opacity": 1
+          },
+          "post_order": {
+            "opacity": 1
+          },
+          "Group_182": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "breadth first search",
+        "id": "breadth_first_search",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Normal_Tree",
+            "enabled": "enabled",
+            "name": "Normal Tree",
+            "merged": false,
+            "keywords": [
+              "2",
+              "5",
+              "51",
+              "15",
+              "8",
+              "18",
+              "42",
+              "21",
+              "Normal Tree"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_22",
+            "enabled": "enabled",
+            "name": "Group 22",
+            "merged": true,
+            "keywords": [
+              "Group 22"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "How_to_do_this_",
+            "enabled": "enabled",
+            "name": "How to do this?",
+            "merged": false,
+            "keywords": [
+              "How to do this?"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "The_idea_is_to_use_a_queue_to_store_nodes_that_need_to_be_visited",
+            "enabled": "enabled",
+            "name": "The idea is to use a queue to store nodes that need to be visited",
+            "merged": false,
+            "keywords": [
+              "The idea is to use a queue to store nodes that need to be visited"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Start_with_the_root_2_Put_all_the_children_of_2_in_a_queue_Then_iteratively_do_the_following__go_to_the_next_node_in_the_queue_dequeue_it_and_enqueue_all_its_children",
+            "enabled": "enabled",
+            "name": "Start with the root 2 Put all the children of 2 in a queue Then iteratively do the following: go to the next node in the queue dequeue it and enqueue all its children",
+            "merged": false,
+            "keywords": [
+              "Start with the root 2 Put all the children of 2 in a queue Then iteratively do the following: go to the next node in the queue dequeue it and enqueue all its children"
+            ],
+            "eventId": "5"
+          }
+        ],
+        "keywords": [
+          "Breadth-first Search (BFS)",
+          "goes through the nodes of the tree level-by-level and left-to-right",
+          "breadth first search"
+        ],
+        "eventId": "8",
+        "originalParams": {
+          "Normal_Tree": {
+            "opacity": 1
+          },
+          "Group_22": {
+            "opacity": 1
+          },
+          "The_idea_is_to_use_a_queue_to_store_nodes_that_need_to_be_visited": {
+            "opacity": 1
+          },
+          "How_to_do_this_": {
+            "opacity": 1
+          },
+          "Start_with_the_root_2_Put_all_the_children_of_2_in_a_queue_Then_iteratively_do_the_following__go_to_the_next_node_in_the_queue_dequeue_it_and_enqueue_all_its_children": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "bfs code",
+        "id": "bfs_code",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Suppose_that_we_search_for_42_in_this_tree_",
+            "enabled": "enabled",
+            "name": "Suppose that we search for 42 in this tree:",
+            "merged": false,
+            "keywords": [
+              "2",
+              "5",
+              "51",
+              "15",
+              "8",
+              "Suppose that we search for 42 in this tree:"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "At_first_the_queue_q_is_empty__Then_we_enqueue_t_in_it_",
+            "enabled": "enabled",
+            "name": "At first the queue q is empty. Then we enqueue t in it:",
+            "merged": false,
+            "keywords": [
+              "2",
+              "At first the queue q is empty. Then we enqueue t in it:"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Next_we_dequeue_the_node_and_since_its_data_is_not_equal_to_42_we_enqueue_its_children",
+            "enabled": "enabled",
+            "name": "Next we dequeue the node and since its data is not equal to 42 we enqueue its children",
+            "merged": false,
+            "keywords": [
+              "2",
+              "Next we dequeue the node and since its data is not equal to 42 we enqueue its children"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "9",
+            "enabled": "enabled",
+            "name": "9",
+            "merged": false,
+            "keywords": [
+              "8",
+              "5",
+              "9"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Finall_Dequeue",
+            "enabled": "enabled",
+            "name": "Finall Dequeue",
+            "merged": false,
+            "keywords": [
+              "5",
+              "15",
+              "51",
+              "8",
+              "Next we dequeue the node and since its data is not equal to 42 we enqueue its children",
+              "Finall Dequeue"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "etc___",
+            "enabled": "enabled",
+            "name": "etc...",
+            "merged": false,
+            "keywords": [
+              "etc..."
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "What_would_happen_if_we_used_a_Stack_instead_of_a_Queue__I_e__push___enq__pop___deq",
+            "enabled": "enabled",
+            "name": "What would happen if we used a Stack instead of a Queue? I.e. push = enq, pop = deq",
+            "merged": false,
+            "keywords": [
+              "What would happen if we used a Stack instead of a Queue? I.e. push = enq, pop = deq"
+            ],
+            "eventId": "7"
+          }
+        ],
+        "keywords": [
+          "Code snippet",
+          "bfs code"
+        ],
+        "eventId": "13",
+        "originalParams": {
+          "9": {
+            "opacity": 1
+          },
+          "Suppose_that_we_search_for_42_in_this_tree_": {
+            "opacity": 1
+          },
+          "At_first_the_queue_q_is_empty__Then_we_enqueue_t_in_it_": {
+            "opacity": 1
+          },
+          "Next_we_dequeue_the_node_and_since_its_data_is_not_equal_to_42_we_enqueue_its_children": {
+            "opacity": 1
+          },
+          "Finall_Dequeue": {
+            "opacity": 1
+          },
+          "etc___": {
+            "opacity": 1
+          },
+          "What_would_happen_if_we_used_a_Stack_instead_of_a_Queue__I_e__push___enq__pop___deq": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "binary search trees",
+        "id": "binary_search_trees",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "the_idea_is_to_arrange_data_in_such_a_way_that_looking_it_up_is_akin_to_binary_search",
+            "enabled": "enabled",
+            "name": "the idea is to arrange data in such a way that looking it up is akin to binary search",
+            "merged": false,
+            "keywords": [
+              "the idea is to arrange data in such a way that looking it up is akin to binary search"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "For_any_node_t___all_nodes_on_the_left_of_t__i_e__the_left_child_of_t__and_all_its_children__and_all_its_children_s_children__etc___have_data_values_smaller_than_that_of_t__all_nodes_on_the_right_of_t__i_e__the_right_child_of_t_and_all_its_children__and_all_its_children_s_children__etc___have_data_values_greater_or_equal_than_that_of_t_",
+            "enabled": "enabled",
+            "name": "For any node t : all nodes on the left of t (i.e. the left child of t, and all its children, and all its children's children, etc.) have data values smaller than that of t. all nodes on the right of t (i.e. the right child of t and all its children, and all its children's children, etc.) have data values greater or equal than that of t.",
+            "merged": false,
+            "keywords": [
+              "For any node t : all nodes on the left of t (i.e. the left child of t, and all its children, and all its children's children, etc.) have data values smaller than that of t. all nodes on the right of t (i.e. the right child of t and all its children, and all its children's children, etc.) have data values greater or equal than that of t."
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Normal_Tree",
+            "enabled": "enabled",
+            "name": "Normal Tree",
+            "merged": true,
+            "keywords": [
+              "8",
+              "5",
+              "6",
+              "1",
+              "42",
+              "50",
+              "9",
+              "4",
+              "Normal Tree"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "The_BST_discipline_is_useful_for_search_elements_in_the_tree___it_basically_allows_us_to_do_binary_search__Other_properties__where_is_the_minimal_element_of_the_tree__the_maximal_one__how_can_we_find_how_many_times_does_an_element_occur__how_many_nodes_do_we_need_to_look_at_before_finding_an_element_we_are_searching_for__or_figuring_out_it_is_not_there_",
+            "enabled": "enabled",
+            "name": "The BST discipline is useful for search elements in the tree - it basically allows us to do binary search. Other properties: where is the minimal element of the tree? the maximal one? how can we find how many times does an element occur? how many nodes do we need to look at before finding an element we are searching for, or figuring out it is not there?",
+            "merged": false,
+            "keywords": [
+              "The BST discipline is useful for search elements in the tree - it basically allows us to do binary search. Other properties: where is the minimal element of the tree? the maximal one? how can we find how many times does an element occur? how many nodes do we need to look at before finding an element we are searching for, or figuring out it is not there?"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Operations_we_want_to_be_able_to_do_on_a_BST_are__Searching_Adding_Removing",
+            "enabled": "enabled",
+            "name": "Operations we want to be able to do on a BST are: Searching Adding Removing",
+            "merged": false,
+            "keywords": [
+              "Operations we want to be able to do on a BST are: Searching Adding Removing"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "Group_23",
+            "enabled": "enabled",
+            "name": "we need to make sure to preserve the BST property",
+            "merged": false,
+            "keywords": [
+              "we need to make sure to preserve the BST property"
+            ],
+            "eventId": "6"
+          }
+        ],
+        "keywords": [
+          "Binary Search Trees",
+          "are binary trees whose nodes are ordered in a very specific way (the BST property)",
+          "binary search trees"
+        ],
+        "eventId": "14",
+        "originalParams": {
+          "the_idea_is_to_arrange_data_in_such_a_way_that_looking_it_up_is_akin_to_binary_search": {
+            "opacity": 1
+          },
+          "For_any_node_t___all_nodes_on_the_left_of_t__i_e__the_left_child_of_t__and_all_its_children__and_all_its_children_s_children__etc___have_data_values_smaller_than_that_of_t__all_nodes_on_the_right_of_t__i_e__the_right_child_of_t_and_all_its_children__and_all_its_children_s_children__etc___have_data_values_greater_or_equal_than_that_of_t_": {
+            "opacity": 1
+          },
+          "Normal_Tree": {
+            "opacity": 1
+          },
+          "The_BST_discipline_is_useful_for_search_elements_in_the_tree___it_basically_allows_us_to_do_binary_search__Other_properties__where_is_the_minimal_element_of_the_tree__the_maximal_one__how_can_we_find_how_many_times_does_an_element_occur__how_many_nodes_do_we_need_to_look_at_before_finding_an_element_we_are_searching_for__or_figuring_out_it_is_not_there_": {
+            "opacity": 1
+          },
+          "Operations_we_want_to_be_able_to_do_on_a_BST_are__Searching_Adding_Removing": {
+            "opacity": 1
+          },
+          "Group_23": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "bst search",
+        "id": "bst_search",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Suppose_that_you_want_to_search_for_the_value_9_in_this_tree",
+            "enabled": "enabled",
+            "name": "Suppose that you want to search for the value 9 in this tree",
+            "merged": false,
+            "keywords": [
+              "Suppose that you want to search for the value 9 in this tree"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Normal_Tree",
+            "enabled": "enabled",
+            "name": "Normal Tree",
+            "merged": true,
+            "keywords": [
+              "8",
+              "5",
+              "6",
+              "1",
+              "42",
+              "50",
+              "9",
+              "4",
+              "Normal Tree"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "we_start_from_the_root_of_the_tree_since_the_value_we_are_searching_is_greater_than_the_value_of_the_root__we_move_right_now_our_node_is_42_since_the_value_we_are_searching_is_smaller_than_42__we_move_left_now_our_node_is_9_since_the_value_we_are_searching_is_in_fact_9__we_stop_and_return_True__meaning_that_the_element_was_found",
+            "enabled": "enabled",
+            "name": "we start from the root of the tree since the value we are searching is greater than the value of the root, we move right now our node is 42 since the value we are searching is smaller than 42, we move left now our node is 9 since the value we are searching is in fact 9, we stop and return True, meaning that the element was found",
+            "merged": false,
+            "keywords": [
+              "we start from the root of the tree since the value we are searching is greater than the value of the root, we move right now our node is 42 since the value we are searching is smaller than 42, we move left now our node is 9 since the value we are searching is in fact 9, we stop and return True, meaning that the element was found"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Suppose_that_you_want_to_search_for_the_value_19_in_this_tree",
+            "enabled": "enabled",
+            "name": "Suppose that you want to search for the value 19 in this tree",
+            "merged": false,
+            "keywords": [
+              "Suppose that you want to search for the value 19 in this tree"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "we_start_from_the_root_of_the_tree_since_the_value_we_are_searching_is_greater_than_the_value_of_the_root__we_move_right_now_our_node_is_42_since_the_value_we_are_searching_is_smaller_than_42__we_move_left_now_our_node_is_9_since_the_value_we_are_searching_for_is_greater_than_9__we_move_right_now_our_node_is_9__so_we_move_right_now_our_node_is_None__so_we_return_False__i_e__19_was_not_found_",
+            "enabled": "enabled",
+            "name": "we start from the root of the tree since the value we are searching is greater than the value of the root, we move right now our node is 42 since the value we are searching is smaller than 42, we move left now our node is 9 since the value we are searching for is greater than 9, we move right now our node is 9, so we move right now our node is None, so we return False (i.e. 19 was not found)",
+            "merged": false,
+            "keywords": [
+              "we start from the root of the tree since the value we are searching is greater than the value of the root, we move right now our node is 42 since the value we are searching is smaller than 42, we move left now our node is 9 since the value we are searching for is greater than 9, we move right now our node is 9, so we move right now our node is None, so we return False (i.e. 19 was not found)"
+            ],
+            "eventId": "5"
+          }
+        ],
+        "keywords": [
+          "is done similarly to binary search",
+          "bst search"
+        ],
+        "eventId": "15",
+        "originalParams": {
+          "Suppose_that_you_want_to_search_for_the_value_9_in_this_tree": {
+            "opacity": 1
+          },
+          "Normal_Tree": {
+            "opacity": 1
+          },
+          "we_start_from_the_root_of_the_tree_since_the_value_we_are_searching_is_greater_than_the_value_of_the_root__we_move_right_now_our_node_is_42_since_the_value_we_are_searching_is_smaller_than_42__we_move_left_now_our_node_is_9_since_the_value_we_are_searching_is_in_fact_9__we_stop_and_return_True__meaning_that_the_element_was_found": {
+            "opacity": 1
+          },
+          "Suppose_that_you_want_to_search_for_the_value_19_in_this_tree": {
+            "opacity": 1
+          },
+          "we_start_from_the_root_of_the_tree_since_the_value_we_are_searching_is_greater_than_the_value_of_the_root__we_move_right_now_our_node_is_42_since_the_value_we_are_searching_is_smaller_than_42__we_move_left_now_our_node_is_9_since_the_value_we_are_searching_for_is_greater_than_9__we_move_right_now_our_node_is_9__so_we_move_right_now_our_node_is_None__so_we_return_False__i_e__19_was_not_found_": {
+            "opacity": 1
+          },
+          "Group_23": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "bst search code",
+        "id": "bst_search_code",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Code_snippet",
+            "enabled": "enabled",
+            "name": "Code snippet",
+            "merged": false,
+            "keywords": [
+              "Code snippet"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "start_from_the_root",
+            "enabled": "enabled",
+            "name": "start from the root",
+            "merged": false,
+            "keywords": [
+              "start from the root"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "if_the_number_in_the_current_node_is_larger__then_we_need_to_look_on_the_left_subtree__because_of_the_BST_discipline_",
+            "enabled": "enabled",
+            "name": "if the number in the current node is larger, then we need to look on the left subtree (because of the BST discipline)",
+            "merged": false,
+            "keywords": [
+              "if the number in the current node is larger, then we need to look on the left subtree (because of the BST discipline)"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "and_vice_versa",
+            "enabled": "enabled",
+            "name": "and vice versa",
+            "merged": false,
+            "keywords": [
+              "and vice versa"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "the_loop_stops_when_ptr___None__which_means_that_we_have_reached_a_leaf__without_finding_d",
+            "enabled": "enabled",
+            "name": "the loop stops when ptr = None, which means that we have reached a leaf, without finding d",
+            "merged": false,
+            "keywords": [
+              "the loop stops when ptr = None, which means that we have reached a leaf, without finding d"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "A_recursive_implementation_",
+            "enabled": "enabled",
+            "name": "A recursive implementation:",
+            "merged": false,
+            "keywords": [
+              "A recursive implementation:",
+              "Code snippet"
+            ],
+            "eventId": "5"
+          }
+        ],
+        "keywords": [
+          "Code snippet",
+          "An implementation of BSTs",
+          "bst search code"
+        ],
+        "eventId": "16",
+        "originalParams": {
+          "start_from_the_root": {
+            "opacity": 1
+          },
+          "if_the_number_in_the_current_node_is_larger__then_we_need_to_look_on_the_left_subtree__because_of_the_BST_discipline_": {
+            "opacity": 1
+          },
+          "and_vice_versa": {
+            "opacity": 1
+          },
+          "the_loop_stops_when_ptr___None__which_means_that_we_have_reached_a_leaf__without_finding_d": {
+            "opacity": 1
+          },
+          "A_recursive_implementation_": {
+            "opacity": 1
+          },
+          "Code_snippet": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "bst adding",
+        "id": "bst_adding",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_23",
+            "enabled": "enabled",
+            "name": "Suppose that you want to search for the value 9 in this tree",
+            "merged": false,
+            "keywords": [
+              "Suppose that you want to search for the value 9 in this tree",
+              "8",
+              "5",
+              "6",
+              "1",
+              "42",
+              "50",
+              "9",
+              "4"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "we_start_from_the_root_of_the_tree_since_the_value_to_insert_is_smaller_than_the_value_of_the_root__we_move_left_now_our_node_is_5_since_the_value_to_insert_is_greater_than_5__we_move_right_now_our_node_is_6_since_the_value_to_insert_is_greater_than_6__we_need_to_move_right_since_right_is_None___insert_here",
+            "enabled": "enabled",
+            "name": "we start from the root of the tree since the value to insert is smaller than the value of the root, we move left now our node is 5 since the value to insert is greater than 5, we move right now our node is 6 since the value to insert is greater than 6, we need to move right since right is None → insert here",
+            "merged": false,
+            "keywords": [
+              "we start from the root of the tree since the value to insert is smaller than the value of the root, we move left now our node is 5 since the value to insert is greater than 5, we move right now our node is 6 since the value to insert is greater than 6, we need to move right since right is None → insert here"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Suppose_42",
+            "enabled": "enabled",
+            "name": "Suppose 42",
+            "merged": false,
+            "keywords": [
+              "Suppose 42"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "we_start_from_the_root_of_the_tree_since_the_value_to_insert_is_greater_than_the_value_of_the_root__we_move_right_now_our_node_is_42_since_the_value_to_insert_is_equal_to_42__we_move_right_now_our_node_is_50_since_the_value_to_insert_is_smaller_than_50__we_need_to_move_left_since_left_is_None___insert_here",
+            "enabled": "enabled",
+            "name": "we start from the root of the tree since the value to insert is greater than the value of the root, we move right now our node is 42 since the value to insert is equal to 42, we move right now our node is 50 since the value to insert is smaller than 50, we need to move left since left is None → insert here",
+            "merged": false,
+            "keywords": [
+              "we start from the root of the tree since the value to insert is greater than the value of the root, we move right now our node is 42 since the value to insert is equal to 42, we move right now our node is 50 since the value to insert is smaller than 50, we need to move left since left is None → insert here"
+            ],
+            "eventId": "4"
+          }
+        ],
+        "keywords": [
+          "is done by finding the right position to insert the element, using the same principle as for searching. (Remember that we need to conserve the BST discipline)",
+          "(remember we have to conserve the BST property)",
+          "bst adding"
+        ],
+        "eventId": "17",
+        "originalParams": {
+          "Group_23": {
+            "opacity": 1
+          },
+          "we_start_from_the_root_of_the_tree_since_the_value_to_insert_is_smaller_than_the_value_of_the_root__we_move_left_now_our_node_is_5_since_the_value_to_insert_is_greater_than_5__we_move_right_now_our_node_is_6_since_the_value_to_insert_is_greater_than_6__we_need_to_move_right_since_right_is_None___insert_here": {
+            "opacity": 1
+          },
+          "Suppose_42": {
+            "opacity": 1
+          },
+          "we_start_from_the_root_of_the_tree_since_the_value_to_insert_is_greater_than_the_value_of_the_root__we_move_right_now_our_node_is_42_since_the_value_to_insert_is_equal_to_42__we_move_right_now_our_node_is_50_since_the_value_to_insert_is_smaller_than_50__we_need_to_move_left_since_left_is_None___insert_here": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "bst adding code",
+        "id": "bst_adding_code",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "we_something_like_a_binary_search_but_the_objective_is_to_find_an_empty_child_to_insert_the_node_with_d",
+            "enabled": "enabled",
+            "name": "we something like a binary search but the objective is to find an empty child to insert the node with d",
+            "merged": false,
+            "keywords": [
+              "similarly to binary search but the objective is to find an empty child to insert the node with d",
+              "we something like a binary search but the objective is to find an empty child to insert the node with d"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "if_the_current_node_s_data_is_larger_than_d__then_we_need_to_insert_in_the_left_subtree__We_check_if_there_is_a_child_on_the_left__if_not__we_insert_the_new_node_there__otherwise_we_move_the_pointer_to_the_left_child",
+            "enabled": "enabled",
+            "name": "if the current node’s data is larger than d, then we need to insert in the left subtree. We check if there is a child on the left: if not, we insert the new node there, otherwise we move the pointer to the left child",
+            "merged": false,
+            "keywords": [
+              "if the current node’s data is larger than d, then we need to insert in the left subtree. We check if there is a child on the left: if not, we insert the new node there, otherwise we move the pointer to the left child"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "vice_versa",
+            "enabled": "enabled",
+            "name": "vice versa",
+            "merged": false,
+            "keywords": [
+              "vice versa"
+            ],
+            "eventId": "3"
+          }
+        ],
+        "keywords": [
+          "Code snippet",
+          "bst adding code"
+        ],
+        "eventId": "18",
+        "originalParams": {
+          "we_something_like_a_binary_search_but_the_objective_is_to_find_an_empty_child_to_insert_the_node_with_d": {
+            "opacity": 1
+          },
+          "if_the_current_node_s_data_is_larger_than_d__then_we_need_to_insert_in_the_left_subtree__We_check_if_there_is_a_child_on_the_left__if_not__we_insert_the_new_node_there__otherwise_we_move_the_pointer_to_the_left_child": {
+            "opacity": 1
+          },
+          "vice_versa": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "bst removing",
+        "id": "bst_removing",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "We_look_at_three_cases__Removal_of_a_leaf_node_Removal_of_a_node_with_exactly_1_child_Removal_of_a_node_with_2_children",
+            "enabled": "enabled",
+            "name": "We look at three cases: Removal of a leaf node Removal of a node with exactly 1 child Removal of a node with 2 children",
+            "merged": false,
+            "keywords": [
+              "We look at three cases: Removal of a leaf node Removal of a node with exactly 1 child Removal of a node with 2 children"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Rectangle_37",
+            "enabled": "enabled",
+            "name": "Rectangle 37",
+            "merged": false,
+            "keywords": [
+              "Rectangle 37"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Group_23",
+            "enabled": "enabled",
+            "name": "Group 23",
+            "merged": false,
+            "keywords": [
+              "Group 23"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "simple__turn_the_right_child_of_the_parent_to_None",
+            "enabled": "enabled",
+            "name": "simple: turn the right child of the parent to None",
+            "merged": true,
+            "keywords": [
+              "simple: turn the right child of the parent to None"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "hide",
+            "id": "Rectangle_37",
+            "enabled": "enabled",
+            "name": "Rectangle 37",
+            "merged": false,
+            "keywords": [
+              "Rectangle 37"
+            ],
+            "eventId": "13"
+          },
+          {
+            "type": "show",
+            "id": "Rectangle_38",
+            "enabled": "enabled",
+            "name": "Rectangle 38",
+            "merged": true,
+            "keywords": [
+              "Rectangle 38"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "hide",
+            "id": "Group_23",
+            "enabled": "enabled",
+            "name": "Group 23",
+            "merged": true,
+            "keywords": [
+              "Group 23"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "also_simple__bypass__make_the_left_child_of_node_5_point_to_4",
+            "enabled": "enabled",
+            "name": "also simple: bypass, make the left child of node 5 point to 4",
+            "merged": false,
+            "keywords": [
+              "also simple: bypass, make the left child of node 5 point to 4"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "Vector_100",
+            "enabled": "enabled",
+            "name": "Vector 100",
+            "merged": false,
+            "keywords": [
+              "Vector 100"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "hide",
+            "id": "Vector_98",
+            "enabled": "enabled",
+            "name": "Vector 98",
+            "merged": true,
+            "keywords": [
+              "Vector 98"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "hide",
+            "id": "Vector_99",
+            "enabled": "enabled",
+            "name": "Vector 99",
+            "merged": true,
+            "keywords": [
+              "Vector 99"
+            ],
+            "eventId": "10"
+          },
+          {
+            "type": "show",
+            "id": "Vector_101",
+            "enabled": "enabled",
+            "name": "Vector 101",
+            "merged": false,
+            "keywords": [
+              "Vector 101"
+            ],
+            "eventId": "15"
+          },
+          {
+            "type": "hide",
+            "id": "Rectangle_38",
+            "enabled": "enabled",
+            "name": "Rectangle 38",
+            "merged": false,
+            "keywords": [
+              "Rectangle 38"
+            ],
+            "eventId": "14"
+          },
+          {
+            "type": "show",
+            "id": "Rectangle_39",
+            "enabled": "enabled",
+            "name": "Rectangle 39",
+            "merged": true,
+            "keywords": [
+              "Rectangle 39"
+            ],
+            "eventId": "11"
+          },
+          {
+            "type": "show",
+            "id": "this_one_is_not_as_straightforward",
+            "enabled": "enabled",
+            "name": "this one is not as straightforward",
+            "merged": false,
+            "keywords": [
+              "this one is not as straightforward"
+            ],
+            "eventId": "12"
+          },
+          {
+            "type": "child",
+            "name": "removing a node with two children",
+            "id": "removing_a_node_with_two_children",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Removing_a_node__call_it_ptr__with_two_children_is_done_in_3_phases__1_We_find_the_node_whose_data_is_the_next_greatest_or_equal_in_the_tree_after_ptr_i_e__the_node_with_the_smallest_value_in_the_right_subtree_this_can_be_found_by_moving_right_from_ptr_then_moving_only_left_until_we_reach_None__call_this_node_minRNode_2_we_replace_ptr_data_with_minRNode_data_3_we_remove_minRNode",
+                "enabled": "enabled",
+                "name": "Removing a node (call it ptr) with two children is done in 3 phases: 1.We find the node whose data is the next greatest-or-equal in the tree after ptr i.e. the node with the smallest value in the right subtree this can be found by moving right from ptr then moving only left until we reach None. call this node minRNode 2.we replace ptr.data with minRNode.data 3.we remove minRNode",
+                "merged": false,
+                "keywords": [
+                  "Removing a node (call it ptr) with two children is done in 3 phases: 1.We find the node whose data is the next greatest-or-equal in the tree after ptr i.e. the node with the smallest value in the right subtree this can be found by moving right from ptr then moving only left until we reach None. call this node minRNode 2.we replace ptr.data with minRNode.data 3.we remove minRNode"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Vector_102",
+                "enabled": "enabled",
+                "name": "Vector 102",
+                "merged": false,
+                "keywords": [
+                  "Vector 102"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Could_we_have_replaced_with_the_maximal_element_in_the_left_subtree_",
+                "enabled": "enabled",
+                "name": "Could we have replaced with the maximal element in the left subtree?",
+                "merged": false,
+                "keywords": [
+                  "Could we have replaced with the maximal element in the left subtree?"
+                ],
+                "eventId": "3"
+              }
+            ],
+            "keywords": [
+              "8",
+              "5",
+              "6",
+              "1",
+              "42",
+              "50",
+              "9",
+              "43",
+              "4",
+              "removing a node with two children"
+            ],
+            "eventId": "16",
+            "originalParams": {
+              "Removing_a_node__call_it_ptr__with_two_children_is_done_in_3_phases__1_We_find_the_node_whose_data_is_the_next_greatest_or_equal_in_the_tree_after_ptr_i_e__the_node_with_the_smallest_value_in_the_right_subtree_this_can_be_found_by_moving_right_from_ptr_then_moving_only_left_until_we_reach_None__call_this_node_minRNode_2_we_replace_ptr_data_with_minRNode_data_3_we_remove_minRNode": {
+                "opacity": 1
+              },
+              "Vector_102": {
+                "opacity": 1
+              },
+              "Could_we_have_replaced_with_the_maximal_element_in_the_left_subtree_": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "things to take care implementation",
+            "id": "things_to_take_care_implementation",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [],
+            "keywords": [
+              "A few things we need to take care in the implementation of the remove function: the function takes as input the data to remove, not a node. So, it needs to first find the node to remove, if it exists, and then remove it removing a node requires to have a pointer to its parent, not the node itself (similar to removing from a linked list) the root node has no parent, so extra care is needed in order to remove it",
+              "things to take care implementation"
+            ],
+            "eventId": "17",
+            "originalParams": {}
+          }
+        ],
+        "keywords": [
+          "is a little bit more involved. Because simply removing a node can break the tree and the BST discipline.",
+          "8",
+          "5",
+          "6",
+          "1",
+          "42",
+          "50",
+          "9",
+          "4",
+          "bst removing"
+        ],
+        "eventId": "19",
+        "originalParams": {
+          "We_look_at_three_cases__Removal_of_a_leaf_node_Removal_of_a_node_with_exactly_1_child_Removal_of_a_node_with_2_children": {
+            "opacity": 1
+          },
+          "Rectangle_37": {
+            "opacity": 1
+          },
+          "Group_23": {
+            "opacity": 1
+          },
+          "simple__turn_the_right_child_of_the_parent_to_None": {
+            "opacity": 1
+          },
+          "Rectangle_38": {
+            "opacity": 1
+          },
+          "also_simple__bypass__make_the_left_child_of_node_5_point_to_4": {
+            "opacity": 1
+          },
+          "Vector_100": {
+            "opacity": 1
+          },
+          "Vector_98": {
+            "opacity": 1
+          },
+          "Vector_99": {
+            "opacity": 1
+          },
+          "Rectangle_39": {
+            "opacity": 1
+          },
+          "this_one_is_not_as_straightforward": {
+            "opacity": 1
+          },
+          "Vector_101": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "remove implementation",
+        "id": "remove_implementation",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "search_for_the_node_to_remove_like_in_binary_search_but_also_keep_track_of_the_parent_of_the_node_that_we_will_remove",
+            "enabled": "enabled",
+            "name": "search for the node to remove like in binary search but also keep track of the parent of the node that we will remove",
+            "merged": false,
+            "keywords": [
+              "search for the node to remove like in binary search but also keep track of the parent of the node that we will remove"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "if_found__call_this_function_which_does_the_actual_node_removal",
+            "enabled": "enabled",
+            "name": "if found, call this function which does the actual node removal",
+            "merged": false,
+            "keywords": [
+              "if found, call this function which does the actual node removal"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "otherwise__move_one_level_deeper",
+            "enabled": "enabled",
+            "name": "otherwise, move one level deeper",
+            "merged": false,
+            "keywords": [
+              "otherwise, move one level deeper"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "A_small_helper_function__defined_inside__removeNode___",
+            "enabled": "enabled",
+            "name": "A small helper function, defined inside _removeNode( )",
+            "merged": false,
+            "keywords": [
+              "A small helper function, defined inside _removeNode( )"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Code_snippet_update_child",
+            "enabled": "enabled",
+            "name": "Code snippet update child",
+            "merged": true,
+            "keywords": [
+              "Code snippet update child"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "replace_oldChild_which_should_be_on_the_left_or_right__with_newChild__If_ptr_is_None__it_means_that_the_node_that_needs_to_be_updated_is_the_root__since_the_root_is_the_only_node_that_does_not_have_a_parent_",
+            "enabled": "enabled",
+            "name": "replace oldChild which should be on the left or right, with newChild. If ptr is None, it means that the node that needs to be updated is the root; since the root is the only node that does not have a parent.",
+            "merged": false,
+            "keywords": [
+              "replace oldChild which should be on the left or right, with newChild. If ptr is None, it means that the node that needs to be updated is the root; since the root is the only node that does not have a parent."
+            ],
+            "eventId": "6"
+          }
+        ],
+        "keywords": [
+          "Code snippet",
+          "Remove implementation",
+          "remove implementation"
+        ],
+        "eventId": "20",
+        "originalParams": {
+          "search_for_the_node_to_remove_like_in_binary_search_but_also_keep_track_of_the_parent_of_the_node_that_we_will_remove": {
+            "opacity": 1
+          },
+          "if_found__call_this_function_which_does_the_actual_node_removal": {
+            "opacity": 1
+          },
+          "otherwise__move_one_level_deeper": {
+            "opacity": 1
+          },
+          "A_small_helper_function__defined_inside__removeNode___": {
+            "opacity": 1
+          },
+          "Code_snippet_update_child": {
+            "opacity": 1
+          },
+          "replace_oldChild_which_should_be_on_the_left_or_right__with_newChild__If_ptr_is_None__it_means_that_the_node_that_needs_to_be_updated_is_the_root__since_the_root_is_the_only_node_that_does_not_have_a_parent_": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "remove implementation 2",
+        "id": "remove_implementation_2",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Case_1__the_node_to_remove_is_a_leaf",
+            "enabled": "enabled",
+            "name": "Case 1: the node to remove is a leaf",
+            "merged": false,
+            "keywords": [
+              "Case 1: the node to remove is a leaf"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Case_2__the_node_to_remove__ptr__has_only_one_child__Bypass_ptr",
+            "enabled": "enabled",
+            "name": "Case 2: the node to remove (ptr) has only one child. Bypass ptr",
+            "merged": false,
+            "keywords": [
+              "Case 2: the node to remove (ptr) has only one child. Bypass ptr"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Case_3__The_node_to_remove_has_both_childre",
+            "enabled": "enabled",
+            "name": "Case 3. The node to remove has both childre",
+            "merged": false,
+            "keywords": [
+              "Case 3. The node to remove has both childre"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "find_minRNode__the_minimal_node_on_the_right_subtree__and_keep_track_of_its_parent",
+            "enabled": "enabled",
+            "name": "find minRNode (the minimal node on the right subtree) and keep track of its parent",
+            "merged": false,
+            "keywords": [
+              "find minRNode (the minimal node on the right subtree) and keep track of its parent"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "replace_ptr_by_minRNode",
+            "enabled": "enabled",
+            "name": "replace ptr by minRNode",
+            "merged": false,
+            "keywords": [
+              "replace ptr by minRNode"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "delete_minRNode_i_e__replace_it_by_its_right_subtree__whatever_it_is",
+            "enabled": "enabled",
+            "name": "delete minRNode i.e. replace it by its right subtree, whatever it is",
+            "merged": false,
+            "keywords": [
+              "delete minRNode i.e. replace it by its right subtree, whatever it is"
+            ],
+            "eventId": "6"
+          }
+        ],
+        "keywords": [
+          "Code snippet",
+          "remove implementation 2"
+        ],
+        "eventId": "21",
+        "originalParams": {
+          "Case_1__the_node_to_remove_is_a_leaf": {
+            "opacity": 1
+          },
+          "Case_2__the_node_to_remove__ptr__has_only_one_child__Bypass_ptr": {
+            "opacity": 1
+          },
+          "Case_3__The_node_to_remove_has_both_childre": {
+            "opacity": 1
+          },
+          "find_minRNode__the_minimal_node_on_the_right_subtree__and_keep_track_of_its_parent": {
+            "opacity": 1
+          },
+          "replace_ptr_by_minRNode": {
+            "opacity": 1
+          },
+          "delete_minRNode_i_e__replace_it_by_its_right_subtree__whatever_it_is": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "exercises",
+        "id": "exercises",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [],
+        "keywords": [
+          "exercises"
+        ],
+        "eventId": "22",
+        "originalParams": {}
+      }
+    ],
+    "keywords": [
+      "Lecture 6",
+      "Sorting • Running Time • Complexity",
+      "ECS529U: Algorithms and Data Structures",
+      "Edon Kelmendi e.kelmendi@qmul.ac.uk",
+      "root"
+    ],
+    "eventId": "root",
+    "originalParams": {}
+  },
+  "treeTimeLine": [],
+  "chronicleTimeLine": []
+}
