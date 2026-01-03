@@ -1,0 +1,80 @@
+# jemdoc: menu{blog/MENU}{rotations.html}
+= Undoing Rotations
+
+[https://www.qmul.ac.uk/eecs/people/profiles/huraymond.html Ray] told me about an interesting [https://www.newscientist.com/article/2499647-mathematicians-have-found-a-hidden-reset-button-for-undoing-rotation/ new scientist article] titled "Mathematicians have found a hidden 'reset button' for undoing rotation". It popularises [https://journals.aps.org/prl/abstract/10.1103/xk8y-hycn this article] by Jean-Pierre Eckmann and Tsvi Tlusty published in the Physical Review Letters last month. [https://arxiv.org/pdf/2502.14367 Here] is the arxiv version. I'll explain here what the results of the paper are, and I give a different proof for a weaker theorem. 
+
+== What is it about?
+
+It is about sequences of rotations in 3-dimensional euclidian space. One describes such a rotation $R$ using two pieces of information:
+\(
+\underbrace{\theta}_{\text{angle}}\qquad\qquad\qquad\underbrace{A}_{\text{axis of rotation}}
+\)
+Composition of a sequence $R_1,\ldots, R_k$ of rotations is again a rotation. This is known as [https://en.wikipedia.org/wiki/Euler%27s_rotation_theorem Euler's rotation theorem], and shows that rotations have a group structure.
+  {{<font color=grey size=3>}}
+  (One can also see rotations as orthogonal matrices with determinant $+1$. Orthogonal here means that $MM^T=I$. The group of these matrices is called the special orthogonal group and is denoted by $SO(3)$. Its matrices have an eigenvalue $e^{\theta2\pi\mathbf{i}}$, its complex conjugate, and $1$. The eigenspace of $1$ is the axis of rotation, while $\theta$ is the angle. Composing rotations is just matrix multiplication. )
+  {{</font>}}
+  The article poses the question: given a sequence of rotations
+  \(
+  (\theta_1,A_1), (\theta_2, A_2), \ldots, (\theta_k, A_k)
+  \)
+  is it possible to scale the angles such that the composition is equal to the identity. In other words, does there exist a real $\lambda>0$ such that composing
+  \(
+  (\lambda\theta_1,A_1), (\lambda\theta_2, A_2), \ldots, (\lambda\theta_k, A_k)
+  \)
+  yields the identity rotation, namely rotation by angle $0$.
+
+  In the article the authors demonstrate that such a scaling exists /rarely/. Indeed, the existence of such $\lambda>0$ implies that
+  \(
+  \frac {\theta_i}{\theta_j} \in \mathbb Q. 
+  \)
+  However - and this is the interesting phenomenon - if the sequence of rotations is done twice, such scaling can almost always be found. In other words, the question of whether there exists a $\lambda>0$ such that
+  \(
+  (\lambda\theta_1,A_1), (\lambda\theta_2, A_2), \ldots, (\lambda\theta_k, A_k), (\lambda\theta_1,A_1), (\lambda\theta_2, A_2), \ldots, (\lambda\theta_k, A_k)
+  \)
+  is the identity rotation, almost always has a positive answer. More precisely
+  
+  *Theorem.* (Eckmann, Tlusty 2025) Unless for every $i$ there exists a $j\ne i$ such that
+  \(
+  \theta_i = \theta_j,
+  \)
+  there always exists a $\lambda>0$ such that the sequence of rotations above, performed twice, equals the identity rotation.
+
+  == Another proof of a weaker theorem
+
+  The proof of the theorem above uses geometry of numbers. There very well may be an elementary proof, but I will provide one that uses diophantine approximations (indirectly also geometry of numbers) for a weaker theorem. On the positive side, it is rather short and illustrative. I have not put any effort in finding an elementary proof.
+
+  *Theorem.* Assume that there is some $\theta_i$ which cannot be written as a $\mathbb Q$-linear combination of $\theta_j$, $j\ne i$. Then there exists $\lambda>0$ that makes the sequence of rotations above done twice, equal to the identity rotation.
+
+  *Proof.*
+
+  Let the composition of
+  \(
+    (\lambda\theta_1,A_1), (\lambda\theta_2, A_2), \ldots, (\lambda\theta_k, A_k),
+  \)
+  be the rotation
+  \(
+  (\theta, A). 
+  \)
+  Define the function $F\ :\ \mathbb R_+\to [0, 2\pi)$ which maps
+  \(
+  \lambda\mapsto \theta. 
+  \)
+  So $F$ is mapping the scaling factor $\lambda$ to the resulting angle of rotation $\theta$. To prove the theorem it suffices to show that there is some $\lambda^*\in\mathbb R_+$ such that $F(\lambda^*)=\pi$, (or 0), meaning that scaling by $\lambda^*$ we end up doing a rotation with angle $\pi$, doing this rotation twice results in the identity. Since $F$ is a continuous function, by the intermediate value theorem, if there are $\lambda_1,\lambda_2$, such that
+  \(
+  F(\lambda_1) \le \pi \le F(\lambda_2),
+  \)
+  then either for some $\lambda^*$ we have $F(\lambda^*)=\pi$, or $F(\lambda^*)=0$, in either case performing this rotation twice leads to the identity rotation and proves the theorem. 
+
+  We will now show the existence of such $\lambda_1,\lambda_2$. To this end, let
+  \(
+  \{\phi_1,\ldots, \phi_l\}\subseteq \{\theta_1,\ldots, \theta_k\},
+  \)
+  be a maximal $\mathbb Q$-linearly independent subset. Note that $\theta_i$ in the assumption of the theorem belongs to this subset, and that $l\ge 2$. Assume without loss of generality that $\phi_1 = \theta_i$. Here we apply [https://en.wikipedia.org/wiki/Kronecker%27s_theorem Kronecker's theorem on simultaneous diophantine approximation] (we probably need something much weaker) which says that if $\phi_1,\ldots, \phi_l$ are $\mathbb Q$-linearly independent then the set of values
+  \(
+  \left\{\left(n\phi_1\ \mathrm{mod}\  2\pi, \ldots, n\phi_l\ \mathrm{mod}\  2\pi\right)\ :\ n\in\mathbb N\right\}
+  \)
+  is dense in $[0,2\pi)^l$. As a consequence, for any given $x\in [0,2\pi)$, and $\epsilon>0$, there exists some $\lambda>0$ such that
+  \(
+  \left(\lambda\phi_1\ \mathrm{mod}\  2\pi, \ldots, \lambda\phi_l\ \mathrm{mod}\  2\pi\right)
+  \)
+  is in the $\epsilon$-ball of $(x,0,\ldots,0)$. Since when the independent variables $\lambda\phi_2,\ldots, \lambda\phi_l$ are close to 0, so are the dependent ones $\lambda\theta_j$, it follows that the resulting angle of rotation, when angles are scaled by $\lambda$, is close to $x$. Since $x$ was arbitrary the existence of $\lambda_1$, $\lambda_2$ above is proved, and with it the theorem. 

@@ -1,7 +1,12 @@
 # jemdoc: menu{MENU}{notes.html}
 = Some Notes
 
-- [blog/toomany.html Report on a theorem by Semenov] 13\/05\/2020
+- [/blog/rotations.html Undoing rotations by Eckmann and Tlusty]  02\/11\/2025
 
-This is a write-up of an interesting theorem of Semenov about extensions of MSO with unary predicates. 
+  This is a slightly different proof of a result by Eckmann and Tlusty about resetting rotations in 3-dimensional euclidian space. \n\n
+
+
+- [/blog/toomany.html Report on a theorem by Semenov] 13\/05\/2020
+
+  This is a write-up of an interesting theorem of Semenov about extensions of MSO with unary predicates.
 

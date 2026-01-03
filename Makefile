@@ -1,4 +1,3 @@
-
 # The main source file
 JEMDOC = $(wildcard *.jemdoc blog/*.jemdoc)
 # The PDF file
@@ -8,7 +7,7 @@ HTML = $(patsubst %.jemdoc,%.html,$(JEMDOC))
 all: $(HTML)
 
 %.html: %.jemdoc
-	jemdoc -c jemdoc.conf $<
+	python3.9 ~/bin/jemdoc -c jemdoc.conf $<
 
 clean:
 	rm -f $(HTML)
