@@ -1,0 +1,920 @@
+{
+  "version": 3,
+  "presentation": "Leverhulme",
+  "slideDict": {
+    "new_slide": "root",
+    "theory_project": "theory_project",
+    "nia": "nia",
+    "leverhulme": "leverhulme",
+    "what_do_they_want_to_fund_": "what_do_they_want_to_fund_",
+    "application": "application",
+    "outline": "outline",
+    "detailed_app": "detailed_app",
+    "reviewers": "reviewers",
+    "reviewers_2": "reviewers_2"
+  },
+  "tree": {
+    "type": "child",
+    "name": "root",
+    "id": "new_slide",
+    "enabled": "enabled",
+    "merged": false,
+    "children": [
+      {
+        "type": "child",
+        "name": "theory project",
+        "id": "theory_project",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "no_industry_support",
+            "enabled": "enabled",
+            "name": "no industry support",
+            "merged": false,
+            "keywords": [
+              "no industry support"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "difficult_to_argue_about_practical_impact",
+            "enabled": "enabled",
+            "name": "difficult to argue about practical impact",
+            "merged": false,
+            "keywords": [
+              "difficult to argue about practical impact"
+            ],
+            "eventId": "2"
+          }
+        ],
+        "keywords": [
+          "theory project"
+        ],
+        "eventId": "1",
+        "originalParams": {
+          "no_industry_support": {
+            "opacity": 1
+          },
+          "difficult_to_argue_about_practical_impact": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "show",
+        "id": "First_try_was_EPSRC_NIA",
+        "enabled": "enabled",
+        "name": "First try was EPSRC NIA",
+        "merged": false,
+        "keywords": [
+          "First try was EPSRC NIA"
+        ],
+        "eventId": "2"
+      },
+      {
+        "type": "child",
+        "name": "nia",
+        "id": "nia",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_2",
+            "enabled": "enabled",
+            "name": "14/03/2024",
+            "merged": false,
+            "keywords": [
+              "Reviews",
+              "14/03/2024",
+              "5.5 months"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "5_6__5_6__4_6",
+            "enabled": "enabled",
+            "name": "5/6, 5/6, 4/6",
+            "merged": false,
+            "keywords": [
+              "5/6, 5/6, 4/6"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Group_22",
+            "enabled": "enabled",
+            "name": "“So I will score the PI capability quite highly, but the actual outcome of the project more modestly.”",
+            "merged": false,
+            "keywords": [
+              "“How realistic is it to actually translate outcome to impact?”",
+              "“So I will score the PI capability quite highly, but the actual outcome of the project more modestly.”"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "They_are_right__it_is_difficult_to_argue_for_the_wider_impact_for_this_kind_of_project_",
+            "enabled": "enabled",
+            "name": "They are right: it is difficult to argue for the wider impact for this kind of project.",
+            "merged": false,
+            "keywords": [
+              "They are right: it is difficult to argue for the wider impact for this kind of project."
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Group_23",
+            "enabled": "enabled",
+            "name": "28/03/2024",
+            "merged": false,
+            "keywords": [
+              "Rebuttal",
+              "28/03/2024",
+              "2 weeks"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "Group_24",
+            "enabled": "enabled",
+            "name": "not successful",
+            "merged": false,
+            "keywords": [
+              "Decision",
+              "25/06/2024",
+              "3 months",
+              "not successful"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "Total__9_months",
+            "enabled": "enabled",
+            "name": "Total: 9 months",
+            "merged": false,
+            "keywords": [
+              "Total: 9 months"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "__Repackage_and_send_elsewhere",
+            "enabled": "enabled",
+            "name": "→ Repackage and send elsewhere",
+            "merged": false,
+            "keywords": [
+              "→ Repackage and send elsewhere"
+            ],
+            "eventId": "8"
+          }
+        ],
+        "keywords": [
+          "25/09/2023",
+          "Sent full application (ICT)",
+          "nia"
+        ],
+        "eventId": "3",
+        "originalParams": {
+          "Group_2": {
+            "opacity": 1
+          },
+          "5_6__5_6__4_6": {
+            "opacity": 1
+          },
+          "Group_22": {
+            "opacity": 1
+          },
+          "They_are_right__it_is_difficult_to_argue_for_the_wider_impact_for_this_kind_of_project_": {
+            "opacity": 1
+          },
+          "Group_23": {
+            "opacity": 1
+          },
+          "Group_24": {
+            "opacity": 1
+          },
+          "Total__9_months": {
+            "opacity": 1
+          },
+          "__Repackage_and_send_elsewhere": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "leverhulme",
+        "id": "leverhulme",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Main_reason__send_outline_of_project_and___3_months_either__we_don_t_want_to_fund__or__send_complete_project_",
+            "enabled": "enabled",
+            "name": "Main reason: send outline of project and < 3 months either “we don’t want to fund” or “send complete project”",
+            "merged": false,
+            "keywords": [
+              "Main reason: send outline of project and < 3 months either “we don’t want to fund” or “send complete project”"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Up_to_5_years_Up_to__500_000_75__to_pay_staff__PDRA_etc___25__for_necessary_travel__consumables__etc__Can_have_more_than_one_PI_No_overheads",
+            "enabled": "enabled",
+            "name": "Up to 5 years Up to £500,000 75% to pay staff (PDRA etc.) 25% for necessary travel, consumables, etc. Can have more than one PI No overheads",
+            "merged": false,
+            "keywords": [
+              "Up to 5 years Up to £500,000 75% to pay staff (PDRA etc.) 25% for necessary travel, consumables, etc. Can have more than one PI No overheads"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "What_do_they_want_to_fund_",
+            "enabled": "enabled",
+            "name": "What do they want to fund?",
+            "merged": false,
+            "keywords": [
+              "What do they want to fund?"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "child",
+            "name": "what do they want to fund?",
+            "id": "what_do_they_want_to_fund_",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Interdisciplinary_research_Social_sciences_Projects_that_do_not_follow_current_trends_but_rather_the_PIs_personal_intellectual_curiosity",
+                "enabled": "enabled",
+                "name": "Interdisciplinary research Social sciences Projects that do not follow current trends but rather the PIs personal intellectual curiosity",
+                "merged": false,
+                "keywords": [
+                  "Interdisciplinary research Social sciences Projects that do not follow current trends but rather the PIs personal intellectual curiosity"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "I_thought_I_had_a_case__argue_that",
+                "enabled": "enabled",
+                "name": "I thought I had a case: argue that",
+                "merged": false,
+                "keywords": [
+                  "I thought I had a case: argue that"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "theory_fundamental_research_project__not_being_funded_because_outcome___impact_not_clear",
+                "enabled": "enabled",
+                "name": "theory/fundamental research project, not being funded because outcome → impact not clear",
+                "merged": false,
+                "keywords": [
+                  "theory/fundamental research project, not being funded because outcome → impact not clear"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "somewhere_between_math_and_cs",
+                "enabled": "enabled",
+                "name": "somewhere between math and cs",
+                "merged": false,
+                "keywords": [
+                  "somewhere between math and cs"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "personal_intellectual_curiosity__I_had_already_made_some_progress_before_",
+                "enabled": "enabled",
+                "name": "personal intellectual curiosity (I had already made some progress before)",
+                "merged": false,
+                "keywords": [
+                  "personal intellectual curiosity (I had already made some progress before)"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "appreciated_by_community",
+                "enabled": "enabled",
+                "name": "appreciated by community",
+                "merged": false,
+                "keywords": [
+                  "appreciated by community"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "show",
+                "id": "Group_2",
+                "enabled": "enabled",
+                "name": "they ask in the full application: where else did you send this proposal, and why wasn’t it funded",
+                "merged": false,
+                "keywords": [
+                  "they ask in the full application: where else did you send this proposal, and why wasn’t it funded"
+                ],
+                "eventId": "7"
+              }
+            ],
+            "keywords": [
+              "Valuable projects that fall between the cracks of other funding agencies.",
+              "what do they want to fund?"
+            ],
+            "eventId": "4",
+            "originalParams": {
+              "Interdisciplinary_research_Social_sciences_Projects_that_do_not_follow_current_trends_but_rather_the_PIs_personal_intellectual_curiosity": {
+                "opacity": 1
+              },
+              "I_thought_I_had_a_case__argue_that": {
+                "opacity": 1
+              },
+              "theory_fundamental_research_project__not_being_funded_because_outcome___impact_not_clear": {
+                "opacity": 1
+              },
+              "somewhere_between_math_and_cs": {
+                "opacity": 1
+              },
+              "personal_intellectual_curiosity__I_had_already_made_some_progress_before_": {
+                "opacity": 1
+              },
+              "appreciated_by_community": {
+                "opacity": 1
+              },
+              "Group_2": {
+                "opacity": 1
+              }
+            }
+          }
+        ],
+        "keywords": [
+          "leverhulme"
+        ],
+        "eventId": "4",
+        "originalParams": {
+          "Main_reason__send_outline_of_project_and___3_months_either__we_don_t_want_to_fund__or__send_complete_project_": {
+            "opacity": 1
+          },
+          "Up_to_5_years_Up_to__500_000_75__to_pay_staff__PDRA_etc___25__for_necessary_travel__consumables__etc__Can_have_more_than_one_PI_No_overheads": {
+            "opacity": 1
+          },
+          "What_do_they_want_to_fund_": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "application",
+        "id": "application",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "child",
+            "name": "outline",
+            "id": "outline",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Why_Leverhulme_Trust_____important__1_3_page",
+                "enabled": "enabled",
+                "name": "Why Leverhulme Trust? - (important) 1/3 page",
+                "merged": false,
+                "keywords": [
+                  "Why Leverhulme Trust? - (important) 1/3 page"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Project_summary___about_1_page",
+                "enabled": "enabled",
+                "name": "Project summary - about 1 page",
+                "merged": false,
+                "keywords": [
+                  "Project summary - about 1 page"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Justify_staff_resources_requested_1_3_page",
+                "enabled": "enabled",
+                "name": "Justify staff resources requested 1/3 page",
+                "merged": false,
+                "keywords": [
+                  "Justify staff resources requested 1/3 page"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Simple_budget__which_cannot_be_changed_",
+                "enabled": "enabled",
+                "name": "Simple budget (which cannot be changed)",
+                "merged": false,
+                "keywords": [
+                  "Simple budget (which cannot be changed)"
+                ],
+                "eventId": "4"
+              }
+            ],
+            "keywords": [
+              "Lay summary - 1 paragraph",
+              "outline"
+            ],
+            "eventId": "1",
+            "originalParams": {
+              "Why_Leverhulme_Trust_____important__1_3_page": {
+                "opacity": 1
+              },
+              "Project_summary___about_1_page": {
+                "opacity": 1
+              },
+              "Justify_staff_resources_requested_1_3_page": {
+                "opacity": 1
+              },
+              "Simple_budget__which_cannot_be_changed_": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "Group_3",
+            "enabled": "enabled",
+            "name": "Invitation to submit a detailed application",
+            "merged": false,
+            "keywords": [
+              "Invitation to submit a detailed application",
+              "28/04/2025",
+              "40 days"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "within_9_months",
+            "enabled": "enabled",
+            "name": "within 9 months",
+            "merged": false,
+            "keywords": [
+              "within 9 months"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Group_32",
+            "enabled": "enabled",
+            "name": "this is complete black box - decision made by non-experts probably random (focus on why leverhulme)",
+            "merged": false,
+            "keywords": [
+              "this is complete black box - decision made by non-experts probably random (focus on why leverhulme)"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "child",
+            "name": "detailed app",
+            "id": "detailed_app",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Lay_summary___1_paragraph",
+                "enabled": "enabled",
+                "name": "Lay summary - 1 paragraph",
+                "merged": false,
+                "keywords": [
+                  "Lay summary - 1 paragraph"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Context___3_paragraphs",
+                "enabled": "enabled",
+                "name": "Context - 3 paragraphs",
+                "merged": false,
+                "keywords": [
+                  "Context - 3 paragraphs"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Objectives___1_4_page",
+                "enabled": "enabled",
+                "name": "Objectives - 1/4 page",
+                "merged": false,
+                "keywords": [
+                  "Objectives - 1/4 page"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Significance_and_originality___2_3_page",
+                "enabled": "enabled",
+                "name": "Significance and originality - 2/3 page",
+                "merged": false,
+                "keywords": [
+                  "Significance and originality - 2/3 page"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "Methodology___1_paragraph_Ethics_approvals___1_paragraph",
+                "enabled": "enabled",
+                "name": "Methodology - 1 paragraph Ethics approvals - 1 paragraph",
+                "merged": false,
+                "keywords": [
+                  "Methodology - 1 paragraph Ethics approvals - 1 paragraph"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "The_crucial_step_at_this_stage_is_choosing_2_expert_reviewers",
+                "enabled": "enabled",
+                "name": "The crucial step at this stage is choosing 2 expert reviewers",
+                "merged": false,
+                "keywords": [
+                  "The crucial step at this stage is choosing 2 expert reviewers"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "child",
+                "name": "reviewers",
+                "id": "reviewers",
+                "enabled": "enabled",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "Group_3",
+                    "enabled": "enabled",
+                    "name": "they have three weeks to write the review",
+                    "merged": false,
+                    "keywords": [
+                      "they have three weeks to write the review"
+                    ],
+                    "eventId": "1"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_32",
+                    "enabled": "enabled",
+                    "name": "never collaborated, did not work at the same place same time (not rules)",
+                    "merged": false,
+                    "keywords": [
+                      "never collaborated, did not work at the same place same time (not rules)"
+                    ],
+                    "eventId": "2"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_33",
+                    "enabled": "enabled",
+                    "name": "also senior with reputation",
+                    "merged": false,
+                    "keywords": [
+                      "also senior with reputation"
+                    ],
+                    "eventId": "3"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_34",
+                    "enabled": "enabled",
+                    "name": "you know they like your work",
+                    "merged": false,
+                    "keywords": [
+                      "you know they like your work"
+                    ],
+                    "eventId": "4"
+                  },
+                  {
+                    "type": "show",
+                    "id": "They_do_not_have_to_be_from_UK___but_I_have_the_impression_that_it_helps",
+                    "enabled": "enabled",
+                    "name": "They do not have to be from UK - but I have the impression that it helps",
+                    "merged": false,
+                    "keywords": [
+                      "They do not have to be from UK - but I have the impression that it helps"
+                    ],
+                    "eventId": "5"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Prof__x___had_informal_meeting_spring_2025_in_a_workshop___seemed_to_like_the_work",
+                    "enabled": "enabled",
+                    "name": "Prof. x - had informal meeting spring 2025 in a workshop - seemed to like the work",
+                    "merged": false,
+                    "keywords": [
+                      "Prof. x - had informal meeting spring 2025 in a workshop - seemed to like the work"
+                    ],
+                    "eventId": "6"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Prof__y__",
+                    "enabled": "enabled",
+                    "name": "Prof. y - worked on the same problem - his paper started this research project",
+                    "merged": false,
+                    "keywords": [
+                      "Prof. y - worked on the same problem - his paper started this research project"
+                    ],
+                    "eventId": "7"
+                  },
+                  {
+                    "type": "show",
+                    "id": "During_summer_conference_asked_ex_postdoc_advisor_s_opinion__very_successful_at_getting_grants_",
+                    "enabled": "enabled",
+                    "name": "During summer conference asked ex-postdoc advisor’s opinion (very successful at getting grants)",
+                    "merged": false,
+                    "keywords": [
+                      "During summer conference asked ex-postdoc advisor’s opinion (very successful at getting grants)"
+                    ],
+                    "eventId": "8"
+                  },
+                  {
+                    "type": "show",
+                    "id": "He_said__good_but_Prof__y_is_very_busy_these_days__replace_him_with_Prof__z__he_has_written_a_very_good_review_for_one_of_our_projects__and_he_truly_appreciates_our_work_",
+                    "enabled": "enabled",
+                    "name": "He said: good but Prof. y is very busy these days, replace him with Prof. z, he has written a very good review for one of our projects, and he truly appreciates our work.",
+                    "merged": false,
+                    "keywords": [
+                      "He said: good but Prof. y is very busy these days, replace him with Prof. z, he has written a very good review for one of our projects, and he truly appreciates our work."
+                    ],
+                    "eventId": "9"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_35",
+                    "enabled": "enabled",
+                    "name": "Prof. z - we know likes this kind of work",
+                    "merged": false,
+                    "keywords": [
+                      "Prof. z - we know likes this kind of work"
+                    ],
+                    "eventId": "10"
+                  }
+                ],
+                "keywords": [
+                  "Someone that: 1. can write a review, 2. is not too close to you, 3. expert, 4. appreciates your work",
+                  "reviewers"
+                ],
+                "eventId": "7",
+                "originalParams": {
+                  "Group_3": {
+                    "opacity": 1
+                  },
+                  "Group_32": {
+                    "opacity": 1
+                  },
+                  "Group_33": {
+                    "opacity": 1
+                  },
+                  "Group_34": {
+                    "opacity": 1
+                  },
+                  "They_do_not_have_to_be_from_UK___but_I_have_the_impression_that_it_helps": {
+                    "opacity": 1
+                  },
+                  "Prof__x___had_informal_meeting_spring_2025_in_a_workshop___seemed_to_like_the_work": {
+                    "opacity": 1
+                  },
+                  "Prof__y__": {
+                    "opacity": 1
+                  },
+                  "During_summer_conference_asked_ex_postdoc_advisor_s_opinion__very_successful_at_getting_grants_": {
+                    "opacity": 1
+                  },
+                  "He_said__good_but_Prof__y_is_very_busy_these_days__replace_him_with_Prof__z__he_has_written_a_very_good_review_for_one_of_our_projects__and_he_truly_appreciates_our_work_": {
+                    "opacity": 1
+                  },
+                  "Group_35": {
+                    "opacity": 1
+                  }
+                }
+              },
+              {
+                "type": "child",
+                "name": "reviewers 2",
+                "id": "reviewers_2",
+                "enabled": "enabled",
+                "merged": true,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "Both_said_yes_",
+                    "enabled": "enabled",
+                    "name": "Both said yes.",
+                    "merged": false,
+                    "keywords": [
+                      "Both said yes."
+                    ],
+                    "eventId": "1"
+                  }
+                ],
+                "keywords": [
+                  "In summer I asked both: Can you review a research grant proposal I am submitting, it has x many pages you have 3 weeks to complete it",
+                  "reviewers 2"
+                ],
+                "eventId": "8",
+                "originalParams": {
+                  "Both_said_yes_": {
+                    "opacity": 1
+                  }
+                }
+              }
+            ],
+            "keywords": [
+              "Detailed research description - 5 pages to be read by experts",
+              "detailed app"
+            ],
+            "eventId": "5",
+            "originalParams": {
+              "Lay_summary___1_paragraph": {
+                "opacity": 1
+              },
+              "Context___3_paragraphs": {
+                "opacity": 1
+              },
+              "Objectives___1_4_page": {
+                "opacity": 1
+              },
+              "Significance_and_originality___2_3_page": {
+                "opacity": 1
+              },
+              "Methodology___1_paragraph_Ethics_approvals___1_paragraph": {
+                "opacity": 1
+              },
+              "The_crucial_step_at_this_stage_is_choosing_2_expert_reviewers": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "Group_33",
+            "enabled": "enabled",
+            "name": "Submission 28/08/2025",
+            "merged": false,
+            "keywords": [
+              "Submission 28/08/2025",
+              "4 months"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "Group_34",
+            "enabled": "enabled",
+            "name": "Decision 26/11/2025",
+            "merged": false,
+            "keywords": [
+              "Decision 26/11/2025",
+              "3 months"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "successful",
+            "enabled": "enabled",
+            "name": "successful",
+            "merged": false,
+            "keywords": [
+              "successful"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "show",
+            "id": "3_years__202_936_1_PDRA__travel",
+            "enabled": "enabled",
+            "name": "3 years £202,936 1 PDRA, travel",
+            "merged": false,
+            "keywords": [
+              "3 years £202,936 1 PDRA, travel"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "show",
+            "id": "Group_35",
+            "enabled": "enabled",
+            "name": "same black box process made by non-experts (but based on the reviews) allowed to change the “why leverhulme section”",
+            "merged": false,
+            "keywords": [
+              "same black box process made by non-experts (but based on the reviews) allowed to change the “why leverhulme section”"
+            ],
+            "eventId": "10"
+          },
+          {
+            "type": "show",
+            "id": "Total__9_months",
+            "enabled": "enabled",
+            "name": "Total: 9 months",
+            "merged": false,
+            "keywords": [
+              "Total: 9 months"
+            ],
+            "eventId": "11"
+          }
+        ],
+        "keywords": [
+          "Project Outline",
+          "18/03/2025",
+          "application"
+        ],
+        "eventId": "5",
+        "originalParams": {
+          "Group_3": {
+            "opacity": 1
+          },
+          "within_9_months": {
+            "opacity": 1
+          },
+          "Group_32": {
+            "opacity": 1
+          },
+          "Group_33": {
+            "opacity": 1
+          },
+          "Group_34": {
+            "opacity": 1
+          },
+          "successful": {
+            "opacity": 1
+          },
+          "3_years__202_936_1_PDRA__travel": {
+            "opacity": 1
+          },
+          "Group_35": {
+            "opacity": 1
+          },
+          "Total__9_months": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "show",
+        "id": "Conclusion__good_no_nonsense_opportunity__for_certain_projects__with_a_short_feedback_loop",
+        "enabled": "enabled",
+        "name": "Conclusion: good no-nonsense opportunity, for certain projects, with a short feedback loop",
+        "merged": false,
+        "keywords": [
+          "Conclusion: good no-nonsense opportunity, for certain projects, with a short feedback loop"
+        ],
+        "eventId": "6"
+      }
+    ],
+    "keywords": [
+      "My experience applying for a Leverhulme Project Grant",
+      "Edon Kelmendi",
+      "with a theory project",
+      "root"
+    ],
+    "eventId": "root",
+    "originalParams": {
+      "First_try_was_EPSRC_NIA": {
+        "opacity": 1
+      },
+      "Conclusion__good_no_nonsense_opportunity__for_certain_projects__with_a_short_feedback_loop": {
+        "opacity": 1
+      }
+    }
+  },
+  "treeTimeLine": [],
+  "chronicleTimeLine": []
+}
