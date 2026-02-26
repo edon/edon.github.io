@@ -1,0 +1,1547 @@
+{
+  "version": 3,
+  "presentation": "Decision problems for lds",
+  "slideDict": {
+    "new_slide": "root",
+    "lds_definition": "lds_definition",
+    "Example": "Example",
+    "why_do_i_care_": "why_do_i_care_",
+    "other_pov": "other_pov",
+    "what_is_known_": "what_is_known_",
+    "Previous_work": "Previous_work",
+    "Density": "Density",
+    "difficulty": "difficulty",
+    "difficulty_2": "difficulty_2",
+    "particular_open_problem": "particular_open_problem",
+    "density_1": "density_1",
+    "density_2": "density_2",
+    "density_3": "density_3",
+    "semialgebraic_set": "semialgebraic_set",
+    "density_infinite": "density_infinite"
+  },
+  "tree": {
+    "type": "child",
+    "name": "root",
+    "id": "new_slide",
+    "enabled": "enabled",
+    "merged": false,
+    "children": [
+      {
+        "type": "child",
+        "name": "lds definition",
+        "id": "lds_definition",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_1",
+            "enabled": "enabled",
+            "name": "an initial point",
+            "merged": false,
+            "keywords": [
+              "an initial point"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_12",
+            "enabled": "enabled",
+            "name": "the orbit",
+            "merged": false,
+            "keywords": [
+              "orbit",
+              "the orbit"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Group_2",
+            "enabled": "enabled",
+            "name": "given as a d x d matrix",
+            "merged": false,
+            "keywords": [
+              "given as a d x d matrix"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Group_22",
+            "enabled": "enabled",
+            "name": "Decide properties of the orbit",
+            "merged": false,
+            "keywords": [
+              "Goal:",
+              "Decide properties of the orbit"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Group_23",
+            "enabled": "enabled",
+            "name": "Procedure that inputs the matrix, initial point, and in finite time terminates and answers whether the orbit has the property",
+            "merged": false,
+            "keywords": [
+              "Procedure that inputs a matrix, initial point, and in finite time terminates and answers whether the orbit has the property",
+              "Procedure that inputs the matrix, initial point, and in finite time terminates and answers whether the orbit has the property"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "_effective_in_principle_",
+            "enabled": "enabled",
+            "name": "“effective in principle”",
+            "merged": false,
+            "keywords": [
+              "“effective in principle”"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "complexity_questions_come_later",
+            "enabled": "enabled",
+            "name": "complexity questions come later",
+            "merged": false,
+            "keywords": [
+              "complexity questions come later"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "anyway_already_NP_hard_lower_bound",
+            "enabled": "enabled",
+            "name": "anyway already NP-hard lower bound",
+            "merged": false,
+            "keywords": [
+              "anyway already NP-hard lower bound"
+            ],
+            "eventId": "14"
+          },
+          {
+            "type": "show",
+            "id": "Group_24",
+            "enabled": "enabled",
+            "name": "Does the orbit reach a target subset?",
+            "merged": false,
+            "keywords": [
+              "Does the orbit reach a target subset?"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "show",
+            "id": "How_often_",
+            "enabled": "enabled",
+            "name": "How often?",
+            "merged": false,
+            "keywords": [
+              "How often?"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "show",
+            "id": "Group_25",
+            "enabled": "enabled",
+            "name": "in this talk S = halfspace",
+            "merged": false,
+            "keywords": [
+              "in this talk S = halfspace"
+            ],
+            "eventId": "10"
+          },
+          {
+            "type": "child",
+            "name": "Example",
+            "id": "Example",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_2",
+                "enabled": "enabled",
+                "name": "initial point",
+                "merged": false,
+                "keywords": [
+                  "initial point"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Group_3",
+                "enabled": "enabled",
+                "name": "linear map given via matrix",
+                "merged": false,
+                "keywords": [
+                  "linear map given via matrix"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Group_32",
+                "enabled": "enabled",
+                "name": "hyperplane given by a normal vector h",
+                "merged": false,
+                "keywords": [
+                  "hyperplane given by a normal vector h"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Output_",
+                "enabled": "enabled",
+                "name": "Output:",
+                "merged": false,
+                "keywords": [
+                  "Output:"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "Group_33",
+                "enabled": "enabled",
+                "name": "does there exist",
+                "merged": false,
+                "keywords": [
+                  "does there exist",
+                  "such that"
+                ],
+                "eventId": "9"
+              }
+            ],
+            "keywords": [
+              "For example",
+              "Input:",
+              "Example"
+            ],
+            "eventId": "11",
+            "originalParams": {
+              "Group_2": {
+                "opacity": 1
+              },
+              "Group_3": {
+                "opacity": 1
+              },
+              "Group_32": {
+                "opacity": 1
+              },
+              "Output_": {
+                "opacity": 1
+              },
+              "Group_33": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "open_problem",
+            "enabled": "enabled",
+            "name": "open problem",
+            "merged": false,
+            "keywords": [
+              "open problem"
+            ],
+            "eventId": "12"
+          },
+          {
+            "type": "show",
+            "id": "related_to_the_well_known_Skolem_s_problem",
+            "enabled": "enabled",
+            "name": "related to the well known Skolem’s problem",
+            "merged": false,
+            "keywords": [
+              "related to the well known Skolem’s problem"
+            ],
+            "eventId": "13"
+          }
+        ],
+        "keywords": [
+          "A linear map",
+          "lds definition"
+        ],
+        "eventId": "2",
+        "originalParams": {
+          "Group_1": {
+            "opacity": 1
+          },
+          "Group_12": {
+            "opacity": 1
+          },
+          "Group_2": {
+            "opacity": 1
+          },
+          "Group_22": {
+            "opacity": 1
+          },
+          "Group_23": {
+            "opacity": 1
+          },
+          "_effective_in_principle_": {
+            "opacity": 1
+          },
+          "complexity_questions_come_later": {
+            "opacity": 1
+          },
+          "Group_24": {
+            "opacity": 1
+          },
+          "How_often_": {
+            "opacity": 1
+          },
+          "Group_25": {
+            "opacity": 1
+          },
+          "open_problem": {
+            "opacity": 1
+          },
+          "related_to_the_well_known_Skolem_s_problem": {
+            "opacity": 1
+          },
+          "anyway_already_NP_hard_lower_bound": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "why do i care?",
+        "id": "why_do_i_care_",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "source_of_pleasant__simple_to_state__but_difficult_problems",
+            "enabled": "enabled",
+            "name": "source of pleasant, simple to state, but difficult problems",
+            "merged": false,
+            "keywords": [
+              "source of pleasant, simple to state, but difficult problems"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "but_also__we_want_to_verify_programs",
+            "enabled": "enabled",
+            "name": "but also, because we want to verify programs",
+            "merged": false,
+            "keywords": [
+              "but also, because we want to verify programs"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "x_0_3_y_0_1_while__0_5___x___0_2____if__x___0_5____x___1_0_2_y__y___x____if__x____0_5____y___0_1____y___y___0_1_x_____",
+            "enabled": "enabled",
+            "name": "x=0.3 y=0.1 while (0.5 * x > 0.2) { if (x > 0.5) { x = 1-0.2*y; y = x; } if (x <= 0.5 && y > 0.1) { y = y - 0.1*x; } }",
+            "merged": false,
+            "keywords": [
+              "x=0.3 y=0.1 while (0.5 * x > 0.2) { if (x > 0.5) { x = 1-0.2*y; y = x; } if (x <= 0.5 && y > 0.1) { y = y - 0.1*x; } }"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Group_5",
+            "enabled": "enabled",
+            "name": "2 variables that range over",
+            "merged": false,
+            "keywords": [
+              "2 variables that range over"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "Group_52",
+            "enabled": "enabled",
+            "name": "linear updates",
+            "merged": false,
+            "keywords": [
+              "linear updates"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "An_algorithm_that_inputs_such_a_program__and_tells_you_whether_e_g__that_program_halts",
+            "enabled": "enabled",
+            "name": "An algorithm that inputs such a program, and tells you whether e.g. that program halts",
+            "merged": false,
+            "keywords": [
+              "An algorithm that inputs such a program, and tells you whether e.g. that program halts"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "Turing__1936___No_such_algorithm_exists",
+            "enabled": "enabled",
+            "name": "Turing (1936): No such algorithm exists",
+            "merged": false,
+            "keywords": [
+              "Turing (1936): No such algorithm exists"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "show",
+            "id": "Maybe_we_can_decide_this_problem_for_a_simpler_family_of_programs_",
+            "enabled": "enabled",
+            "name": "Maybe we can decide this problem for a simpler family of programs?",
+            "merged": false,
+            "keywords": [
+              "Maybe we can decide this problem for a simpler family of programs?"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "show",
+            "id": "only_one_variable_allowed_no_conditionals",
+            "enabled": "enabled",
+            "name": "only one variable allowed no conditionals",
+            "merged": false,
+            "keywords": [
+              "only one variable allowed no conditionals"
+            ],
+            "eventId": "10"
+          },
+          {
+            "type": "show",
+            "id": "Group_53",
+            "enabled": "enabled",
+            "name": "this talk",
+            "merged": false,
+            "keywords": [
+              "this talk"
+            ],
+            "eventId": "11"
+          },
+          {
+            "type": "show",
+            "id": "Group_54",
+            "enabled": "enabled",
+            "name": "also open and probably difficult",
+            "merged": false,
+            "keywords": [
+              "also open and probably difficult"
+            ],
+            "eventId": "12"
+          }
+        ],
+        "keywords": [
+          "Why?",
+          "why do i care?"
+        ],
+        "eventId": "3",
+        "originalParams": {
+          "source_of_pleasant__simple_to_state__but_difficult_problems": {
+            "opacity": 1
+          },
+          "but_also__we_want_to_verify_programs": {
+            "opacity": 1
+          },
+          "x_0_3_y_0_1_while__0_5___x___0_2____if__x___0_5____x___1_0_2_y__y___x____if__x____0_5____y___0_1____y___y___0_1_x_____": {
+            "opacity": 1
+          },
+          "Group_5": {
+            "opacity": 1
+          },
+          "Group_52": {
+            "opacity": 1
+          },
+          "An_algorithm_that_inputs_such_a_program__and_tells_you_whether_e_g__that_program_halts": {
+            "opacity": 1
+          },
+          "Turing__1936___No_such_algorithm_exists": {
+            "opacity": 1
+          },
+          "Maybe_we_can_decide_this_problem_for_a_simpler_family_of_programs_": {
+            "opacity": 1
+          },
+          "only_one_variable_allowed_no_conditionals": {
+            "opacity": 1
+          },
+          "Group_53": {
+            "opacity": 1
+          },
+          "Group_54": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "other pov",
+        "id": "other_pov",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_5",
+            "enabled": "enabled",
+            "name": "of rationals is a linear recurrence sequence of order d if",
+            "merged": false,
+            "keywords": [
+              "A sequence",
+              "of rationals is a linear recurrence sequence of order d if",
+              "for all",
+              "where",
+              "and"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_52",
+            "enabled": "enabled",
+            "name": "(matrices are roots of their own characteristic polynomials)",
+            "merged": false,
+            "keywords": [
+              "is a linear recurrence sequence because of Cayley-Hamilton",
+              "(matrices are roots of their own characteristic polynomials)"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Group_53",
+            "enabled": "enabled",
+            "name": "Putting M in Jordan normal form every linear recurrence sequence can be written as:",
+            "merged": false,
+            "keywords": [
+              "Putting M in Jordan normal form every linear recurrence sequence can be written as:",
+              "where",
+              "are roots of the characteristic polynomial, and"
+            ],
+            "eventId": "3"
+          }
+        ],
+        "keywords": [
+          "Another way of expressing the sequence",
+          "is as a linear recurrence sequence",
+          "other pov"
+        ],
+        "eventId": "5",
+        "originalParams": {
+          "Group_5": {
+            "opacity": 1
+          },
+          "Group_52": {
+            "opacity": 1
+          },
+          "Group_53": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Previous work",
+        "id": "Previous_work",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_5",
+            "enabled": "enabled",
+            "name": "Reaching a point is decidable in PTIME (Kannan & Lipton 1980)",
+            "merged": false,
+            "keywords": [
+              "Reaching a point is decidable in PTIME (Kannan & Lipton 1980)"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Decision_procedure_for_reaching_a_half_space_in_low_dimension_d_6__Mignotte__Shorey__Tijdeman_1984____Ouaknine__Worrell_2014_",
+            "enabled": "enabled",
+            "name": "Decision procedure for reaching a half-space in low dimension d<6 (Mignotte, Shorey, Tijdeman 1984), (Ouaknine, Worrell 2014)",
+            "merged": false,
+            "keywords": [
+              "Decision procedure for reaching a half-space in low dimension d<6 (Mignotte, Shorey, Tijdeman 1984), (Ouaknine, Worrell 2014)"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Group_52",
+            "enabled": "enabled",
+            "name": "Uses Baker’s theorem on linear forms in logs of algebraic numbers",
+            "merged": false,
+            "keywords": [
+              "Uses Baker’s theorem on linear forms in logs of algebraic numbers",
+              "log of",
+              ">",
+              "effective lower bound"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Group_9",
+            "enabled": "enabled",
+            "name": "Alan Baker (1939 - 2018)",
+            "merged": true,
+            "keywords": [
+              "Alan Baker (1939 - 2018)"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "show",
+            "id": "Extending_to_d_6_implies_ability_to_compute_certain_diophantine_constants",
+            "enabled": "enabled",
+            "name": "Extending to d=6 implies ability to compute certain diophantine constants",
+            "merged": false,
+            "keywords": [
+              "Extending to d=6 implies ability to compute certain diophantine constants"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Group_53",
+            "enabled": "enabled",
+            "name": "namely",
+            "merged": false,
+            "keywords": [
+              "namely"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "which_is_considered_difficult",
+            "enabled": "enabled",
+            "name": "which is considered difficult",
+            "merged": false,
+            "keywords": [
+              "which is considered difficult"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "image_1",
+            "enabled": "enabled",
+            "name": "image 1",
+            "merged": false,
+            "keywords": [
+              "image 1"
+            ],
+            "eventId": "7"
+          }
+        ],
+        "keywords": [
+          "A lot is known",
+          "but the main problems remain open",
+          "here are some highlights:",
+          "Previous work"
+        ],
+        "eventId": "6",
+        "originalParams": {
+          "Group_5": {
+            "opacity": 1
+          },
+          "Decision_procedure_for_reaching_a_half_space_in_low_dimension_d_6__Mignotte__Shorey__Tijdeman_1984____Ouaknine__Worrell_2014_": {
+            "opacity": 1
+          },
+          "Group_52": {
+            "opacity": 1
+          },
+          "Extending_to_d_6_implies_ability_to_compute_certain_diophantine_constants": {
+            "opacity": 1
+          },
+          "Group_53": {
+            "opacity": 1
+          },
+          "which_is_considered_difficult": {
+            "opacity": 1
+          },
+          "image_1": {
+            "opacity": 1
+          },
+          "Group_9": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Density",
+        "id": "Density",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_5",
+            "enabled": "enabled",
+            "name": "Why is this problem difficult?",
+            "merged": false,
+            "keywords": [
+              "Why is this problem difficult?",
+              "Decide whether"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_52",
+            "enabled": "enabled",
+            "name": "i.e. decide emptiness of the set:",
+            "merged": false,
+            "keywords": [
+              "i.e. decide emptiness of the set:"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Group_62",
+            "enabled": "enabled",
+            "name": "Group 6",
+            "merged": false,
+            "keywords": [
+              "Group 6"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "Group_53",
+            "enabled": "enabled",
+            "name": "Theorem. (Ouaknine, Worrell ‘14), (K, ‘23) I has positive density if and only if I is infinite.",
+            "merged": true,
+            "keywords": [
+              "There are algorithms for extracting less precise information about the set I, namely:",
+              "Theorem. (K, ‘23) We can compute the density of the set I to arbitrary precision",
+              "Theorem. (Ouaknine, Worrell ‘14), (K, ‘23) I has positive density if and only if I is infinite."
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Group_6",
+            "enabled": "enabled",
+            "name": "Density of a subset is defined as",
+            "merged": false,
+            "keywords": [
+              "Density of a subset is defined as"
+            ],
+            "eventId": "5"
+          }
+        ],
+        "keywords": [
+          "The plan is:",
+          "Density"
+        ],
+        "eventId": "7",
+        "originalParams": {
+          "Group_5": {
+            "opacity": 1
+          },
+          "Group_52": {
+            "opacity": 1
+          },
+          "Group_53": {
+            "opacity": 1
+          },
+          "Group_6": {
+            "opacity": 1
+          },
+          "Group_62": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "difficulty",
+        "id": "difficulty",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_7",
+            "enabled": "enabled",
+            "name": "since we are interested only in the sign, we can assume w.l.o.g that",
+            "merged": false,
+            "keywords": [
+              "since we are interested only in the sign, we can assume w.l.o.g that",
+              "and",
+              "for"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "c_1_Lambda_1_n______c_k_Lambda_k_n___c__k_1__Lambda__k_1__n__cdots_c_d_Lambda_d_n",
+            "enabled": "enabled",
+            "name": "c_1\\Lambda_1^n +⋯ + c_k\\Lambda_k^n + c_{k+1}\\Lambda_{k+1}^n+\\cdots+c_d\\Lambda_d^n",
+            "merged": false,
+            "keywords": [
+              "c_1\\Lambda_1^n +⋯ + c_k\\Lambda_k^n + c_{k+1}\\Lambda_{k+1}^n+\\cdots+c_d\\Lambda_d^n"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Group_72",
+            "enabled": "enabled",
+            "name": "tends to 0 exponentially fast",
+            "merged": false,
+            "keywords": [
+              "tends to 0 exponentially fast"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Group_73",
+            "enabled": "enabled",
+            "name": "typically this sum dominates but it can also get arbitrarily small. When does it get small?",
+            "merged": false,
+            "keywords": [
+              "typically this sum dominates but it can also get arbitrarily small. When does it get small?"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Group_74",
+            "enabled": "enabled",
+            "name": "for which n",
+            "merged": false,
+            "keywords": [
+              "for which n"
+            ],
+            "eventId": "5"
+          }
+        ],
+        "keywords": [
+          "Assume for the moment that M is diagonalisable so",
+          "difficulty"
+        ],
+        "eventId": "8",
+        "originalParams": {
+          "Group_7": {
+            "opacity": 1
+          },
+          "Group_72": {
+            "opacity": 1
+          },
+          "c_1_Lambda_1_n______c_k_Lambda_k_n___c__k_1__Lambda__k_1__n__cdots_c_d_Lambda_d_n": {
+            "opacity": 1
+          },
+          "Group_73": {
+            "opacity": 1
+          },
+          "Group_74": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "difficulty 2",
+        "id": "difficulty_2",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_7",
+            "enabled": "enabled",
+            "name": "Consider",
+            "merged": false,
+            "keywords": [
+              "Consider"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_72",
+            "enabled": "enabled",
+            "name": "0",
+            "merged": false,
+            "keywords": [
+              "0",
+              "1"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Group_73",
+            "enabled": "enabled",
+            "name": "Group 7",
+            "merged": false,
+            "keywords": [
+              "Group 7"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "image_6",
+            "enabled": "enabled",
+            "name": "image 6",
+            "merged": false,
+            "keywords": [
+              "image 6"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "show",
+            "id": "How_close_does_this_translation_dynamical_system_get_to_the_red_curve__and_when_",
+            "enabled": "enabled",
+            "name": "How close does this translation dynamical system get to the red curve, and when?",
+            "merged": false,
+            "keywords": [
+              "How close does this translation dynamical system get to the red curve, and when?"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "A_race_between_the_RHS_tending_to_zero_exponentially__and_this_system_approaching_the_red_curve_",
+            "enabled": "enabled",
+            "name": "A race between the RHS tending to zero exponentially, and this system approaching the red curve.",
+            "merged": false,
+            "keywords": [
+              "A race between the RHS tending to zero exponentially, and this system approaching the red curve."
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "Group_82",
+            "enabled": "enabled",
+            "name": "The winner of the race depends on certain properties of numbers which are not yet understood.",
+            "merged": false,
+            "keywords": [
+              "The winner of the race depends on certain properties of numbers which are not yet understood."
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "show",
+            "id": "Group_8",
+            "enabled": "enabled",
+            "name": "logarithms of algebraic numbers",
+            "merged": false,
+            "keywords": [
+              "logarithms of algebraic numbers"
+            ],
+            "eventId": "7"
+          }
+        ],
+        "keywords": [
+          "When is",
+          "small?",
+          "difficulty 2"
+        ],
+        "eventId": "9",
+        "originalParams": {
+          "Group_7": {
+            "opacity": 1
+          },
+          "Group_72": {
+            "opacity": 1
+          },
+          "Group_73": {
+            "opacity": 1
+          },
+          "How_close_does_this_translation_dynamical_system_get_to_the_red_curve__and_when_": {
+            "opacity": 1
+          },
+          "A_race_between_the_RHS_tending_to_zero_exponentially__and_this_system_approaching_the_red_curve_": {
+            "opacity": 1
+          },
+          "Group_8": {
+            "opacity": 1
+          },
+          "Group_82": {
+            "opacity": 1
+          },
+          "image_6": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "particular open problem",
+        "id": "particular_open_problem",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_8",
+            "enabled": "enabled",
+            "name": "Divide both sides with",
+            "merged": false,
+            "keywords": [
+              "Divide both sides with"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_82",
+            "enabled": "enabled",
+            "name": "on LHS we have terms on the unit circle, RHS is",
+            "merged": false,
+            "keywords": [
+              "on LHS we have terms on the unit circle, RHS is"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "red_curve_is__",
+            "enabled": "enabled",
+            "name": "red curve is →",
+            "merged": false,
+            "keywords": [
+              "red curve is →"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Group_83",
+            "enabled": "enabled",
+            "name": "the dynamical system translates by mod 1",
+            "merged": false,
+            "keywords": [
+              "the dynamical system translates by mod 1"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Group_84",
+            "enabled": "enabled",
+            "name": "0.35241638234956672582459892377525947404886547611308...",
+            "merged": false,
+            "keywords": [
+              "0.35241638234956672582459892377525947404886547611308...",
+              "0.31283295818900118381374725243522144766524242491163..."
+            ],
+            "eventId": "5"
+          }
+        ],
+        "keywords": [
+          "Here is a particular open problem (Joël Ouaknine)",
+          "Is it the case that for all positive integers n",
+          "particular open problem"
+        ],
+        "eventId": "10",
+        "originalParams": {
+          "Group_8": {
+            "opacity": 1
+          },
+          "Group_82": {
+            "opacity": 1
+          },
+          "red_curve_is__": {
+            "opacity": 1
+          },
+          "Group_83": {
+            "opacity": 1
+          },
+          "Group_84": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "density 1",
+        "id": "density_1",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_8",
+            "enabled": "enabled",
+            "name": "is generally difficult, but",
+            "merged": false,
+            "keywords": [
+              "for which n",
+              "is generally difficult, but easy if we only care about the density of such n",
+              "is generally difficult, but"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_82",
+            "enabled": "enabled",
+            "name": "Theorem. The upper density of n for which this holds is zero",
+            "merged": false,
+            "keywords": [
+              "Theorem. The upper density of n for which this holds is zero"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Proof_is_a_simple_application_of_Lebesgue_dominated_convergence_theorem_",
+            "enabled": "enabled",
+            "name": "Proof is a simple application of Lebesgue dominated convergence theorem.",
+            "merged": false,
+            "keywords": [
+              "Proof is a simple application of Lebesgue dominated convergence theorem."
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Indices_where_the_dominant_part__cancels_out__have_density_zero",
+            "enabled": "enabled",
+            "name": "Indices where the dominant part “cancels out” have density zero",
+            "merged": false,
+            "keywords": [
+              "Indices where the dominant part “cancels out” have density zero"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Consequently_the_density_of_the_positivity_set_P_depends_only_on_the_sign_of_the_dominating_terms_",
+            "enabled": "enabled",
+            "name": "Consequently the density of the positivity set P depends only on the sign of the dominating terms.",
+            "merged": false,
+            "keywords": [
+              "Consequently the density of the positivity set P depends only on the sign of the dominating terms."
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "child",
+            "name": "density 2",
+            "id": "density_2",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_8",
+                "enabled": "enabled",
+                "name": "for what n",
+                "merged": false,
+                "keywords": [
+                  "for what n",
+                  "when all"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Group_82",
+                "enabled": "enabled",
+                "name": "the sum is positive when we enter the red region",
+                "merged": false,
+                "keywords": [
+                  "0",
+                  "1",
+                  "the sum is positive when we enter the red region"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Group_83",
+                "enabled": "enabled",
+                "name": "What do we know about the sequence",
+                "merged": false,
+                "keywords": [
+                  "What do we know about the sequence"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Group_84",
+                "enabled": "enabled",
+                "name": "but one can find these dependencies",
+                "merged": false,
+                "keywords": [
+                  "It is dense in",
+                  "Unless",
+                  "are linearly dependent",
+                  "but one can find these dependencies"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "Group_85",
+                "enabled": "enabled",
+                "name": "Do we spend more time on the green region or the red region?",
+                "merged": false,
+                "keywords": [
+                  "0",
+                  "1",
+                  "Do we spend more time on the green region or the red region?"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "Group_86",
+                "enabled": "enabled",
+                "name": "Theorem. (Weyl) The amount of time spent on a region is proportional to its volume.",
+                "merged": false,
+                "keywords": [
+                  "Theorem. (Weyl) The amount of time spent on a region is proportional to its volume.",
+                  "density"
+                ],
+                "eventId": "6"
+              }
+            ],
+            "keywords": [
+              "assume we only have the dominant terms",
+              "density 2"
+            ],
+            "eventId": "5",
+            "originalParams": {
+              "Group_8": {
+                "opacity": 1
+              },
+              "Group_82": {
+                "opacity": 1
+              },
+              "Group_83": {
+                "opacity": 1
+              },
+              "Group_84": {
+                "opacity": 1
+              },
+              "Group_85": {
+                "opacity": 1
+              },
+              "Group_86": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "density 3",
+            "id": "density_3",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_8",
+                "enabled": "enabled",
+                "name": "Group 8",
+                "merged": false,
+                "keywords": [
+                  "The red region, i.e. the set",
+                  "is open",
+                  "(usual topology)",
+                  "Group 8"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "so_it_has_positive_volume_if_and_only_if_it_is_nonempty",
+                "enabled": "enabled",
+                "name": "so it has positive volume if and only if it is nonempty",
+                "merged": false,
+                "keywords": [
+                  "so it has positive volume if and only if it is nonempty"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Group_9",
+                "enabled": "enabled",
+                "name": "if and only if",
+                "merged": false,
+                "keywords": [
+                  "if and only if",
+                  "unit circle"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "and_this_is_a_semialgebraic_set__so_we_can_decide_its_emptiness_",
+                "enabled": "enabled",
+                "name": "and this is a semialgebraic set, so we can decide its emptiness.",
+                "merged": false,
+                "keywords": [
+                  "and this is a semialgebraic set, so we can decide its emptiness."
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "child",
+                "name": "semialgebraic set",
+                "id": "semialgebraic_set",
+                "enabled": "enabled",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "Group_9",
+                    "enabled": "enabled",
+                    "name": "which has effective quantifier elimination (Tarski, 1951)",
+                    "merged": false,
+                    "keywords": [
+                      "which has effective quantifier elimination (Tarski, 1951)",
+                      "Alfred Tarski (1901 - 1983)"
+                    ],
+                    "eventId": "1"
+                  }
+                ],
+                "keywords": [
+                  "Semialgebraic sets are subsets of",
+                  "that can be defined in the logic",
+                  "FO( , +, ⋅, <, 0, 1)",
+                  "semialgebraic set"
+                ],
+                "eventId": "3",
+                "originalParams": {
+                  "Group_9": {
+                    "opacity": 1
+                  }
+                }
+              },
+              {
+                "type": "show",
+                "id": "We_can_even_compute_the_density_to_any_given_precision___a_consequence_of_Koiran_FOCS__95__which_tells_us_how_fine_the_grid_of_testing_points_should_be__depending_on_a_simple_parameter_of_the_definable_set_",
+                "enabled": "enabled",
+                "name": "We can even compute the density to any given precision - a consequence of Koiran FOCS ‘95, which tells us how fine the grid of testing points should be, depending on a simple parameter of the definable set.",
+                "merged": false,
+                "keywords": [
+                  "We can even compute the density to any given precision - a consequence of Koiran FOCS ‘95, which tells us how fine the grid of testing points should be, depending on a simple parameter of the definable set."
+                ],
+                "eventId": "4"
+              }
+            ],
+            "keywords": [
+              "With this we can decide whether the density of I is positive",
+              "density 3"
+            ],
+            "eventId": "7",
+            "originalParams": {
+              "Group_8": {
+                "opacity": 1
+              },
+              "so_it_has_positive_volume_if_and_only_if_it_is_nonempty": {
+                "opacity": 1
+              },
+              "Group_9": {
+                "opacity": 1
+              },
+              "and_this_is_a_semialgebraic_set__so_we_can_decide_its_emptiness_": {
+                "opacity": 1
+              },
+              "We_can_even_compute_the_density_to_any_given_precision___a_consequence_of_Koiran_FOCS__95__which_tells_us_how_fine_the_grid_of_testing_points_should_be__depending_on_a_simple_parameter_of_the_definable_set_": {
+                "opacity": 1
+              }
+            }
+          }
+        ],
+        "keywords": [
+          "There are algorithms for extracting less precise information about the set I, namely:",
+          "Theorem. (K, ‘23) We can compute the density of the positivity set I to arbitrary precision",
+          "Theorem. (Ouaknine, Worrell ‘14), (K, ‘23) I has positive density if and only if I is infinite.",
+          "density 1"
+        ],
+        "eventId": "11",
+        "originalParams": {
+          "Group_8": {
+            "opacity": 1
+          },
+          "Group_82": {
+            "opacity": 1
+          },
+          "Indices_where_the_dominant_part__cancels_out__have_density_zero": {
+            "opacity": 1
+          },
+          "Proof_is_a_simple_application_of_Lebesgue_dominated_convergence_theorem_": {
+            "opacity": 1
+          },
+          "Consequently_the_density_of_the_positivity_set_P_depends_only_on_the_sign_of_the_dominating_terms_": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "density infinite",
+        "id": "density_infinite",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "but_the_converse_is_not_generally_true",
+            "enabled": "enabled",
+            "name": "but the converse is not generally true",
+            "merged": false,
+            "keywords": [
+              "but the converse is not generally true"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "We_still_do_not_know_how_to_decide_infinite_positivity",
+            "enabled": "enabled",
+            "name": "We still do not know how to decide infinite positivity",
+            "merged": false,
+            "keywords": [
+              "We still do not know how to decide infinite positivity"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Group_9",
+            "enabled": "enabled",
+            "name": "positive density is equivalent to infinite positivity",
+            "merged": false,
+            "keywords": [
+              "When the linear map is diagonalisable however",
+              "positive density is equivalent to infinite positivity"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Group_92",
+            "enabled": "enabled",
+            "name": "Theorem. The upper density of n for which this holds is zero",
+            "merged": false,
+            "keywords": [
+              "Theorem. The upper density of n for which this holds is zero"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Group_93",
+            "enabled": "enabled",
+            "name": "number",
+            "merged": false,
+            "keywords": [
+              "number",
+              "finite"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "The_proof_is_much_more_difficult__We_still_do_not_have_a_way_of_computing_how_big_such_an_n_can_be_",
+            "enabled": "enabled",
+            "name": "The proof is much more difficult. We still do not have a way of computing how big such an n can be.",
+            "merged": false,
+            "keywords": [
+              "The proof is much more difficult. We still do not have a way of computing how big such an n can be."
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "Group_94",
+            "enabled": "enabled",
+            "name": "The proof does not give a way of calculating the subspaces",
+            "merged": false,
+            "keywords": [
+              "Ultimately depends on",
+              "The proof does not give a way of calculating the subspaces"
+            ],
+            "eventId": "7"
+          }
+        ],
+        "keywords": [
+          "positive density → for infinitely many n",
+          "density infinite"
+        ],
+        "eventId": "13",
+        "originalParams": {
+          "but_the_converse_is_not_generally_true": {
+            "opacity": 1
+          },
+          "We_still_do_not_know_how_to_decide_infinite_positivity": {
+            "opacity": 1
+          },
+          "Group_9": {
+            "opacity": 1
+          },
+          "Group_92": {
+            "opacity": 1
+          },
+          "Group_93": {
+            "opacity": 1
+          },
+          "The_proof_is_much_more_difficult__We_still_do_not_have_a_way_of_computing_how_big_such_an_n_can_be_": {
+            "opacity": 1
+          },
+          "Group_94": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "show",
+        "id": "Thank_you_",
+        "enabled": "enabled",
+        "name": "Thank you!",
+        "merged": false,
+        "keywords": [
+          "Thank you!"
+        ],
+        "eventId": "14"
+      }
+    ],
+    "keywords": [
+      "Decision problems for Linear Dynamical Systems",
+      "Edon Kelmendi • QMUL",
+      "root"
+    ],
+    "eventId": "root",
+    "originalParams": {
+      "Thank_you_": {
+        "opacity": 1
+      }
+    }
+  },
+  "treeTimeLine": [],
+  "chronicleTimeLine": []
+}
