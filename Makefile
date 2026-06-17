@@ -7,7 +7,7 @@ HTML = $(patsubst %.jemdoc,%.html,$(JEMDOC))
 all: $(HTML)
 
 %.html: %.jemdoc
-	python3.9 ~/bin/jemdoc -c jemdoc.conf $<
+	python3.10 ~/bin/jemdoc -c jemdoc.conf $<
 
 clean:
 	rm -f $(HTML)
